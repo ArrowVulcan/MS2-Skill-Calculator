@@ -1,0 +1,393 @@
+var Class_skills = [
+	row_1 = [
+		{
+			"hidden": 0,
+			"image": 80,
+			"title": "Bullet Spray",
+			"spirit": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Close Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Main Hand Longsword</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>A swing of your sword deals <spam class='info_blue'>79%</spam> damage <spam class='info_blue'>2</spam> times to <spam class='info_blue'>5</spam> enemies up to <spam class='info_blue'>3</spam> m in front of you.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 81,
+			"title": "Gatling Fire",
+			"spirit": "Spirit 12",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Close Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Main Hand Longsword</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Perform a spin slash, dealing <spam class='info_blue'>81%</spam> damage <spam class='info_blue'>3</spam> times to <spam class='info_blue'>8</spam> enemies within <spam class='info_blue'>3</spam> m and pulling them in <spam class='info_blue'>1</spam> m. Consumes <spam class='info_blue'>12</spam> spirit.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 82,
+			"title": "Lock-on",
+			"spirit": "Cooldown 8 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "4-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 19+</spam></p><p><spam class='info_red'>Bullet Spray [Level 4+]</spam></p><p><spam class='info_red'>Gatling Fire [Level 3+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Close Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Main Hand Longsword</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Perform a spin slash, dealing <spam class='info_blue'>81%</spam> damage <spam class='info_blue'>3</spam> times to <spam class='info_blue'>8</spam> enemies within <spam class='info_blue'>3</spam> m and pulling them in <spam class='info_blue'>1</spam> m. Consumes <spam class='info_blue'>12</spam> spirit.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"spirit": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"text": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 83,
+			"title": "Advanced Bullets",
+			"spirit": "Cooldown 8 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "4-5-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 31+</spam></p><p><spam class='info_red'>Gatling Fire [Level 5+]</spam></p><p><spam class='info_red'>Lock-on [Level 4+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Close Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Main Hand Longsword</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Strike forth with your weapon, moving you <spam class='info_blue'>4.5</spam> m and creating a whirlwind. You pierce enemies in your path, dealing <spam class='info_blue'>412%</spam> damage on up to <spam class='info_blue'>8</spam> enemies.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"spirit": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"text": [
+				"",
+			]
+		}
+	],
+	row_2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"spirit": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"text": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"spirit": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"text": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 84,
+			"title": "Magnetic Bomb",
+			"spirit": "Spirit 50",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 13+</spam></p><p><spam class='info_red'>Bullet Spray [Level 2+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Close Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Main Hand Longsword</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Spin with your weapon out, dealing <spam class='info_blue'>147%</spam> damage <spam class='info_blue'>5</spam> times to <spam class='info_blue'>8</spam> enemies within <spam class='info_blue'>3</spam> m. Each hit pulls them in <spam class='info_blue'>1</spam> m. During the attack, press a direction key to move <spam class='info_blue'>4.5</spam> m. Consumes <spam class='info_blue'>50</spam> spirit.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 85,
+			"title": "Electric Blast",
+			"spirit": "Spirit 16",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "2-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 25+</spam></p><p><spam class='info_red'>Magnetic Bomb [Level 4+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Long Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Toss your shield <spam class='info_blue'>7.5</spam> m forward like a boomerang, dealing <spam class='info_blue'>60%</spam> damage <spam class='info_blue'>2</spam> times to <spam class='info_blue'>8</spam> enemies and reducing their defense by <spam class='info_blue'>1%</spam> for <spam class='info_blue'>12</spam> sec. Consumes <spam class='info_blue'>16</spam> spirit.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 86,
+			"title": "Advanced Pulse Weapons",
+			"spirit": "Spirit 16",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "2-0-0-0-0-0-0-0-4-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 37+</spam></p><p><spam class='info_red'>Electric Blast [Level 4+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Long Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Toss your shield <spam class='info_blue'>7.5</spam> m forward like a boomerang, dealing <spam class='info_blue'>60%</spam> damage <spam class='info_blue'>2</spam> times to <spam class='info_blue'>8</spam> enemies and reducing their defense by <spam class='info_blue'>1%</spam> for <spam class='info_blue'>12</spam> sec. Consumes <spam class='info_blue'>16</spam> spirit.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 85,
+			"title": "Blast Charge Kit",
+			"spirit": "Spirit 16",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "2-0-0-0-0-0-0-0-4-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 46+</spam></p><p><spam class='info_red'>Electric Blast [Level 4+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Long Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Toss your shield <spam class='info_blue'>7.5</spam> m forward like a boomerang, dealing <spam class='info_blue'>60%</spam> damage <spam class='info_blue'>2</spam> times to <spam class='info_blue'>8</spam> enemies and reducing their defense by <spam class='info_blue'>1%</spam> for <spam class='info_blue'>12</spam> sec. Consumes <spam class='info_blue'>16</spam> spirit.</spam></p>",
+			]
+		}
+	],
+	row_3 = [
+		{
+			"hidden": 0,
+			"image": 87,
+			"title": "Reload",
+			"spirit": "Cooldown 5 second(s)",
+			"level": 0,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Adopt a knightly defensive stance, restoring <spam class='info_blue'>4</spam> spirit every <spam class='info_blue'>0.3</spam> sec and decreasing damage taken by <spam class='info_blue'>10%</spam>, but also reducing physical and magic attack by <spam class='info_blue'>25%</spam>. Press the skill key again to toggle the stance.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"spirit": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"text": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 88,
+			"title": "Rocket Launcher",
+			"spirit": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 10+</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <spam class='info_blue'>25%</spam>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 89,
+			"title": "Homing Missiles",
+			"spirit": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 22+</spam></p><p><spam class='info_red'>Rocket Launcher [Level 4+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <spam class='info_blue'>25%</spam>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 90,
+			"title": "M-Bomb",
+			"spirit": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-5-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 34+</spam></p><p><spam class='info_red'>Homing Missiles [Level 5+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Passive</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <spam class='info_blue'>9</spam> and perfect guard chance by <spam class='info_blue'>5%</spam> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <spam class='info_blue'>40%</spam> chance to increase your damage by <spam class='info_blue'>3%</spam> for <spam class='info_blue'>10</spam> sec.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 91,
+			"title": "Advanced Missiles",
+			"spirit": "Cooldown 16 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-4-0-0-0-0-0-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 43+</spam></p><p><spam class='info_red'>Homing Missiles [Level 4+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Close Range / Physical</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Lift <spam class='info_blue'>5</spam> enemies up to <spam class='info_blue'>2</spam> m in front of you with your shield, dealing <spam class='info_blue'>190%</spam>. Increases physical and magical resistance by <spam class='info_blue'>450</spam>. For <spam class='info_blue'>10</spam> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <spam class='info_blue'>3%</spam>.</spam></p>",
+			]
+		}
+	],
+	row_4 = [
+		{
+			"hidden": 0,
+			"image": 92,
+			"title": "Jet Boots",
+			"spirit": "",
+			"level": 0,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Physical</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Charge forward <spam class='info_blue'>4.5</spam> m, dealing <spam class='info_blue'>70%</spam> damage to <spam class='info_blue'>5</spam> enemies and knocking them back <spam class='info_blue'>3</spam> m. While charging, you cannot be knocked back. This skill can cancel other skills. Consume <spam class='info_blue'>40</spam> stamina.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"spirit": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"text": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 93,
+			"title": "Stun Grenades",
+			"spirit": "Cooldown 45 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 16+</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Create a <spam class='info_blue'>3</spam> m holy field around you for <spam class='info_blue'>10</spam> sec, increasing the physical resistance and magic resistance of <spam class='info_blue'>10</spam> allies, including yourself, by <spam class='info_blue'>90</spam>.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 94,
+			"title": "Suborbital Bombardment",
+			"spirit": "Spirit 40 / Cooldown 30 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 28+</spam></p><p><spam class='info_red'>Stun Grenades [Level 4+]</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <spam class='info_blue'>4</spam> allies within <spam class='info_blue'>3</spam> m, plus yourself, by <spam class='info_blue'>3%</spam> for <spam class='info_blue'>10</spam> sec. Consumes <spam class='info_blue'>40</spam> spirit.</spam></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"spirit": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"text": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 95,
+			"title": "Med Kit",
+			"spirit": "Cooldown 130 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "<p><spam class='info_gray'>[requirements]</spam></p><p><spam class='info_red'>level 40+</spam></p>",
+			"info": "<p><spam class='info_gray'>Active</spam></p><p><spam class='info_gray'>Weapon Required: Off-hand Shield</spam></p>",
+			"text": [
+				"",
+				"<p><spam class='info_gray'>Dash to the nearest ally within <spam class='info_blue'>8</spam> m to create a protective barrier that lasts <spam class='info_blue'>3</spam> sec and makes <spam class='info_blue'>4</spam> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</spam></p>",
+			]
+		}
+	]
+]

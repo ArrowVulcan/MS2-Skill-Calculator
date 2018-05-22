@@ -1,0 +1,368 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #211f21;
+	
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+div{
+	display: block;
+}
+
+p, h1, h2, h3, h4{
+	font-family: "Montserrat";
+}
+
+body, html{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/bg.jpg") center top no-repeat rgb(250, 250, 250);
+	//background-color: #eaedee;
+	overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blocker{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000A;
+	z-index: 1;
+}
+
+#center_content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	//text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#skills_left{
+	width: 5%;
+	height: 100%;
+	background-color: #272427;
+	border-left: 5px solid #000;
+}
+
+#skills_right{
+	width: 50%;
+	height: 100%;
+	background-color: #211f21;
+	border-right: 5px solid #000;
+}
+
+#skills_row{
+	width: 25%;
+	height: 100%;
+	//background-color: #211f21;
+	float: left;
+}
+
+#select_class{
+	position: relative;
+	top: 45%;
+	color: #eee;
+	font-size: 64px;
+	text-align: center;
+	z-index: 10;
+}
+
+.job_txt{
+	position: absolute;
+	left: 100px;
+	color: #FFF;
+	z-index: 10;
+	font-size: 34px;
+	margin-top: -70px;
+}
+
+.lvl_box{
+	position: relative;
+	width: 100%;
+	height: 117px;
+	//background-color: #F0F;
+	min-height: 117px;
+	margin: 20px auto;
+}
+
+.lvl_box p{
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+	color: #777;
+	font-family: "Montserrat";
+	font-size: 14px;
+	text-align: right;
+	height: 18px;
+	width: 100%;
+	//background-color: #F00;
+}
+
+.skill_box{
+	//background-color: #F00;
+	width: 107px;
+	//margin: 20px 20px 0px 20px;
+	min-height: 117px;
+	margin: 20px auto;
+}
+
+.skill_box_skip{
+	//background-color: #F00;
+	width: 107px;
+	//margin: 20px 20px 0px 20px;
+	min-height: 117px;
+	margin: 20px auto;
+}
+
+.skill{
+	width: 73px;
+	height: 81px;
+	margin: 0 auto;
+	//background-color: #F00;
+	//margin: 20px 20px 0px 20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.point_box{
+	position: relative;
+	width: 107px;
+	height: 36px;
+	//background-color: #F0F;
+}
+
+.minus{
+	position: absolute;
+	background-image:url('../images/minus.png');
+    background-repeat: no-repeat;
+	width: 30px;
+	height: 36px;
+}
+
+.bar{
+	position: absolute;
+	background-image:url('../images/bar.png');
+    background-repeat: no-repeat;
+	width: 107px;
+	height: 36px;
+}
+
+.plus{
+	position: absolute;
+	right: 0;
+	background-image:url('../images/plus.png');
+    background-repeat: no-repeat;
+	width: 30px;
+	height: 36px;
+}
+
+.minus_locked{
+	background-image:url('../images/minus_locked.png');
+}
+
+.plus_locked{
+	background-image:url('../images/plus_locked.png');
+}
+
+.skill_text{
+	color: #FFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	font-family: "Montserrat";
+	font-size: 14px;
+}
+
+#left_menu{
+	position: absolute;
+	float: left;
+	width: 390px;
+	height: 100%;
+	padding-right: 300px;
+	padding-top: 30px;
+	//overflow: hidden;
+	z-index: 10;
+	//background-color: #F00;
+}
+
+.job_select{
+	position: relative;
+	left: 0px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100px;
+	background-color: #211f21;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 24px;
+	letter-spacing: 6px;
+	border: 1px solid #000;
+	
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	
+    background-repeat: no-repeat;
+    background-position: right;
+	filter: brightness(20%);
+}
+
+.job_selected{
+	filter: brightness(100%);
+	border: 1px solid #ff0;
+	border-left: 0px;
+}
+
+.job_select:hover{
+	filter: brightness(100%);
+}
+
+.job_knight{
+	background-image: url(../images/knight.png);
+}
+
+.job_berserker{
+	background-image: url(../images/berserker.png);
+}
+
+.job_wizard{
+	background-image: url(../images/wizard.png);
+}
+
+.job_priest{
+	background-image: url(../images/priest.png);
+}
+
+.job_ranger{
+	background-image: url(../images/ranger.png);
+}
+
+.job_heavy_gunner{
+	background-image: url(../images/heavy_gunner.png);
+}
+
+.job_thief{
+	background-image: url(../images/thief.png);
+}
+
+.job_assassin{
+	background-image: url(../images/assassin.png);
+}
+
+/*
+	------------------------------ INFO STUFF ------------------------------
+*/
+
+#info_box{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	border: 3px solid rgba(0,0,0,.9);
+	border-radius: 4px;
+	display: none;
+}
+
+#info_name{
+	width: 300px;
+	height: 40px;
+	background-color: rgba(25,25,25,.85);
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+#info_name p{
+	margin-left: 10px;
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 18px;
+}
+
+#info_content{
+	margin-top: 40px;
+	width: 300px;
+	background-color: rgba(0,0,0,.85);
+	padding: 10px;
+}
+
+#info_image_box{
+	//background-color: #777;
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+#info_image{
+	//background-image:url('../images/skill.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+#info_top_description{
+	float: left;
+	margin: 8px;
+}
+
+#info_description{
+	clear: both;
+}
+
+.info_linebreak{
+	height: 1px;
+	width: 100%;
+	background-color: #666;
+	margin: 5px 0px;
+}
+
+.info_spirit{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 12px;
+}
+
+.info_level{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 18px;
+}
+
+.info_gray{
+	color: #777;
+	font-family: "Montserrat";
+	font-size: 12px;
+}
+
+.info_orange{
+	color: #a98104;
+	font-family: "Montserrat";
+	font-size: 12px;
+}
+
+.info_red{
+	color: #a90404;
+	font-family: "Montserrat";
+	font-size: 12px;
+}
+
+.info_blue{
+	color: #0082c5;
+	font-family: "Montserrat";
+	font-size: 12px;
+}
