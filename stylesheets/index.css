@@ -29,7 +29,7 @@ body, html{
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/bg.jpg") center top no-repeat rgb(250, 250, 250);
-	//background-color: #eaedee;
+	/* background-color: #eaedee; */
 	overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@ body, html{
 	width: 100%;
 	height: 100%;
 	display: flex;
-	//text-align: center;
+	/* text-align: center; */
 	align-items: center;
 	justify-content: center;
 }
@@ -69,7 +69,7 @@ body, html{
 #skills_row{
 	width: 25%;
 	height: 100%;
-	//background-color: #211f21;
+	/* background-color: #211f21; */
 	float: left;
 }
 
@@ -95,7 +95,7 @@ body, html{
 	position: relative;
 	width: 100%;
 	height: 117px;
-	//background-color: #F0F;
+	/* background-color: #F0F; */
 	min-height: 117px;
 	margin: 20px auto;
 }
@@ -110,21 +110,21 @@ body, html{
 	text-align: right;
 	height: 18px;
 	width: 100%;
-	//background-color: #F00;
+	/* background-color: #F00; */
 }
 
 .skill_box{
-	//background-color: #F00;
+	/* background-color: #F00; */
 	width: 107px;
-	//margin: 20px 20px 0px 20px;
+	/* margin: 20px 20px 0px 20px; */
 	min-height: 117px;
 	margin: 20px auto;
 }
 
 .skill_box_skip{
-	//background-color: #F00;
+	/* background-color: #F00; */
 	width: 107px;
-	//margin: 20px 20px 0px 20px;
+	/* margin: 20px 20px 0px 20px; */
 	min-height: 117px;
 	margin: 20px auto;
 }
@@ -133,8 +133,8 @@ body, html{
 	width: 73px;
 	height: 81px;
 	margin: 0 auto;
-	//background-color: #F00;
-	//margin: 20px 20px 0px 20px;
+	/* background-color: #F00; */
+	/* margin: 20px 20px 0px 20px; */
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -143,7 +143,7 @@ body, html{
 	position: relative;
 	width: 107px;
 	height: 36px;
-	//background-color: #F0F;
+	/* background-color: #F0F; */
 }
 
 .minus{
@@ -196,9 +196,9 @@ body, html{
 	height: 100%;
 	padding-right: 300px;
 	padding-top: 30px;
-	//overflow: hidden;
+	/* overflow: hidden; */
 	z-index: 10;
-	//background-color: #F00;
+	/* background-color: #F00; */
 }
 
 .job_select{
@@ -301,14 +301,14 @@ body, html{
 }
 
 #info_image_box{
-	//background-color: #777;
+	/* background-color: #777; */
 	width: 50px;
 	height: 50px;
 	float: left;
 }
 
 #info_image{
-	//background-image:url('../images/skill.png');
+	/* background-image:url('../images/skill.png'); */
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 50px;
