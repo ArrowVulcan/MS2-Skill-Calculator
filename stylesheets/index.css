@@ -326,7 +326,26 @@ body, html{
 #info_name p{
 	margin-left: 10px;
 	color: #fff;
-	font-size: 18px;
+	font-size: 16px;
+	text-shadow: black 1px 2px;
+}
+
+#info_element{
+	position: absolute;
+	width: 300px;
+	height: 40px;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 10px;
+}
+
+#info_element p{
+	margin-left: 10px;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: black 1px 2px;
 }
 
 #info_content{
@@ -367,7 +386,7 @@ body, html{
 
 .info_spirit{
 	color: #fff;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .info_level{
@@ -393,4 +412,28 @@ body, html{
 .info_blue{
 	color: #0082c5;
 	font-size: 12px;
+}
+
+.element_holy{
+	background: linear-gradient(to right, #191919d9 , #7a4d01) !important;
+}
+
+.element_dark{
+	background: linear-gradient(to right, #191919d9 , #3e1722) !important;
+}
+
+.element_fire{
+	background: linear-gradient(to right, #191919d9 , #6e2910) !important;
+}
+
+.element_ice{
+	background: linear-gradient(to right, #191919d9 , #153570) !important;
+}
+
+.element_electric{
+	background: linear-gradient(to right, #191919d9 , #105660) !important;
+}
+
+.element_toxic{
+	background: linear-gradient(to right, #191919d9 , #34164a) !important;
 }

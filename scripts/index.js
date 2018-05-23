@@ -1,6 +1,7 @@
 var hidden = [];
 var image = [];
 var title = [];
+var elements = [];
 var spirit = [];
 var level = [];
 var maxLevel = [];
@@ -13,8 +14,6 @@ var text = [];
 $(document).ready(function(){
 
 	function loadPoints(){
-	
-		// #10-5-0-0-0-0-0-0-10-3-0-0-1-0-0-0-0-0-0-0-0-0-0-0
 	
 		var params = location.href.split('#')[1];
 		
@@ -98,6 +97,7 @@ $(document).ready(function(){
 					title.push(skills[j][i].title);
 					spirit.push(skills[j][i].spirit);
 					level.push(skills[j][i].level);
+					elements.push(skills[j][i].elements);
 					locked.push(skills[j][i].locked);
 					lockReq.push(skills[j][i].lockReq);
 					maxLevel.push(skills[j][i].maxLevel);
@@ -123,6 +123,15 @@ $(document).ready(function(){
 
 function setInfo(type){
 
+		// Check if skill info exists
+		function isUndefined(info){
+		
+			if( info == undefined ){ return "<p><span class='info_gray'>Skill information is missing!</span></p>" }
+			
+			return info;
+		
+		}
+
 		var box = document.getElementById('info_box');
 
 		var isHidden = event.target.dataset.hidden;
@@ -136,11 +145,10 @@ function setInfo(type){
 			box.style.top = event.pageY + 12 + 'px';
 		}
 		
-		//box.style.display = "block";
-		
 		var info_title = event.target.dataset.title;
 		$("#info_name > p").text(info_title);
 		
+		// Loop title's and compare it with data-title. When matched, add the information into the info_box.
 		for(var i=0; i < title.length; i++){
 		
 			if( title[i] == info_title ){
@@ -155,23 +163,31 @@ function setInfo(type){
 					return;
 				}
 			
-				var info_spirit = event.target.dataset.spirit;
 				$(".info_spirit").text(spirit[i]);
+				
+				// Set element text
+				$("#info_name").removeClass();
+				if( elements[i] ){
+					$("#info_name").addClass("element_" + elements[i].toLowerCase());
+					$("#info_element > p").text(elements[i]);
+				}else{
+					$("#info_element > p").text("");
+				}
 				
 				var info_level = event.target.dataset.level;
 				var info_description_3 = document.getElementById("info_description_3");
 				
 				if( type == "skill" ){
 					$(".info_level").text("Level " + parseInt( level[i]) );
-					info_description_3.innerHTML = text[i][level[i]];
+					info_description_3.innerHTML = isUndefined(text[i][level[i]]);
 				}else if( type == "plus" ){
 					var newLevel = parseInt(level[i]) + 1;
 					$(".info_level").text("Level " + newLevel);
-					info_description_3.innerHTML = text[i][newLevel];
+					info_description_3.innerHTML = isUndefined(text[i][newLevel]);
 				}else if( type == "minus" ){
 					var newLevel = parseInt(level[i]) - 1;
 					$(".info_level").text("Level " + newLevel );
-					info_description_3.innerHTML = text[i][newLevel];
+					info_description_3.innerHTML = isUndefined(text[i][newLevel]);
 				}
 			
 				var info_image = document.getElementById("info_image");
@@ -190,6 +206,30 @@ function setInfo(type){
 		}
 		
 		box.style.display = "block";
+
+}
+
+/**
+ * @description Sets the level of your pre-req skills to the levels defined in lockReq[].
+ * @argument index The index of the skill to check the pre-reqs of.
+ * @returns void
+ * @author ChungHoward
+ */
+function levelUpAllPrereqSkills(index) {
+	
+	let skill_text = document.getElementsByClassName("skill_text");
+	let prereqArray = lockReq[index].split('-');
+	
+	for (let i = 0; i < level.length; i++) {
+
+		if (level[i] < prereqArray[i]) {
+
+			level[i] = parseInt(prereqArray[i]);
+			skill_text[i].innerHTML = (level[i]) + "/" + maxLevel[i];
+
+		}
+
+	}
 
 }
 
@@ -218,7 +258,13 @@ $( window ).on( "load", function() {
 		
 			if( title[i] == info_title ){
 				
-				if( level[i] < maxLevel[i] && locked[i] == 0 ){
+				if( level[i] < maxLevel[i] ){
+				
+					if( locked[i] == 1 ){
+					
+						levelUpAllPrereqSkills(i);
+					
+					}
 				
 					level[i] = parseInt(level[i]) + 1;
 					skill_text[i].innerHTML = (level[i]) + "/" + maxLevel[i];
@@ -267,8 +313,6 @@ $( window ).on( "load", function() {
 	
 		var req, j;
 		for(var i=0; i < locked.length; i++){
-			
-			//console.log(lockReq[i]);
 		
 			if( lockReq[i] != undefined ){
 			
