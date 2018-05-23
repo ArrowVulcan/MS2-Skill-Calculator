@@ -322,6 +322,7 @@ $( window ).on( "load", function() {
 		
 		}
 		
+		// make url include skill numbers
 		var str = "#";
 		
 		for(var i=0; i < level.length; i++){
@@ -333,6 +334,17 @@ $( window ).on( "load", function() {
 		}
 			
 		location.href = location.href.split('#')[0] + str;
+		
+		// Get points used
+		var pointsUsed = 0;
+		var pointsMax = 53;
+		
+		for(var i=0; i < level.length; i++){
+			pointsUsed = pointsUsed + parseInt(level[i]);
+		}
+		
+		// Set points used
+		$("#skill_points > p").text("Points used: " + pointsUsed + "/" + pointsMax);
 	
 	}
 

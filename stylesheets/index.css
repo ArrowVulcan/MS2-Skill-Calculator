@@ -21,17 +21,14 @@ div{
 	display: block;
 }
 
-p, h1, h2, h3, h4{
-	font-family: "Montserrat";
+p, h1, h2, h3, h4, span{
+	font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
 }
 
 body, html{
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/bg.jpg") center top no-repeat rgb(250, 250, 250);
-	//background-color: #eaedee;
-	overflow: hidden;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -45,31 +42,38 @@ body, html{
 
 #center_content{
 	width: 100%;
-	height: 100%;
+	height: 960px;
 	display: flex;
-	//text-align: center;
 	align-items: center;
 	justify-content: center;
+	padding-top: 40px;
 }
 
 #skills_left{
 	width: 5%;
 	height: 100%;
 	background-color: #272427;
-	border-left: 5px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
 }
 
 #skills_right{
 	width: 50%;
 	height: 100%;
 	background-color: #211f21;
-	border-right: 5px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
 }
 
 #skills_row{
 	width: 25%;
 	height: 100%;
-	//background-color: #211f21;
 	float: left;
 }
 
@@ -89,13 +93,13 @@ body, html{
 	z-index: 10;
 	font-size: 34px;
 	margin-top: -70px;
+	text-shadow: black 2px 2px;
 }
 
 .lvl_box{
 	position: relative;
 	width: 100%;
 	height: 117px;
-	//background-color: #F0F;
 	min-height: 117px;
 	margin: 20px auto;
 }
@@ -105,26 +109,20 @@ body, html{
 	bottom: 0px;
 	right: 5px;
 	color: #777;
-	font-family: "Montserrat";
 	font-size: 14px;
 	text-align: right;
 	height: 18px;
 	width: 100%;
-	//background-color: #F00;
 }
 
 .skill_box{
-	//background-color: #F00;
 	width: 107px;
-	//margin: 20px 20px 0px 20px;
 	min-height: 117px;
 	margin: 20px auto;
 }
 
 .skill_box_skip{
-	//background-color: #F00;
 	width: 107px;
-	//margin: 20px 20px 0px 20px;
 	min-height: 117px;
 	margin: 20px auto;
 }
@@ -133,8 +131,6 @@ body, html{
 	width: 73px;
 	height: 81px;
 	margin: 0 auto;
-	//background-color: #F00;
-	//margin: 20px 20px 0px 20px;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -143,7 +139,6 @@ body, html{
 	position: relative;
 	width: 107px;
 	height: 36px;
-	//background-color: #F0F;
 }
 
 .minus{
@@ -185,7 +180,6 @@ body, html{
 	align-items: center;
 	justify-content: center;
 	padding-top: 10px;
-	font-family: "Montserrat";
 	font-size: 14px;
 }
 
@@ -196,9 +190,7 @@ body, html{
 	height: 100%;
 	padding-right: 300px;
 	padding-top: 30px;
-	//overflow: hidden;
 	z-index: 10;
-	//background-color: #F00;
 }
 
 .job_select{
@@ -264,6 +256,51 @@ body, html{
 	background-image: url(../images/assassin.png);
 }
 
+#skill_points{
+	position: fixed;
+	background-color: #ffb000;
+	width: 260px;
+	height: 35px;
+	border-top-left-radius: 8px;
+	bottom: 0px;
+	right: 0px;
+	padding-right: 10px;
+	padding-top: 5px;
+	z-index: 1;
+}
+
+#skill_points p{
+	position: relative;
+	font-size: 24px;
+	color: #FFF;
+	text-align: right;
+	text-shadow: black 1px 1px;
+}
+
+#topNav{
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	z-index: 1;
+}
+
+.topNav_bar{
+	position: relative;
+	background-image:url('../images/top_bar.png');
+    background-repeat: no-repeat;
+	width: 221px;
+	height: 30px;
+	float:right;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.topNav_bar p{
+	font-size: 24px;
+	color: #FFF;
+	text-shadow: black 1px 1px;
+}
+
 /*
 	------------------------------ INFO STUFF ------------------------------
 */
@@ -289,7 +326,6 @@ body, html{
 #info_name p{
 	margin-left: 10px;
 	color: #fff;
-	font-family: "Montserrat";
 	font-size: 18px;
 }
 
@@ -301,14 +337,12 @@ body, html{
 }
 
 #info_image_box{
-	//background-color: #777;
 	width: 50px;
 	height: 50px;
 	float: left;
 }
 
 #info_image{
-	//background-image:url('../images/skill.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 50px;
@@ -333,36 +367,30 @@ body, html{
 
 .info_spirit{
 	color: #fff;
-	font-family: "Montserrat";
 	font-size: 12px;
 }
 
 .info_level{
 	color: #fff;
-	font-family: "Montserrat";
 	font-size: 18px;
 }
 
 .info_gray{
 	color: #777;
-	font-family: "Montserrat";
 	font-size: 12px;
 }
 
 .info_orange{
 	color: #a98104;
-	font-family: "Montserrat";
 	font-size: 12px;
 }
 
 .info_red{
 	color: #a90404;
-	font-family: "Montserrat";
 	font-size: 12px;
 }
 
 .info_blue{
 	color: #0082c5;
-	font-family: "Montserrat";
 	font-size: 12px;
 }
