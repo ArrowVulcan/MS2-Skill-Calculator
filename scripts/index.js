@@ -193,6 +193,29 @@ function setInfo(type){
 
 }
 
+/**
+ * @description Sets the level of your pre-req skills to the levels defined in lockReq[].
+ * @argument index The index of the skill to check the pre-reqs of.
+ * @returns void
+ * @author ChungHoward
+ */
+function levelUpAllPrereqSkills(index) {
+	
+	let prereqArray = lockReq[index].split('-');
+	
+	for (let i = 0; i < level.length; i++) {
+
+		if (level[i] < prereqArray[i]) {
+
+			level[i] = parseInt(prereqArray[i]);
+			skill_text[i].innerHTML = (level[i]) + "/" + maxLevel[i];
+
+		}
+
+	}
+
+}
+
 $( window ).on( "load", function() {
 
 	$(".skill, .plus, .minus").mousemove(function(event){
@@ -218,8 +241,15 @@ $( window ).on( "load", function() {
 		
 			if( title[i] == info_title ){
 				
-				if( level[i] < maxLevel[i] && locked[i] == 0 ){
+				if( level[i] < maxLevel[i] ){
+					
+					// if a skill is locked, it still has pre-reqs that need to be added
+					if( locked[i] == 1 ){
 				
+						levelUpAllPrereqSkills(i);
+
+					}
+
 					level[i] = parseInt(level[i]) + 1;
 					skill_text[i].innerHTML = (level[i]) + "/" + maxLevel[i];
 				
