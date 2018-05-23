@@ -342,29 +342,34 @@ $( window ).on( "load", function() {
 			
 		}
 	
-		var skill_minus = document.getElementsByClassName("minus");
-		var skill_plus = document.getElementsByClassName("plus");
-	
-		for(var i=0; i < Class_skills.length; i++){
+		// Setting this part in a Timeout because it sometimes load faster than the plus/minus class content. Temp fix?
+		setTimeout(function(){
 		
-			if( level[i] == 0 ){
-				skill_minus[i].classList.add("minus_locked");
-			}else{
-				skill_minus[i].classList.remove("minus_locked");
-			}
+			var skill_minus = document.getElementsByClassName("minus");
+			var skill_plus = document.getElementsByClassName("plus");
+		
+			for(var i=0; i < Class_skills.length; i++){
 			
-			if( level[i] == maxLevel[i] ){
-				skill_plus[i].classList.add("plus_locked");
-			}else{
-				skill_plus[i].classList.remove("plus_locked");
-			}
+				if( level[i] == 0 ){
+					skill_minus[i].classList.add("minus_locked");
+				}else{
+					skill_minus[i].classList.remove("minus_locked");
+				}
+				
+				if( level[i] == maxLevel[i] ){
+					skill_plus[i].classList.add("plus_locked");
+				}else{
+					skill_plus[i].classList.remove("plus_locked");
+				}
+				
+				if( locked[i] == 1 ){
+					skill_minus[i].classList.add("minus_locked");
+					skill_plus[i].classList.add("plus_locked");
+				}
 			
-			if( locked[i] == 1 ){
-				skill_minus[i].classList.add("minus_locked");
-				skill_plus[i].classList.add("plus_locked");
 			}
 		
-		}
+		}, 100);
 		
 		// make url include skill numbers
 		var str = "#";
