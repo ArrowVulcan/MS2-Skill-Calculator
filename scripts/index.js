@@ -1,127 +1,123 @@
-var hidden = [];
-var image = [];
-var title = [];
+var hiddens = [];
+var images = [];
+var titles = [];
 var elements = [];
-var spirit = [];
-var level = [];
-var maxLevel = [];
-var locked = [];
-var lockReq = [];
-var requirement = [];
-var info = [];
-var text = [];
+var resources = [];
+var levels = [];
+var maxLevels = [];
+var lockeds = [];
+var lockReqs = [];
+var requirements = [];
+var infos = [];
+var texts = [];
 
-$(document).ready(function(){
+// loadUrlPoints - Grabs the url info and set points into the skills
+function loadUrlPoints(){
 
-	function loadPoints(){
+	let params = location.href.split('#')[1];
 	
-		var params = location.href.split('#')[1];
+	if(params){
 		
-		if(params){
+		params = params.split('-');
+
+		for(let i=0; i < params.length; i++){
+			if( i <= 24 ){
+				levels[i] = params[i];
+			}
+			if( params[i] > 0 ){
+				lockeds[i] = 0;
+			}
+		}
+	
+	}
+
+}
+
+// createColumn - Create a column with skills
+function createColumn(start, stop){
+
+	let storeInfo = "";
+	
+	storeInfo = storeInfo + '<div id="skills_row">';
+	
+	for(let i=start; i < stop; i++){
+		storeInfo = storeInfo + '<div class="skill_box">' +
+			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill skill_' + i + '"></div>' +
+			'<div class="point_box">' +
+			'<div class="bar">' +
+			'<span class="skill_text skill_text_' + i + '"></span></div>' +
+			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="minus dec_' + i + '"></div>' +
+			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="plus inc_' + i + '"></div>' +
+			'</div></div>';
+	}
+	
+	// Add columns to the right side of the skill window
+	let rightMenu = document.getElementById("skills_right");
+	rightMenu.innerHTML = rightMenu.innerHTML + storeInfo + '</div>';
+	
+	let skillBoxes = document.getElementsByClassName("skill_box");
+	let skillIcons = document.getElementsByClassName("skill");
+	let skillTexts = document.getElementsByClassName("skill_text");
+	
+	for(let i=start; i < stop; i++){
+	
+		// Check if skill is not hidden
+		if( hiddens[i] == 0 ){
 			
-			params = params.split('-');
-	
-			for(var i=0; i < params.length; i++){
-				if( i <= 24 ){
-					level[i] = params[i];
-				}
-				if( params[i] > 0 ){
-					locked[i] = 0;
-				}
+			// Set skill icon
+			skillIcons[i].style.backgroundImage = "url('./images/" + images[i] + ".png')";
+			
+			// Check if the skill text is available and set level/maxlevel text
+			if( skillTexts[i] != undefined ){
+				skillTexts[i].innerHTML = levels[i] + "/" + maxLevels[i];
 			}
-		
+			
+		}else{
+			
+			// If skill is hidden, check if it exists and set it's opacity to 0
+			if( skillBoxes[i] != undefined ){
+				skillBoxes[i].style.opacity = 0;
+			}
+			
 		}
 	
 	}
 
-	function createRow(start, stop, skills){
-	
-		var store_info = "";
-		var skill_text;
-		var skill_icon;
-		
-		store_info = store_info + '<div id="skills_row">';
-		
-		for(i=start; i < stop; i++){
-			store_info = store_info + '<div class="skill_box">' +
-				'<div data-hidden="' + hidden[i] + '" data-title="' + title[i] + '" class="skill skill_' + i + '"></div>' +
-				'<div class="point_box">' +
-				'<div class="bar">' +
-				'<span class="skill_text skill_text_' + i + '"></span></div>' +
-				'<div data-hidden="' + hidden[i] + '" data-title="' + title[i] + '" class="minus dec_' + i + '"></div>' +
-				'<div data-hidden="' + hidden[i] + '" data-title="' + title[i] + '" class="plus inc_' + i + '"></div>' +
-				'</div></div>';
-		}
-		
-		var right = document.getElementById("skills_right");
-		right.innerHTML = right.innerHTML + store_info + '</div>';
-		
-		var skill_box = document.getElementsByClassName("skill_box");
-		var skill_icon = document.getElementsByClassName("skill");
-		var skill_text = document.getElementsByClassName("skill_text");
-		
-		for(i=start; i < stop; i++){
-		
-			if( hidden[i] == 0 ){
-				
-				skill_icon[i].style.backgroundImage = "url('./images/" + image[i] + ".png')";
-				
-				if( skill_text[i] != undefined ){
-					skill_text[i].innerHTML = level[i] + "/" + maxLevel[i];
-				}
-				
-				if( locked[i] ){
-					skill_icon[i].style.filter = "brightness(20%)";
-				}
-				
-				
-			}else{
-				if( skill_box[i] != undefined ){
-					skill_box[i].style.opacity = 0;
-				}
-			}
-		
-		}
-	
-	}
+}
 
-	function createSkills(skills){
+// storeData - stores the classes .js info into arrays
+function storeData(){
+
+	// Class_skills are the .js stuff
+	let skills = Class_skills;
+
+	// Amount of skills (includes hidden) 6 skills per column, 4 columns.
+	let skillAmount = 24;
 	
-		var i, j;
-		
-		for(j=0; j < 24; j++){
-			for(i=0; i < skills.length; i++){
-				if(skills[j] && skills[j][i]){
-					hidden.push(skills[j][i].hidden);
-					image.push(skills[j][i].image);
-					title.push(skills[j][i].title);
-					spirit.push(skills[j][i].spirit);
-					level.push(skills[j][i].level);
-					elements.push(skills[j][i].elements);
-					locked.push(skills[j][i].locked);
-					lockReq.push(skills[j][i].lockReq);
-					maxLevel.push(skills[j][i].maxLevel);
-					requirement.push(skills[j][i].requirement);
-					info.push(skills[j][i].info);
-					text.push(skills[j][i].text);
-				}
+	// Loop that pushes the .js info into the arrays
+	for(let j=0; j < skillAmount; j++){
+		for(let i=0; i < skills.length; i++){
+			if(skills[j] && skills[j][i]){
+				hiddens.push(skills[j][i].hiddens);
+				images.push(skills[j][i].images);
+				titles.push(skills[j][i].titles);
+				resources.push(skills[j][i].resources);
+				levels.push(skills[j][i].levels);
+				elements.push(skills[j][i].elements);
+				lockeds.push(skills[j][i].lockeds);
+				lockReqs.push(skills[j][i].lockReqs);
+				maxLevels.push(skills[j][i].maxLevels);
+				requirements.push(skills[j][i].requirements);
+				infos.push(skills[j][i].infos);
+				texts.push(skills[j][i].texts);
 			}
 		}
-		
-		loadPoints();
-		
-		createRow(0,6,skills);
-		createRow(6,12,skills);
-		createRow(12,18,skills);
-		createRow(18,24,skills);
-	
 	}
-	
-	createSkills(Class_skills);
 
-});
+}
 
-function setInfo(type){
+// setSkillInfo - Sets the skill info for the hover-tooltip
+function setSkillInfo(type){
 
 		// Check if skill info exists
 		function isUndefined(info){
@@ -132,11 +128,13 @@ function setInfo(type){
 		
 		}
 
-		var box = document.getElementById('info_box');
-
-		var isHidden = event.target.dataset.hidden;
+		// Check if skill is hidden
+		let isHidden = event.target.dataset.hidden;
 		if( isHidden == 1 ){ return; }
+		
+		let box = document.getElementById('info_box');
 	
+		// Move the tooltip above the cursor to prevent text from going outside the screen
 		if( event.pageY > 511 ){
 			box.style.left = event.pageX + 6 + 'px';
 			box.style.top = event.pageY - 350 + 12 + 'px';
@@ -145,25 +143,28 @@ function setInfo(type){
 			box.style.top = event.pageY + 12 + 'px';
 		}
 		
-		var info_title = event.target.dataset.title;
-		$("#info_name > p").text(info_title);
+		let infoTitle = event.target.dataset.title;
+		$("#info_name > p").text(infoTitle);
 		
-		// Loop title's and compare it with data-title. When matched, add the information into the info_box.
-		for(var i=0; i < title.length; i++){
+		// Loop titles and compare it with data-title. When matched, add the information into the info_box.
+		for(let i=0; i < titles.length; i++){
 		
-			if( title[i] == info_title ){
+			if( titles[i] == infoTitle ){
 			
-				if( level[i] <= 0 && type == "minus" ){
+				// Hide tooltip for minus button if skill is at 0
+				if( levels[i] <= 0 && type == "minus" ){
 					box.style.display = "none";
 					return;
 				}
 				
-				if( level[i] == maxLevel[i] && type == "plus" ){
+				// Hide tooltip for plus button if skill is at max
+				if( levels[i] == maxLevels[i] && type == "plus" ){
 					box.style.display = "none";
 					return;
 				}
 			
-				$(".info_spirit").text(spirit[i]);
+				// Set Resources text
+				$(".info_resource").text(resources[i]);
 				
 				// Set element text
 				$("#info_name").removeClass();
@@ -174,30 +175,32 @@ function setInfo(type){
 					$("#info_element > p").text("");
 				}
 				
-				var info_level = event.target.dataset.level;
-				var info_description_3 = document.getElementById("info_description_3");
+				let infoDescription = document.getElementById("info_description_3");
 				
 				if( type == "skill" ){
-					$(".info_level").text("Level " + parseInt( level[i]) );
-					info_description_3.innerHTML = isUndefined(text[i][level[i]]);
+					$(".info_level").text("Level " + parseInt( levels[i]) );
+					infoDescription.innerHTML = isUndefined(texts[i][levels[i]]);
 				}else if( type == "plus" ){
-					var newLevel = parseInt(level[i]) + 1;
+					let newLevel = parseInt(levels[i]) + 1;
 					$(".info_level").text("Level " + newLevel);
-					info_description_3.innerHTML = isUndefined(text[i][newLevel]);
+					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
 				}else if( type == "minus" ){
-					var newLevel = parseInt(level[i]) - 1;
+					let newLevel = parseInt(levels[i]) - 1;
 					$(".info_level").text("Level " + newLevel );
-					info_description_3.innerHTML = isUndefined(text[i][newLevel]);
+					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
 				}
 			
-				var info_image = document.getElementById("info_image");
-				info_image.style.backgroundImage = "url('./images/" + image[i] + ".png')";
+				// Set tooltip image
+				let infoImage = document.getElementById("info_image");
+				infoImage.style.backgroundImage = "url('./images/" + images[i] + ".png')";
+				
+				// Set tooltip requirement text
+				let infoRequirement = document.getElementById("info_description");
+				infoRequirement.innerHTML = requirements[i];
 			
-				var info_description = document.getElementById("info_description");
-				info_description.innerHTML = requirement[i];
-			
-				var info_description_2 = document.getElementById("info_description_2");
-				info_description_2.innerHTML = info[i];
+				// Set tooltip's first info text
+				let infoDescription2 = document.getElementById("info_description_2");
+				infoDescription2.innerHTML = infos[i];
 				
 				break;
 			
@@ -205,27 +208,189 @@ function setInfo(type){
 		
 		}
 		
+		// Make the tooltip visible
 		box.style.display = "block";
 
 }
 
+// setSkillLock - Lock/Unlock skills that doesn't have the needed points
+function setSkillLock(){
+
+	let skillIcons = document.getElementsByClassName("skill");
+
+	for(let i=0; i < lockeds.length; i++){
+	
+		if( lockReqs[i] != undefined ){
+		
+			let split = lockReqs[i].split('-');
+			let hasReq = true;
+			
+			for(let j=0; j < split.length; j++){
+			
+				if( parseInt(split[j]) <= parseInt(levels[j]) ){
+					// Correct
+				}else{
+					hasReq = false;
+					break;
+				}
+			
+			}
+			
+			if( hasReq ){
+				lockeds[i] = 0;
+				skillIcons[i].style.filter = "brightness(100%)";
+			}else{
+				lockeds[i] = 1;
+				skillIcons[i].style.filter = "brightness(20%)";
+			}
+		
+		}
+		
+	}
+
+	// Setting this part in a Timeout because it sometimes load faster than the plus/minus class content. Temp fix?
+	setTimeout(function(){
+	
+		let skillMinus = document.getElementsByClassName("minus");
+		let skillPlus = document.getElementsByClassName("plus");
+	
+		for(let i=0; i < Class_skills.length; i++){
+		
+			if( levels[i] == 0 ){
+				skillMinus[i].classList.add("minus_locked");
+			}else{
+				skillMinus[i].classList.remove("minus_locked");
+			}
+			
+			if( levels[i] == maxLevels[i] ){
+				skillPlus[i].classList.add("plus_locked");
+			}else{
+				skillPlus[i].classList.remove("plus_locked");
+			}
+			
+			if( lockeds[i] == 1 ){
+				skillMinus[i].classList.add("minus_locked");
+				skillPlus[i].classList.add("plus_locked");
+			}
+		
+		}
+	
+	}, 100);
+
+}
+
+// setUrl - Sets the skillpoints into the url so that it can be linked
+function setUrl(){
+
+	// make url include skill numbers
+	let str = "#";
+	
+	for(let i=0; i < levels.length; i++){
+		if( i == levels.length -1 ){
+			str = str + levels[i];
+		}else{
+			str = str + levels[i] + "-";
+		}
+	}
+		
+	location.href = location.href.split('#')[0] + str;
+
+}
+
+// changeSkillPoints - Increase or decrease a skillpoint from a skill
+function changeSkillPoints(event, value){
+
+	let infoTitle = event.target.dataset.title;
+	let skillTexts = document.getElementsByClassName("skill_text");
+
+	for(let i=0; i < titles.length; i++){
+	
+		if( titles[i] == infoTitle ){
+			
+			// Check if points should increase or decrease
+			if( value == 1 ){
+			
+				// Increase points
+				if( levels[i] < maxLevels[i] ){
+				
+					// If a locked skill is increased, add pre-required skills
+					if( lockeds[i] == 1 ){
+					
+						levelUpAllPrereqSkills(i);
+					
+					}
+				
+					levels[i] = parseInt(levels[i]) + 1;
+					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
+				
+				}
+			
+			}else{
+			
+				// Decrease points
+				if( levels[i] > 0 ){
+				
+					levels[i] = parseInt(levels[i]) - 1;
+					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
+				
+				}
+			
+			}
+			
+		}
+		
+	}
+	
+	setPointsUsed();
+	setUrl();
+	
+	let type = event.target.classList[0];
+	
+	setSkillInfo(type);
+	setSkillLock();
+
+}
+
+// setPointsUsed - Set/Change the points used text to show how many points that the user have spent.
+function setPointsUsed(){
+
+	let pointsUsed = 0;
+	let pointsMax = 53; // Current max points
+	
+	// Collect all the skill levels
+	for(let i=0; i < levels.length; i++){
+		pointsUsed = pointsUsed + parseInt(levels[i]);
+	}
+	
+	// Set text with current and max points
+	$("#skill_points > p").text("Points used: " + pointsUsed + "/" + pointsMax);
+	
+	// If more points are spent, turn the box red
+	if( pointsUsed > pointsMax ){
+		$("#skill_points").addClass("skillPointLimit");
+	}else{
+		$("#skill_points").removeClass("skillPointLimit");
+	}
+
+}
+
 /**
- * @description Sets the level of your pre-req skills to the levels defined in lockReq[].
+ * @description Sets the level of your pre-req skills to the levels defined in lockReqs[].
  * @argument index The index of the skill to check the pre-reqs of.
  * @returns void
  * @author ChungHoward
  */
 function levelUpAllPrereqSkills(index) {
 	
-	let skill_text = document.getElementsByClassName("skill_text");
-	let prereqArray = lockReq[index].split('-');
+	let skillTexts = document.getElementsByClassName("skill_text");
+	let prereqArray = lockReqs[index].split('-');
 	
-	for (let i = 0; i < level.length; i++) {
+	for (let i = 0; i < levels.length; i++) {
 
-		if (level[i] < prereqArray[i]) {
+		if (levels[i] < prereqArray[i]) {
 
-			level[i] = parseInt(prereqArray[i]);
-			skill_text[i].innerHTML = (level[i]) + "/" + maxLevel[i];
+			levels[i] = parseInt(prereqArray[i]);
+			skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
 
 		}
 
@@ -235,168 +400,54 @@ function levelUpAllPrereqSkills(index) {
 
 $( window ).on( "load", function() {
 
+	// Store all the classes .js data inside arrays
+	storeData();
+	
+	// Load points from the url if a build is linked
+	loadUrlPoints();
+	
+	// Create 4 columns for the skills
+	createColumn(0,6);
+	createColumn(6,12);
+	createColumn(12,18);
+	createColumn(18,24);
+	
+	// Set points used
+	setPointsUsed();
+	
+	// Set lock on skills that aren't unlocked yet
+	setSkillLock();
+
+	// Mousemove for .skill, .plus and .minus
 	$(".skill, .plus, .minus").mousemove(function(event){
 	
-		var type = event.target.classList[0];
-		setInfo(type);
+		let type = event.target.classList[0];
+		setSkillInfo(type);
 
 	});
 	
+	// Mouseleave for .skill, .plus and .minus
 	$(".skill, .plus, .minus").mouseleave(function(event){
 
-		var box = document.getElementById('info_box');
+		let box = document.getElementById('info_box');
 		box.style.display = "none";
 
 	});
 	
+	// Mousedown for .plus
 	$(".plus").mousedown(function(event){
 	
-		var info_title = event.target.dataset.title;
-		var skill_text = document.getElementsByClassName("skill_text");
-	
-		for(var i=0; i < title.length; i++){
-		
-			if( title[i] == info_title ){
-				
-				if( level[i] < maxLevel[i] ){
-				
-					if( locked[i] == 1 ){
-					
-						levelUpAllPrereqSkills(i);
-					
-					}
-				
-					level[i] = parseInt(level[i]) + 1;
-					skill_text[i].innerHTML = (level[i]) + "/" + maxLevel[i];
-				
-				}
-				
-			}
-			
-		}
-		
-		var type = event.target.classList[0];
-		setInfo(type);
-		setLocked();
+		// Add point to skill
+		changeSkillPoints(event, 1);
 		
 	});
 	
+	// Mousedown for .minus
 	$(".minus").mousedown(function(event){
 	
-		var info_title = event.target.dataset.title;
-		var skill_text = document.getElementsByClassName("skill_text");
-	
-		for(var i=0; i < title.length; i++){
-		
-			if( title[i] == info_title ){
-				
-				if( level[i] > 0 ){
-				
-					level[i] = parseInt(level[i]) - 1;
-					skill_text[i].innerHTML = (level[i]) + "/" + maxLevel[i];
-				
-				}
-				
-			}
-			
-		}
-		
-		var type = event.target.classList[0];
-		setInfo(type);
-		setLocked();
+		// Remove point from skill
+		changeSkillPoints(event, -1);
 		
 	});
-	
-	function setLocked(){
-	
-		var skill_icon = document.getElementsByClassName("skill");
-	
-		var req, j;
-		for(var i=0; i < locked.length; i++){
-		
-			if( lockReq[i] != undefined ){
-			
-				var split = lockReq[i].split('-');
-				var hasReq = true;
-				
-				for(j=0; j < split.length; j++){
-				
-					if( parseInt(split[j]) <= parseInt(level[j]) ){
-						// Correct
-					}else{
-						hasReq = false;
-						break;
-					}
-				
-				}
-				
-				if( hasReq ){
-					locked[i] = 0;
-					skill_icon[i].style.filter = "brightness(100%)";
-				}else{
-					locked[i] = 1;
-					skill_icon[i].style.filter = "brightness(20%)";
-				}
-			
-			}
-			
-		}
-	
-		// Setting this part in a Timeout because it sometimes load faster than the plus/minus class content. Temp fix?
-		setTimeout(function(){
-		
-			var skill_minus = document.getElementsByClassName("minus");
-			var skill_plus = document.getElementsByClassName("plus");
-		
-			for(var i=0; i < Class_skills.length; i++){
-			
-				if( level[i] == 0 ){
-					skill_minus[i].classList.add("minus_locked");
-				}else{
-					skill_minus[i].classList.remove("minus_locked");
-				}
-				
-				if( level[i] == maxLevel[i] ){
-					skill_plus[i].classList.add("plus_locked");
-				}else{
-					skill_plus[i].classList.remove("plus_locked");
-				}
-				
-				if( locked[i] == 1 ){
-					skill_minus[i].classList.add("minus_locked");
-					skill_plus[i].classList.add("plus_locked");
-				}
-			
-			}
-		
-		}, 100);
-		
-		// make url include skill numbers
-		var str = "#";
-		
-		for(var i=0; i < level.length; i++){
-			if( i == level.length -1 ){
-				str = str + level[i];
-			}else{
-				str = str + level[i] + "-";
-			}
-		}
-			
-		location.href = location.href.split('#')[0] + str;
-		
-		// Get points used
-		var pointsUsed = 0;
-		var pointsMax = 53;
-		
-		for(var i=0; i < level.length; i++){
-			pointsUsed = pointsUsed + parseInt(level[i]);
-		}
-		
-		// Set points used
-		$("#skill_points > p").text("Points used: " + pointsUsed + "/" + pointsMax);
-	
-	}
-
-	setLocked();
 	
 });

@@ -214,14 +214,23 @@ body, html{
 	filter: brightness(20%);
 }
 
+.job_select:hover{
+	filter: brightness(100%);
+}
+
+.job_select_2{
+	filter: brightness(100%) !important;
+}
+
+.job_select_2:hover{
+	border: 1px solid #ff0 !important;
+	border-left: 0px !important;
+}
+
 .job_selected{
 	filter: brightness(100%);
 	border: 1px solid #ff0;
 	border-left: 0px;
-}
-
-.job_select:hover{
-	filter: brightness(100%);
 }
 
 .job_knight{
@@ -275,6 +284,10 @@ body, html{
 	color: #FFF;
 	text-align: right;
 	text-shadow: black 1px 1px;
+}
+
+.skillPointLimit{
+	background-color: #ff0000 !important;
 }
 
 #topNav{
@@ -384,7 +397,7 @@ body, html{
 	margin: 5px 0px;
 }
 
-.info_spirit{
+.info_resource{
 	color: #fff;
 	font-size: 14px;
 }
