@@ -98,6 +98,15 @@ var Class_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>1%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>1.6%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>2.2%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>2.8%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>3.4%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>4%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>4.6%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>5.2%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>5.8%</span> when you have a longsword equipped.</span></p>",
+				"<p><span class='info_gray'>Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>6.4%</span> when you have a longsword equipped.</span></p>",
 			]
 		}
 	],
@@ -231,7 +240,7 @@ var Class_skills = [
 		{
 			"hiddens": 0,
 			"images": 9,
-			"titles": "Iron shield",
+			"titles": "Iron Shield",
 			"resources": "",
 			"levels": 0,
 			"maxLevels": 10,
@@ -241,6 +250,15 @@ var Class_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>25%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>30%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>35%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>40%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>45%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>50%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>55%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>60%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>65%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
+				"<p><span class='info_gray'>Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>70%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.</span></p>",
 			]
 		}
 	],[
@@ -273,6 +291,15 @@ var Class_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>9</span> and perfect guard chance by <span class='info_blue'>5%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>40%</span> chance to increase your damage by <span class='info_blue'>3%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>12</span> and perfect guard chance by <span class='info_blue'>6%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>44%</span> chance to increase your damage by <span class='info_blue'>4%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>15</span> and perfect guard chance by <span class='info_blue'>7%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>48%</span> chance to increase your damage by <span class='info_blue'>5%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>18</span> and perfect guard chance by <span class='info_blue'>8%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>52%</span> chance to increase your damage by <span class='info_blue'>6%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>21</span> and perfect guard chance by <span class='info_blue'>9%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>56%</span> chance to increase your damage by <span class='info_blue'>7%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>24</span> and perfect guard chance by <span class='info_blue'>10%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>60%</span> chance to increase your damage by <span class='info_blue'>8%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>27</span> and perfect guard chance by <span class='info_blue'>11%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>64%</span> chance to increase your damage by <span class='info_blue'>9%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>30</span> and perfect guard chance by <span class='info_blue'>12%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>68%</span> chance to increase your damage by <span class='info_blue'>10%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>33</span> and perfect guard chance by <span class='info_blue'>13%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>72%</span> chance to increase your damage by <span class='info_blue'>11%</span> for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>36</span> and perfect guard chance by <span class='info_blue'>14%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>76%</span> chance to increase your damage by <span class='info_blue'>12%</span> for <span class='info_blue'>10</span> sec.</span></p>",
 			]
 		}
 	],[
@@ -339,6 +366,15 @@ var Class_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>90</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>120</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>150</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>180</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>210</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>240</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>270</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>300</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>330</span>.</span></p>",
+				"<p><span class='info_gray'>Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>360</span>.</span></p>",
 			]
 		}
 	],[
@@ -356,6 +392,15 @@ var Class_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>4</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>3%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>5</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>4%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>5%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>7</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>6%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>8</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>7%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>9</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>8%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>10</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>9%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>11</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>10%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>12</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>11%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"<p><span class='info_gray'>Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>13</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>12%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
 			]
 		}
 	],[
@@ -374,6 +419,15 @@ var Class_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>4</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>5</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>6</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>7</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>8</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>9</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>10</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>11</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>12</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>13</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
 			]
 		}
 	],[
@@ -392,6 +446,15 @@ var Class_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>4</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>5</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>6</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>7</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>8</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>9</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>10</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>11</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>12</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
+				"<p><span class='info_gray'>Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>13</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.</span></p>",
 			]
 		}
 	]
