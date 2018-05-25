@@ -239,9 +239,11 @@ function setSkillLock(){
 			if( hasReq ){
 				lockeds[i] = 0;
 				skillIcons[i].style.filter = "brightness(100%)";
+				$(skillIcons[i].parentElement).removeClass("locked");
 			}else{
 				lockeds[i] = 1;
 				skillIcons[i].style.filter = "brightness(20%)";
+				$(skillIcons[i].parentElement).addClass("locked");
 			}
 		
 		}

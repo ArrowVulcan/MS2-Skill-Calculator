@@ -2,7 +2,7 @@ var Class_skills = [
 	column1 = [
 		{
 			"hidden": 0,
-			"image": 32,
+			"image": 133,
 			"title": "Phantom Claw",
 			"resource": "",
 			"level": 1,

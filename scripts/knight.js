@@ -305,7 +305,7 @@ var Class_skills = [
 	],[
 		{
 			"hidden": 0,
-			"image": 2,
+			"image": 129,
 			"title": "Shield Booster",
 			"resource": "Cooldown 16 second(s)",
 			"level": 0,

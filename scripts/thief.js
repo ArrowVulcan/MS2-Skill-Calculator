@@ -278,7 +278,7 @@ var Class_skills = [
 	],[
 		{
 			"hidden": 0,
-			"image": 103,
+			"image": 128,
 			"title": "Mesoguard Plus",
 			"resource": "Cooldown 16 second(s)",
 			"level": 0,

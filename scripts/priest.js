@@ -399,7 +399,7 @@ var Class_skills = [
 	],[
 		{
 			"hidden": 0,
-			"image": 53,
+			"image": 132,
 			"title": "Angelic Ray",
 			"elements": "Holy",
 			"resource": "Spirit 30 / Cooldown 10 second(s)",

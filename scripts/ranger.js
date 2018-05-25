@@ -503,7 +503,7 @@ var Class_skills = [
 	],[
 		{
 			"hidden": 0,
-			"image": 68,
+			"image": 135,
 			"title": "Precision Shooter",
 			"resource": "",
 			"level": 0,

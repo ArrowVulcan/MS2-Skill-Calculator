@@ -449,7 +449,7 @@ var Class_skills = [
 	],[
 		{
 			"hidden": 0,
-			"image": 18,
+			"image": 131,
 			"title": "Earthquake",
 			"resource": "Cooldown 60 second(s)",
 			"level": 0,

@@ -510,7 +510,7 @@ var Class_skills = [
 	],[
 		{
 			"hidden": 0,
-			"image": 119,
+			"image": 130,
 			"title": "Mirror Image: Dark Blade",
 			"elements": "Dark",
 			"resource": "Cooldown 40 second(s)",

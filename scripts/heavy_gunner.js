@@ -183,7 +183,7 @@ var Class_skills = [
 	],[
 		{
 			"hidden": 0,
-			"image": 85,
+			"image": 134,
 			"title": "Blast Charge Kit",
 			"resource": "Spirit 16",
 			"level": 0,
