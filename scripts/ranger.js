@@ -1,15 +1,15 @@
 var Class_skills = [
-	row_1 = [
+	column1 = [
 		{
-			"hiddens": 0,
-			"images": 64,
-			"titles": "Arrow Stream",
-			"resources": "",
-			"levels": 1,
-			"maxLevels": 10,
-			"lockeds": 0,
-			"requirements": "",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"hidden": 0,
+			"image": 64,
+			"title": "Arrow Stream",
+			"resource": "",
+			"level": 1,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Fire a series of arrows that deal <span class='info_blue'>32%</span> damage <span class='info_blue'>3</span> times to the closest enemy up to <span class='info_blue'>9</span> m in front of you.</span></p>",
@@ -26,15 +26,15 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 65,
-			"titles": "Arrow Barrage",
-			"resources": "Spirit 12",
-			"levels": 1,
-			"maxLevels": 10,
-			"lockeds": 0,
-			"requirements": "",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"hidden": 0,
+			"image": 65,
+			"title": "Arrow Barrage",
+			"resource": "Spirit 12",
+			"level": 1,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Fire several arrows at once, dealing <span class='info_blue'>153%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>7</span> m. Keep pressing the key to trigger a <span class='info_blue'>3-hit combo</span>. The second shot does the same as the first. You perform a reverse somersault on the third and rapidly fire arrows, dealing <span class='info_blue'>82%</span> damage <span class='info_blue'>3</span> times. Consumes <span class='info_blue'>12</span> spirit.</span></p>",
@@ -51,17 +51,17 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 66,
-			"titles": "Rapid Shot",
+			"hidden": 0,
+			"image": 66,
+			"title": "Rapid Shot",
 			"elements": "Fire",
-			"resources": "Spirit 7",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 16+</span></p><p><span class='info_red'>Arrow Stream [Level 3+]</span></p><p><span class='info_red'>Arrow Barrage [Level 3+]</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"resource": "Spirit 7",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 16+</span></p><p><span class='info_red'>Arrow Stream [Level 3+]</span></p><p><span class='info_red'>Arrow Barrage [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Shoot a series of fire arrows <span class='info_blue'>3</span> times, dealing <span class='info_blue'>42%</span> damage to the closest enemy up to <span class='info_blue'>9</span> m in front of you. The skill lasts while the skill key is held down. Fire arrows pierce the enemy <span class='info_blue'>3</span> times and can hit enemies behind. Consumes <span class='info_blue'>7</span> spirit.</span></p>",
@@ -78,16 +78,16 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 67,
-			"titles": "Arrow Storm",
-			"resources": "Cooldown 13 second(s)",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "3-5-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Arrow Barrage [Level 5+]</span></p><p><span class='info_red'>Rapid Shot [Level 3+]</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"hidden": 0,
+			"image": 67,
+			"title": "Arrow Storm",
+			"resource": "Cooldown 13 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "3-5-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Arrow Barrage [Level 5+]</span></p><p><span class='info_red'>Rapid Shot [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
 				"<p><span class='info_gray'>Fire a spreadable arrow straight up into the sky, which rains down a volley that deals <span class='info_blue'>39%</span> damage <span class='info_blue'>20</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4.5</span> m. Hold the skill down for <span class='info_blue'>0.5</span> sec to fire the arrow <span class='info_blue'>7.5</span> m in front of you instead. You will be immune to knockback while this skill is active.</span></p>",
 				"<p><span class='info_gray'>Fire a spreadable arrow straight up into the sky, which rains down a volley that deals <span class='info_blue'>42%</span> damage <span class='info_blue'>20</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4.5</span> m. Hold the skill down for <span class='info_blue'>0.5</span> sec to fire the arrow <span class='info_blue'>7.5</span> m in front of you instead. You will be immune to knockback while this skill is active.</span></p>",
@@ -104,31 +104,31 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 1,
-			"images": 0,
-			"titles": "",
-			"resources": 0,
-			"levels": 0,
-			"maxLevels": 0,
-			"lockeds": 1,
-			"requirements": "",
-			"infos": "",
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
 			"texts": [
 				"",
 			]
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 68,
-			"titles": "Screwdriver Shot",
-			"resources": "Cooldown 13 second(s)",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "3-3-8-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Rapid Shot [Level 8+]</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Two-handed Bow</span></p>",
+			"hidden": 0,
+			"image": 68,
+			"title": "Screwdriver Shot",
+			"resource": "Cooldown 13 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "3-3-8-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Rapid Shot [Level 8+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Two-handed Bow</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Loose a spinning arrow up to <span class='info_blue'>12</span> m in front of you, dealing <span class='info_blue'>372%</span> damage to <span class='info_blue'>20</span> enemies in its path. Hold the skill key down for <span class='info_blue'>0.5</span> sec to enhance the arrow to Lv. 2, increasing its damage to <span class='info_blue'>725%</span>. Hold the skill key down for <span class='info_blue'>0.5</span> sec at Lv. 2 to enhance it to Lv. 3, increasing its damage to <span class='info_blue'>1078%</span>. The arrow is shot automatically when it reaches Lv. 3. You will be immune to knockback while this skill is active. This skill can only be used while Snipe is active.</span></p>",
@@ -144,47 +144,47 @@ var Class_skills = [
 			]
 		}
 	],
-	row_2 = [
+	column2 = [
 		{
-			"hiddens": 1,
-			"images": 0,
-			"titles": "",
-			"resources": 0,
-			"levels": 0,
-			"maxLevels": 0,
-			"lockeds": 1,
-			"requirements": "",
-			"infos": "",
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
 			"texts": [
 				"",
 			]
 		}
 	],[
 		{
-			"hiddens": 1,
-			"images": 0,
-			"titles": "",
-			"resources": 0,
-			"levels": 0,
-			"maxLevels": 0,
-			"lockeds": 1,
-			"requirements": "",
-			"infos": "",
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
 			"texts": [
 				"",
 			]
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 69,
-			"titles": "Evasive Salvo",
-			"resources": "",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 0,
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 10+</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"hidden": 0,
+			"image": 69,
+			"title": "Evasive Salvo",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 10+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Swiftly jump back <span class='info_blue'>3</span> m and fire <span class='info_blue'>3</span> volleys of arrows. The arrows are <span class='info_blue'>2</span> m apart and deal <span class='info_blue'>108%</span> damage each to up to <span class='info_blue'>5</span> enemies. All three volleys have a <span class='info_blue'>40%</span> chance to be critical regardless of your critical rate. This skill can cancel other skills. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> stamina.</span></p>",
@@ -201,17 +201,17 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 70,
-			"titles": "Ice Arrow",
+			"hidden": 0,
+			"image": 70,
+			"title": "Ice Arrow",
 			"elements": "Ice",
-			"resources": "Spirit 6",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "0-0-0-0-0-0-0-0-5-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Evasive Salvo [Level 5+]</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"resource": "Spirit 6",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-5-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Evasive Salvo [Level 5+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Fire three ice arrows at once, dealing <span class='info_blue'>58%</span> damage to enemies up to <span class='info_blue'>9</span> m in front of you and decreasing their movement speed and jump power by <span class='info_blue'>4%</span> for <span class='info_blue'>5</span> sec. Ice arrows pierce the enemy <span class='info_blue'>4</span> times and can hit enemies behind. The movement speed reduction effect can stack up to <span class='info_blue'>10</span> times. At max stacks, the target will be frozen for <span class='info_blue'>2</span> sec. Consumes <span class='info_blue'>6</span> spirit.</span></p>",
@@ -228,16 +228,16 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 71,
-			"titles": "Agile Archer",
-			"resources": "",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "0-0-0-0-0-0-0-0-5-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Ice Arrow [Level 4+]</span></p>",
-			"infos": "<p><span class='info_gray'>Passive</span></p>",
+			"hidden": 0,
+			"image": 71,
+			"title": "Agile Archer",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-5-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Ice Arrow [Level 4+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 1% and evasion by 1.</span></p>",
@@ -254,16 +254,16 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 72,
-			"titles": "Bow Swing",
-			"resources": "Cooldown 6 second(s)",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "0-0-0-0-0-0-0-0-5-4-3-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Agile Archer [Level 3+]</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"hidden": 0,
+			"image": 72,
+			"title": "Bow Swing",
+			"resource": "Cooldown 6 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-5-4-3-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Agile Archer [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 244% damage to 8 enemies within 3 m. Deals an additional 183% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
@@ -279,17 +279,17 @@ var Class_skills = [
 			]
 		}
 	],
-	row_3 = [
+	column3 = [
 		{
-			"hiddens": 0,
-			"images": 73,
-			"titles": "Snipe",
-			"resources": "Cooldown 5 second(s)",
-			"levels": 1,
-			"maxLevels": 1,
-			"lockeds": 0,
-			"requirements": "",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
+			"hidden": 0,
+			"image": 73,
+			"title": "Snipe",
+			"resource": "Cooldown 5 second(s)",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Adopt a knightly defensive stance, restoring <span class='info_blue'>4</span> spirit every <span class='info_blue'>0.3</span> sec and decreasing damage taken by <span class='info_blue'>10%</span>, but also reducing physical and magic attack by <span class='info_blue'>25%</span>. Press the skill key again to toggle the stance.</span></p>",
@@ -297,30 +297,30 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 1,
-			"images": 0,
-			"titles": "",
-			"resources": 0,
-			"levels": 0,
-			"maxLevels": 0,
-			"lockeds": 1,
-			"requirements": "",
-			"infos": "",
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
 			"texts": [
 				"",
 			]
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 74,
-			"titles": "Bronze Eagle",
-			"resources": "",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 0,
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 13+</span></p>",
-			"infos": "<p><span class='info_gray'>Passive</span></p>",
+			"hidden": 0,
+			"image": 74,
+			"title": "Bronze Eagle",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 13+</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Bronze Eagle, your companion from the Green Hoods, has a <span class='info_blue'>100%</span> chance to fly by your side for <span class='info_blue'>15</span> sec when you land a critical hit. He increases your Dexterity by <span class='info_blue'>4.4%</span> and awaits your command. Once he appears, he cannot return again for <span class='info_blue'>18</span> sec.</span></p>",
@@ -337,16 +337,16 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 75,
-			"titles": "Eagle Claw",
-			"resources": "",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-7-0-0-0-0-0-0-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Bronze Eagle [Level 7+]</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p>",
+			"hidden": 0,
+			"image": 75,
+			"title": "Eagle Claw",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-7-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Bronze Eagle [Level 7+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Command Bronze Eagle to attack, dealing <span class='info_blue'>302%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>9</span> m in front of you. Your companion also scratches enemies, dealing an additional <span class='info_blue'>60%</span> damage every sec for <span class='info_blue'>6</span> sec and reducing their movement speed and jump power by <span class='info_blue'>30%</span>. This skill can only be used while Bronze Eagle is around, and Bronze Eagle disappears after the skill is used.</span></p>",
@@ -363,16 +363,16 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 76,
-			"titles": "Eagle's Majesty",
-			"resources": "Cooldown 60 second(s)",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-7-3-0-0-0-0-0-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Eagle Claw [Level 3+]</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p>",
+			"hidden": 0,
+			"image": 76,
+			"title": "Eagle's Majesty",
+			"resource": "Cooldown 60 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-7-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Eagle Claw [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>The majesty of eagles restores <span class='info_blue'>1</span> spirit every second for <span class='info_blue'>30</span> sec. While this effect is active, Bronze Eagle deals <span class='info_blue'>25%</span> damage when you attack, capped at once every <span class='info_blue'>3</span> sec.</span></p>",
@@ -389,31 +389,31 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 1,
-			"images": 0,
-			"titles": "",
-			"resources": 0,
-			"levels": 0,
-			"maxLevels": 0,
-			"lockeds": 1,
-			"requirements": "",
-			"infos": "",
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
 			"texts": [
 				"",
 			]
 		}
 	],
-	row_4 = [
+	column4 = [
 		{
-			"hiddens": 0,
-			"images": 77,
-			"titles": "Eagle Glide",
-			"resources": "",
-			"levels": 1,
-			"maxLevels": 1,
-			"lockeds": 0,
-			"requirements": "",
-			"infos": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
+			"hidden": 0,
+			"image": 77,
+			"title": "Eagle Glide",
+			"resource": "",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Charge forward <span class='info_blue'>4.5</span> m, dealing <span class='info_blue'>70%</span> damage to <span class='info_blue'>5</span> enemies and knocking them back <span class='info_blue'>3</span> m. While charging, you cannot be knocked back. This skill can cancel other skills. Consume <span class='info_blue'>40</span> stamina.</span></p>",
@@ -421,30 +421,30 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 1,
-			"images": 0,
-			"titles": "",
-			"resources": 0,
-			"levels": 0,
-			"maxLevels": 0,
-			"lockeds": 1,
-			"requirements": "",
-			"infos": "",
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
 			"texts": [
 				"",
 			]
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 78,
-			"titles": "Conditioning",
-			"resources": "",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 0,
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 19+</span></p>",
-			"infos": "<p><span class='info_gray'>Passive</span></p>",
+			"hidden": 0,
+			"image": 78,
+			"title": "Conditioning",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 19+</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Special training with the Green Hoods permanently increases your physical attack by <span class='info_blue'>1.0%</span> and movement speed by <span class='info_blue'>1%</span>.</span></p>",
@@ -461,31 +461,31 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 1,
-			"images": 0,
-			"titles": "",
-			"resources": 0,
-			"levels": 0,
-			"maxLevels": 0,
-			"lockeds": 1,
-			"requirements": "",
-			"infos": "",
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
 			"texts": [
 				"",
 			]
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 79,
-			"titles": "Sharp Eyes",
-			"resources": "Cooldown 180 second(s)",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 1,
-			"lockReqs": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-0-0-0",
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Conditioning [Level 6+]</span></p>",
-			"infos": "<p><span class='info_gray'>Active</span></p>",
+			"hidden": 0,
+			"image": 79,
+			"title": "Sharp Eyes",
+			"resource": "Cooldown 180 second(s)",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Conditioning [Level 6+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Create a magic seal that affects <span class='info_blue'>5</span> tiles around you, increasing the critical rate of allies who absorb it by <span class='info_blue'>13</span> and their accuracy by <span class='info_blue'>1</span> for <span class='info_blue'>180</span> sec. The seal lasts for <span class='info_blue'>20</span> sec. Sharp Eyes also increases critical rate by <span class='info_blue'>4</span>.</span></p>",
@@ -502,15 +502,15 @@ var Class_skills = [
 		}
 	],[
 		{
-			"hiddens": 0,
-			"images": 68,
-			"titles": "Precision Shooter",
-			"resources": "",
-			"levels": 0,
-			"maxLevels": 10,
-			"lockeds": 0,
-			"requirements": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 46+</span></p>",
-			"infos": "<p><span class='info_gray'>Passive</span></p>",
+			"hidden": 0,
+			"image": 68,
+			"title": "Precision Shooter",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 10,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 46+</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 1% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 5%.</span></p>",
