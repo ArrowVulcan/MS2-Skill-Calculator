@@ -162,6 +162,18 @@ function setSkillInfo(type){
 					box.style.display = "none";
 					return;
 				}
+				
+				// Prevent skill(12, 18) from showing tooltip on plus/minus.
+				if( (i == 12 || i == 18) && type != "skill" ){
+					box.style.display = "none";
+					return;
+				}
+				
+				// Prevent skill(0, 1) from showing tooltip on minus.
+				if( (i == 0 || i == 1) && levels[i] <= 1 && type == "minus" ){
+					box.style.display = "none";
+					return;
+				}
 			
 				// Set Resources text
 				$(".info_resource").text(resources[i]);
@@ -244,6 +256,15 @@ function setSkillLock(){
 				lockeds[i] = 1;
 				skillIcons[i].style.filter = "brightness(20%)";
 				$(skillIcons[i].parentElement).addClass("locked");
+				
+				// Skills that doesn't fill it's skill requirements have their points removed.
+				if( levels[i] > 0 ){
+					levels[i] = 0;
+					let skillTexts = document.getElementsByClassName("skill_text");
+					skillTexts[i].innerHTML = levels[i] + "/" + maxLevels[i];
+					setPointsUsed();
+				}
+				
 			}
 		
 		}
@@ -270,9 +291,15 @@ function setSkillLock(){
 				skillPlus[i].classList.remove("plus_locked");
 			}
 			
-			if( lockeds[i] == 1 ){
+			// Locks locked skills but also skill(12, 18).
+			if( lockeds[i] == 1 || i == 12 || i == 18 ){
 				skillMinus[i].classList.add("minus_locked");
 				skillPlus[i].classList.add("plus_locked");
+			}
+			
+			// Locks base skills(0, 1) from having 0 points.
+			if( (i == 0 || i == 1) && levels[i] == 1 ){
+				skillMinus[i].classList.add("minus_locked");
 			}
 		
 		}
@@ -306,6 +333,12 @@ function changeSkillPoints(event, value){
 	let skillTexts = document.getElementsByClassName("skill_text");
 
 	for(let i=0; i < titles.length; i++){
+	
+		// Prevent skill(12, 18) to be increased/decreased
+		if( i == 12 || i == 18 ){ continue; }
+		
+		// Prevent skill(0, 1) from being decreased lower than rank 1
+		if( (value == -1) &&(i == 0 || i == 1) && levels[i] <= 1 ){ continue; }
 	
 		if( titles[i] == infoTitle ){
 			
