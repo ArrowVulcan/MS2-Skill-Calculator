@@ -98,17 +98,17 @@ function storeData(){
 	for(let j=0; j < skillAmount; j++){
 		for(let i=0; i < skills.length; i++){
 			if(skills[j] && skills[j][i]){
-				hiddens.push(skills[j][i].hiddens);
-				images.push(skills[j][i].images);
-				titles.push(skills[j][i].titles);
-				resources.push(skills[j][i].resources);
-				levels.push(skills[j][i].levels);
-				elements.push(skills[j][i].elements);
-				lockeds.push(skills[j][i].lockeds);
-				lockReqs.push(skills[j][i].lockReqs);
-				maxLevels.push(skills[j][i].maxLevels);
-				requirements.push(skills[j][i].requirements);
-				infos.push(skills[j][i].infos);
+				hiddens.push(skills[j][i].hidden);
+				images.push(skills[j][i].image);
+				titles.push(skills[j][i].title);
+				resources.push(skills[j][i].resource);
+				levels.push(skills[j][i].level);
+				elements.push(skills[j][i].element);
+				lockeds.push(skills[j][i].locked);
+				lockReqs.push(skills[j][i].lockReq);
+				maxLevels.push(skills[j][i].maxLevel);
+				requirements.push(skills[j][i].requirement);
+				infos.push(skills[j][i].info);
 				texts.push(skills[j][i].texts);
 			}
 		}
