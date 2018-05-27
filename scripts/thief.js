@@ -1,4 +1,4 @@
-var Class_skills = [
+var thief_skills = [
 	column1 = [
 		{
 			"hidden": 0,
@@ -20,7 +20,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 97,
 			"title": "Poison Edge",
-			"elements": "Toxic",
+			"element": "Toxic",
 			"resource": "Spirit 12",
 			"level": 1,
 			"maxLevel": 10,
@@ -37,7 +37,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 98,
 			"title": "Poison Vial",
-			"elements": "Toxic",
+			"element": "Toxic",
 			"resource": "Cooldown 8 second(s)",
 			"level": 0,
 			"maxLevel": 10,
@@ -87,7 +87,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 100,
 			"title": "Ruthless Guile",
-			"elements": "Toxic",
+			"element": "Toxic",
 			"resource": "",
 			"level": 0,
 			"maxLevel": 10,

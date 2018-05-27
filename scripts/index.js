@@ -10,6 +10,22 @@ var lockReqs = [];
 var requirements = [];
 var infos = [];
 var texts = [];
+var Class_skills = knight_skills;
+
+// changeJob - Change skills to another job
+function changeJob(job, name){
+
+	Class_skills = job;
+
+	$('#skills_right').empty();
+	createBase();
+	setMouseTriggers();
+	resetSkills();
+	
+	let infoRequirement = document.getElementById("jobName");
+	infoRequirement.innerHTML = "<p>" + name + "</p>";
+
+}
 
 // loadUrlPoints - Grabs the url info and set points into the skills
 function loadUrlPoints(){
@@ -38,11 +54,12 @@ function createColumn(start, stop){
 
 	let storeInfo = "";
 	
-	storeInfo = storeInfo + '<div id="skills_row">';
+	storeInfo = storeInfo + '<div class="col-3" id="skills_row">';
 	
 	for(let i=start; i < stop; i++){
 		storeInfo = storeInfo + '<div class="skill_box">' +
 			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill skill_' + i + '"></div>' +
+			'<div class="skillImage"></div>' +
 			'<div class="point_box">' +
 			'<div class="bar">' +
 			'<span class="skill_text skill_text_' + i + '"></span></div>' +
@@ -56,7 +73,7 @@ function createColumn(start, stop){
 	rightMenu.innerHTML = rightMenu.innerHTML + storeInfo + '</div>';
 	
 	let skillBoxes = document.getElementsByClassName("skill_box");
-	let skillIcons = document.getElementsByClassName("skill");
+	let skillIcons = document.getElementsByClassName("skillImage");
 	let skillTexts = document.getElementsByClassName("skill_text");
 	
 	for(let i=start; i < stop; i++){
@@ -87,6 +104,20 @@ function createColumn(start, stop){
 
 // storeData - stores the classes .js info into arrays
 function storeData(){
+
+	// Clean arrays
+	hiddens = [];
+	images = [];
+	titles = [];
+	elements = [];
+	resources = [];
+	levels = [];
+	maxLevels = [];
+	lockeds = [];
+	lockReqs = [];
+	requirements = [];
+	infos = [];
+	texts = [];
 
 	// Class_skills are the .js stuff
 	let skills = Class_skills;
@@ -228,7 +259,7 @@ function setSkillInfo(type){
 // setSkillLock - Lock/Unlock skills that doesn't have the needed points
 function setSkillLock(){
 
-	let skillIcons = document.getElementsByClassName("skill");
+	let skillIcons = document.getElementsByClassName("skillImage");
 
 	for(let i=0; i < lockeds.length; i++){
 	
@@ -326,6 +357,45 @@ function setUrl(){
 
 }
 
+// resetSkills - Reset all the skillpoints
+function resetSkills(){
+
+	for (let i=0; i < levels.length; i++){
+		
+		if( i == 12 || i == 18 ){ continue; }
+		
+		if( i == 0 || i == 1 ){
+			levels[i] = 1;
+		}else{
+			levels[i] = 0;
+		}
+		
+		let skillTexts = document.getElementsByClassName("skill_text");
+		skillTexts[i].innerHTML = levels[i] + "/" + maxLevels[i];
+		setPointsUsed();
+		
+	}
+
+	setSkillLock();
+	setUrl();
+
+}
+
+// getSkillpoints - Get remaining skillpoints
+function getSkillpoints(){
+
+		let pointsUsed = 0;
+		let pointsMax = 53 + 4; // Current max points + 4 base skills
+		
+		// Collect all the skill levels
+		for(let i=0; i < levels.length; i++){
+			pointsUsed = pointsUsed + parseInt(levels[i]);
+		}
+		
+		return (pointsMax - pointsUsed);
+		
+}
+
 // changeSkillPoints - Increase or decrease a skillpoint from a skill
 function changeSkillPoints(event, value){
 
@@ -346,7 +416,7 @@ function changeSkillPoints(event, value){
 			if( value == 1 ){
 			
 				// Increase points
-				if( levels[i] < maxLevels[i] ){
+				if( levels[i] < maxLevels[i] && getSkillpoints() > 0 ){
 				
 					// If a locked skill is increased, add pre-required skills
 					if( lockeds[i] == 1 ){
@@ -389,23 +459,8 @@ function changeSkillPoints(event, value){
 // setPointsUsed - Set/Change the points used text to show how many points that the user have spent.
 function setPointsUsed(){
 
-	let pointsUsed = 0;
-	let pointsMax = 53; // Current max points
-	
-	// Collect all the skill levels
-	for(let i=0; i < levels.length; i++){
-		pointsUsed = pointsUsed + parseInt(levels[i]);
-	}
-	
 	// Set text with current and max points
-	$("#skill_points > p").text("Points used: " + pointsUsed + "/" + pointsMax);
-	
-	// If more points are spent, turn the box red
-	if( pointsUsed > pointsMax ){
-		$("#skill_points").addClass("skillPointLimit");
-	}else{
-		$("#skill_points").removeClass("skillPointLimit");
-	}
+	$("#skill_points > #skillPointNumber").text( getSkillpoints() );
 
 }
 
@@ -433,7 +488,7 @@ function levelUpAllPrereqSkills(index) {
 
 }
 
-$( window ).on( "load", function() {
+function createBase(){
 
 	// Store all the classes .js data inside arrays
 	storeData();
@@ -452,6 +507,10 @@ $( window ).on( "load", function() {
 	
 	// Set lock on skills that aren't unlocked yet
 	setSkillLock();
+
+}
+
+function setMouseTriggers(){
 
 	// Mousemove for .skill, .plus and .minus
 	$(".skill, .plus, .minus").mousemove(function(event){
@@ -484,5 +543,26 @@ $( window ).on( "load", function() {
 		changeSkillPoints(event, -1);
 		
 	});
+
+}
+
+function showSkills(){
+	$("#window").toggle();
+}
+
+function hideWindow(){
+	$("#window").toggle();
+}
+
+$( window ).on( "load", function() {
+
+	// Make window draggable
+	$("#window").draggable({ handle: "#drag_bar", containment: [15, 35, 1060, 1920] });
+	
+	// Collect data, load url points, create columns, set points and skill locks.
+	createBase();
+
+	// Set Mouse triggers (mousemove, mouseleave, mousedown)
+	setMouseTriggers();
 	
 });

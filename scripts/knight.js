@@ -1,4 +1,4 @@
-var Class_skills = [
+var knight_skills = [
 	column1 = [
 		{
 			"hidden": 0,
@@ -36,7 +36,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 4,
 			"title": "Divine Strike",
-			"elements": "Holy",
+			"element": "Holy",
 			"resource": "Cooldown 8 second(s)",
 			"level": 0,
 			"maxLevel": 10,
@@ -356,7 +356,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 11,
 			"title": "Shield Wall",
-			"elements": "Holy",
+			"element": "Holy",
 			"resource": "Cooldown 45 second(s)",
 			"level": 0,
 			"maxLevel": 10,
@@ -408,7 +408,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 13,
 			"title": "Bulwark",
-			"elements": "Holy",
+			"element": "Holy",
 			"resource": "Cooldown 130 second(s)",
 			"level": 0,
 			"maxLevel": 10,
@@ -435,7 +435,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 14,
 			"title": "Defender of the Faith",
-			"elements": "Holy",
+			"element": "Holy",
 			"resource": "Cooldown 130 second(s)",
 			"level": 0,
 			"maxLevel": 10,

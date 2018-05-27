@@ -1,4 +1,4 @@
-var Class_skills = [
+var ranger_skills = [
 	column1 = [
 		{
 			"hidden": 0,
@@ -54,7 +54,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 66,
 			"title": "Rapid Shot",
-			"elements": "Fire",
+			"element": "Fire",
 			"resource": "Spirit 7",
 			"level": 0,
 			"maxLevel": 10,
@@ -204,7 +204,7 @@ var Class_skills = [
 			"hidden": 0,
 			"image": 70,
 			"title": "Ice Arrow",
-			"elements": "Ice",
+			"element": "Ice",
 			"resource": "Spirit 6",
 			"level": 0,
 			"maxLevel": 10,
