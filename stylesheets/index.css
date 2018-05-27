@@ -28,7 +28,7 @@ p, h1, h2, h3, h4, span{
 body, html{
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/bg.jpg") center top no-repeat rgb(250, 250, 250);
+	background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../images/bg.jpg") center top no-repeat rgb(250, 250, 250);
     background-size: cover;
 }
 
@@ -37,6 +37,16 @@ body, html{
 	width: 847px;
 	height: 910px;
 	display: none;
+	position: absolute;
+}
+
+#window_2{
+	background-image:url('../images/stats_window.png');
+	width: 234px;
+	height: 329px;
+	display: none;
+	z-index: 2;
+	position: absolute;
 }
 
 .row{
@@ -158,6 +168,13 @@ body, html{
 	z-index: 10;
 }
 
+#drag_bar_2{
+	position: absolute;
+    width: 234px;
+    height: 52px;
+    z-index: 10;
+}
+
 #skill_points{
     position: relative;
     width: 270px;
@@ -255,6 +272,16 @@ header{
 	z-index: 10;
 }
 
+#closeWindow_2{
+    float: right;
+    position: relative;
+    width: 26px;
+    height: 26px;
+    right: 12px;
+    top: 13px;
+    z-index: 10;
+}
+
 .nav-item a{
 	text-decoration: none;
 }
@@ -296,6 +323,100 @@ header{
     left: 3px;
     top: 51px;
     z-index: 5;
+}
+
+.statsButton{
+    position: relative;
+    background-image: url(../images/stats_plus.png);
+    width: 25px;
+    height: 25px;
+    top: 66px;
+    left: 193px;
+    margin-bottom: 2px;
+}
+
+.statsButton p{
+    position: relative;
+    color: #cacaca;
+    text-shadow: #000 0px 1px 3px;
+    right: 79px;
+    top: 1px;
+    text-align: right;
+    width: 75px;
+	pointer-events: none;
+}
+
+.statsButton, .bonus p{
+	color: #c8974a;
+}
+
+#attributePoints{
+    position: relative;
+    float: right;
+    width: 60px;
+    height: 33px;
+    top: 112px;
+    right: 19px;
+}
+
+#attributePoints p{
+    text-align: right;
+    font-size: 24px;
+    text-shadow: #000 0px 0px 3px;
+	color: #c8974a;
+}
+
+#resetStats{
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    top: 234px;
+    left: 54px;
+}
+
+#blocker{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000A;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#blocker p{
+	z-index: 20;
+	font-size: 64px;
+	text-align: center;
+	color: #fff;
+}
+
+#selectArrows{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 725px;
+    height: 200px;
+    float: right;
+    animation-name: bounce;
+    animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate ;
+}
+
+#selectArrows img{
+	vertical-align: middle;
+    border-style: none;
+    float: right;
+    padding-left: 190px;
+    position: relative;
+    right: 106px;
+}
+
+/* The animation code */
+@keyframes bounce{
+    from {top: 40px;}
+    to {top: 60px;}
 }
 
 /*

@@ -17,6 +17,15 @@
 </head>
 <body>
 
+	<div id="blocker">
+		<div id="selectArrows">
+			<img src="images/arrow.png">
+			<img src="images/arrow.png">
+			<!--<img src="images/arrow.png">-->
+		</div>
+		<p>Select a Tool</p>
+	</div>
+
 	<header>
 	
 		<nav class="navbar navbar-expand-md fixed-top">
@@ -25,10 +34,10 @@
 			
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a href="#"><div class="topNav_bar"><p>BOSS TIMER</p></div></a>
+							<!--<a href="#"><div class="topNav_bar"><p>BOSS TIMER</p></div></a>-->
 						</li>
 						<li class="nav-item">
-							<a href="#"><div class="topNav_bar"><p>STATS</p></div></a>
+							<a href="#" onclick="showStats()"><div class="topNav_bar"><p>STATS</p></div></a>
 						</li>
 						<li class="nav-item">
 							<a href="#" onclick="showSkills()"><div class="topNav_bar"><p>SKILLS</p></div></a>
@@ -76,6 +85,25 @@
 				</div>
 			</div>
 		
+		</div>
+		
+		<div id="window_2">
+			
+			<div id="drag_bar_2"></div>
+			
+			<div id="closeWindow_2" onclick="hideWindow_2()"></div>
+			
+			<div class="statsButton" data-stat='strength' data-base='27'><p>27</p></div>
+			<div class="statsButton" data-stat='dexterity' data-base='399'><p>399</p></div>
+			<div class="statsButton" data-stat='intelligence' data-base='25'><p>25</p></div>
+			<div class="statsButton" data-stat='luck' data-base='55'><p>55</p></div>
+			<div class="statsButton" data-stat='health' data-base='2963'><p>2963</p></div>
+			<div class="statsButton" data-stat='criticalRate' data-base='193'><p>193</p></div>
+			
+			<div id="resetStats" onclick="resetStats()"></div>
+			
+			<div id="attributePoints"><p>0</p></div>
+			
 		</div>
 	
 	</div>

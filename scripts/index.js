@@ -11,6 +11,7 @@ var requirements = [];
 var infos = [];
 var texts = [];
 var Class_skills = knight_skills;
+var attributePoints = 50;
 
 // changeJob - Change skills to another job
 function changeJob(job, name){
@@ -33,6 +34,8 @@ function loadUrlPoints(){
 	let params = location.href.split('#')[1];
 	
 	if(params){
+	
+		showSkills();
 		
 		params = params.split('-');
 
@@ -510,6 +513,23 @@ function createBase(){
 
 }
 
+function resetStats(){
+
+	attributePoints = 50;
+	
+	let stats = document.getElementsByClassName("statsButton");
+
+	for(let i=0; i < stats.length; i++){
+		stats[i].innerHTML = "<p>" + stats[i].dataset.base + "</p>";
+		stats[i].classList.remove("bonus");
+	}
+	
+	// Set new points
+	let points = document.getElementById("attributePoints");
+	points.innerHTML = "<p>" + attributePoints + "</p>";
+
+}
+
 function setMouseTriggers(){
 
 	// Mousemove for .skill, .plus and .minus
@@ -547,22 +567,67 @@ function setMouseTriggers(){
 }
 
 function showSkills(){
-	$("#window").toggle();
+	$("#window").show();
+	$("#blocker").hide();
+}
+
+function showStats(){
+	$("#window_2").show();
+	$("#blocker").hide();
 }
 
 function hideWindow(){
-	$("#window").toggle();
+	$("#window").hide();
+	
+	if( $("#window_2").is(":hidden") ){
+		$("#blocker").show();
+	}
+}
+
+function hideWindow_2(){
+	$("#window_2").hide();
+	
+	if( $("#window").is(":hidden") ){
+		$("#blocker").show();
+	}
 }
 
 $( window ).on( "load", function() {
 
 	// Make window draggable
 	$("#window").draggable({ handle: "#drag_bar", containment: [15, 35, 1060, 1920] });
+	$("#window_2").draggable({ handle: "#drag_bar_2", containment: [15, 35, 1670, 1920] });
+	
+	// Set Attribute points
+	let points = document.getElementById("attributePoints");
+	points.innerHTML = "<p>" + attributePoints + "</p>";
 	
 	// Collect data, load url points, create columns, set points and skill locks.
 	createBase();
 
 	// Set Mouse triggers (mousemove, mouseleave, mousedown)
 	setMouseTriggers();
+	
+	// Mousedown for statsButton
+	$(".statsButton").mousedown(function(event){
+	
+		if( attributePoints <= 0 ){ return; }
+	
+		let stat = event.target.dataset.stat;
+		let txt = event.target.innerHTML;
+		
+		txt = txt.replace("<p>", "").replace("</p>", "");
+		
+		event.target.innerHTML = "<p>" + (parseInt(txt)+1) + "</p>";
+		
+		attributePoints = attributePoints - 1;
+	
+		// Set new points
+		let points = document.getElementById("attributePoints");
+		points.innerHTML = "<p>" + attributePoints + "</p>";
+		
+		event.target.classList.add("bonus");
+
+	});
 	
 });
