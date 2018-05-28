@@ -89,6 +89,7 @@ var ranger_skills = [
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Arrow Barrage [Level 5+]</span></p><p><span class='info_red'>Rapid Shot [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
+				"",
 				"<p><span class='info_gray'>Fire a spreadable arrow straight up into the sky, which rains down a volley that deals <span class='info_blue'>39%</span> damage <span class='info_blue'>20</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4.5</span> m. Hold the skill down for <span class='info_blue'>0.5</span> sec to fire the arrow <span class='info_blue'>7.5</span> m in front of you instead. You will be immune to knockback while this skill is active.</span></p>",
 				"<p><span class='info_gray'>Fire a spreadable arrow straight up into the sky, which rains down a volley that deals <span class='info_blue'>42%</span> damage <span class='info_blue'>20</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4.5</span> m. Hold the skill down for <span class='info_blue'>0.5</span> sec to fire the arrow <span class='info_blue'>7.5</span> m in front of you instead. You will be immune to knockback while this skill is active.</span></p>",
 				"<p><span class='info_gray'>Fire a spreadable arrow straight up into the sky, which rains down a volley that deals <span class='info_blue'>45%</span> damage <span class='info_blue'>20</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4.5</span> m. Hold the skill down for <span class='info_blue'>0.5</span> sec to fire the arrow <span class='info_blue'>7.5</span> m in front of you instead. You will be immune to knockback while this skill is active.</span></p>",
@@ -99,7 +100,6 @@ var ranger_skills = [
 				"<p><span class='info_gray'>Fire a spreadable arrow straight up into the sky, which rains down a volley that deals <span class='info_blue'>60%</span> damage <span class='info_blue'>20</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4.5</span> m. Hold the skill down for <span class='info_blue'>0.5</span> sec to fire the arrow <span class='info_blue'>7.5</span> m in front of you instead. You will be immune to knockback while this skill is active.</span></p>",
 				"<p><span class='info_gray'>Fire a spreadable arrow straight up into the sky, which rains down a volley that deals <span class='info_blue'>63%</span> damage <span class='info_blue'>20</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4.5</span> m. Hold the skill down for <span class='info_blue'>0.5</span> sec to fire the arrow <span class='info_blue'>7.5</span> m in front of you instead. You will be immune to knockback while this skill is active.</span></p>",
 				"<p><span class='info_gray'>Fire a spreadable arrow straight up into the sky, which rains down a volley that deals <span class='info_blue'>66%</span> damage <span class='info_blue'>20</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4.5</span> m. Hold the skill down for <span class='info_blue'>0.5</span> sec to fire the arrow <span class='info_blue'>7.5</span> m in front of you instead. You will be immune to knockback while this skill is active.</span></p>",
-				"",
 			]
 		}
 	],[
@@ -240,16 +240,16 @@ var ranger_skills = [
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 1% and evasion by 1.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 1.6% and evasion by 2.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 2.2% and evasion by 3.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 2.8% and evasion by 4.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 3.4% and evasion by 5.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 4% and evasion by 6.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 4.6% and evasion by 7.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 5.2% and evasion by 8.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 5.8% and evasion by 9.</span></p>",
-				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by 6.4% and evasion by 10.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>1%</span> and evasion by <span class='info_blue'>1</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>1.6%</span> and evasion by <span class='info_blue'>2</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>2.2%</span> and evasion by <span class='info_blue'>3</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>2.8%</span> and evasion by <span class='info_blue'>4</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>3.4%</span> and evasion by <span class='info_blue'>5</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>4%</span> and evasion by <span class='info_blue'>6</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>4.6%</span> and evasion by <span class='info_blue'>7</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>5.2%</span> and evasion by <span class='info_blue'>8</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>5.8%</span> and evasion by <span class='info_blue'>9</span>.</span></p>",
+				"<p><span class='info_gray'>A personal training session with Oska has taught you how to put more power into your shots and to move with more agility. Increases piercing by <span class='info_blue'>6.4%</span> and evasion by <span class='info_blue'>10</span>.</span></p>",
 			]
 		}
 	],[
@@ -266,16 +266,16 @@ var ranger_skills = [
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 244% damage to 8 enemies within 3 m. Deals an additional 183% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 261% damage to 8 enemies within 3 m. Deals an additional 196% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 278% damage to 8 enemies within 3 m. Deals an additional 209% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 295% damage to 8 enemies within 3 m. Deals an additional 222% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 312% damage to 8 enemies within 3 m. Deals an additional 235% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 329% damage to 8 enemies within 3 m. Deals an additional 248% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 346% damage to 8 enemies within 3 m. Deals an additional 261% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 363% damage to 8 enemies within 3 m. Deals an additional 274% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 380% damage to 8 enemies within 3 m. Deals an additional 287% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
-				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing 397% damage to 8 enemies within 3 m. Deals an additional 300% ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>244%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>183%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>261%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>196%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>278%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>209%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>295%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>222%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>312%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>235%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>329%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>248%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>346%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>261%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>363%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>274%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>380%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>287%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
+				"<p><span class='info_gray'>Swing your bow wildly as you spin, dealing <span class='info_blue'>397%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Deals an additional <span class='info_blue'>300%</span> ice damage to targets frozen by Ice Arrow debuff and consumes the effect.</span></p>",
 			]
 		}
 	],
@@ -284,15 +284,15 @@ var ranger_skills = [
 			"hidden": 0,
 			"image": 73,
 			"title": "Snipe",
-			"resource": "Cooldown 5 second(s)",
+			"resource": "",
 			"level": 1,
 			"maxLevel": 1,
 			"locked": 0,
 			"requirement": "",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Adopt a knightly defensive stance, restoring <span class='info_blue'>4</span> spirit every <span class='info_blue'>0.3</span> sec and decreasing damage taken by <span class='info_blue'>10%</span>, but also reducing physical and magic attack by <span class='info_blue'>25%</span>. Press the skill key again to toggle the stance.</span></p>",
+				"<p><span class='info_gray'>Take aim and even your breathing to restore <span class='info_blue'>5</span> spirit every <span class='info_blue'>0.5</span> sec. When no enemies are within <span class='info_blue'>4</span> m, the amount of spirit restored increases by <span class='info_blue'>3</span>.</span></p>",
 			]
 		}
 	],[
@@ -413,10 +413,10 @@ var ranger_skills = [
 			"maxLevel": 1,
 			"locked": 0,
 			"requirement": "",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p></p>",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>4.5</span> m, dealing <span class='info_blue'>70%</span> damage to <span class='info_blue'>5</span> enemies and knocking them back <span class='info_blue'>3</span> m. While charging, you cannot be knocked back. This skill can cancel other skills. Consume <span class='info_blue'>40</span> stamina.</span></p>",
+				"<p><span class='info_gray'>Summon Bronze Eagle and grab onto him to fly <span class='info_blue'>7.5</span> m forward. This skill can cancel other skills. Consumes <span class='info_blue'>80</span> stamina.</span></p>",
 			]
 		}
 	],[
@@ -513,16 +513,16 @@ var ranger_skills = [
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 1% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 5%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 1% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 10%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 2% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 15%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 2% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 20%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 3% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 25%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 3% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 30%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 4% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 35%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 4% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 40%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 5% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 45%.</span></p>",
-				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by 5% and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by 50%.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>1%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>5%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>1%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>10%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>2%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>15%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>2%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>20%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>3%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>25%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>3%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>30%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>4%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>35%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>4%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>40%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>5%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>45%</span>.</span></p>",
+				"<p><span class='info_gray'>Increase your aim technique and improve your firing speed. Increases attack speed by <span class='info_blue'>5%</span> and improves Screwdriver Shot. Improved Screwdriver Shot can be cast in Snipe mode and inflicts greater damage but cannot be reinforced. Also increases improved Screwdriver Shot damage by <span class='info_blue'>50%</span>.</span></p>",
 			]
 		}
 	]

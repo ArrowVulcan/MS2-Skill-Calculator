@@ -167,14 +167,38 @@ function setSkillInfo(type){
 		if( isHidden == 1 ){ return; }
 		
 		let box = document.getElementById('info_box');
+		
+		// Make the tooltip visible
+		box.style.display = "block";
+	
+		// Get tooltip offsetHeight
+		let infoContent = document.getElementById("info_content");
+		let offset = infoContent.offsetHeight;
 	
 		// Move the tooltip above the cursor to prevent text from going outside the screen
 		if( event.pageY > 511 ){
-			box.style.left = event.pageX + 6 + 'px';
-			box.style.top = event.pageY - 350 + 12 + 'px';
+		
+			if( offset > 0){
+				box.style.left = event.pageX + 25 + 'px';
+				box.style.top = event.pageY - offset - 25 + 'px';
+			}
+			
 		}else{
-			box.style.left = event.pageX + 6 + 'px';
-			box.style.top = event.pageY + 12 + 'px';
+			box.style.left = event.pageX + 25 + 'px';
+			box.style.top = event.pageY + 25 + 'px';
+		}
+		
+		if( event.pageX > 960 ){
+			box.style.left = event.pageX - 362 - 15 + 'px';
+			if( event.pageY > 511 ){
+			
+				if( offset > 0){
+					box.style.top = event.pageY - offset - 25 + 'px';
+				}
+			
+			}else{
+				box.style.top = event.pageY + 25 + 'px';
+			}
 		}
 		
 		let infoTitle = event.target.dataset.title;
@@ -253,9 +277,6 @@ function setSkillInfo(type){
 			}
 		
 		}
-		
-		// Make the tooltip visible
-		box.style.display = "block";
 
 }
 
@@ -545,7 +566,7 @@ function setMouseTriggers(){
 
 		let box = document.getElementById('info_box');
 		box.style.display = "none";
-
+		
 	});
 	
 	// Mousedown for .plus
@@ -576,6 +597,10 @@ function showStats(){
 	$("#blocker").hide();
 }
 
+function showStats_2(){
+	$("#window_3").show();
+}
+
 function hideWindow(){
 	$("#window").hide();
 	
@@ -586,10 +611,15 @@ function hideWindow(){
 
 function hideWindow_2(){
 	$("#window_2").hide();
+	$("#window_3").hide();
 	
 	if( $("#window").is(":hidden") ){
 		$("#blocker").show();
 	}
+}
+
+function hideWindow_3(){
+	$("#window_3").hide();
 }
 
 $( window ).on( "load", function() {
@@ -597,6 +627,7 @@ $( window ).on( "load", function() {
 	// Make window draggable
 	$("#window").draggable({ handle: "#drag_bar", containment: [15, 35, 1060, 1920] });
 	$("#window_2").draggable({ handle: "#drag_bar_2", containment: [15, 35, 1670, 1920] });
+	$("#window_3").draggable({ handle: "#drag_bar_3", containment: [15, 35, 1670, 1920] });
 	
 	// Set Attribute points
 	let points = document.getElementById("attributePoints");
