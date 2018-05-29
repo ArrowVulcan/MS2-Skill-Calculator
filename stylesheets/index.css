@@ -38,6 +38,7 @@ body, html{
 	height: 910px;
 	display: none;
 	position: absolute;
+	top: 22px;
 }
 
 #window_2{

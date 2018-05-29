@@ -12,6 +12,8 @@ var infos = [];
 var texts = [];
 var Class_skills = knight_skills;
 var attributePoints = 50;
+var lockedsURL = [];
+var levelsURL = [];
 
 // changeJob - Change skills to another job
 function changeJob(job, name){
@@ -35,18 +37,34 @@ function loadUrlPoints(){
 	
 	if(params){
 	
-		showSkills();
+		// Get job
+		let job = knight_skills;
+		let name = "";
+		if( params.slice(-1) == 0 ){ job = knight_skills; name = "Knight"; }
+		if( params.slice(-1) == 1 ){ job = berserker_skills; name = "Berserker"; }
+		if( params.slice(-1) == 2 ){ job = wizard_skills; name = "Wizard"; }
+		if( params.slice(-1) == 3 ){ job = priest_skills; name = "Priest"; }
+		if( params.slice(-1) == 4 ){ job = ranger_skills; name = "Ranger"; }
+		if( params.slice(-1) == 5 ){ job = heavy_gunner_skills; name = "Heavy Gunner"; }
+		if( params.slice(-1) == 6 ){ job = thief_skills; name = "Thief"; }
+		if( params.slice(-1) == 7 ){ job = assassin_skills; name = "Assassin"; }
+		Class_skills = job;
 		
 		params = params.split('-');
 
 		for(let i=0; i < params.length; i++){
-			if( i <= 24 ){
-				levels[i] = params[i];
+			if( i <= 23 ){
+				levelsURL[i] = params[i];
 			}
 			if( params[i] > 0 ){
-				lockeds[i] = 0;
+				lockedsURL[i] = 0;
 			}
 		}
+		
+		showSkills();
+		
+		let infoRequirement = document.getElementById("jobName");
+		infoRequirement.innerHTML = "<p>" + name + "</p>";
 	
 	}
 
@@ -114,17 +132,17 @@ function storeData(){
 	titles = [];
 	elements = [];
 	resources = [];
-	levels = [];
 	maxLevels = [];
-	lockeds = [];
 	lockReqs = [];
 	requirements = [];
 	infos = [];
 	texts = [];
-
+	levels = [];
+	lockeds = [];
+	
 	// Class_skills are the .js stuff
 	let skills = Class_skills;
-
+	
 	// Amount of skills (includes hidden) 6 skills per column, 4 columns.
 	let skillAmount = 24;
 	
@@ -146,6 +164,14 @@ function storeData(){
 				texts.push(skills[j][i].texts);
 			}
 		}
+	}
+	
+	// If URL have info, Use it instead
+	if( levelsURL.length > 0 && lockedsURL.length > 0 ){
+		levels = levelsURL;
+		lockeds = lockedsURL;
+		levelsURL = [];
+		lockedsURL = [];
 	}
 
 }
@@ -369,12 +395,28 @@ function setUrl(){
 	// make url include skill numbers
 	let str = "#";
 	
+	// Set Job id
+	let job = 0;
+	if( Class_skills == knight_skills ){ job = 0; }
+	if( Class_skills == berserker_skills ){ job = 1; }
+	if( Class_skills == wizard_skills ){ job = 2; }
+	if( Class_skills == priest_skills ){ job = 3; }
+	if( Class_skills == ranger_skills ){ job = 4; }
+	if( Class_skills == heavy_gunner_skills ){ job = 5; }
+	if( Class_skills == thief_skills ){ job = 6; }
+	if( Class_skills == assassin_skills ){ job = 7; }
+	
 	for(let i=0; i < levels.length; i++){
-		if( i == levels.length -1 ){
+		if( i == levels.length - 1 ){
 			str = str + levels[i];
 		}else{
 			str = str + levels[i] + "-";
 		}
+	}
+	
+	// Check if job already exists if URL was loaded and add only if not
+	if(str.split("-").length == 24){
+		str = str + "-" + job;
 	}
 		
 	location.href = location.href.split('#')[0] + str;
@@ -395,7 +437,9 @@ function resetSkills(){
 		}
 		
 		let skillTexts = document.getElementsByClassName("skill_text");
-		skillTexts[i].innerHTML = levels[i] + "/" + maxLevels[i];
+		if( skillTexts[i] != undefined ){
+			skillTexts[i].innerHTML = levels[i] + "/" + maxLevels[i];
+		}
 		setPointsUsed();
 		
 	}
@@ -417,7 +461,7 @@ function getSkillpoints(){
 		}
 		
 		return (pointsMax - pointsUsed);
-		
+
 }
 
 // changeSkillPoints - Increase or decrease a skillpoint from a skill
@@ -513,12 +557,9 @@ function levelUpAllPrereqSkills(index) {
 }
 
 function createBase(){
-
+	
 	// Store all the classes .js data inside arrays
 	storeData();
-	
-	// Load points from the url if a build is linked
-	loadUrlPoints();
 	
 	// Create 4 columns for the skills
 	createColumn(0,6);
@@ -599,6 +640,20 @@ function showStats(){
 
 function showStats_2(){
 	$("#window_3").show();
+	
+	//Get window_2 position and width
+	let top = parseInt($("#window_2").css("top").split('px')[0]);
+	let left = parseInt($("#window_2").css("left").split('px')[0]);
+	let width = parseInt($("#window_2").css("width").split('px')[0]);
+	
+	// Set window_3 right to window_2
+	$("#window_3").css("top", top);
+	
+	if( left + width < 1513 ){
+		$("#window_3").css("left", (left + width));
+	}else{
+		$("#window_3").css("left", 1513);
+	}
 }
 
 function hideWindow(){
@@ -622,12 +677,15 @@ function hideWindow_3(){
 	$("#window_3").hide();
 }
 
-$( window ).on( "load", function() {
+$( window ).on( "load", function(){
+
+	// Load url points
+	loadUrlPoints();
 
 	// Make window draggable
-	$("#window").draggable({ handle: "#drag_bar", containment: [15, 35, 1060, 1920] });
+	$("#window").draggable({ handle: "#drag_bar", containment: [15, 23, 1060, 1920] });
 	$("#window_2").draggable({ handle: "#drag_bar_2", containment: [15, 35, 1670, 1920] });
-	$("#window_3").draggable({ handle: "#drag_bar_3", containment: [15, 35, 1670, 1920] });
+	$("#window_3").draggable({ handle: "#drag_bar_3", containment: [15, 35, 1513, 1920] });
 	
 	// Set Attribute points
 	let points = document.getElementById("attributePoints");
