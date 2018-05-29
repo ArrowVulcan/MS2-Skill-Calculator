@@ -103,7 +103,7 @@ function createColumn(start, stop){
 		if( hiddens[i] == 0 ){
 			
 			// Set skill icon
-			skillIcons[i].style.backgroundImage = "url('./images/" + images[i] + ".png')";
+			skillIcons[i].style.backgroundImage = "url('./images/skills/" + images[i] + ".png')";
 			
 			// Check if the skill text is available and set level/maxlevel text
 			if( skillTexts[i] != undefined ){
@@ -288,7 +288,7 @@ function setSkillInfo(type){
 			
 				// Set tooltip image
 				let infoImage = document.getElementById("info_image");
-				infoImage.style.backgroundImage = "url('./images/" + images[i] + ".png')";
+				infoImage.style.backgroundImage = "url('./images/skills/" + images[i] + ".png')";
 				
 				// Set tooltip requirement text
 				let infoRequirement = document.getElementById("info_description");
@@ -556,10 +556,31 @@ function levelUpAllPrereqSkills(index) {
 
 }
 
+function setJobLines(){
+
+	// Get job names
+	let name = "knight";
+	if( Class_skills == knight_skills ){ name = "knight"; }
+	if( Class_skills == berserker_skills ){ name = "berserker"; }
+	if( Class_skills == wizard_skills ){ name = "wizard"; }
+	if( Class_skills == priest_skills ){ name = "priest"; }
+	if( Class_skills == ranger_skills ){ name = "ranger"; }
+	if( Class_skills == heavy_gunner_skills ){ name = "heavy_gunner"; }
+	if( Class_skills == thief_skills ){ name = "thief"; }
+	if( Class_skills == assassin_skills ){ name = "assassin"; }
+
+	// Set job skill lines
+	$("#lines").css("background-image", "url(./images/lines/" + name + "_lines.png)");
+
+}
+
 function createBase(){
 	
 	// Store all the classes .js data inside arrays
 	storeData();
+	
+	// Set job lines
+	setJobLines();
 	
 	// Create 4 columns for the skills
 	createColumn(0,6);

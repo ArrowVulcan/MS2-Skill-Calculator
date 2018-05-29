@@ -32,6 +32,31 @@ body, html{
     background-size: cover;
 }
 
+html{
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fa0;
+	border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b37700;
+}
+
 #window{
 	background-image:url('../images/window_new.png');
 	width: 847px;
@@ -39,6 +64,13 @@ body, html{
 	display: none;
 	position: absolute;
 	top: 22px;
+}
+
+#lines{
+	background-image:url('../images/lines/knight_lines.png');
+	position: absolute;
+	width: 847px;
+	height: 910px;
 }
 
 #window_2{
@@ -310,7 +342,7 @@ header{
 }
 
 #advanced_stats{
-    background-image: url(../images/advanced_stats.png);
+    background-image: url("../images/advanced_stats.png");
     float: right;
     position: absolute;
     width: 127px;
@@ -365,7 +397,7 @@ header{
 
 .statsButton{
     position: relative;
-    background-image: url(../images/stats_plus.png);
+    background-image: url("../images/stats_plus.png");
     width: 25px;
     height: 25px;
     top: 66px;
