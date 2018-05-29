@@ -652,11 +652,16 @@ function setMouseTriggers(){
 function showSkills(){
 	$("#window").show();
 	$("#blocker").hide();
+	$("#window").css("z-index", 20);
+	$("#window_2").css("z-index", 10);
+	$("#window_3").css("z-index", 10);
 }
 
 function showStats(){
 	$("#window_2").show();
 	$("#blocker").hide();
+	$("#window").css("z-index", 10);
+	$("#window_2").css("z-index", 20);
 }
 
 function showStats_2(){
@@ -698,7 +703,19 @@ function hideWindow_3(){
 	$("#window_3").hide();
 }
 
+function startTime(){
+	
+    var d = new Date();
+	var Time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'UTC' })
+    document.getElementById('clock').innerHTML = "<p>" + Time + "</p>";
+    var t = setTimeout(startTime, 500);
+
+}
+
 $( window ).on( "load", function(){
+
+	// Set/Start timers
+	startTime();
 
 	// Load url points
 	loadUrlPoints();
@@ -738,6 +755,27 @@ $( window ).on( "load", function(){
 		
 		event.target.classList.add("bonus");
 
+	});
+	
+	// Mousedown for #window
+	$("#window").mousedown(function(event){
+		$("#window").css("z-index", 20);
+		$("#window_2").css("z-index", 10);
+		$("#window_3").css("z-index", 10);
+	});
+	
+	// Mousedown for #window_2
+	$("#window_2").mousedown(function(event){
+		$("#window_2").css("z-index", 20);
+		$("#window").css("z-index", 10);
+		$("#window_3").css("z-index", 10);
+	});
+	
+	// Mousedown for #window_3
+	$("#window_3").mousedown(function(event){
+		$("#window_3").css("z-index", 20);
+		$("#window").css("z-index", 10);
+		$("#window_2").css("z-index", 10);
 	});
 	
 });

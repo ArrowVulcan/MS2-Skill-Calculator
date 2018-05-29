@@ -13,6 +13,14 @@
     user-select: none;
 }
 
+img, .dropdown-item{
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
 a{
 	text-decoration: none;
 }
@@ -78,7 +86,7 @@ html{
 	width: 234px;
 	height: 329px;
 	display: none;
-	z-index: 2;
+	z-index: 10;
 	position: absolute;
 }
 
@@ -87,7 +95,7 @@ html{
 	width: 390px;
 	height:723px;
 	display: none;
-	z-index: 2;
+	z-index: 10;
 	position: absolute;
 }
 
@@ -258,6 +266,7 @@ html{
     height: 36px;
     left: 293px;
     top: 53px;
+	cursor: pointer;
 }
 
 #selectJob{
@@ -319,6 +328,7 @@ header{
     right: 12px;
     top: 26px;
 	z-index: 10;
+	cursor: pointer;
 }
 
 #closeWindow_2{
@@ -329,6 +339,7 @@ header{
     right: 12px;
     top: 13px;
     z-index: 10;
+	cursor: pointer;
 }
 
 #closeWindow_3{
@@ -339,6 +350,7 @@ header{
     right: 12px;
     top: 13px;
     z-index: 10;
+	cursor: pointer;
 }
 
 #advanced_stats{
@@ -350,6 +362,7 @@ header{
     right: 39px;
     top: 12px;
     z-index: 10;
+	cursor: pointer;
 }
 
 .nav-item a{
@@ -403,6 +416,7 @@ header{
     top: 66px;
     left: 193px;
     margin-bottom: 2px;
+	cursor: pointer;
 }
 
 .statsButton p{
@@ -442,6 +456,7 @@ header{
     height: 26px;
     top: 234px;
     left: 54px;
+	cursor: pointer;
 }
 
 #blocker{
@@ -489,6 +504,38 @@ header{
     to {top: 60px;}
 }
 
+#serverTimes{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100px;
+	height: 30px;
+	background-color: #fa0;
+	border-bottom-right-radius: 12px;
+	padding-left: 5px;
+}
+
+#serverTimes p{
+	position: relative;
+	width: 85px;
+	top: -3px;
+	left: 60px;
+	color: #fff;
+	text-align: right;
+	text-shadow: black 1px 1px;
+	padding-right: 5px;
+	float: right;
+}
+
+#clock{
+    background-image: url(../images/clock.png);
+    position: relative;
+    width: 17px;
+    height: 18px;
+    top: 6px;
+    left: 5px;
+}
+
 /*
 	------------------------------ INFO STUFF ------------------------------
 */
@@ -517,7 +564,7 @@ header{
 	box-shadow: 0px 0px 5px #000;
 	border-radius: 4px;
 	display: none;
-	z-index: 10;
+	z-index: 25;
 }
 
 #info_name{
