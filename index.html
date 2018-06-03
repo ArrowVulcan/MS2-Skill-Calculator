@@ -1,77 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="icon" href="images/favicon.png">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
 
 	<title>MS2 Skills</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
-
+	<link rel="stylesheet" href="stylesheets/index.css">
+	
 </head>
-
 <body>
 
-	<div id="left_menu">
-		<a href="knight.html"><div class="job_select job_select_2 job_knight"></div></a><p class="job_txt">Knight</p>
-		<a href="berserker.html"><div class="job_select job_select_2 job_berserker"></div></a><p class="job_txt">Berserker</p>
-		<a href="wizard.html"><div class="job_select job_select_2 job_wizard"></div></a><p class="job_txt">Wizard</p>
-		<a href="priest.html"><div class="job_select job_select_2 job_priest"></div></a><p class="job_txt">Priest</p>
-		<a href="ranger.html"><div class="job_select job_select_2 job_ranger"></div></a><p class="job_txt">Ranger</p>
-		<a href="heavy_gunner.html"><div class="job_select job_select_2 job_heavy_gunner"></div></a><p class="job_txt">Heavy Gunner</p>
-		<a href="thief.html"><div class="job_select job_select_2 job_thief"></div></a><p class="job_txt">Thief</p>
-		<a href="assassin.html"><div class="job_select job_select_2 job_assassin"></div></a><p class="job_txt">Assassin</p>
+	<div id="blocker">
+		<div id="selectArrows">
+			<img src="images/arrow.png">
+			<img src="images/arrow.png">
+			<!--<img src="images/arrow.png">-->
+		</div>
+		<p>Select a Tool</p>
 	</div>
 
-	<div id="blocker"></div>
+	<header>
 	
-	<div id="topNav">
-		<a href="index.html"><div class="topNav_bar"><p>SKILLS</p></div></a>
-		<a href="#"><div class="topNav_bar"><p>STATS</p></div></a>
-		<a href="#"><div class="topNav_bar"><p>BOSS TIMER</p></div></a>
-	</div>
-	
-	<div id="center_content">
-	
-
-		<div id="skills_left">
+		<nav class="navbar navbar-expand-md fixed-top">
 		
-			<div class="lvl_box">
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+			
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<!--<a href="#"><div class="topNav_bar"><p>BOSS TIMER</p></div></a>-->
+						</li>
+						<li class="nav-item">
+							<a href="#" onclick="showStats()"><div class="topNav_bar"><p>STATS</p></div></a>
+						</li>
+						<li class="nav-item">
+							<a href="#" onclick="showSkills()"><div class="topNav_bar"><p>SKILLS</p></div></a>
+						</li>
+					</ul>
 				
 			</div>
 		
-			<div class="lvl_box">
-				<p>Level 10</p>
+		</nav>
+		
+	</header>
+
+	<div class="container-fluid">
+	
+		<div id="serverTimes">
+			<div id="clock"></div>
+		</div>
+	
+		<div id="window">
+			
+			<div id="lines"></div>
+			
+			<div id="drag_bar"></div>
+			
+			<div id="jobName"><p>Knight</p></div>
+			
+			<div id="closeWindow" onclick="hideWindow()"></div>
+		
+			<div class="row" id="skills_right">
+			
 			</div>
 			
-			<div class="lvl_box">
-				<p>Level 20</p>
-			</div>
+			<div id="skill_points"><p>Remaining Skill Points: </p><p id="skillPointNumber">0</p></div>
 			
-			<div class="lvl_box">
-				<p>Level 30</p>
-			</div>
+			<div id="resetSkills" onclick="resetSkills()"></div>
 			
-			<div class="lvl_box">
-				<p>Level 40</p>
-			</div>
+			<div id="selectJob" onclick="changeJob()"></div>
 			
-			<div class="lvl_box">
-				<p>Level 50</p>
+			<!-- Default dropup button -->
+			<div id="jobDrop" class="btn-group dropup">
+				<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-40,5"></button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" onclick="changeJob(knight_skills, 'Knight')" href="#">Knight</a>
+					<a class="dropdown-item" onclick="changeJob(berserker_skills, 'Berserker')" href="#">Berserker</a>
+					<a class="dropdown-item" onclick="changeJob(wizard_skills, 'Wizard')" href="#">Wizard</a>
+					<a class="dropdown-item" onclick="changeJob(priest_skills, 'Priest')" href="#">Priest</a>
+					<a class="dropdown-item" onclick="changeJob(ranger_skills, 'Ranger')" href="#">Ranger</a>
+					<a class="dropdown-item" onclick="changeJob(heavy_gunner_skills, 'Heavy Gunner')" href="#">Heavy Gunner</a>
+					<a class="dropdown-item" onclick="changeJob(thief_skills, 'Thief')" href="#">Thief</a>
+					<a class="dropdown-item" onclick="changeJob(assassin_skills, 'Assassin')" href="#">Assassin</a>
+				</div>
 			</div>
 		
 		</div>
 		
-		<div id="skills_right">
+		<div id="window_2">
+			
+			<div id="drag_bar_2"></div>
+			
+			<div id="advanced_stats" onclick="showStats_2()"></div>
+			
+			<div id="closeWindow_2" onclick="hideWindow_2()"></div>
+			
+			<div class="statsButton" data-stat='strength' data-base='27'><p>27</p></div>
+			<div class="statsButton" data-stat='dexterity' data-base='399'><p>399</p></div>
+			<div class="statsButton" data-stat='intelligence' data-base='25'><p>25</p></div>
+			<div class="statsButton" data-stat='luck' data-base='55'><p>55</p></div>
+			<div class="statsButton" data-stat='health' data-base='2963'><p>2963</p></div>
+			<div class="statsButton" data-stat='criticalRate' data-base='193'><p>193</p></div>
+			
+			<div id="resetStats" onclick="resetStats()"></div>
+			
+			<div id="attributePoints"><p>0</p></div>
+			
+		</div>
 		
-			<p id="select_class">Select a Class!</p>
+		<div id="window_3">
+		
+			<div id="drag_bar_3"></div>
+			
+			<div id="closeWindow_3" onclick="hideWindow_3()"></div>
+		
+		</div>
+	
+	</div>
+	
+	<div id="info_box">
+		
+		<div id="info_name"><p></p></div>
+		
+		<div id="info_element"><p></p></div>
+		
+		<div id="info_content">
+		
+			<div id="info_image_box">
+				<div id="info_image"></div>
+			</div>
+			
+			<div id="info_top_description">
+			
+				<div class="info_resource"></div>
+				<div class="info_level"></div>
+			
+			</div>
+			
+			<div id="info_description"></div>
+			
+			<div class="info_linebreak"></div>
+			
+			<div id="info_description_2"></div>
+			
+			<div class="info_linebreak"></div>
+		
+			<div id="info_description_3"></div>
 		
 		</div>
 		
 	</div>
-
+	
+	<!-- Info JavaScript -->
+	<script type="text/javascript" src="scripts/knight.js"></script>
+	<script type="text/javascript" src="scripts/berserker.js"></script>
+	<script type="text/javascript" src="scripts/wizard.js"></script>
+	<script type="text/javascript" src="scripts/priest.js"></script>
+	<script type="text/javascript" src="scripts/ranger.js"></script>
+	<script type="text/javascript" src="scripts/heavy_gunner.js"></script>
+	<script type="text/javascript" src="scripts/thief.js"></script>
+	<script type="text/javascript" src="scripts/assassin.js"></script>
+	
+	<!-- jQuery, Popper, Bootstrap -->
+	<script src="scripts/jquery.slim.min.js"></script>
+	<script src="scripts/popper.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	
+	<!-- Other JavaScript -->
+	<script src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/index.js"></script>
+	
 </body>
 
 </html>
