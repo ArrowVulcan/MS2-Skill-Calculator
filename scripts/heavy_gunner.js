@@ -399,4 +399,4 @@ var heavy_gunner_skills = [
 			]
 		}
 	]
-]
+];

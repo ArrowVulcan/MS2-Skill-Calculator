@@ -392,4 +392,4 @@ var thief_skills = [
 			]
 		}
 	]
-]
+];

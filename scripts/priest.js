@@ -415,4 +415,4 @@ var priest_skills = [
 			]
 		}
 	]
-]
+];
