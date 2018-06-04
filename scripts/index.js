@@ -274,8 +274,14 @@ function setSkillInfo(type){
 				let infoDescription = document.getElementById("info_description_3");
 				
 				if( type == "skill" ){
-					$(".info_level").text("Level " + parseInt( levels[i]) );
-					infoDescription.innerHTML = isUndefined(texts[i][levels[i]]);
+					if( levels[i] == 0 ){
+						let newLevel = parseInt(levels[i]) + 1;
+						$(".info_level").text("Level " + newLevel );
+						infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					}else{
+						$(".info_level").text("Level " + parseInt( levels[i]) );
+						infoDescription.innerHTML = isUndefined(texts[i][levels[i]]);
+					}
 				}else if( type == "plus" ){
 					let newLevel = parseInt(levels[i]) + 1;
 					$(".info_level").text("Level " + newLevel);
@@ -685,9 +691,9 @@ function showStats_2(){
 function hideWindow(){
 	$("#window").hide();
 	
-	if( $("#window_2").is(":hidden") ){
+	//if( $("#window_2").is(":hidden") ){
 		$("#blocker").show();
-	}
+	//}
 }
 
 function hideWindow_2(){
@@ -706,7 +712,7 @@ function hideWindow_3(){
 function startTime(){
 	
     var d = new Date();
-		var Time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'UTC' });
+	var Time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'UTC' });
     document.getElementById('clock').innerHTML = "<p>" + Time + "</p>";
     var t = setTimeout(startTime, 500);
 
@@ -722,18 +728,20 @@ $( window ).on( "load", function(){
 
 	// Make window draggable
 	$("#window").draggable({ handle: "#drag_bar", containment: [15, 23, 1060, 1920] });
-	$("#window_2").draggable({ handle: "#drag_bar_2", containment: [15, 35, 1670, 1920] });
-	$("#window_3").draggable({ handle: "#drag_bar_3", containment: [15, 35, 1513, 1920] });
+	//$("#window_2").draggable({ handle: "#drag_bar_2", containment: [15, 35, 1670, 1920] });
+	//$("#window_3").draggable({ handle: "#drag_bar_3", containment: [15, 35, 1513, 1920] });
 	
 	// Set Attribute points
-	let points = document.getElementById("attributePoints");
-	points.innerHTML = "<p>" + attributePoints + "</p>";
+	//let points = document.getElementById("attributePoints");
+	//points.innerHTML = "<p>" + attributePoints + "</p>";
 	
 	// Collect data, load url points, create columns, set points and skill locks.
 	createBase();
 
 	// Set Mouse triggers (mousemove, mouseleave, mousedown)
 	setMouseTriggers();
+	
+	/* Stats windows that are currently taken out
 	
 	// Mousedown for statsButton
 	$(".statsButton").mousedown(function(event){
@@ -757,13 +765,6 @@ $( window ).on( "load", function(){
 
 	});
 	
-	// Mousedown for #window
-	$("#window").mousedown(function(event){
-		$("#window").css("z-index", 20);
-		$("#window_2").css("z-index", 10);
-		$("#window_3").css("z-index", 10);
-	});
-	
 	// Mousedown for #window_2
 	$("#window_2").mousedown(function(event){
 		$("#window_2").css("z-index", 20);
@@ -776,6 +777,15 @@ $( window ).on( "load", function(){
 		$("#window_3").css("z-index", 20);
 		$("#window").css("z-index", 10);
 		$("#window_2").css("z-index", 10);
+	});
+	
+	*/
+	
+	// Mousedown for #window
+	$("#window").mousedown(function(event){
+		$("#window").css("z-index", 20);
+		$("#window_2").css("z-index", 10);
+		$("#window_3").css("z-index", 10);
 	});
 	
 });

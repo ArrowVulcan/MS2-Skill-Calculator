@@ -45,7 +45,7 @@ html{
 
 /* width */
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 10px;
 }
 
 /* Track */
@@ -71,6 +71,7 @@ html{
 	display: none;
 	position: absolute;
 	top: 22px;
+	margin-bottom: 20px;
 }
 
 #lines{
@@ -485,7 +486,7 @@ header{
     animation-name: bounce;
     animation-duration: 1s;
 	animation-iteration-count: infinite;
-	animation-direction: alternate ;
+	animation-direction: alternate;
 }
 
 #selectArrows img{
@@ -507,7 +508,7 @@ header{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 100px;
+	width: 88px;
 	height: 30px;
 	background-color: #fa0;
 	border-bottom-right-radius: 12px;
@@ -516,9 +517,9 @@ header{
 
 #serverTimes p{
 	position: relative;
-	width: 85px;
-	top: -3px;
-	left: 60px;
+    width: 54px;
+    top: -3px;
+    left: 55px;
 	color: #fff;
 	text-align: right;
 	text-shadow: black 1px 1px;
@@ -528,11 +529,28 @@ header{
 
 #clock{
     background-image: url(../images/clock.png);
+	background-repeat: no-repeat;
     position: relative;
     width: 17px;
     height: 18px;
     top: 6px;
     left: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #ffaa00;
+	text-align: center;
+	z-index: 50;
+}
+
+footer p{
+	font-size: 14px;
+	color: #FFF;
+    text-shadow: black 1px 1px;
 }
 
 /*
@@ -553,7 +571,6 @@ header{
 	margin: 0;
 	padding: 0;
 }
-
 
 #info_box{
 	position: absolute;
