@@ -476,7 +476,7 @@ function changeSkillPoints(event, value){
 		if( i == 12 || i == 18 ){ continue; }
 		
 		// Prevent skill(0, 1) from being decreased lower than rank 1
-		if( (value == -1) &&(i == 0 || i == 1) && levels[i] <= 1 ){ continue; }
+		if( (value == -1) && (i == 0 || i == 1) && levels[i] <= 1 ){ continue; }
 	
 		if( titles[i] == infoTitle ){
 			
@@ -706,7 +706,7 @@ function hideWindow_3(){
 function startTime(){
 	
     var d = new Date();
-	var Time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'UTC' })
+		var Time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'UTC' });
     document.getElementById('clock').innerHTML = "<p>" + Time + "</p>";
     var t = setTimeout(startTime, 500);
 

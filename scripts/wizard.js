@@ -532,4 +532,4 @@ var wizard_skills = [
 			]
 		}
 	]
-]
+];

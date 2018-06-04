@@ -458,4 +458,4 @@ var knight_skills = [
 			]
 		}
 	]
-]
+];

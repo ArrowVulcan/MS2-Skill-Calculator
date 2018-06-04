@@ -526,4 +526,4 @@ var ranger_skills = [
 			]
 		}
 	]
-]
+];

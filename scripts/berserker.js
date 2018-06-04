@@ -464,4 +464,4 @@ var berserker_skills = [
 			]
 		}
 	]
-]
+];
