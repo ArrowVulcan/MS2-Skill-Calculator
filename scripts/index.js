@@ -52,13 +52,16 @@ function loadUrlPoints(){
 		
 		params = params.split('-');
 
-		for(let i=0; i < params.length; i++){
-			if( i <= 23 ){
-				levelsURL[i] = params[i];
-			}
+		for(let i=0; i < (params.length - 1); i++){
+				
+			levelsURL[i] = params[i];
+			
 			if( params[i] > 0 ){
 				lockedsURL[i] = 0;
+			}else{
+				lockedsURL[i] = 1;
 			}
+			
 		}
 		
 		showSkills();
