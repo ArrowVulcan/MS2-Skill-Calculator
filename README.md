@@ -2,7 +2,9 @@
 
 A Maplestory 2 Skill Calculator.
 
-Missing:
-- Skill information to all the classes.
+Todo:
+- Skill information may not be 100% accurate
+- Stat calculator is a WIP
+- Boss timer is a WIP
  
- To change/add information to the skills goto /scripts location and change the .json file for that class.
+ To change/add information to the skills goto /scripts folder and edit the .js file for that class.
