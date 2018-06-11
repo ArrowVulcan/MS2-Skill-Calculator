@@ -1,6 +1,3 @@
-/*
- * TODO: Cunning Tactics
- */
 var thief_skills = [
 	column1 = [
 		{
@@ -184,7 +181,19 @@ var thief_skills = [
 			"hidden": 0,
 			"image": 101,
 			"title": "Cunning Tactics",
-			"resource": "Cooldown 23 second(s)",
+			"resource": [
+				"",
+				"Cooldown 23 second(s)",
+				"Cooldown 22 second(s)",
+				"Cooldown 21 second(s)",
+				"Cooldown 20 second(s)",
+				"Cooldown 19 second(s)",
+				"Cooldown 18 second(s)",
+				"Cooldown 17 second(s)",
+				"Cooldown 16 second(s)",
+				"Cooldown 15 second(s)",
+				"Cooldown 14 second(s)",
+			],
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
@@ -193,6 +202,15 @@ var thief_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>20</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>20</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>20</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>25</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>25</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>25</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>30</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>30</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>30</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
+				"<p><span class='info_gray'>Using the tricks of the trade, recover <span class='info_blue'>35</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.</span></p>",
 			]
 		}
 	],[

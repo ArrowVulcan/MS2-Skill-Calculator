@@ -53,15 +53,14 @@ function loadUrlPoints(){
 		params = params.split('-');
 
 		for(let i=0; i < (params.length - 1); i++){
-				
+
 			levelsURL[i] = params[i];
-			
 			if( params[i] > 0 ){
 				lockedsURL[i] = 0;
 			}else{
 				lockedsURL[i] = 1;
 			}
-			
+
 		}
 		
 		showSkills();
@@ -169,6 +168,13 @@ function storeData(){
 		}
 	}
 	
+	// Check for default unlocked abilities.
+	for(let l=0; l < lockeds.length; l++){
+		if( lockeds[l] == 0 ){
+			lockedsURL[l] = 0;
+		}
+	}
+	
 	// If URL have info, Use it instead
 	if( levelsURL.length > 0 && lockedsURL.length > 0 ){
 		levels = levelsURL;
@@ -261,9 +267,6 @@ function setSkillInfo(type){
 					box.style.display = "none";
 					return;
 				}
-			
-				// Set Resources text
-				$(".info_resource").text(resources[i]);
 				
 				// Set element text
 				$("#info_name").removeClass();
@@ -276,23 +279,41 @@ function setSkillInfo(type){
 				
 				let infoDescription = document.getElementById("info_description_3");
 				
+				// Get/Set Resources text
+				let isArray = Array.isArray(resources[i]);
+				
+				function getResources(changes){
+					
+					let newLevel = parseInt(levels[i]) + changes;
+					
+					if( isArray ){
+						$(".info_resource").text(resources[i][newLevel]);
+					}else{
+						$(".info_resource").text(resources[i]);
+					}
+				}
+			
 				if( type == "skill" ){
 					if( levels[i] == 0 ){
 						let newLevel = parseInt(levels[i]) + 1;
 						$(".info_level").text("Level " + newLevel );
 						infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+						getResources(1);
 					}else{
 						$(".info_level").text("Level " + parseInt( levels[i]) );
 						infoDescription.innerHTML = isUndefined(texts[i][levels[i]]);
+						getResources(0);
 					}
 				}else if( type == "plus" ){
 					let newLevel = parseInt(levels[i]) + 1;
 					$(".info_level").text("Level " + newLevel);
 					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					getResources(1);
 				}else if( type == "minus" ){
 					let newLevel = parseInt(levels[i]) - 1;
 					$(".info_level").text("Level " + newLevel );
 					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					getResources(-1);
 				}
 			
 				// Set tooltip image
@@ -320,6 +341,7 @@ function setSkillLock(){
 
 	let skillIcons = document.getElementsByClassName("skillImage");
 
+	
 	for(let i=0; i < lockeds.length; i++){
 	
 		if( lockReqs[i] != undefined ){
@@ -369,13 +391,13 @@ function setSkillLock(){
 	
 		for(let i=0; i < Class_skills.length; i++){
 		
-			if( levels[i] == 0 ){
+			if( parseInt(levels[i]) == 0 ){
 				skillMinus[i].classList.add("minus_locked");
 			}else{
 				skillMinus[i].classList.remove("minus_locked");
 			}
 			
-			if( levels[i] == maxLevels[i] ){
+			if( parseInt(levels[i]) == maxLevels[i] ){
 				skillPlus[i].classList.add("plus_locked");
 			}else{
 				skillPlus[i].classList.remove("plus_locked");
@@ -388,7 +410,7 @@ function setSkillLock(){
 			}
 			
 			// Locks base skills(0, 1) from having 0 points.
-			if( (i == 0 || i == 1) && levels[i] == 1 ){
+			if( (i == 0 || i == 1) && parseInt(levels[i]) == 1 ){
 				skillMinus[i].classList.add("minus_locked");
 			}
 		

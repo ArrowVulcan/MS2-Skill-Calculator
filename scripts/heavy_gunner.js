@@ -222,7 +222,7 @@ var heavy_gunner_skills = [
 			"image": 86,
 			"title": "Advanced Pulse Weapons",
 			"element": "Electric",
-			"resource": "Spirit 16",
+			"resource": "",
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 1,
@@ -232,6 +232,15 @@ var heavy_gunner_skills = [
 			"texts": [
 				"",
 				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>1.5%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>3%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>4.5%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>6%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>7.5%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>9%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>10.5%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>12%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>13.5%</span></span></p>",
+				"<p><span class='info_gray'>Upgrade your cannon's magnetic field engine to increase its output. Increases the damage of Magnetic Bomb and Electric Blast by <span class='info_blue'>15%</span></span></p>",
 			]
 		}
 	],[
