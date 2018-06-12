@@ -682,7 +682,7 @@ function setMouseTriggers(){
 
 function showSkills(){
 	$("#window").show();
-	$("#blocker").hide();
+	$("#blocker, #selectArrows").hide();
 	$("#window").css("z-index", 20);
 	$("#window_2").css("z-index", 10);
 	$("#window_3").css("z-index", 10);
@@ -690,7 +690,7 @@ function showSkills(){
 
 function showStats(){
 	$("#window_2").show();
-	$("#blocker").hide();
+	$("#blocker, #selectArrows").hide();
 	$("#window").css("z-index", 10);
 	$("#window_2").css("z-index", 20);
 }
@@ -717,7 +717,7 @@ function hideWindow(){
 	$("#window").hide();
 	
 	//if( $("#window_2").is(":hidden") ){
-		$("#blocker").show();
+		$("#blocker, #selectArrows").show();
 	//}
 }
 
@@ -726,7 +726,7 @@ function hideWindow_2(){
 	$("#window_3").hide();
 	
 	if( $("#window").is(":hidden") ){
-		$("#blocker").show();
+		$("#blocker, #selectArrows").show();
 	}
 }
 
