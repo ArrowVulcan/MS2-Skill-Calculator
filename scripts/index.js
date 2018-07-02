@@ -518,15 +518,19 @@ function changeSkillPoints(event, value){
 				if( levels[i] < maxLevels[i] && getSkillpoints() > 0 ){
 				
 					// If a locked skill is increased, add pre-required skills
-					if( lockeds[i] == 1 ){
-					
+					if( lockeds[i] == 1 ){ 
 						levelUpAllPrereqSkills(i);
-					
 					}
 				
 					levels[i] = parseInt(levels[i]) + 1;
 					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
 				
+				} else if( levels[i] == maxLevels[i] ){
+					
+					// Set skill level to 0 if you click on the {+} button at max skill level
+					levels[i] = 0;
+					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
+
 				}
 			
 			}else{
@@ -537,6 +541,21 @@ function changeSkillPoints(event, value){
 					levels[i] = parseInt(levels[i]) - 1;
 					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
 				
+				}else if( levels[i] == 0 ){
+
+					// Set skill level to max if you click on the {-} button at skill level 0
+					if( lockeds[i] == 1 ){ 
+						levelUpAllPrereqSkills(i);
+					}
+
+					if( getSkillpoints() >= maxLevels[i] ) {
+						levels[i] = maxLevels[i];
+					}else{
+						levels[i] = getSkillpoints();
+					}
+
+					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
+
 				}
 			
 			}
@@ -567,24 +586,17 @@ function setPointsUsed(){
  * @description Sets the level of your pre-req skills to the levels defined in lockReqs[].
  * @argument index The index of the skill to check the pre-reqs of.
  * @returns void
- * @author ChungHoward
  */
 function levelUpAllPrereqSkills(index) {
-	
 	let skillTexts = document.getElementsByClassName("skill_text");
 	let prereqArray = lockReqs[index].split('-');
 	
 	for (let i = 0; i < levels.length; i++) {
-
-		if (levels[i] < prereqArray[i]) {
-
+		if (levels[i] < prereqArray[i] && getSkillpoints() >= parseInt(prereqArray[i])) {
 			levels[i] = parseInt(prereqArray[i]);
 			skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
-
 		}
-
 	}
-
 }
 
 function setJobLines(){
