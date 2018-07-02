@@ -186,7 +186,7 @@ function storeData(){
 }
 
 // setSkillInfo - Sets the skill info for the hover-tooltip
-function setSkillInfo(type){
+function setSkillInfo(event, type){
 
 		// Check if skill info exists
 		function isUndefined(info){
@@ -550,7 +550,7 @@ function changeSkillPoints(event, value){
 	
 	let type = event.target.classList[0];
 	
-	setSkillInfo(type);
+	setSkillInfo(event, type);
 	setSkillLock();
 
 }
@@ -650,7 +650,7 @@ function setMouseTriggers(){
 	$(".skill, .plus, .minus").mousemove(function(event){
 	
 		let type = event.target.classList[0];
-		setSkillInfo(type);
+		setSkillInfo(event, type);
 
 	});
 	
