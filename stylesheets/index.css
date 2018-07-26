@@ -70,9 +70,10 @@ html{
 	height: 910px;
 	display: none;
 	position: absolute;
-	top: 10px;
+	top: 0px;
+	left: 25%;
 	margin-bottom: 20px;
-	margin: 0 auto;
+	margin: auto;
 }
 
 #lines{

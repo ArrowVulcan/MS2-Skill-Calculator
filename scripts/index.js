@@ -752,7 +752,7 @@ function hideWindow_3(){
 function startTime(){
 	
     var d = new Date();
-	var Time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'UTC' });
+		var Time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'UTC' });
     document.getElementById('clock').innerHTML = "<p>" + Time + "</p>";
     var t = setTimeout(startTime, 500);
 
