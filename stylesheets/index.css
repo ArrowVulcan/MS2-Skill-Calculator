@@ -55,7 +55,7 @@ html{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #fa0;
+    background: #FA0;
 	border-radius: 12px;
 }
 
@@ -132,7 +132,7 @@ html{
 }
 
 .skill_text{
-	color: #FFF;
+	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -245,9 +245,9 @@ html{
 #skill_points p{
     position: relative;
     font-size: 15px;
-    color: #FFF;
+    color: white;
     text-align: left;
-    text-shadow: #000 1px 1px;
+    text-shadow: black 1px 1px;
     left: 6px;
     top: 9px;
 }
@@ -311,8 +311,8 @@ html{
 .topNav_bar p{
 	font-weight: bold;
 	font-size: 20px;
-	color: black;
-    text-shadow: 0px 1px #FED695;
+	color: white;
+    text-shadow: -1px 1px #310, 1px 1px #310;
 }
 
 .fixed-top{
@@ -513,7 +513,7 @@ header{
 	left: 0px;
 	width: 88px;
 	height: 30px;
-	background-color: #fa0;
+	background-color: #FA0;
 	border-bottom-right-radius: 12px;
 	padding-left: 5px;
 }
@@ -526,8 +526,8 @@ header{
     left: 55px;
 	padding-right: 5px;
 	text-align: right;
-	color: black;
-    text-shadow: 0px 1px #FED695;
+	color: white;
+    text-shadow: -1px 1px #310, 1px 1px #310;
 }
 
 #clock{
@@ -558,7 +558,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 24px; /* must be equal to padding-bottom of main */
-    background-color: #ffaa00;
+    background-color: #FA0;
 	text-align: center;
 	z-index: 50;
 }
@@ -570,7 +570,7 @@ footer{
 		bottom: 0;
 		width: 100%;
 		height: 20px;
-		background-color: #ffaa00;
+		background-color: #FA0;
 		text-align: center;
 		z-index: 50;
 	}
@@ -578,8 +578,8 @@ footer{
 
 footer span{
 	font-size: 14px;
-	color: black;
-    text-shadow: 0px 1px #FED695;
+	color: white;
+    text-shadow: -1px 1px #310, 1px 1px #310;
 }
 
 /*
