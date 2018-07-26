@@ -70,8 +70,9 @@ html{
 	height: 910px;
 	display: none;
 	position: absolute;
-	top: 22px;
+	top: 10px;
 	margin-bottom: 20px;
+	margin: 0 auto;
 }
 
 #lines{
@@ -309,7 +310,7 @@ html{
 .topNav_bar p{
 	font-size: 20px;
 	color: #FFF;
-	text-shadow: black 1px 1px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .fixed-top{
@@ -522,7 +523,7 @@ header{
     left: 55px;
 	color: #fff;
 	text-align: right;
-	text-shadow: black 1px 1px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	padding-right: 5px;
 	float: right;
 }
@@ -537,20 +538,28 @@ header{
     left: 5px;
 }
 
+main {
+	width: 100%;
+	height: 1000px;
+	display: block;
+}
+
 footer{
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    /* bottom: 0; */
     width: 100%;
-    height: 20px;
+    height: 50px;
     background-color: #ffaa00;
 	text-align: center;
+	vertical-align: middle;
 	z-index: 50;
 }
 
 footer p{
+	padding-top: 14px;
 	font-size: 14px;
 	color: #FFF;
-    text-shadow: black 1px 1px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /*

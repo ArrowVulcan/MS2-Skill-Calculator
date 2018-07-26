@@ -213,7 +213,7 @@ function setSkillInfo(event, type){
 		// Move the tooltip above the cursor to prevent text from going outside the screen
 		if( event.pageY > 511 ){
 		
-			if( offset > 0){
+			if( offset > 0 ){
 				box.style.left = event.pageX + 25 + 'px';
 				box.style.top = event.pageY - offset - 25 + 'px';
 			}
@@ -484,7 +484,7 @@ function resetSkills(){
 function getSkillpoints(){
 
 		let pointsUsed = 0;
-		let pointsMax = 53 + 4; // Current max points + 4 base skills
+		let pointsMax = 58 + 4; // Current max points + 4 base skills
 		
 		// Collect all the skill levels
 		for(let i=0; i < levels.length; i++){
@@ -525,10 +525,14 @@ function changeSkillPoints(event, value){
 					levels[i] = parseInt(levels[i]) + 1;
 					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
 				
-				} else if( levels[i] == maxLevels[i] ){
+				}else if( levels[i] == maxLevels[i] ){
 					
-					// Set skill level to 0 if you click on the {+} button at max skill level
-					levels[i] = 0;
+					// if you click on the {+} button at max skill level, set your starter skills to lv1
+					if ( i == 0 || i == 1) {
+						levels[i] = 1;
+					} else {
+						levels[i] = 0;
+					}
 					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
 
 				}
@@ -540,10 +544,10 @@ function changeSkillPoints(event, value){
 				
 					levels[i] = parseInt(levels[i]) - 1;
 					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
-				
+
 				}else if( levels[i] == 0 ){
 
-					// Set skill level to max if you click on the {-} button at skill level 0
+					// Set skill level to max if you click on the {-} button at the minimum skill level
 					if( lockeds[i] == 1 ){ 
 						levelUpAllPrereqSkills(i);
 					}
@@ -584,8 +588,7 @@ function setPointsUsed(){
 
 /**
  * @description Sets the level of your pre-req skills to the levels defined in lockReqs[].
- * @argument index The index of the skill to check the pre-reqs of.
- * @returns void
+ * @param index The index of the skill to check the pre-reqs of.
  */
 function levelUpAllPrereqSkills(index) {
 	let skillTexts = document.getElementsByClassName("skill_text");
@@ -764,7 +767,7 @@ $( window ).on( "load", function(){
 	loadUrlPoints();
 
 	// Make window draggable
-	$("#window").draggable({ handle: "#drag_bar", containment: [15, 23, 1060, 1920] });
+	$("#window").draggable({ handle: "#drag_bar", containment: [0, 0, 1060, 1920] });
 	//$("#window_2").draggable({ handle: "#drag_bar_2", containment: [15, 35, 1670, 1920] });
 	//$("#window_3").draggable({ handle: "#drag_bar_3", containment: [15, 35, 1513, 1920] });
 	
