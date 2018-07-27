@@ -2,6 +2,10 @@
 
 A Maplestory 2 Skill Calculator.
 
+### Testing
+
+To try out the Skill Calculator, visit https://arrowvulcan.github.io/MS2-Skill-Calculator/#
+
 Todo:
 - Skill information may not be 100% accurate
 - Stat calculator is a WIP
