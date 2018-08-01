@@ -384,7 +384,7 @@ header{
 #jobName p{
 	font-size: 18px;
 	margin-top: 4px;
-	text-shadow: #fff 2px 2px;
+	text-shadow: white 2px 2px;
 }
 
 .locked:before{
@@ -476,7 +476,7 @@ header{
 	z-index: 20;
 	font-size: 64px;
 	text-align: center;
-	color: #fff;
+	color: white;
 }
 
 #selectArrows{
@@ -625,7 +625,7 @@ footer span{
 
 #info_name p{
 	margin-left: 10px;
-	color: #fff;
+	color: white;
 	font-size: 16px;
 	text-shadow: black 1px 2px;
     position: relative;
@@ -646,7 +646,7 @@ footer span{
 
 #info_element p{
 	margin-left: 10px;
-	color: #fff;
+	color: white;
 	font-size: 14px;
 	text-shadow: black 1px 2px;
     position: relative;
@@ -699,12 +699,12 @@ footer span{
 }
 
 .info_resource{
-	color: #fff;
+	color: white;
 	font-size: 14px;
 }
 
 .info_level{
-	color: #fff;
+	color: white;
 	font-size: 18px;
 }
 
@@ -726,6 +726,11 @@ footer span{
 .info_blue{
 	color: #0082c5;
 	font-size: 12px;
+}
+
+.info_empowered{
+	font-style: italic;
+	color: #777;
 }
 
 .element_holy{
