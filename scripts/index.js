@@ -505,9 +505,6 @@ function changeSkillPoints(event, value){
 	
 		// Prevent skill(12, 18) to be increased/decreased
 		if( i == 12 || i == 18 ){ continue; }
-		
-		// Prevent skill(0, 1) from being decreased lower than rank 1
-		if( (value == -1) && (i == 0 || i == 1) && levels[i] <= 1 ){ continue; }
 	
 		if( titles[i] == infoTitle ){
 			
@@ -539,15 +536,10 @@ function changeSkillPoints(event, value){
 			
 			}else{
 			
-				// Decrease points
-				if( levels[i] > 0 ){
-				
-					levels[i] = parseInt(levels[i]) - 1;
-					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
+				// Set skill level to max if you click on the {-} button at the minimum skill level
+				// and prevent skill(0, 1) from being decreased lower than rank 1
+				if( levels[i] == 0 || (levels[i] == 1 && i <= 1)){
 
-				}else if( levels[i] == 0 ){
-
-					// Set skill level to max if you click on the {-} button at the minimum skill level
 					if( lockeds[i] == 1 ){ 
 						levelUpAllPrereqSkills(i);
 					}
@@ -558,6 +550,11 @@ function changeSkillPoints(event, value){
 						levels[i] = getSkillpoints();
 					}
 
+					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
+
+				}else if( levels[i] > 0 ){
+					// Decrease points
+					levels[i] = parseInt(levels[i]) - 1;
 					skillTexts[i].innerHTML = (levels[i]) + "/" + maxLevels[i];
 
 				}
