@@ -481,7 +481,7 @@ var ranger_skills = [
 			"title": "Sharp Eyes",
 			"resource": "Cooldown 180 second(s)",
 			"level": 0,
-			"maxLevel": 10,
+			"maxLevel": 9,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Conditioning [Level 6+]</span></p>",
