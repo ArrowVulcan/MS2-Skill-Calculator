@@ -1,16 +1,39 @@
+"use strict";
 /**
+ * I have no clue how to edit your html/css in a way that doesn't break the window.
  * @author Howard
  */
 let skillBuilds;
 
-/**
- * Instantiate skillBuilds from localStorage if it exists.
- */
 window.onload = function () {
+  // Enable tooltips
+  $("[data-toggle=tooltip").tooltip();
+  // Instantiate skillBuilds from localStorage if it exists.
   skillBuilds = localStorage.getItem("ms2skillcalculator");
   if (!skillBuilds) {
     skillBuilds = [];
   }
+  // Prevent form submission and save the skillBuild
+  document.getElementById("saveSkillBuild").addEventListener("submit", (event) => {
+    event.preventDefault();
+    saveSkillBuild();
+  });
+};
+
+// Listen for the Esc key input while focus is on the input field
+$('input[type=text]').keyup(function(e) {
+  if (e.keyCode === 27) { // 27 is the key code for Esc
+    $(this).blur();
+    hideInputField();
+  }
+});
+
+function showInputField() {
+  document.getElementById("buildNameInput").style.display = "block";
+}
+
+function hideInputField() {
+  document.getElementById("buildNameInput").style.display = "none";
 }
 
 /**
@@ -22,8 +45,13 @@ function saveSkillBuild() {
   let nameTaken = skillBuilds.find(skillBuild => {
     return skillBuild[0] == buildName;
   });
-  (nameTaken) ? skillBuilds.splice(0, 1, skillBuild) : skillBuilds.push(skillBuild);
+  if (nameTaken) {
+    skillBuilds.splice(skillBuilds.indexOf(nameTaken), 1, skillBuild);
+  } else {
+    skillBuilds.push(skillBuild);
+  }
   localStorage.setItem("ms2skillcalculator", JSON.stringify(skillBuilds));
+  hideInputField();
 }
 
 /**

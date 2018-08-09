@@ -28,7 +28,7 @@ div{
 	display: block;
 }
 
-p, h1, h2, h3, h4, span{
+p, h1, h2, h3, h4, span, input{
 	font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
 }
 
@@ -71,7 +71,7 @@ html{
 	display: none;
 	position: absolute;
 	top: 0px;
-	left: 25%;
+	left: 20%;
 	margin-bottom: 20px;
 	margin: auto;
 }
@@ -271,18 +271,33 @@ html{
 	cursor: pointer;
 }
 
+#saveLabel{
+	position: relative;
+    width: 99px;
+    height: 36px;
+    left: 396px;
+    top: 17px;
+	margin: 0;
+	cursor: pointer;
+}
+
+#buildNameInput{
+	width: 9rem;
+	display: none;
+}
+
 #selectJob{
 	position: relative;
     width: 119px;
     height: 36px;
     left: 708px;
-    top: 17px;
+    bottom: 25px;
 }
 
 #jobDrop{
     position: relative;
     left: 708px;
-    top: -20px;
+    bottom: 60px;
 }
 
 #jobDrop button{
