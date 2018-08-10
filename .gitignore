@@ -1,4 +1,4 @@
 .vscode/
-/node_modules/
-package-lock.json
-.jshintrc
+node_modules/
+package.json
+.eslintrc.json
