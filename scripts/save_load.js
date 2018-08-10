@@ -43,7 +43,6 @@ function hideInputField() {
 function saveSkillBuild() {
   let buildName = document.getElementById("buildNameInput").value;
   let skillBuild = [buildName, location.href];
-  console.log(skillBuild);
   let nameTaken = skillBuilds.find(skillBuild => {
     return skillBuild[0] == buildName;
   });
@@ -72,7 +71,7 @@ function buildMenu() {
     menuItem.innerText = skillBuild[0];
     // Left click to open skillBuild url in new tab
     menuItem.setAttribute("onclick", "window.open('" + skillBuild[1] + "')");
-    // Right click to delete the skillBuild
+    // Right click to delete the skillBuild. Below is a wrapper function to avoid calling delete immediately
     menuItem.addEventListener("contextmenu", function() { deleteSkillBuild(event, skillBuild[0]) });
     loadMenu.appendChild(menuItem);
   });
@@ -80,7 +79,7 @@ function buildMenu() {
 
 /**
  * Deletes all skillBuilds with the name, {@param buildName}, then saves.
- * @param {event} event The right click event
+ * @param {event} event Prevents the context menu from appearing when right clicking
  * @param {String} buildName The name of the build that the user deletes
  */
 function deleteSkillBuild(event, buildName) {
