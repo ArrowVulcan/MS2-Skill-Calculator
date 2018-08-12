@@ -191,7 +191,7 @@ function setSkillInfo(event, type){
 		// Check if skill info exists
 		function isUndefined(info){
 		
-			if( info == undefined ){ return "<p><span class='info_gray'>Skill information is missing!</span></p>" }
+			if( info == undefined ){ return "<p><span class='info_gray'>Skill information is missing!</span></p>"; }
 			
 			return info;
 		

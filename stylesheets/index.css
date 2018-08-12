@@ -28,7 +28,7 @@ div{
 	display: block;
 }
 
-p, h1, h2, h3, h4, span{
+p, h1, h2, h3, h4, span, input{
 	font-family: "Montserrat", "Arial", "Helvetica", "sans-serif";
 }
 
@@ -71,7 +71,7 @@ html{
 	display: none;
 	position: absolute;
 	top: 0px;
-	left: 25%;
+	left: 20%;
 	margin-bottom: 20px;
 	margin: auto;
 }
@@ -240,6 +240,7 @@ html{
     height: 34px;
     top: 87px;
     left: 17px;
+	margin: 0;
 }
 
 #skill_points p{
@@ -268,7 +269,63 @@ html{
     height: 36px;
     left: 293px;
     top: 53px;
+	margin: 0;
 	cursor: pointer;
+}
+
+#saveSkillBuild{
+	position: relative;
+	width: 0;
+	height: 0;
+}
+
+#saveLabel{
+	position: relative;
+    width: 148px;
+    height: 38px;
+    left: 400px;
+    top: 16px;
+	margin: 0 auto;
+	cursor: pointer;
+	background-image: linear-gradient(#EEEEEE, #C5C5C5, #F6F6F6);
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(50, 50, 50, 0.6);
+	box-shadow: 0px 1px 1px black;
+	text-align: center;
+	line-height: 30px;
+	color: #252525;
+}
+
+.vertical-align{
+	vertical-align: middle;
+	display: inline-block;
+	line-height: normal;
+}
+
+#buildNameInput{
+	width: 9rem;
+	display: none;
+}
+
+#loadSkillBuild{
+	position: relative;
+    height: 38px;
+    left: 553px;
+    top: 16px;
+	margin: 0;
+	cursor: pointer;
+}
+
+#loadBuildButton{
+	background-image: linear-gradient(#EEEEEE, #C5C5C5, #F6F6F6);
+	border-radius: 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(50, 50, 50, 0.6);
+	box-shadow: 0px 1px 1px black;
+	width: 148px;
 }
 
 #selectJob{
@@ -276,13 +333,13 @@ html{
     width: 119px;
     height: 36px;
     left: 708px;
-    top: 17px;
+    bottom: 20px;
 }
 
 #jobDrop{
     position: relative;
     left: 708px;
-    top: -20px;
+    bottom: 55px;
 }
 
 #jobDrop button{

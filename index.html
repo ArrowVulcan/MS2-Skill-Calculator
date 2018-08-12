@@ -72,12 +72,33 @@
 			<div id="skill_points"><p>Remaining Skill Points: </p><p id="skillPointNumber">0</p></div>
 			
 			<div id="resetSkills" onclick="resetSkills()"></div>
-			
+
+			<form id="saveSkillBuild">
+				<label id="saveLabel" for="buildNameInput" onclick="showInputField()">
+					<span class="vertical-align">
+						Save Build
+					</span>
+					<input class="form-control" id="buildNameInput" placeholder="Save As" type="text"
+							data-toggle="tooltip" data-placement="left" title="Enter to Save. Esc to Cancel."/>
+				</label>
+				<input class="d-none" type="submit"/>
+			</form>
+
+			<div id="loadSkillBuild" class="btn-group dropup">
+				<button type="button" class="btn dropdown-toggle" id="loadBuildButton" onclick="buildMenu()"
+						data-toggle="dropdown" data-offset="-10,5" aria-expanded="false" aria-haspopup="true">
+					Load Build
+				</button>
+				<div id="loadMenu" class="dropdown-menu" data-toggle="tooltip" data-placement="right"
+						title="Right click to Delete."></div>
+			</div>
+
 			<div id="selectJob" onclick="changeJob()"></div>
 			
 			<!-- Default dropup button -->
 			<div id="jobDrop" class="btn-group dropup">
-				<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="-40,5"></button>
+				<button type="button" class="btn dropdown-toggle"
+				data-toggle="dropdown" data-offset="-40,5" aria-haspopup="true" aria-expanded="false"></button>
 				<div class="dropdown-menu">
 					<a class="dropdown-item" onclick="changeJob(knight_skills, 'Knight')" href="#">Knight</a>
 					<a class="dropdown-item" onclick="changeJob(berserker_skills, 'Berserker')" href="#">Berserker</a>
@@ -182,6 +203,7 @@
 	<!-- Other JavaScript -->
 	<script src="scripts/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="scripts/index.js"></script>
+	<script type="text/javascript" src="scripts/save_load.js"></script>
 
 </div>
 </body>
