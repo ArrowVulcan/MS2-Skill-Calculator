@@ -10,13 +10,15 @@ var lockReqs = [];
 var requirements = [];
 var infos = [];
 var texts = [];
-var Class_skills = knight_skills;
+var Class_skills;
 var attributePoints = 50;
 var lockedsURL = [];
 var levelsURL = [];
 
 // changeJob - Change skills to another job
 function changeJob(job, name){
+
+	if( job == undefined ){ return; }
 
 	Class_skills = job;
 
@@ -746,77 +748,24 @@ function hideWindow_3(){
 	$("#window_3").hide();
 }
 
-function startTime(){
-	
-    var d = new Date();
-		var Time = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false, timeZone: 'UTC' });
-    document.getElementById('clock').innerHTML = "<p>" + Time + "</p>";
-    var t = setTimeout(startTime, 500);
-
-}
-
 $( window ).on( "load", function(){
 
-	// Set/Start timers
-	startTime();
+	if( location.href.search("skills.html") == -1 ){ return; }
 
+	// Set Default
+	Class_skills = knight_skills;
+	
 	// Load url points
 	loadUrlPoints();
 
 	// Make window draggable
 	$("#window").draggable({ handle: "#drag_bar", containment: [0, 0, 1060, 1920] });
-	//$("#window_2").draggable({ handle: "#drag_bar_2", containment: [15, 35, 1670, 1920] });
-	//$("#window_3").draggable({ handle: "#drag_bar_3", containment: [15, 35, 1513, 1920] });
-	
-	// Set Attribute points
-	//let points = document.getElementById("attributePoints");
-	//points.innerHTML = "<p>" + attributePoints + "</p>";
 	
 	// Collect data, load url points, create columns, set points and skill locks.
 	createBase();
 
 	// Set Mouse triggers (mousemove, mouseleave, mousedown)
 	setMouseTriggers();
-	
-	/* Stats windows that are currently taken out
-	
-	// Mousedown for statsButton
-	$(".statsButton").mousedown(function(event){
-	
-		if( attributePoints <= 0 ){ return; }
-	
-		let stat = event.target.dataset.stat;
-		let txt = event.target.innerHTML;
-		
-		txt = txt.replace("<p>", "").replace("</p>", "");
-		
-		event.target.innerHTML = "<p>" + (parseInt(txt)+1) + "</p>";
-		
-		attributePoints = attributePoints - 1;
-	
-		// Set new points
-		let points = document.getElementById("attributePoints");
-		points.innerHTML = "<p>" + attributePoints + "</p>";
-		
-		event.target.classList.add("bonus");
-
-	});
-	
-	// Mousedown for #window_2
-	$("#window_2").mousedown(function(event){
-		$("#window_2").css("z-index", 20);
-		$("#window").css("z-index", 10);
-		$("#window_3").css("z-index", 10);
-	});
-	
-	// Mousedown for #window_3
-	$("#window_3").mousedown(function(event){
-		$("#window_3").css("z-index", 20);
-		$("#window").css("z-index", 10);
-		$("#window_2").css("z-index", 10);
-	});
-	
-	*/
 	
 	// Mousedown for #window
 	$("#window").mousedown(function(event){
@@ -826,3 +775,81 @@ $( window ).on( "load", function(){
 	});
 	
 });
+
+function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+$( window ).on( "load", function(){
+
+	// Show/Hide cookie alert
+	let cAgree = getCookie("cookie");
+	if( cAgree == 0 ){
+		$(".alert").show();
+	}
+	
+	let darkmode = getCookie("darkmode");
+	if( darkmode == "true" ){
+		setDarkmode();
+	}
+	
+	function setDarkmode(){
+		let getSwitch = document.getElementById("switch");
+		$(getSwitch).removeClass("fa-toggle-off");
+		$(getSwitch).addClass("fa-toggle-on");
+		document.body.style.backgroundColor = "#111";
+		$("#footer_text").css("color", "#fff");
+		$(".themeColor").css("color", "#fff");
+		$(".icon-bar").addClass("icon-hover");
+	}
+	
+	function removeDarkmode(){
+		let getSwitch = document.getElementById("switch");
+		$(getSwitch).addClass("fa-toggle-off");
+		$(getSwitch).removeClass("fa-toggle-on");
+		document.body.style.backgroundColor = "#fff";
+		$("#footer_text").css("color", "#1c1c1c");
+		$(".themeColor").css("color", "#1c1c1c");
+		$(".icon-bar").removeClass("icon-hover");
+	}
+	
+	$("#switch").mousedown(function(event){
+		if( $(this).hasClass("fa-toggle-off") ){
+			setDarkmode();
+			setCookie("darkmode", "true", 30);
+		}else{
+			removeDarkmode();
+			setCookie("darkmode", "false", 30);
+		}
+
+	});
+	
+	$(".alert .close").mousedown(function(event){
+		setCookie("cookie", "1", 30);
+	});
+	
+});
+
+// if phone or pad
+if( screen.width <= 768 ){
+	window.location.replace("./mobile.html");
+}

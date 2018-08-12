@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+	
+	<link rel="icon" href="images/favicon.png">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+
+	<title>MS2 Fansite | Skills</title>
+	<link rel="stylesheet" href="stylesheets/index.css">
+	<link rel="stylesheet" href="stylesheets/skills.css">
+	
+</head>
+<body>
+
+	<div class="alert alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<h3 class="alertTxt"><strong>Cookies!</strong></h3><br>
+		<p class="alertTxt">This site uses cookies to remember marked chests and dark theme.
+		Using this fansite means that you are okey with this.</p>
+	</div>
+
+	<div id="dark_mode">
+		<p>Dark Theme</p>
+		<i id="switch" class="fa fa-toggle-off"></i>
+	</div>
+	
+	<img id="thief_image" src="./images/thief.png">
+
+	<div class="icon-bar">
+		<a href="index.html"><i class="fa fa-home"></i></a>
+		<a href="explore.html"><i class="fa fa-map-o"></i></a>
+		<!--<a href="minigames.html"><i class="fa fa-gamepad"></i></a>
+		<a href="trophies.html"><i class="fa fa-trophy"></i></a>-->
+		<a class="active" href="skills.html"><i class="fa fa-list-alt"></i></a>
+		<a href="items.html"><i class="fa fa-archive"></i></a>
+	</div>
+	
+	<div id="sideText">
+		<p>Home</p>
+		<p>Explore</p>
+		<!--<p>MC Kay</p>
+		<p>Trophies</p>-->
+		<p>Skill Calculator</p>
+		<p>Items</p>
+	</div>
+	
+	<!-- Skill Calc Start -->
+	
+	<div class="container-fluid">
+	
+		<div id="window">
+			
+			<div id="lines"></div>
+			
+			<div id="drag_bar"></div>
+			
+			<div id="jobName"><p>Knight</p></div>
+			
+			<div id="closeWindow" onclick="hideWindow()"></div>
+		
+			<div class="row" id="skills_right">
+			
+			</div>
+			
+			<div id="skill_points"><p>Remaining Skill Points: </p><p id="skillPointNumber">0</p></div>
+			
+			<div id="resetSkills" onclick="resetSkills()"></div>
+
+			<form id="saveSkillBuild">
+				<label id="saveLabel" for="buildNameInput" onclick="showInputField()">
+					<span class="vertical-align">
+						Save Build
+					</span>
+					<input class="form-control" id="buildNameInput" placeholder="Save As" type="text"
+							data-toggle="tooltip" data-placement="left" title="Enter to Save. Esc to Cancel."/>
+				</label>
+				<input class="d-none" type="submit"/>
+			</form>
+
+			<div id="loadSkillBuild" class="btn-group dropup">
+				<button type="button" class="btn dropdown-toggle" id="loadBuildButton" onclick="buildMenu()"
+						data-toggle="dropdown" data-offset="-10,5" aria-expanded="false" aria-haspopup="true">
+					Load Build
+				</button>
+				<div id="loadMenu" class="dropdown-menu" data-toggle="tooltip" data-placement="right"
+						title="Right click to Delete."></div>
+			</div>
+
+			<div id="selectJob" onclick="changeJob()"></div>
+			
+			<!-- Default dropup button -->
+			<div id="jobDrop" class="btn-group dropup">
+				<button type="button" class="btn dropdown-toggle"
+				data-toggle="dropdown" data-offset="-40,5" aria-haspopup="true" aria-expanded="false"></button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" onclick="changeJob(knight_skills, 'Knight')" href="#">Knight</a>
+					<a class="dropdown-item" onclick="changeJob(berserker_skills, 'Berserker')" href="#">Berserker</a>
+					<a class="dropdown-item" onclick="changeJob(wizard_skills, 'Wizard')" href="#">Wizard</a>
+					<a class="dropdown-item" onclick="changeJob(priest_skills, 'Priest')" href="#">Priest</a>
+					<a class="dropdown-item" onclick="changeJob(ranger_skills, 'Ranger')" href="#">Ranger</a>
+					<a class="dropdown-item" onclick="changeJob(heavy_gunner_skills, 'Heavy Gunner')" href="#">Heavy Gunner</a>
+					<a class="dropdown-item" onclick="changeJob(thief_skills, 'Thief')" href="#">Thief</a>
+					<a class="dropdown-item" onclick="changeJob(assassin_skills, 'Assassin')" href="#">Assassin</a>
+				</div>
+			</div>
+		
+		</div>
+	
+	</div>
+	
+	<div id="info_box">
+		
+		<div id="info_name"><p></p></div>
+		
+		<div id="info_element"><p></p></div>
+		
+		<div id="info_content">
+		
+			<div id="info_image_box">
+				<div id="info_image"></div>
+			</div>
+			
+			<div id="info_top_description">
+			
+				<div class="info_resource"></div>
+				<div class="info_level"></div>
+			
+			</div>
+			
+			<div id="info_description"></div>
+			
+			<div class="info_linebreak"></div>
+			
+			<div id="info_description_2"></div>
+			
+			<div class="info_linebreak"></div>
+		
+			<div id="info_description_3"></div>
+		
+		</div>
+		
+	</div>
+	
+	<!-- Skill Calc End -->
+	
+	<footer>
+		<p id="footer_text">© 2018 Maplestory 2 Fansite</p>
+	</footer>
+	
+	<!-- Info JavaScript -->
+	<script type="text/javascript" src="scripts/knight.js"></script>
+	<script type="text/javascript" src="scripts/berserker.js"></script>
+	<script type="text/javascript" src="scripts/wizard.js"></script>
+	<script type="text/javascript" src="scripts/priest.js"></script>
+	<script type="text/javascript" src="scripts/ranger.js"></script>
+	<script type="text/javascript" src="scripts/heavy_gunner.js"></script>
+	<script type="text/javascript" src="scripts/thief.js"></script>
+	<script type="text/javascript" src="scripts/assassin.js"></script>
+	
+	<!-- jQuery, Popper, Bootstrap -->
+	<script src="scripts/jquery.slim.min.js"></script>
+	<script src="scripts/popper.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	
+	<!-- Other JavaScript -->
+	<script src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/index.js"></script>
+	<script type="text/javascript" src="scripts/save_load.js"></script>
+	
+</body>
+
+</html>

@@ -6,206 +6,170 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Itim|Merienda" rel="stylesheet">
+	
 	<link rel="icon" href="images/favicon.png">
 	
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
 
-	<title>MS2 Skill Calculator</title>
+	<title>MS2 Fansite | Home</title>
 	<link rel="stylesheet" href="stylesheets/index.css">
 	
 </head>
 <body>
-<div id="container">
-	<div id="blocker">
-		<p>Select a Tool</p>
+
+	<div class="alert alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<h3 class="alertTxt"><strong>Cookies!</strong></h3><br>
+		<p class="alertTxt">This site uses cookies to remember marked chests and dark theme.
+		Using this fansite means that you are okey with this.</p>
+	</div>
+
+	<div class="icon-bar">
+		<a class="active" href="index.html"><i class="fa fa-home"></i></a>
+		<a href="explore.html"><i class="fa fa-map-o"></i></a>
+		<!--<a href="minigames.html"><i class="fa fa-gamepad"></i></a>
+		<a href="trophies.html"><i class="fa fa-trophy"></i></a>-->
+		<a href="skills.html"><i class="fa fa-list-alt"></i></a>
+		<a href="items.html"><i class="fa fa-archive"></i></a>
+	</div>
+
+	<div id="sideText">
+		<p>Home</p>
+		<p>Explore</p>
+		<!--<p>MC Kay</p>
+		<p>Trophies</p>-->
+		<p>Skill Calculator</p>
+		<p>Items</p>
+	</div>
+
+	<div class="bgimg2">
+
+		<div class="middle">
+			<h1>Welcome to this maple fansite!</h1>
+			<h3 class="shine">- This site is still in development -</h3>
+		</div>
+		
+		<div class="bgimg3"></div>
+		<div class="bgimg4"></div>
+		<span class="meteor"></span>
+		<span class="meteor2"></span>
+		<span class="stars1"></span>
+		<span class="lights1"></span>
 	</div>
 	
-	<header>
-	
-		<nav class="navbar navbar-expand-md fixed-top">
-		
-			<div id="serverTimes">
-				<div id="clock"></div>
-			</div>
-		
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-			
-					<div id="selectArrows">
-						<img src="images/arrow.png">
-					</div>
-			
-					<ul class="nav navbar-nav ml-auto">
-						<li class="nav-item active">
-							<!--<a href="#"><div class="topNav_bar"><p>BOSS TIMER</p></div></a>-->
-						</li>
-						<li class="nav-item">
-							<!--<a href="#" onclick="showStats()"><div class="topNav_bar"><p>STATS</p></div></a>-->
-						</li>
-						<li class="nav-item">
-							<a href="#" onclick="showSkills()"><div class="topNav_bar"><p>SKILLS</p></div></a>
-						</li>
-					</ul>
-				
-			</div>
-		
-		</nav>
-		
-	</header>
-
-	<div class="container-fluid">
-	
-		<div id="window">
-			
-			<div id="lines"></div>
-			
-			<div id="drag_bar"></div>
-			
-			<div id="jobName"><p>Knight</p></div>
-			
-			<div id="closeWindow" onclick="hideWindow()"></div>
-		
-			<div class="row" id="skills_right">
-			
-			</div>
-			
-			<div id="skill_points"><p>Remaining Skill Points: </p><p id="skillPointNumber">0</p></div>
-			
-			<div id="resetSkills" onclick="resetSkills()"></div>
-
-			<form id="saveSkillBuild">
-				<label id="saveLabel" for="buildNameInput" onclick="showInputField()">
-					<span class="vertical-align">
-						Save Build
-					</span>
-					<input class="form-control" id="buildNameInput" placeholder="Save As" type="text"
-							data-toggle="tooltip" data-placement="left" title="Enter to Save. Esc to Cancel."/>
-				</label>
-				<input class="d-none" type="submit"/>
-			</form>
-
-			<div id="loadSkillBuild" class="btn-group dropup">
-				<button type="button" class="btn dropdown-toggle" id="loadBuildButton" onclick="buildMenu()"
-						data-toggle="dropdown" data-offset="-10,5" aria-expanded="false" aria-haspopup="true">
-					Load Build
-				</button>
-				<div id="loadMenu" class="dropdown-menu" data-toggle="tooltip" data-placement="right"
-						title="Right click to Delete."></div>
-			</div>
-
-			<div id="selectJob" onclick="changeJob()"></div>
-			
-			<!-- Default dropup button -->
-			<div id="jobDrop" class="btn-group dropup">
-				<button type="button" class="btn dropdown-toggle"
-				data-toggle="dropdown" data-offset="-40,5" aria-haspopup="true" aria-expanded="false"></button>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" onclick="changeJob(knight_skills, 'Knight')" href="#">Knight</a>
-					<a class="dropdown-item" onclick="changeJob(berserker_skills, 'Berserker')" href="#">Berserker</a>
-					<a class="dropdown-item" onclick="changeJob(wizard_skills, 'Wizard')" href="#">Wizard</a>
-					<a class="dropdown-item" onclick="changeJob(priest_skills, 'Priest')" href="#">Priest</a>
-					<a class="dropdown-item" onclick="changeJob(ranger_skills, 'Ranger')" href="#">Ranger</a>
-					<a class="dropdown-item" onclick="changeJob(heavy_gunner_skills, 'Heavy Gunner')" href="#">Heavy Gunner</a>
-					<a class="dropdown-item" onclick="changeJob(thief_skills, 'Thief')" href="#">Thief</a>
-					<a class="dropdown-item" onclick="changeJob(assassin_skills, 'Assassin')" href="#">Assassin</a>
-				</div>
-			</div>
-		
+	<!--
+	<div class="bgimg">
+		<div class="middle">
+			<h1>COMING SOON</h1>
+			<hr>
+			<p id="timeLeft"></p>
+			<p id="timeHolder"></p>
 		</div>
-		
-		<!-- Temp disabled
-		<div id="window_2">
-			
-			<div id="drag_bar_2"></div>
-			
-			<div id="advanced_stats" onclick="showStats_2()"></div>
-			
-			<div id="closeWindow_2" onclick="hideWindow_2()"></div>
-			
-			<div class="statsButton" data-stat='strength' data-base='27'><p>27</p></div>
-			<div class="statsButton" data-stat='dexterity' data-base='399'><p>399</p></div>
-			<div class="statsButton" data-stat='intelligence' data-base='25'><p>25</p></div>
-			<div class="statsButton" data-stat='luck' data-base='55'><p>55</p></div>
-			<div class="statsButton" data-stat='health' data-base='2963'><p>2963</p></div>
-			<div class="statsButton" data-stat='criticalRate' data-base='193'><p>193</p></div>
-			
-			<div id="resetStats" onclick="resetStats()"></div>
-			
-			<div id="attributePoints"><p>0</p></div>
-			
-		</div>
-		
-		<div id="window_3">
-		
-			<div id="drag_bar_3"></div>
-			
-			<div id="closeWindow_3" onclick="hideWindow_3()"></div>
-		
-		</div>
-		-->
-	
 	</div>
+	-->
+
+	<!--
+	<div id="home">
 	
-	<div id="info_box">
+		<img id="topBar" src="./images/topbar.png">
+		<h1 class="themeColor">Welcome to this Maplestory 2 Fansite!</h1>
 		
-		<div id="info_name"><p></p></div>
-		
-		<div id="info_element"><p></p></div>
-		
-		<div id="info_content">
-		
-			<div id="info_image_box">
-				<div id="info_image"></div>
+		<div id="statusList">
+			<h4 id="statusListTop"><b>Status</b></h4>
+			<div id="statusListBottom">
+				<p><b>Explore</b> : <span class="tYellow badge">WIP</span></p>
+				<p><b>MC Kay</b> : <span class="tRed badge">Unknown</span></p>
+				<p><b>Trophies</b> : <span class="tRed badge">Unknown</span></p>
+				<p><b>Skill Calculator</b> : <span class="tGreen badge">Working</span></p>
+				<p><b>Items</b> : <span class="tYellow badge">WIP</span></p>
 			</div>
-			
-			<div id="info_top_description">
-			
-				<div class="info_resource"></div>
-				<div class="info_level"></div>
-			
-			</div>
-			
-			<div id="info_description"></div>
-			
-			<div class="info_linebreak"></div>
-			
-			<div id="info_description_2"></div>
-			
-			<div class="info_linebreak"></div>
-		
-			<div id="info_description_3"></div>
-		
 		</div>
 		
 	</div>
+	-->
 
-	<main></main>
-	
 	<footer>
-		<span>© 2018 Maplestory 2 Fansite</span>
+		<p id="footer_text">© 2018 Maplestory 2 Fansite</p>
 	</footer>
-
-	<!-- Info JavaScript -->
-	<script type="text/javascript" src="scripts/knight.js"></script>
-	<script type="text/javascript" src="scripts/berserker.js"></script>
-	<script type="text/javascript" src="scripts/wizard.js"></script>
-	<script type="text/javascript" src="scripts/priest.js"></script>
-	<script type="text/javascript" src="scripts/ranger.js"></script>
-	<script type="text/javascript" src="scripts/heavy_gunner.js"></script>
-	<script type="text/javascript" src="scripts/thief.js"></script>
-	<script type="text/javascript" src="scripts/assassin.js"></script>
 	
+	<!--
+	<script>
+	
+		function addNumbers(arg){
+			for(let i=0; i < arg.toString().length; i++){
+			
+				if( arg.toString().length == 1 ){
+					let para = document.createElement('p');
+					para.className  = "num0";
+					let timeHolder = document.getElementById("timeHolder");
+					timeHolder.appendChild(para);
+				}
+			
+				let para = document.createElement('p');
+				para.className  = "num" + arg.toString()[i];
+				let timeHolder = document.getElementById("timeHolder");
+				timeHolder.appendChild(para);
+			}
+		}
+	
+		function addDots(){
+			let para = document.createElement('p');
+			para.className  = "numDots";
+			let timeHolder = document.getElementById("timeHolder");
+			timeHolder.appendChild(para);
+		}
+	
+		// Set the date we're counting down to
+		var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+
+			// Get todays date and time
+			var now = new Date().getTime();
+
+			// Find the distance between now an the count down date
+			var distance = countDownDate - now;
+
+			// Time calculations for days, hours, minutes and seconds
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			 
+			$('#timeHolder').empty();
+			
+			addNumbers(days);
+			addDots();
+			addNumbers(hours);
+			addDots();
+			addNumbers(minutes);
+			addDots();
+			addNumbers(seconds);
+
+			// If the count down is finished, write some text 
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("timeLeft").innerHTML = "Game is released!";
+			}
+			
+		}, 1000);
+		
+	</script>
+	-->
+
 	<!-- jQuery, Popper, Bootstrap -->
 	<script src="scripts/jquery.slim.min.js"></script>
 	<script src="scripts/popper.min.js"></script>
 	<script src="scripts/bootstrap.min.js"></script>
-	
+
 	<!-- Other JavaScript -->
 	<script src="scripts/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="scripts/index.js"></script>
-	<script type="text/javascript" src="scripts/save_load.js"></script>
 
-</div>
 </body>
 
 </html>

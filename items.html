@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+	
+	<link rel="icon" href="images/favicon.png">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+
+	<title>MS2 Fansite | Items</title>
+	<link rel="stylesheet" href="stylesheets/index.css">
+	<link rel="stylesheet" href="stylesheets/items.css">
+	
+</head>
+<body>
+
+	<div class="alert alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<h3 class="alertTxt"><strong>Cookies!</strong></h3><br>
+		<p class="alertTxt">This site uses cookies to remember marked chests and dark theme.
+		Using this fansite means that you are okey with this.</p>
+	</div>
+
+	<div id="dark_mode">
+		<p>Dark Theme</p>
+		<i id="switch" class="fa fa-toggle-off"></i>
+	</div>
+	
+	<img id="thief_image" src="./images/thief.png">
+
+	<div class="icon-bar">
+		<a href="index.html"><i class="fa fa-home"></i></a>
+		<a href="explore.html"><i class="fa fa-map-o"></i></a>
+		<!--<a href="minigames.html"><i class="fa fa-gamepad"></i></a>
+		<a href="trophies.html"><i class="fa fa-trophy"></i></a>-->
+		<a href="skills.html"><i class="fa fa-list-alt"></i></a>
+		<a class="active" href="items.html"><i class="fa fa-archive"></i></a>
+	</div>
+	
+	<div id="sideText">
+		<p>Home</p>
+		<p>Explore</p>
+		<!--<p>MC Kay</p>
+		<p>Trophies</p>-->
+		<p>Skill Calculator</p>
+		<p>Items</p>
+	</div>
+	
+	<div id="items">
+		
+		<h1 class="themeColor">Dungeons</h1>
+
+		<button class="accordion">The Fire Dragon (Lv. 50)</button>
+		<div class="panel">
+			<h4>All</h4>
+			<img data-id="4" src="./images/items/crueltyGreatsword.png">
+			<img data-id="5" src="./images/items/shinyPointedGreatsword.png">
+			<img data-id="7" src="./images/items/shinyFerocityNecklace.png">
+			<img data-id="6" src="./images/items/shinyFerocityCape.png">
+			<img data-id="12" src="./images/items/shinyFerocityBelt.png">
+			<img data-id="3" src="./images/items/shinyFerocityRing.png">
+			<h4>Knight, Berseker</h4>
+			<img data-id="11" src="./images/items/shinyWarriorsFerocityHeadgear.png">
+			<img data-id="10" src="./images/items/shinyWarriorsFerocityTop.png">
+			<img data-id="9" src="./images/items/shinyWarriorsFerocityBottoms.png">
+			<img data-id="8" src="./images/items/shinyWarriorsFerocityShoes.png">
+		</div>
+		
+		<button class="accordion">Shadow Altar (Lv. 50)</button>
+		<div class="panel">
+			<h4>Thief</h4>
+			<img data-id="0" src="./images/items/chest.png">
+			<img data-id="1" src="./images/items/boots.png">
+		</div>
+		
+		<h1 class="themeColor">Dark Descent</h1>
+		
+		<button class="accordion">Havi Fruit</button>
+		<div class="panel">
+			<h4>Thief, Assassin</h4>
+			<img data-id="2" src="./images/items/swallowedDarknessRogueGloves.png">
+		</div>
+		
+		<!--
+		<h1 class="themeColor">Fields</h1>
+		
+		<button class="accordion">Fairy Tree Lake</button>
+		<button class="accordion">Frostember Void</button>
+		<button class="accordion">Frostheart</button>
+		-->
+		
+	</div>
+	
+	<footer>
+		<p id="footer_text">© 2018 Maplestory 2 Fansite</p>
+	</footer>
+	
+	<div id="info_box">
+		
+		<div id="info_top">
+		
+			<div id="info_name"><p></p></div>
+			
+			<div id="info_stars">
+				<i class="iStars fa fa-star"></i>
+				<i class="iStars fa fa-star"></i>
+				<i class="iStars fa fa-star"></i>
+				<i class="iStars fa fa-star"></i>
+				<i class="iStars fa fa-star"></i>
+				<i class="iStars fa fa-star"></i>
+			</div>
+			
+			<div id="info_defense">
+				<img id="iImage" >
+				<p id="iDefenseText"></p>
+				<p id="iDefense"></p>
+			</div>
+		
+		</div>
+			
+		<div id="info_mid">
+			<p id="iGearscore"></p>
+			<p id="iRequires"></p>
+			<p id="iType"></p>
+			<p id="iJob"></p>
+		</div>
+		
+		<div class="lineBreaker"></div>
+		
+		<p id="iRandomAttribute"></p>
+		
+		<div class="lineBreaker"></div>
+		
+		<div id="info_bot">
+			<p class="iBound">Untradeable, Unsellable</p>
+			<p class="iBound">Character Bound</p>
+		</div>
+			
+	</div>
+	
+	<!-- Items Scripts -->
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+			this.classList.toggle("active_accordion");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight){
+			  panel.style.maxHeight = null;
+			} else {
+			  panel.style.maxHeight = panel.scrollHeight + "px";
+			} 
+		  });
+		}
+	</script>
+	
+	<!-- jQuery, Popper, Bootstrap -->
+	<script src="scripts/jquery.slim.min.js"></script>
+	<script src="scripts/popper.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	
+	<!-- Other JavaScript -->
+	<script src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/index.js"></script>
+	<script type="text/javascript" src="scripts/items.js"></script>
+	
+</body>
+
+</html>

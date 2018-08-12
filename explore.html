@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+	
+	<link rel="icon" href="images/favicon.png">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+
+	<title>MS2 Fansite | Explore</title>
+	<link rel="stylesheet" href="stylesheets/index.css">
+	
+</head>
+<body>
+
+	<div class="alert alert-dismissible">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<h3 class="alertTxt"><strong>Cookies!</strong></h3><br>
+		<p class="alertTxt">This site uses cookies to remember marked chests and dark theme.
+		Using this fansite means that you are okey with this.</p>
+	</div>
+
+	<div id="dark_mode">
+		<p>Dark Theme</p>
+		<i id="switch" class="fa fa-toggle-off"></i>
+	</div>
+
+	<div id="blocker">
+		<img id="blocker_image">
+	</div>
+
+	<!-- The actual snackbar -->
+	<div id="snackbar"></div>
+
+	<img id="thief_image" src="./images/thief.png">
+
+	<div class="icon-bar">
+		<a href="index.html"><i class="fa fa-home"></i></a>
+		<a class="active" href="explore.html"><i class="fa fa-map-o"></i></a>
+		<!--<a href="minigames.html"><i class="fa fa-gamepad"></i></a>
+		<a href="trophies.html"><i class="fa fa-trophy"></i></a>-->
+		<a href="skills.html"><i class="fa fa-list-alt"></i></a>
+		<a href="items.html"><i class="fa fa-archive"></i></a>
+	</div>
+	
+	<div id="sideText">
+		<p>Home</p>
+		<p>Explore</p>
+		<!--<p>MC Kay</p>
+		<p>Trophies</p>-->
+		<p>Skill Calculator</p>
+		<p>Items</p>
+	</div>
+	
+	<div id="golden_treasure">
+	
+		<div class="row2">
+		  <div class="left">
+			<input type="text" id="mySearch" onkeyup="mapSearch()" placeholder="Map..">
+			<ul id="myMenu">
+			  <li><a class="mapName" data-id="0" onclick="map('RoyalRoadPlaza', 0)" href="#RoyalRoadPlaza">Royal Road Plaza (0/8)</a></li>
+			  <li><a class="mapName" data-id="1" onclick="map('SouthRoyalRoad', 1)" href="#SouthRoyalRoad">South Royal Road (0/8)</a></li>
+			  <li><a class="mapName" data-id="2" onclick="map('Hushwood', 2)" href="#Hushwood">Hushwood (0/5)</a></li>
+			  <li><a class="mapName" data-id="3" onclick="map('CrookedCanyon', 3)" href="#CrookedCanyon">Crooked Canyon (0/2)</a></li>
+			  <li><a class="mapName" data-id="4" onclick="map('NorthRoyalRoad', 4)" href="#NorthRoyalRoad">North Royal Road (0/11)</a></li>
+			  <li><a class="mapName" data-id="5" onclick="map('LudibriumCrater', 5)" href="#LudibriumCrater">Ludibrium Crater (0/2)</a></li>
+			  <li><a class="mapName" data-id="6" onclick="map('RevoldicDam', 6)" href="#RevoldicDam">Revoldic Dam (0/5)</a></li>
+			  <li><a class="mapName" data-id="7" onclick="map('KerningInterchange', 7)" href="#KerningInterchange">Kerning Interchange (0/3)</a></li>
+			  <li><a class="mapName" data-id="8" onclick="map('GoldenTower8F', 8)" href="#GoldenTower8F">Golden Tower 8F (0/4)</a></li>
+			  <li><a class="mapName" data-id="9" onclick="map('SylvanWoodsTrail', 9)" href="#SylvanWoodsTrail">Sylvan Woods Trail (0/2)</a></li>
+			  <li><a class="mapName" data-id="10" onclick="map('KerningJunkyard', 10)" href="#KerningJunkyard">Kerning Junkyard (0/4)</a></li>
+			  <li><a class="mapName" data-id="11" onclick="map('FairyTreeLake', 11)" href="#FairyTreeLake">Fairy Tree Lake (0/3)</a></li>
+			  <li><a class="mapName" data-id="12" onclick="map('BarrotaShore', 12)" href="#BarrotaShore">Barrota Shore (0/2)</a></li>
+			  <li><a class="mapName" data-id="13" onclick="map('Lavaworks', 13)" href="#Lavaworks">Lavaworks (0/2)</a></li>
+			  <li><a class="mapName" data-id="14" onclick="map('Beachway111', 14)" href="#Beachway111">Beachway 111 (0/2)</a></li>
+			  <li><a class="mapName" data-id="15" onclick="map('BoulderwhiteMountains', 15)" href="#BoulderwhiteMountains">Boulderwhite Mountains (0/3)</a></li>
+			  <li><a class="mapName" data-id="16" onclick="map('NoxiousGrotto', 16)" href="#NoxiousGrotto">Noxious Grotto (0/3)</a></li>
+			  <li><a class="mapName" data-id="17" onclick="map('BarrotaPort', 17)" href="#BarrotaPort">Barrota Port (0/7)</a></li>
+			  <li><a class="mapName" data-id="18" onclick="map('Frostheart', 18)" href="#Frostheart">Frostheart (0/3)</a></li>
+			  <li><a class="mapName" data-id="19" onclick="map('FloraAvenue', 19)" href="#FloraAvenue">Flora Avenue (0/9)</a></li>
+			  <li><a class="mapName" data-id="20" onclick="map('SufferingWasteland', 20)" href="#SufferingWasteland">Suffering Wasteland (0/3)</a></li>
+			  <li><a class="mapName" data-id="21" onclick="map('Woodward', 21)" href="#Woodward">Woodward (0/4)</a></li>
+			  <li><a class="mapName" data-id="22" onclick="map('EnigmaArcade', 22)" href="#EnigmaArcade">Enigma Arcade (0/4)</a></li>
+			  <li><a class="mapName" data-id="23" onclick="map('LoggersHill', 23)" href="#Logger'sHill">Logger's Hill (0/2)</a></li>
+			  <li><a class="mapName" data-id="24" onclick="map('AbandonedCharnelHouse', 24)" href="#AbandonedCharnelHouse">Abandoned Charnel House (0/6)</a></li>
+			  <li><a class="mapName" data-id="25" onclick="map('Spectrumwood', 25)" href="#Spectrumwood">Spectrumwood (0/7)</a></li>
+			  <li><a class="mapName" data-id="26" onclick="map('FellowstoneConstruction', 26)" href="#FellowstoneConstruction">Fellowstone Construction (0/2)</a></li>
+			  <li><a class="mapName" data-id="27" onclick="map('Mounthill', 27)" href="#Mounthill">Mounthill (0/9)</a></li>
+			  <li><a class="mapName" data-id="28" onclick="map('GoldusPharmaceuticals', 28)" href="#GoldusPharmaceuticals">Goldus Pharmaceuticals (0/2)</a></li>
+			  <li><a class="mapName" data-id="29" onclick="map('NeuronDNAResearchSite', 29)" href="#NeuronDNAResearchSite">Neuron DNA Research Site (0/2)</a></li>
+			  <li><a class="mapName" data-id="30" onclick="map('ShadowGate', 30)" href="#ShadowGate">Shadow Gate (0/2)</a></li>
+			  <li><a class="mapName" data-id="31" onclick="map('AndreaBarony', 31)" href="#AndreaBarony">Andrea Barony (0/3)</a></li>
+			  <li><a class="mapName" data-id="32" onclick="map('TrinianCrossing', 32)" href="#TrinianCrossing">Trinian Crossing (0/11)</a></li>
+			  <li><a class="mapName" data-id="33" onclick="map('EllinGrove', 33)" href="#EllinGrove">Ellin Grove (0/2)</a></li>
+			  <li><a class="mapName" data-id="34" onclick="map('EllbosHollow', 34)" href="#Ellbo'sHollow">Ellbo's Hollow (0/3)</a></li>
+			  <li><a class="mapName" data-id="35" onclick="map('MajoreLakePark', 35)" href="#MajoreLakePark">Majore Lake Park (0/5)</a></li>
+			  <li><a class="mapName" data-id="36" onclick="map('TorharaSpring', 36)" href="#TorharaSpring">Torhara Spring (0/2)</a></li>
+			  <li><a class="mapName" data-id="37" onclick="map('TrinketWoods', 37)" href="#TrinketWoods">Trinket Woods (0/7)</a></li>
+			  <li><a class="mapName" data-id="38" onclick="map('HotottotRiver', 38)" href="#HotottotRiver">Hotottot River (0/3)</a></li>
+			  <li><a class="mapName" data-id="39" onclick="map('LavaEyeNest', 39)" href="#LavaEyeNest">Lava Eye Nest (0/2)</a></li>
+			  <li><a class="mapName" data-id="40" onclick="map('PrismFalls', 40)" href="#PrismFalls">Prism Falls (0/2)</a></li>
+			  <li><a class="mapName" data-id="41" onclick="map('RazedForest', 41)" href="#RazedForest">Razed Forest (0/3)</a></li>
+			  <li><a class="mapName" data-id="42" onclick="map('MistyTemple', 42)" href="#MistyTemple">MistyTemple (0/3)</a></li>
+			  <li><a class="mapName" data-id="43" onclick="map('StoneQuarry', 43)" href="#StoneQuarry">StoneQuarry (0/3)</a></li>
+			  <li><a class="mapName" data-id="44" onclick="map('StonehillDigSite', 44)" href="#StonehillDigSite">Stonehill Dig Site (0/3)</a></li>
+			  <li><a class="mapName" data-id="45" onclick="map('ParuvanPlateau', 45)" href="#ParuvanPlateau">Paruvan Plateau (0/3)</a></li>
+			  <li><a class="mapName" data-id="46" onclick="map('BonebridgeWorksite', 46)" href="#BonebridgeWorksite">Bonebridge Worksite (0/3)</a></li>
+			  <li><a class="mapName" data-id="47" onclick="map('WindsongRavine', 47)" href="#WindsongRavine">Windsong Ravine (0/3)</a></li>
+			  <li><a class="mapName" data-id="48" onclick="map('BaumTree', 48)" href="#BaumTree">Baum Tree (0/2)</a></li>
+			  <li><a class="mapName" data-id="49" onclick="map('WestWatchtower', 49)" href="#WestWatchtower">West Watchtower (0/3)</a></li>
+			  <li><a class="mapName" data-id="50" onclick="map('ForgottenKeep', 50)" href="#ForgottenKeep">Forgotten Keep (0/5)</a></li>
+			  <li><a class="mapName" data-id="51" onclick="map('MoltenHourglass', 51)" href="#MoltenHourglass">Molten Hourglass (0/2)</a></li>
+			  <li><a class="mapName" data-id="52" onclick="map('AntTunnelEntrance', 52)" href="#AntTunnelEntrance">Ant Tunnel Entrance (0/2)</a></li>
+			  <li><a class="mapName" data-id="53" onclick="map('WestWindHill', 53)" href="#WestWindHill">West Wind Hill (0/7)</a></li>
+			  <li><a class="mapName" data-id="54" onclick="map('PicchuPicchuGardens', 54)" href="#PicchuPicchuGardens">Picchu Picchu Gardens (0/5)</a></li>
+			  <li><a class="mapName" data-id="55" onclick="map('HenesysDocks', 55)" href="#HenesysDocks">Henesys Docks (0/4)</a></li>
+			  <li><a class="mapName" data-id="56" onclick="map('PrecipiceFortress', 56)" href="#PrecipiceFortress">Precipice Fortress (0/3)</a></li>
+			  <li><a class="mapName" data-id="57" onclick="map('Sweetskirts', 57)" href="#Sweetskirts">Sweetskirts (0/3)</a></li>
+			  <li><a class="mapName" data-id="58" onclick="map('ForestofLostMemories', 58)" href="#ForestofLostMemories">Forest of Lost Memories (0/2)</a></li>
+			  <li><a class="mapName" data-id="59" onclick="map('AntTunnelPlaza', 59)" href="#AntTunnelPlaza">Ant Tunnel Plaza (0/2)</a></li>
+			  <li><a class="mapName" data-id="60" onclick="map('GreenoCrossing', 60)" href="#GreenoCrossing">Greeno Crossing (0/3)</a></li>
+			  <li><a class="mapName" data-id="61" onclick="map('SweetToothValley', 61)" href="#SweetToothValley">Sweet Tooth Valley (0/3)</a></li>
+			  <li><a class="mapName" data-id="62" onclick="map('VerdantHeights', 62)" href="#VerdantHeights">Verdant Heights (0/3)</a></li>
+			  <li><a class="mapName" data-id="63" onclick="map('CoronaLake', 63)" href="#CoronaLake">Corona Lake (0/3)</a></li>
+			  <li><a class="mapName" data-id="64" onclick="map('LavaSprings', 64)" href="#LavaSprings">Lava Springs (0/4)</a></li>
+			  <li><a class="mapName" data-id="65" onclick="map('GiantEllinTrees', 65)" href="#GiantEllinTrees">Giant Ellin Trees (0/8)</a></li>
+			  <li><a class="mapName" data-id="66" onclick="map('MoonglowForest', 66)" href="#MoonglowForest">Moonglow Forest (0/9)</a></li>
+			  <li><a class="mapName" data-id="67" onclick="map('ForestofLife', 67)" href="#ForestofLife">Forest of Life (0/3)</a></li>
+			  <li><a class="mapName" data-id="68" onclick="map('Godspring', 68)" href="#Godspring">Godspring (0/3)</a></li>
+			  <li><a class="mapName" data-id="69" onclick="map('SandDunes', 69)" href="#SandDunes">Sand Dunes (0/5)</a></li>
+			  <li><a class="mapName" data-id="70" onclick="map('BesherelMagicLibrary', 70)" href="#BesherelMagicLibrary">Besherel Magic Library (0/3)</a></li>
+			  <li><a class="mapName" data-id="71" onclick="map('BreezyHills', 71)" href="#BreezyHills">Breezy Hills (0/3)</a></li>
+			  <li><a class="mapName" data-id="72" onclick="map('ElluaForestPath', 72)" href="#ElluaForestPath">Ellua Forest Path (0/3)</a></li>
+			  <li><a class="mapName" data-id="73" onclick="map('EllinRuins', 73)" href="#EllinRuins">Ellin Ruins (0/6)</a></li>
+			  <li><a class="mapName" data-id="74" onclick="map('GreeniaFalls', 74)" href="#GreeniaFalls">Greenia Falls (0/2)</a></li>
+			  <li><a class="mapName" data-id="75" onclick="map('ElluaRiverside', 75)" href="#ElluaRiverside">Ellua Riverside (0/3)</a></li>
+			  <li><a class="mapName" data-id="76" onclick="map('FungeeburgStump', 76)" href="#FungeeburgStump">Fungeeburg Stump (0/7)</a></li>
+			  <li><a class="mapName" data-id="77" onclick="map('ReflectionCastle', 77)" href="#ReflectionCastle">Reflection Castle (0/3)</a></li>
+			  <li><a class="mapName" data-id="78" onclick="map('TwilightMoonCastle', 78)" href="#TwilightMoonCastle">Twilight Moon Castle (0/3)</a></li>
+			  <li><a class="mapName" data-id="79" onclick="map('SilentFerry', 79)" href="#SilentFerry">Silent Ferry (0/4)</a></li>
+			  <li><a class="mapName" data-id="80" onclick="map('CausticGarden', 80)" href="#CausticGarden">Caustic Garden (0/3)</a></li>
+			  <li><a class="mapName" data-id="81" onclick="map('RainbowMountain', 81)" href="#RainbowMountain">Rainbow Mountain (0/4)</a></li>
+			  <li><a class="mapName" data-id="82" onclick="map('Ellosylva', 82)" href="#Ellosylva">Ellosylva (0/9)</a></li>
+			  <li><a class="mapName" data-id="83" onclick="map('LudibriumCrevasse', 83)" href="#LudibriumCrevasse">Ludibrium Crevasse (0/2)</a></li>
+			  <li><a class="mapName" data-id="84" onclick="map('TidepoolCliffs', 84)" href="#TidepoolCliffs">Tidepool Cliffs (0/6)</a></li>
+			  <li><a class="mapName" data-id="85" onclick="map('CheliskaBay', 85)" href="#CheliskaBay">Cheliska Bay (0/4)</a></li>
+			  <li><a class="mapName" data-id="86" onclick="map('OvertopBeanstalk', 86)" href="#OvertopBeanstalk">Overtop Beanstalk (0/2)</a></li>
+			  <li><a class="mapName" data-id="87" onclick="map('BarbosaBeach', 87)" href="#BarbosaBeach">Barbosa Beach (0/8)</a></li>
+			  <li><a class="mapName" data-id="88" onclick="map('ClockTowerSquare', 88)" href="#ClockTowerSquare">Clock Tower Square (0/2)</a></li>
+			  <li><a class="mapName" data-id="89" onclick="map('RoseCastle', 89)" href="#RoseCastle">Rose Castle (0/3)</a></li>
+			  <li><a class="mapName" data-id="90" onclick="map('TortugaSeasideCliff', 90)" href="#TortugaSeasideCliff">Tortuga Seaside Cliff (0/3)</a></li>
+			  <li><a class="mapName" data-id="91" onclick="map('Slumberland', 91)" href="#Slumberland">Slumberland (0/3)</a></li>
+			  <li><a class="mapName" data-id="92" onclick="map('MurosMediaPark', 92)" href="#MurosMediaPark">MurosMediaPark (0/5)</a></li>
+			  <li><a class="mapName" data-id="93" onclick="map('RedWall', 93)" href="#RedWall">RedWall (0/4)</a></li>
+			  <li><a class="mapName" data-id="94" onclick="map('WhistlerCliffs', 94)" href="#WhistlerCliffs">Whistler Cliffs (0/5)</a></li>
+			  <li><a class="mapName" data-id="95" onclick="map('PigmingTribeAltar', 95)" href="#PigmingTribeAltar">Pigming Tribe Altar (0/3)</a></li>
+			  <li><a class="mapName" data-id="96" onclick="map('WolfclawCanyon', 96)" href="#WolfclawCanyon">Wolfclaw Canyon (0/7)</a></li>
+			  <li><a class="mapName" data-id="97" onclick="map('LudiStation', 97)" href="#LudiStation">LudiStation (0/4)</a></li>
+			  <li><a class="mapName" data-id="98" onclick="map('HighcliffTemple', 98)" href="#HighcliffTemple">Highcliff Temple (0/7)</a></li>
+			  <li><a class="mapName" data-id="99" onclick="map('KerningTechnoValley', 99)" href="#KerningTechnoValley">Kerning Techno Valley (0/6)</a></li>
+			  <li><a class="mapName" data-id="100" onclick="map('KolopuaCrag', 100)" href="#KolopuaCrag">Kolopua Crag (0/11)</a></li>
+			  <li><a class="mapName" data-id="101" onclick="map('LudiFantasia', 101)" href="#LudiFantasia">Ludi Fantasia (0/3)</a></li>
+			  <li><a class="mapName" data-id="102" onclick="map('MacaroonAcres', 102)" href="#MacaroonAcres">Macaroon Acres (0/5)</a></li>
+			  <li><a class="mapName" data-id="103" onclick="map('RaptorDivePass', 103)" href="#RaptorDivePass">Raptor Dive Pass (0/3)</a></li>
+			  <li><a class="mapName" data-id="104" onclick="map('ChronoffTrainStation', 104)" href="#ChronoffTrainStation">Chronoff Train Station (0/6)</a></li>
+			  <li><a class="mapName" data-id="105" onclick="map('FrostbunnyPark', 105)" href="#FrostbunnyPark">Frostbunny Park (0/5)</a></li>
+			  <li><a class="mapName" data-id="106" onclick="map('FracturedCanyon', 106)" href="#FracturedCanyon">Fractured Canyon (0/6)</a></li>
+			  <li><a class="mapName" data-id="107" onclick="map('MagmaResearchStation', 107)" href="#MagmaResearchStation">Magma Research Station (0/6)</a></li>
+			  <li><a class="mapName" data-id="108" onclick="map('SkyreachPass', 108)" href="#SkyreachPass">Skyreach Pass (0/6)</a></li>
+			  <li><a class="mapName" data-id="109" onclick="map('BerrysweetCastle', 109)" href="#BerrysweetCastle">Berrysweet Castle (0/5)</a></li>
+			  <li><a class="mapName" data-id="110" onclick="map('HarrotHill', 110)" href="#HarrotHill">HarrotHill (0/3)</a></li>
+			  <li><a class="mapName" data-id="111" onclick="map('LudiArcade', 111)" href="#LudiArcade">Ludi Arcade (0/4)</a></li>
+			  <li><a class="mapName" data-id="112" onclick="map('CelimentalTestBunker', 112)" href="#CelimentalTestBunker">Celimental Test Bunker (0/4)</a></li>
+			  <li><a class="mapName" data-id="113" onclick="map('KarnifsFang', 113)" href="#KarnifsFang">Karnif's Fang (0/3)</a></li>
+			  <li><a class="mapName" data-id="114" onclick="map('MSLElectronicsInstitute', 114)" href="#MSLElectronicsInstitute">MSL Electronics Institute (0/7)</a></li>
+			  <li><a class="mapName" data-id="115" onclick="map('MSLFactory', 115)" href="#MSLFactory">MSL Factory (0/4)</a></li>
+			  <li><a class="mapName" data-id="116" onclick="map('AntTunnelPassage', 116)" href="#AntTunnelPassage">Ant Tunnel Passage (0/5)</a></li>
+			  <li><a class="mapName" data-id="117" onclick="map('FrostpeakMountains', 117)" href="#FrostpeakMountains">Frostpeak Mountains (0/5)</a></li>
+			  <li><a class="mapName" data-id="118" onclick="map('KernelEnergyResearch', 118)" href="#KernelEnergyResearch">Kernel Energy Research (0/5)</a></li>
+			  <li><a class="mapName" data-id="119" onclick="map('FrostemberVoid', 119)" href="#FrostemberVoid">Frostember Void (0/5)</a></li>
+			  <li><a class="mapName" data-id="120" onclick="map('SnowscarfHaven', 120)" href="#SnowscarfHaven">Snowscarf Haven (0/5)</a></li>
+			  <li><a class="mapName" data-id="121" onclick="map('MSLRobotDevCenter', 121)" href="#MSLRobotDevCenter">MSL Robot Dev Center (0/2)</a></li>
+			  <li><a class="mapName" data-id="122" onclick="map('LavalunaCave', 122)" href="#LavalunaCave">Lavaluna Cave (0/3)</a></li>
+			  <li><a class="mapName" data-id="123" onclick="map('LuditionCarnival', 123)" href="#LuditionCarnival">Ludition Carnival (0/3)</a></li>
+			  <li><a class="mapName" data-id="124" onclick="map('CaveOfEternity', 124)" href="#CaveOfEternity">Cave of Eternity (0/10)</a></li>
+			  <li><a class="mapName" data-id="125" onclick="map('LavaCrest', 125)" href="#LavaCrest">Lava Crest (0/6)</a></li>
+			  <li><a class="mapName" data-id="126" onclick="map('Steamerbrook', 126)" href="#Steamerbrook">Steamerbrook (0/5)</a></li>
+			  <li><a class="mapName" data-id="127" onclick="map('Frozencrest', 127)" href="#Frozencrest">Frozencrest (0/3)</a></li>
+			  <li><a class="mapName" data-id="128" onclick="map('WaterSupplyCenter', 128)" href="#WaterSupplyCenter">Water Supply Center (0/3)</a></li>
+			  <li><a class="mapName" data-id="129" onclick="map('CrystalfrostWall', 129)" href="#CrystalfrostWall">Crystalfrost Wall (0/3)</a></li>
+			  <li><a class="mapName" data-id="130" onclick="map('MagmaGorge', 130)" href="#MagmaGorge">Magma Gorge (0/6)</a></li>
+			  <li><a class="mapName" data-id="131" onclick="map('WailingMine', 131)" href="#WailingMine">Wailing Mine (0/4)</a></li>
+			  <li><a class="mapName" data-id="132" onclick="map('IglooHill', 132)" href="#IglooHill">Igloo Hill (0/6)</a></li>
+			  <li><a class="mapName" data-id="133" onclick="map('MagmaTrail', 133)" href="#MagmaTrail">Magma Trail (0/2)</a></li>
+			  <li><a class="mapName" data-id="134" onclick="map('PhantomaCyborgCenter', 134)" href="#PhantomaCyborgCenter">Phantoma Cyborg Center (0/5)</a></li>
+			  <li><a class="mapName" data-id="135" onclick="map('KabriumBasin', 135)" href="#KabriumBasin">Kabrium Basin (0/2)</a></li>
+			  <li><a class="mapName" data-id="136" onclick="map('ChekartaChemicals', 136)" href="#ChekartaChemicals">Chekarta Chemicals (0/2)</a></li>
+			  <li><a class="mapName" data-id="137" onclick="map('BlackoutExpanse', 137)" href="#BlackoutExpanse">Blackout Expanse (0/4)</a></li>
+			  <li><a class="mapName" data-id="138" onclick="map('OccupiedFellowstone', 138)" href="#OccupiedFellowstone">Occupied Fellowstone (0/2)</a></li>
+			  <li><a class="mapName" data-id="139" onclick="map('DarkCellVirusCenter', 139)" href="#DarkCellVirusCenter">Dark Cell Virus Center (0/2)</a></li>
+			  <li><a class="mapName" data-id="140" onclick="map('Picardiv', 140)" href="#Picardiv">Picardiv (0/2)</a></li>
+			  <li><a class="mapName" data-id="141" onclick="map('TorravaRiver', 141)" href="#TorravaRiver">Torrava River (0/3)</a></li>
+			  <li><a class="mapName" data-id="142" onclick="map('VanishedRuins', 142)" href="#VanishedRuins">Vanished Ruins (0/6)</a></li>
+			  <li><a class="mapName" data-id="143" onclick="map('SavageCrossroads', 143)" href="#SavageCrossroads">Savage Crossroads (0/2)</a></li>
+			  <li><a class="mapName" data-id="144" onclick="map('DebloonRanch', 144)" href="#DebloonRanch">Debloon Ranch (0/5)</a></li>
+			  <li><a class="mapName" data-id="145" onclick="map('Stormville', 145)" href="#Stormville">Stormville (0/4)</a></li>
+			  <li><a class="mapName" data-id="146" onclick="map('VictoriaLiner', 146)" href="#VictoriaLiner">Victoria Liner (0/3)</a></li>
+			  <li><a class="mapName" data-id="147" onclick="map('NorthSidianRoad', 147)" href="#NorthSidianRoad">North Sidian Road (0/7)</a></li>
+			  <li><a class="mapName" data-id="148" onclick="map('SouthSidianRoad', 148)" href="#SouthSidianRoad">South Sidian Road (0/6)</a></li>
+			  <li><a class="mapName" data-id="149" onclick="map('Wallowville', 149)" href="#Wallowville">Wallowville (0/5)</a></li>
+			  <li><a class="mapName" data-id="150" onclick="map('BittersValley', 150)" href="#BittersValley">Bitters Valley (0/5)</a></li>
+			  <li><a class="mapName" data-id="151" onclick="map('PiercingWindHills', 151)" href="#PiercingWindHills">Piercing Wind Hills (0/3)</a></li>
+			  <li><a class="mapName" data-id="152" onclick="map('StormyHills', 152)" href="#StormyHills">Stormy Hills (0/5)</a></li>
+			  <li><a class="mapName" data-id="153" onclick="map('Demonspring', 153)" href="#Demonspring">Demonspring (0/3)</a></li>
+			  <li><a class="mapName" data-id="154" onclick="map('BlackForest', 154)" href="#BlackForest">Black Forest (0/2)</a></li>
+			  <li><a class="mapName" data-id="155" onclick="map('Calamitysnare', 155)" href="#Calamitysnare">Calamitysnare (0/3)</a></li>
+			  <li><a class="mapName" data-id="156" onclick="map('MoldyHollow', 156)" href="#MoldyHollow">Moldy Hollow (0/5)</a></li>
+			  <li><a class="mapName" data-id="157" onclick="map('OutlawsOverlook', 157)" href="#OutlawsOverlook">Outlaw's Overlook (0/4)</a></li>
+			  <li><a class="mapName" data-id="158" onclick="map('BurningRazedForest', 158)" href="#BurningRazedForest">Burning Razed Forest (0/5)</a></li>
+			  <li><a class="mapName" data-id="159" onclick="map('InfernoTree', 159)" href="#InfernoTree">Inferno Tree (0/4)</a></li>
+			</ul>
+		  </div>
+		  
+		  <div class="right" id="right">
+			<img id="map" width="828" height="791" draggable="false">
+		  </div>
+		</div>
+		
+	</div>
+	
+	<div id="menu_list">
+		<ul class="list-group">
+		  <li class="list-group-item drop_image">Image</li>
+		  <li class="list-group-item drop_video">Video</li>
+		  <li class="list-group-item drop_mark">Mark/Unmark</li>
+		</ul>
+	</div>
+	
+	<footer>
+		<p id="footer_text">© 2018 Maplestory 2 Fansite</p>
+	</footer>
+	
+	<!-- jQuery, Popper, Bootstrap -->
+	<script src="scripts/jquery.slim.min.js"></script>
+	<script src="scripts/popper.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	
+	<!-- Other JavaScript -->
+	<script src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/index.js"></script>
+	<script type="text/javascript" src="scripts/explore.js"></script>
+	<script type="text/javascript" src="scripts/map.js"></script>
+	
+</body>
+
+</html>
