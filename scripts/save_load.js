@@ -1,5 +1,8 @@
 "use strict";
-
+/**
+ * skillBuilds is a 2d array containing name:url pairs. Each name is provided by the user through
+ * a simple form on the page. This info is saved and retrieved from localStorage as JSON.
+ */
 let skillBuilds;
 
 window.onload = function () {
@@ -10,7 +13,7 @@ window.onload = function () {
   if (!skillBuilds) {
     skillBuilds = [];
   }
-  // When user hits Enter to submit form, prevent the form submission and save the skillBuild
+  // When user hits Enter to submit the form, prevent default form submission and save the build
   document.getElementById("saveSkillBuild").addEventListener("submit", (event) => {
     event.preventDefault();
     saveSkillBuild();
@@ -25,7 +28,7 @@ $("input[type=text]").keyup(function(event) {
 });
 
 /**
- * These two functions swaps between the save button and input fields
+ * These two functions swaps between the save button and input field.
  */
 function showInputField() {
   document.getElementsByClassName("vertical-align")[0].style.display = "none";
@@ -38,7 +41,8 @@ function hideInputField() {
 }
 
 /**
- * If buildName is taken, overwrite existing build, else add it to localStorage and save
+ * If buildName is taken, overwrite existing build, else add it to localStorage and save.
+ * Called when the user saves by submitting the form using Enter.
  */
 function saveSkillBuild() {
   let buildName = document.getElementById("buildNameInput").value;
@@ -56,7 +60,8 @@ function saveSkillBuild() {
 }
 
 /**
- * Builds an html list of menu items that link to your saved builds
+ * Builds an html list of menu items that link to your saved builds.
+ * Called when clicking the Load Build Button to populate the dropup menu.
  */
 function buildMenu() {
   let loadMenu = document.getElementById("loadMenu");
@@ -79,6 +84,7 @@ function buildMenu() {
 
 /**
  * Deletes all skillBuilds with the name, {@param buildName}, then saves.
+ * Called when right clicking on a build name in the Load Build dropup-menu.
  * @param {event} event Prevents the context menu from appearing when right clicking
  * @param {String} buildName The name of the build that the user deletes
  */
