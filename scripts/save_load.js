@@ -31,13 +31,14 @@ $("input[type=text]").keyup(function(event) {
  * These two functions swaps between the save button and input field.
  */
 function showInputField() {
-  document.getElementsByClassName("vertical-align")[0].style.display = "none";
   document.getElementById("buildNameInput").style.display = "block";
+  document.getElementById("saveLabel").classList.remove("saveBuild");
+  document.getElementById("saveLabel").style.display = "none";
 }
 
 function hideInputField() {
-  document.getElementsByClassName("vertical-align")[0].style.display = "inherit";
   document.getElementById("buildNameInput").style.display = "none";
+  document.getElementById("saveLabel").style.display = "block";
 }
 
 /**
@@ -57,6 +58,8 @@ function saveSkillBuild() {
   }
   localStorage.setItem("ms2skillcalculator", JSON.stringify(skillBuilds));
   hideInputField();
+  document.getElementById("saveLabel")
+  document.getElementById("saveLabel").classList.add("saveBuild");
 }
 
 /**
