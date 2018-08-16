@@ -3,8 +3,8 @@ var mapID;
 var currentMap;
 
 function snackBar(txt) {
-    // Get the snackbar DIV
-    var x = document.getElementById("snackbar");
+	// Get the snackbar DIV
+	var x = document.getElementById("snackbar");
 	
 	x.innerHTML = txt;
 	
@@ -13,220 +13,218 @@ function snackBar(txt) {
 		return;
 	}
 
-    // Add the "show" class to DIV
-    x.className = "show";
+	// Add the "show" class to DIV
+	x.className = "show";
 
-    // After 3 seconds, remove the show class from DIV
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+	// After 3 seconds, remove the show class from DIV
+	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
 
 function getMapName(name){
-	let realMap;
-	
-	if( name == "RoyalRoadPlaza" ){ realMap = RoyalRoadPlaza }
-	if( name == "SouthRoyalRoad" ){ realMap = SouthRoyalRoad }
-	if( name == "Hushwood" ){ realMap = Hushwood }
-	if( name == "CrookedCanyon" ){ realMap = CrookedCanyon }
-	if( name == "NorthRoyalRoad" ){ realMap = NorthRoyalRoad }
-	if( name == "LudibriumCrater" ){ realMap = LudibriumCrater }
-	if( name == "RevoldicDam" ){ realMap = RevoldicDam }
-	if( name == "KerningInterchange" ){ realMap = KerningInterchange }
-	if( name == "GoldenTower8F" ){ realMap = GoldenTower8F }
-	if( name == "SylvanWoodsTrail" ){ realMap = SylvanWoodsTrail }
-	if( name == "KerningJunkyard" ){ realMap = KerningJunkyard }
-	if( name == "FairyTreeLake" ){ realMap = FairyTreeLake }
-	if( name == "BarrotaShore" ){ realMap = BarrotaShore }
-	if( name == "Lavaworks" ){ realMap = Lavaworks }
-	if( name == "Beachway111" ){ realMap = Beachway111 }
-	if( name == "BoulderwhiteMountains" ){ realMap = BoulderwhiteMountains }
-	if( name == "NoxiousGrotto" ){ realMap = NoxiousGrotto }
-	if( name == "BarrotaPort" ){ realMap = BarrotaPort }
-	if( name == "Frostheart" ){ realMap = Frostheart }
-	if( name == "FloraAvenue" ){ realMap = FloraAvenue }
-	if( name == "SufferingWasteland" ){ realMap = SufferingWasteland }
-	if( name == "Woodward" ){ realMap = Woodward }
-	if( name == "EnigmaArcade" ){ realMap = EnigmaArcade }
-	if( name == "LoggersHill" ){ realMap = LoggersHill }
-	if( name == "AbandonedCharnelHouse" ){ realMap = AbandonedCharnelHouse }
-	if( name == "Spectrumwood" ){ realMap = Spectrumwood }
-	if( name == "FellowstoneConstruction" ){ realMap = FellowstoneConstruction }
-	if( name == "Mounthill" ){ realMap = Mounthill }
-	if( name == "GoldusPharmaceuticals" ){ realMap = GoldusPharmaceuticals }
-	if( name == "NeuronDNAResearchSite" ){ realMap = NeuronDNAResearchSite }
-	if( name == "ShadowGate" ){ realMap = ShadowGate }
-	if( name == "AndreaBarony" ){ realMap = AndreaBarony }
-	if( name == "TrinianCrossing" ){ realMap = TrinianCrossing }
-	if( name == "EllinGrove" ){ realMap = EllinGrove }
-	if( name == "EllbosHollow" ){ realMap = EllbosHollow }
-	if( name == "MajoreLakePark" ){ realMap = MajoreLakePark }
-	if( name == "TorharaSpring" ){ realMap = TorharaSpring }
-	if( name == "TrinketWoods" ){ realMap = TrinketWoods }
-	if( name == "HotottotRiver" ){ realMap = HotottotRiver }
-	if( name == "LavaEyeNest" ){ realMap = LavaEyeNest }
-	if( name == "PrismFalls" ){ realMap = PrismFalls }
-	if( name == "RazedForest" ){ realMap = RazedForest }
-	if( name == "MistyTemple" ){ realMap = MistyTemple }
-	if( name == "StoneQuarry" ){ realMap = StoneQuarry }
-	if( name == "StonehillDigSite" ){ realMap = StonehillDigSite }
-	if( name == "ParuvanPlateau" ){ realMap = ParuvanPlateau }
-	if( name == "BonebridgeWorksite" ){ realMap = BonebridgeWorksite }
-	if( name == "WindsongRavine" ){ realMap = WindsongRavine }
-	if( name == "BaumTree" ){ realMap = BaumTree }
-	if( name == "WestWatchtower" ){ realMap = WestWatchtower }
-	if( name == "ForgottenKeep" ){ realMap = ForgottenKeep }
-	if( name == "MoltenHourglass" ){ realMap = MoltenHourglass }
-	if( name == "AntTunnelEntrance" ){ realMap = AntTunnelEntrance }
-	if( name == "WestWindHill" ){ realMap = WestWindHill }
-	if( name == "PicchuPicchuGardens" ){ realMap = PicchuPicchuGardens }
-	if( name == "HenesysDocks" ){ realMap = HenesysDocks }
-	if( name == "PrecipiceFortress" ){ realMap = PrecipiceFortress }
-	if( name == "Sweetskirts" ){ realMap = Sweetskirts }
-	if( name == "ForestofLostMemories" ){ realMap = ForestofLostMemories }
-	if( name == "AntTunnelPlaza" ){ realMap = AntTunnelPlaza }
-	if( name == "GreenoCrossing" ){ realMap = GreenoCrossing }
-	if( name == "SweetToothValley" ){ realMap = SweetToothValley }
-	if( name == "VerdantHeights" ){ realMap = VerdantHeights }
-	if( name == "CoronaLake" ){ realMap = CoronaLake }
-	if( name == "LavaSprings" ){ realMap = LavaSprings }
-	if( name == "GiantEllinTrees" ){ realMap = GiantEllinTrees }
-	if( name == "MoonglowForest" ){ realMap = MoonglowForest }
-	if( name == "ForestofLife" ){ realMap = ForestofLife }
-	if( name == "Godspring" ){ realMap = Godspring }
-	if( name == "SandDunes" ){ realMap = SandDunes }
-	if( name == "BesherelMagicLibrary" ){ realMap = BesherelMagicLibrary }
-	if( name == "BreezyHills" ){ realMap = BreezyHills }
-	if( name == "ElluaForestPath" ){ realMap = ElluaForestPath }
-	if( name == "EllinRuins" ){ realMap = EllinRuins }
-	if( name == "GreeniaFalls" ){ realMap = GreeniaFalls }
-	if( name == "ElluaRiverside" ){ realMap = ElluaRiverside }
-	if( name == "FungeeburgStump" ){ realMap = FungeeburgStump }
-	if( name == "ReflectionCastle" ){ realMap = ReflectionCastle }
-	if( name == "TwilightMoonCastle" ){ realMap = TwilightMoonCastle }
-	if( name == "SilentFerry" ){ realMap = SilentFerry }
-	if( name == "CausticGarden" ){ realMap = CausticGarden }
-	if( name == "RainbowMountain" ){ realMap = RainbowMountain }
-	if( name == "Ellosylva" ){ realMap = Ellosylva }
-	if( name == "LudibriumCrevasse" ){ realMap = LudibriumCrevasse }
-	if( name == "TidepoolCliffs" ){ realMap = TidepoolCliffs }
-	if( name == "CheliskaBay" ){ realMap = CheliskaBay }
-	if( name == "OvertopBeanstalk" ){ realMap = OvertopBeanstalk }
-	if( name == "BarbosaBeach" ){ realMap = BarbosaBeach }
-	if( name == "ClockTowerSquare" ){ realMap = ClockTowerSquare }
-	if( name == "RoseCastle" ){ realMap = RoseCastle }
-	if( name == "TortugaSeasideCliff" ){ realMap = TortugaSeasideCliff }
-	if( name == "Slumberland" ){ realMap = Slumberland }
-	if( name == "MurosMediaPark" ){ realMap = MurosMediaPark }
-	if( name == "RedWall" ){ realMap = RedWall }
-	if( name == "WhistlerCliffs" ){ realMap = WhistlerCliffs }
-	if( name == "PigmingTribeAltar" ){ realMap = PigmingTribeAltar }
-	if( name == "WolfclawCanyon" ){ realMap = WolfclawCanyon }
-	if( name == "LudiStation" ){ realMap = LudiStation }
-	if( name == "HighcliffTemple" ){ realMap = HighcliffTemple }
-	if( name == "KerningTechnoValley" ){ realMap = KerningTechnoValley }
-	if( name == "KolopuaCrag" ){ realMap = KolopuaCrag }
-	if( name == "LudiFantasia" ){ realMap = LudiFantasia }
-	if( name == "MacaroonAcres" ){ realMap = MacaroonAcres }
-	if( name == "RaptorDivePass" ){ realMap = RaptorDivePass }
-	if( name == "ChronoffTrainStation" ){ realMap = ChronoffTrainStation }
-	if( name == "FrostbunnyPark" ){ realMap = FrostbunnyPark }
-	if( name == "FracturedCanyon" ){ realMap = FracturedCanyon }
-	if( name == "MagmaResearchStation" ){ realMap = MagmaResearchStation }
-	if( name == "SkyreachPass" ){ realMap = SkyreachPass }
-	if( name == "BerrysweetCastle" ){ realMap = BerrysweetCastle }
-	if( name == "HarrotHill" ){ realMap = HarrotHill }
-	if( name == "LudiArcade" ){ realMap = LudiArcade }
-	if( name == "CelimentalTestBunker" ){ realMap = CelimentalTestBunker }
-	if( name == "KarnifsFang" ){ realMap = KarnifsFang }
-	if( name == "MSLElectronicsInstitute" ){ realMap = MSLElectronicsInstitute }
-	if( name == "MSLFactory" ){ realMap = MSLFactory }
-	if( name == "AntTunnelPassage" ){ realMap = AntTunnelPassage }
-	if( name == "FrostpeakMountains" ){ realMap = FrostpeakMountains }
-	if( name == "KernelEnergyResearch" ){ realMap = KernelEnergyResearch }
-	if( name == "FrostemberVoid" ){ realMap = FrostemberVoid }
-	if( name == "SnowscarfHaven" ){ realMap = SnowscarfHaven }
-	if( name == "MSLRobotDevCenter" ){ realMap = MSLRobotDevCenter }
-	if( name == "LavalunaCave" ){ realMap = LavalunaCave }
-	if( name == "LuditionCarnival" ){ realMap = LuditionCarnival }
-	if( name == "CaveOfEtenrity" ){ realMap = CaveOfEtenrity }
-	if( name == "LavaCrest" ){ realMap = LavaCrest }
-	if( name == "Steamerbrook" ){ realMap = Steamerbrook }
-	if( name == "Frozencrest" ){ realMap = Frozencrest }
-	if( name == "WaterSupplyCenter" ){ realMap = WaterSupplyCenter }
-	if( name == "CrystalforstWall" ){ realMap = CrystalforstWall }
-	if( name == "MagmaGorge" ){ realMap = MagmaGorge }
-	if( name == "WailingMine" ){ realMap = WailingMine }
-	if( name == "IglooHill" ){ realMap = IglooHill }
-	if( name == "MagmaTrail" ){ realMap = MagmaTrail }
-	if( name == "PhantomaCyborgCenter" ){ realMap = PhantomaCyborgCenter }
-	if( name == "KabriumBasin" ){ realMap = KabriumBasin }
-	if( name == "ChekartaChemicals" ){ realMap = ChekartaChemicals }
-	if( name == "BlackoutExpanse" ){ realMap = BlackoutExpanse }
-	if( name == "OccupiedFellowstone" ){ realMap = OccupiedFellowstone }
-	if( name == "DarkCellVirusCenter" ){ realMap = DarkCellVirusCenter }
-	if( name == "Picardiv" ){ realMap = Picardiv }
-	if( name == "TorravaRiver" ){ realMap = TorravaRiver }
-	if( name == "VanishedRuins" ){ realMap = VanishedRuins }
-	if( name == "SavageCrossroads" ){ realMap = SavageCrossroads }
-	if( name == "DebloonRanch" ){ realMap = DebloonRanch }
-	if( name == "Stormville" ){ realMap = Stormville }
-	if( name == "VictoriaLiner" ){ realMap = VictoriaLiner }
-	if( name == "NorthSidianRoad" ){ realMap = NorthSidianRoad }
-	if( name == "SouthSidianRoad" ){ realMap = SouthSidianRoad }
-	if( name == "Wallowville" ){ realMap = Wallowville }
-	if( name == "BittersValley" ){ realMap = BittersValley }
-	if( name == "PiercingWindHills" ){ realMap = PiercingWindHills }
-	if( name == "StormyHills" ){ realMap = StormyHills }
-	if( name == "Demonsprings" ){ realMap = Demonsprings }
-	if( name == "BlackForest" ){ realMap = BlackForest }
-	if( name == "Calamitysnare" ){ realMap = Calamitysnare }
-	if( name == "MoldyHollow" ){ realMap = MoldyHollow }
-	if( name == "OutlawsOverlook" ){ realMap = OutlawsOverlook }
-	if( name == "BurningRazedForest" ){ realMap = BurningRazedForest }
-	if( name == "InfernoTree" ){ realMap = InfernoTree }
-
-	return realMap;
+	switch (name) {
+		case "RoyalRoadPlaza": return RoyalRoadPlaza;
+		case "SouthRoyalRoad": return SouthRoyalRoad;
+		case "Hushwood": return Hushwood;
+		case "CrookedCanyon": return CrookedCanyon;
+		case "NorthRoyalRoad": return NorthRoyalRoad;
+		case "LudibriumCrater": return LudibriumCrater;
+		case "RevoldicDam": return RevoldicDam;
+		case "KerningInterchange": return KerningInterchange;
+		case "GoldenTower8F": return GoldenTower8F;
+		case "SylvanWoodsTrail": return SylvanWoodsTrail;
+		case "KerningJunkyard": return KerningJunkyard;
+		case "FairyTreeLake": return FairyTreeLake;
+		case "BarrotaShore": return BarrotaShore;
+		case "Lavaworks": return Lavaworks;
+		case "Beachway111": return Beachway111;
+		case "BoulderwhiteMountains": return BoulderwhiteMountains;
+		case "NoxiousGrotto": return NoxiousGrotto;
+		case "BarrotaPort": return BarrotaPort;
+		case "Frostheart": return Frostheart;
+		case "FloraAvenue": return FloraAvenue;
+		case "SufferingWasteland": return SufferingWasteland;
+		case "Woodward": return Woodward;
+		case "EnigmaArcade": return EnigmaArcade;
+		case "LoggersHill": return LoggersHill;
+		case "AbandonedCharnelHouse": return AbandonedCharnelHouse;
+		case "Spectrumwood": return Spectrumwood;
+		case "FellowstoneConstruction": return FellowstoneConstruction;
+		case "Mounthill": return Mounthill;
+		case "GoldusPharmaceuticals": return GoldusPharmaceuticals;
+		case "NeuronDNAResearchSite": return NeuronDNAResearchSite;
+		case "ShadowGate": return ShadowGate;
+		case "AndreaBarony": return AndreaBarony;
+		case "TrinianCrossing": return TrinianCrossing;
+		case "EllinGrove": return EllinGrove;
+		case "EllbosHollow": return EllbosHollow;
+		case "MajoreLakePark": return MajoreLakePark;
+		case "TorharaSpring": return TorharaSpring;
+		case "TrinketWoods": return TrinketWoods;
+		case "HotottotRiver": return HotottotRiver;
+		case "LavaEyeNest": return LavaEyeNest;
+		case "PrismFalls": return PrismFalls;
+		case "RazedForest": return RazedForest;
+		case "MistyTemple": return MistyTemple;
+		case "StoneQuarry": return StoneQuarry;
+		case "StonehillDigSite": return StonehillDigSite;
+		case "ParuvanPlateau": return ParuvanPlateau;
+		case "BonebridgeWorksite": return BonebridgeWorksite;
+		case "WindsongRavine": return WindsongRavine;
+		case "BaumTree": return BaumTree;
+		case "WestWatchtower": return WestWatchtower;
+		case "ForgottenKeep": return ForgottenKeep;
+		case "MoltenHourglass": return MoltenHourglass;
+		case "AntTunnelEntrance": return AntTunnelEntrance;
+		case "WestWindHill": return WestWindHill;
+		case "PicchuPicchuGardens": return PicchuPicchuGardens;
+		case "HenesysDocks": return HenesysDocks;
+		case "PrecipiceFortress": return PrecipiceFortress;
+		case "Sweetskirts": return Sweetskirts;
+		case "ForestofLostMemories": return ForestofLostMemories;
+		case "AntTunnelPlaza": return AntTunnelPlaza;
+		case "GreenoCrossing": return GreenoCrossing;
+		case "SweetToothValley": return SweetToothValley;
+		case "VerdantHeights": return VerdantHeights;
+		case "CoronaLake": return CoronaLake;
+		case "LavaSprings": return LavaSprings;
+		case "GiantEllinTrees": return GiantEllinTrees;
+		case "MoonglowForest": return MoonglowForest;
+		case "ForestofLife": return ForestofLife;
+		case "Godspring": return Godspring;
+		case "SandDunes": return SandDunes;
+		case "BesherelMagicLibrary": return BesherelMagicLibrary;
+		case "BreezyHills": return BreezyHills;
+		case "ElluaForestPath": return ElluaForestPath;
+		case "EllinRuins": return EllinRuins;
+		case "GreeniaFalls": return GreeniaFalls;
+		case "ElluaRiverside": return ElluaRiverside;
+		case "FungeeburgStump": return FungeeburgStump;
+		case "ReflectionCastle": return ReflectionCastle;
+		case "TwilightMoonCastle": return TwilightMoonCastle;
+		case "SilentFerry": return SilentFerry;
+		case "CausticGarden": return CausticGarden;
+		case "RainbowMountain": return RainbowMountain;
+		case "Ellosylva": return Ellosylva;
+		case "LudibriumCrevasse": return LudibriumCrevasse;
+		case "TidepoolCliffs": return TidepoolCliffs;
+		case "CheliskaBay": return CheliskaBay;
+		case "OvertopBeanstalk": return OvertopBeanstalk;
+		case "BarbosaBeach": return BarbosaBeach;
+		case "ClockTowerSquare": return ClockTowerSquare;
+		case "RoseCastle": return RoseCastle;
+		case "TortugaSeasideCliff": return TortugaSeasideCliff;
+		case "Slumberland": return Slumberland;
+		case "MurosMediaPark": return MurosMediaPark;
+		case "RedWall": return RedWall;
+		case "WhistlerCliffs": return WhistlerCliffs;
+		case "PigmingTribeAltar": return PigmingTribeAltar;
+		case "WolfclawCanyon": return WolfclawCanyon;
+		case "LudiStation": return LudiStation;
+		case "HighcliffTemple": return HighcliffTemple;
+		case "KerningTechnoValley": return KerningTechnoValley;
+		case "KolopuaCrag": return KolopuaCrag;
+		case "LudiFantasia": return LudiFantasia;
+		case "MacaroonAcres": return MacaroonAcres;
+		case "RaptorDivePass": return RaptorDivePass;
+		case "ChronoffTrainStation": return ChronoffTrainStation;
+		case "FrostbunnyPark": return FrostbunnyPark;
+		case "FracturedCanyon": return FracturedCanyon;
+		case "MagmaResearchStation": return MagmaResearchStation;
+		case "SkyreachPass": return SkyreachPass;
+		case "BerrysweetCastle": return BerrysweetCastle;
+		case "HarrotHill": return HarrotHill;
+		case "LudiArcade": return LudiArcade;
+		case "CelimentalTestBunker": return CelimentalTestBunker;
+		case "KarnifsFang": return KarnifsFang;
+		case "MSLElectronicsInstitute": return MSLElectronicsInstitute;
+		case "MSLFactory": return MSLFactory;
+		case "AntTunnelPassage": return AntTunnelPassage;
+		case "FrostpeakMountains": return FrostpeakMountains;
+		case "KernelEnergyResearch": return KernelEnergyResearch;
+		case "FrostemberVoid": return FrostemberVoid;
+		case "SnowscarfHaven": return SnowscarfHaven;
+		case "MSLRobotDevCenter": return MSLRobotDevCenter;
+		case "LavalunaCave": return LavalunaCave;
+		case "LuditionCarnival": return LuditionCarnival;
+		case "CaveOfEtenrity": return CaveOfEtenrity;
+		case "LavaCrest": return LavaCrest;
+		case "Steamerbrook": return Steamerbrook;
+		case "Frozencrest": return Frozencrest;
+		case "WaterSupplyCenter": return WaterSupplyCenter;
+		case "CrystalforstWall": return CrystalforstWall;
+		case "MagmaGorge": return MagmaGorge;
+		case "WailingMine": return WailingMine;
+		case "IglooHill": return IglooHill;
+		case "MagmaTrail": return MagmaTrail;
+		case "PhantomaCyborgCenter": return PhantomaCyborgCenter;
+		case "KabriumBasin": return KabriumBasin;
+		case "ChekartaChemicals": return ChekartaChemicals;
+		case "BlackoutExpanse": return BlackoutExpanse;
+		case "OccupiedFellowstone": return OccupiedFellowstone;
+		case "DarkCellVirusCenter": return DarkCellVirusCenter;
+		case "Picardiv": return Picardiv;
+		case "TorravaRiver": return TorravaRiver;
+		case "VanishedRuins": return VanishedRuins;
+		case "SavageCrossroads": return SavageCrossroads;
+		case "DebloonRanch": return DebloonRanch;
+		case "Stormville": return Stormville;
+		case "VictoriaLiner": return VictoriaLiner;
+		case "NorthSidianRoad": return NorthSidianRoad;
+		case "SouthSidianRoad": return SouthSidianRoad;
+		case "Wallowville": return Wallowville;
+		case "BittersValley": return BittersValley;
+		case "PiercingWindHills": return PiercingWindHills;
+		case "StormyHills": return StormyHills;
+		case "Demonsprings": return Demonsprings;
+		case "BlackForest": return BlackForest;
+		case "Calamitysnare": return Calamitysnare;
+		case "MoldyHollow": return MoldyHollow;
+		case "OutlawsOverlook": return OutlawsOverlook;
+		case "BurningRazedForest": return BurningRazedForest;
+		case "InfernoTree": return InfernoTree;
+	}
 }
 
-function setCookie(cname,cvalue,exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires=" + d.toGMTString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+function setCookie(cname, cvalue, exdays) {
+	var d = new Date();
+	d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+	var expires = "expires=" + d.toGMTString();
+	document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
 function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
+	var name = cname + "=";
+	var decodedCookie = decodeURIComponent(document.cookie);
+	var ca = decodedCookie.split(';');
+	for(var i = 0; i < ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0) == ' ') {
+			c = c.substring(1);
+		}
+		if (c.indexOf(name) == 0) {
+			return c.substring(name.length, c.length);
+		}
+	}
+	return "";
 }
 
 function mapSearch() {
-    // Declare variables
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("mySearch");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myMenu");
-    li = ul.getElementsByTagName("li");
+	// Declare variables
+	var input, filter, ul, li, a, i;
+	input = document.getElementById("mySearch");
+	filter = input.value.toUpperCase();
+	ul = document.getElementById("myMenu");
+	li = ul.getElementsByTagName("li");
 
-    // Loop through all list items, and hide those who don't match the search query
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
+	// Loop through all list items, and hide those who don't match the search query
+	for (i = 0; i < li.length; i++) {
+		a = li[i].getElementsByTagName("a")[0];
+		if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+			li[i].style.display = "";
+		} else {
+			li[i].style.display = "none";
+		}
+	}
 }
 
 function map(name, id){
