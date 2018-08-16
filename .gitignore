@@ -1,4 +1,9 @@
 .vscode/
 node_modules/
 package.json
+package-lock.json
 .eslintrc.json
+
+# WIP
+images/mini.png
+scripts/entity/Equipment.js

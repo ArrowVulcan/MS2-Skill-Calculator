@@ -88,8 +88,8 @@ function createColumn(start, stop){
 			'<div class="point_box">' +
 			'<div class="bar">' +
 			'<span class="skill_text skill_text_' + i + '"></span></div>' +
-			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="minus dec_' + i + '"></div>' +
-			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="plus inc_' + i + '"></div>' +
+			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill_btn minus dec_' + i + '"></div>' +
+			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill_btn plus inc_' + i + '"></div>' +
 			'</div></div>';
 	}
 	
@@ -388,31 +388,60 @@ function setSkillLock(){
 	// Setting this part in a Timeout because it sometimes load faster than the plus/minus class content. Temp fix?
 	setTimeout(function(){
 	
-		let skillMinus = document.getElementsByClassName("minus");
-		let skillPlus = document.getElementsByClassName("plus");
+		let skillBtns = Array.from(document.getElementsByClassName("skill_btn"));
+		let skillPlus = skillBtns.filter(skillBtn => 
+			skillBtn.classList.contains('plus') || skillBtn.classList.contains('min')
+		);
+		let skillMinus = skillBtns.filter(skillBtn => 
+			skillBtn.classList.contains('max') || skillBtn.classList.contains('minus')
+		);
 	
 		for(let i=0; i < Class_skills.length; i++){
-		
+
 			if( parseInt(levels[i]) == 0 ){
-				skillMinus[i].classList.add("minus_locked");
-			}else{
-				skillMinus[i].classList.remove("minus_locked");
+				console.log('i=' + i + ' name=' + skillMinus[i].dataset.title + 'max');
+				skillMinus[i].classList.add("max");
+				skillMinus[i].classList.remove("minus");
+			} else {
+				console.log('i=' + i + ' name=' + skillMinus[i].dataset.title + 'minus');
+				skillMinus[i].classList.add("minus");
+				skillMinus[i].classList.remove("max");
 			}
-			
+
+			// Locks base skills(0, 1) from having 0 points.
+			if( i == 0 || i == 1) {
+				if (parseInt(levels[i]) == 1) {
+					skillMinus[i].classList.add("max");
+					skillMinus[i].classList.remove("minus");
+				} else {
+					skillMinus[i].classList.add("minus");
+					skillMinus[i].classList.remove("max");
+				}
+			}
+
 			if( parseInt(levels[i]) == maxLevels[i] ){
-				skillPlus[i].classList.add("plus_locked");
+				skillPlus[i].classList.add("min");
+				skillPlus[i].classList.remove("plus");
+				if (skillMinus[i].classList.contains("max")) {
+					skillMinus[i].classList.add("max_locked");
+				}
 			}else{
+				skillPlus[i].classList.add("plus");
+				skillPlus[i].classList.remove("min");
+			}
+
+			// If out of skill points, show the lock icon
+			if ( getSkillpoints() == 0 && skillPlus[i].classList.contains("plus")) {
+				skillPlus[i].classList.add("plus_locked");
+			} else {
 				skillPlus[i].classList.remove("plus_locked");
 			}
-			
-			// Locks locked skills but also skill(12, 18).
-			if( lockeds[i] == 1 || i == 12 || i == 18 ){
-				skillMinus[i].classList.add("minus_locked");
+
+			// Locks sp and movement skill(12, 18)
+			if(i == 12 || i == 18 ){
 				skillPlus[i].classList.add("plus_locked");
-			}
-			
-			// Locks base skills(0, 1) from having 0 points.
-			if( (i == 0 || i == 1) && parseInt(levels[i]) == 1 ){
+				skillPlus[i].classList.add("plus");
+				skillPlus[i].classList.remove("min");
 				skillMinus[i].classList.add("minus_locked");
 			}
 		
@@ -486,18 +515,22 @@ function resetSkills(){
 function getSkillpoints(){
 
 		let pointsUsed = 0;
-		let pointsMax = 58 + 4; // Current max points + 4 base skills
+		let pointsMax = 58 + 4; // 49 points from leveling + 9 points from trophies and quests + 4 base skills
 		
 		// Collect all the skill levels
 		for(let i=0; i < levels.length; i++){
-			pointsUsed = pointsUsed + parseInt(levels[i]);
+			pointsUsed += parseInt(levels[i]);
 		}
 		
 		return (pointsMax - pointsUsed);
 
 }
 
-// changeSkillPoints - Increase or decrease a skillpoint from a skill
+/**
+ * Increase or decrease a skillpoint from a skill
+ * @param {event} event - Used to get the skill name of the click target
+ * @param {number} value - 1 or -1 to increase or decrease a skill point
+ */
 function changeSkillPoints(event, value){
 
 	let infoTitle = event.target.dataset.title;
@@ -586,8 +619,8 @@ function setPointsUsed(){
 }
 
 /**
- * @description Sets the level of your pre-req skills to the levels defined in lockReqs[].
- * @param index The index of the skill to check the pre-reqs of.
+ * Sets the level of your pre-req skills to the levels defined in lockReqs[].
+ * @param {number} index The index of the skill to check the pre-reqs of.
  */
 function levelUpAllPrereqSkills(index) {
 	let skillTexts = document.getElementsByClassName("skill_text");

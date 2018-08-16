@@ -121,6 +121,27 @@ div{
 	cursor: pointer;
 }
 
+.max{
+	position: relative;
+	top: 41px;
+	background-image:url('../images/max.png');
+    background-repeat: no-repeat;
+	width: 30px;
+	height: 36px;
+	cursor: pointer;
+}
+
+.min{
+	position: relative;
+	left: 80px;
+	top: 5px;
+	background-image:url('../images/min.png');
+    background-repeat: no-repeat;
+	width: 30px;
+	height: 36px;
+	cursor: pointer;
+}
+
 .plus:not(.plus_locked):hover{
 	background-image:url('../images/plus_hover.png') !important;
 }
@@ -129,12 +150,28 @@ div{
 	background-image:url('../images/minus_hover.png') !important;
 }
 
-.minus_locked{
-	background-image:url('../images/minus_locked.png');
+.max:not(.max_locked):hover{
+	background-image:url('../images/max_hover.png') !important;
+}
+
+.min:not(.min_locked):hover{
+	background-image:url('../images/min_hover.png') !important;
 }
 
 .plus_locked{
 	background-image:url('../images/plus_locked.png');
+}
+
+.minus_locked{
+	background-image:url('../images/minus_locked.png');
+}
+
+.max_locked{
+	background-image:url('../images/max_locked.png');
+}
+
+.min_locked{
+	background-image:url('../images/min_locked.png');
 }
 
 .skill{
