@@ -88,8 +88,8 @@ function createColumn(start, stop){
 			'<div class="point_box">' +
 			'<div class="bar">' +
 			'<span class="skill_text skill_text_' + i + '"></span></div>' +
-			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill_btn minus dec_' + i + '"></div>' +
-			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill_btn plus inc_' + i + '"></div>' +
+			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="minus dec_' + i + ' skill_btn"></div>' +
+			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="plus inc_' + i + ' skill_btn"></div>' +
 			'</div></div>';
 	}
 	
@@ -187,7 +187,11 @@ function storeData(){
 
 }
 
-// setSkillInfo - Sets the skill info for the hover-tooltip
+/**
+ * Sets the skill info for the hover-tooltip
+ * @param {Event} event
+ * @param {string} type - The class of the element. Can be: skill, plus, minus, min, max
+ */
 function setSkillInfo(event, type){
 
 		// Check if skill info exists
@@ -293,6 +297,7 @@ function setSkillInfo(event, type){
 					}else{
 						$(".info_resource").text(resources[i]);
 					}
+
 				}
 			
 				if( type == "skill" ){
@@ -316,6 +321,16 @@ function setSkillInfo(event, type){
 					$(".info_level").text("Level " + newLevel );
 					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
 					getResources(-1);
+				}else if( type == "min" ){
+					let newLevel = 1;
+					$(".info_level").text("Level " + newLevel);
+					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					getResources(1 - parseInt(levels[i]));
+				}else if( type == "max" ){
+					let newLevel = parseInt(maxLevels[i]);
+					$(".info_level").text("Level " + newLevel);
+					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					getResources(parseInt(maxLevels[i]) - parseInt(levels[i]));
 				}
 			
 				// Set tooltip image
@@ -386,6 +401,7 @@ function setSkillLock(){
 	}
 
 	// Setting this part in a Timeout because it sometimes load faster than the plus/minus class content. Temp fix?
+	// Sets the class/images on the skill plus and minus buttons
 	setTimeout(function(){
 	
 		let skillBtns = Array.from(document.getElementsByClassName("skill_btn"));
@@ -399,49 +415,47 @@ function setSkillLock(){
 		for(let i=0; i < Class_skills.length; i++){
 
 			if( parseInt(levels[i]) == 0 ){
-				console.log('i=' + i + ' name=' + skillMinus[i].dataset.title + 'max');
-				skillMinus[i].classList.add("max");
-				skillMinus[i].classList.remove("minus");
+				skillMinus[i].classList.replace("minus", "max"); // remove minus, add max
 			} else {
-				console.log('i=' + i + ' name=' + skillMinus[i].dataset.title + 'minus');
-				skillMinus[i].classList.add("minus");
-				skillMinus[i].classList.remove("max");
+				skillMinus[i].classList.replace("max", "minus");
 			}
 
 			// Locks base skills(0, 1) from having 0 points.
 			if( i == 0 || i == 1) {
 				if (parseInt(levels[i]) == 1) {
-					skillMinus[i].classList.add("max");
-					skillMinus[i].classList.remove("minus");
+					skillMinus[i].classList.replace("minus", "max");
 				} else {
-					skillMinus[i].classList.add("minus");
-					skillMinus[i].classList.remove("max");
+					skillMinus[i].classList.replace("max", "minus");
 				}
 			}
 
 			if( parseInt(levels[i]) == maxLevels[i] ){
-				skillPlus[i].classList.add("min");
-				skillPlus[i].classList.remove("plus");
+				skillPlus[i].classList.replace("plus", "min");
 				if (skillMinus[i].classList.contains("max")) {
 					skillMinus[i].classList.add("max_locked");
 				}
 			}else{
-				skillPlus[i].classList.add("plus");
-				skillPlus[i].classList.remove("min");
+				skillPlus[i].classList.replace("min", "plus");
+				skillMinus[i].classList.remove("max_locked");
 			}
 
 			// If out of skill points, show the lock icon
-			if ( getSkillpoints() == 0 && skillPlus[i].classList.contains("plus")) {
-				skillPlus[i].classList.add("plus_locked");
+			if ( getSkillpoints() == 0 ) {
+				if ( skillPlus[i].classList.contains("plus") ) {
+					skillPlus[i].classList.add("plus_locked");
+				}
+				if ( skillMinus[i].classList.contains("max")) {
+					skillMinus[i].classList.add("max_locked");
+				}
 			} else {
 				skillPlus[i].classList.remove("plus_locked");
+				skillMinus[i].classList.remove("max_locked");
 			}
 
 			// Locks sp and movement skill(12, 18)
 			if(i == 12 || i == 18 ){
 				skillPlus[i].classList.add("plus_locked");
-				skillPlus[i].classList.add("plus");
-				skillPlus[i].classList.remove("min");
+				skillPlus[i].classList.replace("min", "plus");
 				skillMinus[i].classList.add("minus_locked");
 			}
 		
@@ -528,7 +542,7 @@ function getSkillpoints(){
 
 /**
  * Increase or decrease a skillpoint from a skill
- * @param {event} event - Used to get the skill name of the click target
+ * @param {Event} event - Used to get the skill name of the click target
  * @param {number} value - 1 or -1 to increase or decrease a skill point
  */
 function changeSkillPoints(event, value){
@@ -693,8 +707,7 @@ function resetStats(){
 
 function setMouseTriggers(){
 
-	// Mousemove for .skill, .plus and .minus
-	$(".skill, .plus, .minus").mousemove(function(event){
+	$(".skill, .plus, .minus, .max, .min").mousemove(function(event){
 	
 		let type = event.target.classList[0];
 		setSkillInfo(event, type);
@@ -702,7 +715,7 @@ function setMouseTriggers(){
 	});
 	
 	// Mouseleave for .skill, .plus and .minus
-	$(".skill, .plus, .minus").mouseleave(function(event){
+	$(".skill, .plus, .minus, .max, .min").mouseleave(function(event){
 
 		let box = document.getElementById('info_box');
 		box.style.display = "none";
