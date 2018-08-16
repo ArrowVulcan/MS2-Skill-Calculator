@@ -488,7 +488,7 @@ header{
 #info_name{
 	width: 350px;
 	height: 40px;
-	background-color: rgba(25,25,25,.9);
+	background-color: rgba(25,25,25,.95);
 	float: left;
 	display: flex;
 	align-items: center;
@@ -607,25 +607,25 @@ header{
 }
 
 .element_holy{
-	background: linear-gradient(to right, #191919d9 , #7a4d01) !important;
+	background: url(../images/elements.png) 350px 98px;
 }
 
 .element_dark{
-	background: linear-gradient(to right, #191919d9 , #3e1722) !important;
+	background: url(../images/elements.png) 350px -3px;
 }
 
 .element_fire{
-	background: linear-gradient(to right, #191919d9 , #6e2910) !important;
+	background: url(../images/elements.png) 0px -3px;
 }
 
 .element_ice{
-	background: linear-gradient(to right, #191919d9 , #153570) !important;
+	background: url(../images/elements.png) 350px 43px;
 }
 
 .element_electric{
-	background: linear-gradient(to right, #191919d9 , #105660) !important;
+	background: url(../images/elements.png) 0px 43px;
 }
 
 .element_toxic{
-	background: linear-gradient(to right, #191919d9 , #34164a) !important;
+	background: url(../images/elements.png) 350px -58px;
 }

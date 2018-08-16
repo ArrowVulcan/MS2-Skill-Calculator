@@ -51,24 +51,25 @@ html, body{
 
 .icon-bar {
     width: 90px;
-	position: absolute;
-	top: 50px;
-	background-color: #555;
-	animation: slideRight 0.5s ease-in-out;
-	animation-fill-mode: forwards;
-	opacity: 0;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 50px;
+    background-color: #555;
+    animation: slideRight 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 50;
+    margin-left: -25px;
 }
 
 .icon-bar a {
-	width: 90px;
+    width: 90px;
     display: block;
     text-align: center;
-    padding: 16px;
+    padding: 12px;
     transition: all 0.3s ease;
     color: white;
     font-size: 36px;
+    margin-left: 12px;
 }
 
 .icon-bar, .icon-bar .active, .icon-bar a{
@@ -181,14 +182,15 @@ footer p{
 }
 
 #golden_treasure{
-	position: absolute;
+	position: relative;
     top: 50px;
-    left: 25%;
     width: 1107px;
     height: 791px;
     background-image: url(../images/board.png);
     background-repeat: no-repeat;
     background-size: contain;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #search{
@@ -312,7 +314,7 @@ h1, h4, p, a, button, strong, input, li, #snackbar{
     top: 64px;
     font-size: 24px;
     font-weight: bold;
-    line-height: 2.8;
+    line-height: 2.5;
 	opacity: 0;
 	animation: fadeIn 0.5s ease-in-out 0.2s;
 	animation-fill-mode: forwards;
@@ -568,14 +570,129 @@ However, delay the fade out process for 2.5 seconds */
 /* ----- Coming Soon ----- */
 
 .bgimg {
-    background-image: url('../images/landing/bg.jpg');
+    background-image: url('../images/landing/cd_bg.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: white;
+    background-color: #000;
     font-size: 25px;
 	z-index: -1;
+	overflow: hidden;
+	animation: fade 4s ease-in-out infinite alternate;
+}
+
+.bgimgShoulder{
+    background-image: url('../images/landing/cd_bg_1.png');
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	z-index: -1;
+	top: 0px;
+	animation: shoulderMovement 2s ease-in-out infinite alternate;
+}
+
+.bgimgEyes{
+    background-image: url('../images/landing/cd_bg_2.png');
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	z-index: -1;
+	top: 0px;
+	animation: lightFade 1.5s ease-in-out infinite alternate;
+}
+
+.bgimgEyes2{
+    background-image: url('../images/landing/cd_bg_3.png');
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	z-index: -1;
+	top: 0px;
+	animation: eyeMovement 1s ease-in-out infinite alternate;
+}
+
+.bgimgMouth{
+    background-image: url('../images/landing/cd_bg_4.png');
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	z-index: -1;
+	top: 0px;
+	animation: mouthMovement 3s ease-in-out infinite alternate;
+}
+
+.bgimgHair{
+    background-image: url('../images/landing/cd_bg_5.png');
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	z-index: -1;
+	top: 0px;
+	animation: hairMovement 3s ease-in-out infinite alternate;
+}
+
+.bgimgHairGlow{
+    background-image: url('../images/landing/cd_bg_7.png');
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	z-index: -1;
+	top: 0px;
+	animation: hairGlowing 2s ease-in-out infinite alternate;
+}
+
+.bgimgSplash{
+    background-image: url('../images/landing/cd_bg_6.png');
+	width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	z-index: -1;
+	top: 0px;
+	animation: splashMovement 0.4s linear infinite alternate;
+}
+
+@keyframes eyeMovement{
+    0%  { left: -1px; top: -1px; }
+    100%  { left: 0.5px; top: 1px; }
+}
+
+@keyframes shoulderMovement{
+    100%  { top: 10px; }
+}
+
+@keyframes mouthMovement{
+    100%  {  left: -0px; transform: scaleX(1.3); }
+}
+
+@keyframes hairMovement{
+    0%  {  top: 0px; left: 00px; transform: rotate(0deg); }
+    100%  {  top: 20px; left: -120px; transform: rotate(15deg); }
+}
+
+@keyframes splashMovement{
+    0%  {  opacity: 0; transform: rotate(-1deg) scale(1.075);  }
+    50%  {  opacity: 1; }
+    100%  {  opacity: 0; transform: rotate(1deg) scale(1.1); }
+}
+
+@keyframes hairGlowing{
+    0%  {  opacity: 0; }
+    100%  {  opacity: 1; }
 }
 
 .middle {
@@ -607,6 +724,9 @@ hr {
 
 #timeHolder{
 	display: flex;
+	transform: scale(0.5);
+	position: relative;
+	top: -25px;
 }
 
 .numDots{
@@ -686,4 +806,44 @@ hr {
 @keyframes shine {
 	from { -webkit-mask-position: 200%; }
 	to { -webkit-mask-position: -100%; }
+}
+
+/* ----- Loader ----- */
+.loader{
+	background-image: url('../images/loader_2.png');
+	background-repeat: no-repeat;
+	position: absolute;
+    left: 45%;
+    top: 45%;
+    width: 78px;
+    height: 89px;
+    z-index: 150;
+    transform: scale(1.5);
+	display: none;
+}
+
+.loader_3{
+	background-image: url('../images/loader_1.png');
+	background-repeat: no-repeat;
+	position: relative;
+	width: 78px;
+	height: 89px;
+	z-index: 100;
+}
+
+.loader_2 {
+	background-image: url('../images/loader_3.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 5;
+	width: 78px;
+	height: 89px;
+	animation: spin 2s linear infinite;
+	clip-path: circle(34px at center);
+	z-index: 99;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
 }
