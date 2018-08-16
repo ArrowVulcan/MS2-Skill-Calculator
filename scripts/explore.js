@@ -242,8 +242,12 @@ function map(name, id){
 
 	mapID = id;
 	
+	image.src = "";
+	$(".loader").show();
+	
 	image.onload  = function(){
 		stars();
+		$(".loader").hide();
 	}
 	
 	image.onerror  = function(){

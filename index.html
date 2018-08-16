@@ -44,7 +44,7 @@
 		<p>Skill Calculator</p>
 		<p>Items</p>
 	</div>
-
+	
 	<div class="bgimg2">
 
 		<div class="middle">
@@ -59,35 +59,22 @@
 		<span class="stars1"></span>
 		<span class="lights1"></span>
 	</div>
-	
+
 	<!--
 	<div class="bgimg">
+		<div class="bgimgShoulder"></div>
+		<div class="bgimgEyes"></div>
+		<div class="bgimgEyes2"></div>
+		<div class="bgimgMouth"></div>
+		<div class="bgimgHair"></div>
+		<div class="bgimgHairGlow"></div>
+		<div class="bgimgSplash"></div>
 		<div class="middle">
-			<h1>COMING SOON</h1>
+			<h1 id="cSoon"></h1>
 			<hr>
 			<p id="timeLeft"></p>
 			<p id="timeHolder"></p>
 		</div>
-	</div>
-	-->
-
-	<!--
-	<div id="home">
-	
-		<img id="topBar" src="./images/topbar.png">
-		<h1 class="themeColor">Welcome to this Maplestory 2 Fansite!</h1>
-		
-		<div id="statusList">
-			<h4 id="statusListTop"><b>Status</b></h4>
-			<div id="statusListBottom">
-				<p><b>Explore</b> : <span class="tYellow badge">WIP</span></p>
-				<p><b>MC Kay</b> : <span class="tRed badge">Unknown</span></p>
-				<p><b>Trophies</b> : <span class="tRed badge">Unknown</span></p>
-				<p><b>Skill Calculator</b> : <span class="tGreen badge">Working</span></p>
-				<p><b>Items</b> : <span class="tYellow badge">WIP</span></p>
-			</div>
-		</div>
-		
 	</div>
 	-->
 
@@ -123,13 +110,15 @@
 		}
 	
 		// Set the date we're counting down to
-		var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+		var countDownDate = new Date("Aug 14, 2018 18:00:00").getTime(); // Jan 5, 2019 15:37:25
 
-		// Update the count down every 1 second
-		var x = setInterval(function() {
+		function commingSoon(){
 
 			// Get todays date and time
-			var now = new Date().getTime();
+			var now = Date.now();
+			var d = new Date();
+		
+			now = now + (d.getTimezoneOffset() * 60000);
 
 			// Find the distance between now an the count down date
 			var distance = countDownDate - now;
@@ -153,10 +142,18 @@
 			// If the count down is finished, write some text 
 			if (distance < 0) {
 				clearInterval(x);
-				document.getElementById("timeLeft").innerHTML = "Game is released!";
+				document.getElementById("cSoon").innerHTML = "Game is released!";
+				$('#timeHolder').empty();
+			}else{
+				document.getElementById("cSoon").innerHTML = "COMING SOON";
 			}
-			
-		}, 1000);
+		
+		}
+		
+		setTimeout(function(){ commingSoon(); }, 50);
+
+		// Update the count down every 1 second
+		var x = setInterval(function(){ commingSoon(); }, 1000);
 		
 	</script>
 	-->
