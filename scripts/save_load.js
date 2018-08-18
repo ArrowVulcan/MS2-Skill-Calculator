@@ -97,6 +97,6 @@ function deleteSkillBuild(event, buildName) {
     return (skillBuild[0] != buildName) ? true : false;
   });
   buildMenu();
-  document.getElementById("loadBuildButton").dropdown('toggle');
+  $("#loadBuildButton").dropdown("update");
   localStorage.setItem("ms2skillcalculator", JSON.stringify(skillBuilds));
 }
