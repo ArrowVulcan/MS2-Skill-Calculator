@@ -381,6 +381,19 @@ $( window ).on( "load", function(){
 			// Open star menu
 			let menu = $("#menu_list");
 			
+			// Hide/Show Dropdowns
+			if( latestStar.dataset.image != "undefined" ){
+				$(".drop_image").show();
+			}else{
+				$(".drop_image").hide();
+			}
+			
+			if( latestStar.dataset.video != "undefined" ){
+				$(".drop_video").show();
+			}else{
+				$(".drop_video").hide();
+			}
+			
 			// Make the tooltip visible
 			menu.css("display", "block");
 			
