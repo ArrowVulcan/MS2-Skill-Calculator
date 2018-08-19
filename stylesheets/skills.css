@@ -42,6 +42,10 @@ div{
     background: #b37700;
 }
 
+.max, .max_hover, .max_locked, .min, .min_hover, .min_locked, .minus, .minus_hover, .minus_locked, .plus, .plus_hover, .plus_locked, .skill, .skill:hover:after, .locked:before, .skill_12:before, .bar{
+	background: url('../images/sprites.png') no-repeat;
+}
+
 #window{
 	background-image:url('../images/window_new.png');
 	width: 847px;
@@ -83,8 +87,7 @@ div{
 
 .bar{
 	position: relative;
-	background-image:url('../images/bar.png');
-    background-repeat: no-repeat;
+	background-position: 0 -95px;
 	width: 107px;
 	height: 36px;
 	top: 77px;
@@ -104,8 +107,7 @@ div{
 	position: relative;
 	left: 80px;
 	top: 5px;
-	background-image:url('../images/plus.png');
-    background-repeat: no-repeat;
+	background-position: -443px -39px;
 	width: 30px;
 	height: 36px;
 	cursor: pointer;
@@ -114,8 +116,7 @@ div{
 .minus{
 	position: relative;
 	top: 41px;
-	background-image:url('../images/minus.png');
-    background-repeat: no-repeat;
+	background-position: -443px 0;
 	width: 30px;
 	height: 36px;
 	cursor: pointer;
@@ -124,8 +125,7 @@ div{
 .max{
 	position: relative;
 	top: 41px;
-	background-image:url('../images/max.png');
-    background-repeat: no-repeat;
+	background-position: -251px 0;
 	width: 30px;
 	height: 36px;
 	cursor: pointer;
@@ -135,47 +135,46 @@ div{
 	position: relative;
 	left: 80px;
 	top: 5px;
-	background-image:url('../images/min.png');
-    background-repeat: no-repeat;
+	background-position: -347px 0;
 	width: 30px;
 	height: 36px;
 	cursor: pointer;
 }
 
 .plus:not(.plus_locked):hover{
-	background-image:url('../images/plus_hover.png') !important;
+	background-position: -475px -39px;
 }
 
 .minus:not(.minus_locked):hover{
-	background-image:url('../images/minus_hover.png') !important;
+	background-position: -475px 0;
 }
 
 .max:not(.max_locked):hover{
-	background-image:url('../images/max_hover.png') !important;
+	background-position: -283px 0;
 }
 
 .min:not(.min_locked):hover{
-	background-image:url('../images/min_hover.png') !important;
+	background-position: -379px 0;
 }
 
 .plus_locked{
-	background-image:url('../images/plus_locked.png');
+	background-position: -507px -39px;
 }
 
 .minus_locked{
-	background-image:url('../images/minus_locked.png');
+	background-position: -507px 0;
 }
 
 .max_locked{
-	background-image:url('../images/max_locked.png');
+	background-position: -315px 0;
 }
 
 .min_locked{
-	background-image:url('../images/min_locked.png');
+	background-position: -411px 0;
 }
 
 .skill{
-	background-image:url('../images/frame.png');
+	background-position: -368px -39px;
 	position: relative;
 	left: 19px;
 	top: 2px;
@@ -189,24 +188,24 @@ div{
 	position: absolute;
 	width: 73px;
 	height: 81px;
-	background-image:url('../images/frame_glow.png');
+	background-position: -294px -39px;
 }
 
 .point_box{
 	position: relative;
 	left: 0px;
-	top: -169px;
+	top: -185px;
 }
 
 .skillImage{
 	position: relative;
-	width: 72px;
-	height: 84px;
+	width: 86px;
+	height: 100px;
 	background-size: contain;
-	top: -82px;
-	left: 19px;
+	top: -90px;
+	left: 12px;
 	z-index: 1;
-	transform: scale(0.6);
+	transform: scale(0.5);
 }
 
 #drag_bar{
@@ -433,7 +432,7 @@ header{
 	height: 28px;
     margin-left: 41px;
     margin-top: 30px;
-	background-image:url('../images/lock.png');
+	background-position: -445px -80px;
 	z-index: 2;
 	pointer-events: none;
 }
@@ -442,7 +441,7 @@ header{
 	content: "";
 	width: 28px;
 	height: 22px;
-	background-image:url('../images/sp.png');
+	background-position: -478px -82px;
     transform: scale(0.6);
     position: absolute;
     left: 3px;
