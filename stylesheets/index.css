@@ -685,7 +685,7 @@ However, delay the fade out process for 2.5 seconds */
 
 @keyframes hairMovement{
     0%  {  top: 0px; left: 00px; transform: rotate(0deg); }
-    100%  {  top: 20px; left: -120px; transform: rotate(15deg); }
+    100%  {  top: 10px; left: -120px; transform: rotate(15deg); }
 }
 
 @keyframes splashMovement{
@@ -726,7 +726,7 @@ hr {
 	box-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
 
-#timeHolder{
+#timeHolder, #timeHolder2{
 	display: flex;
 	transform: scale(0.5);
 	position: relative;
