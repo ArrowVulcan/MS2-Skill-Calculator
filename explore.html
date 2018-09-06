@@ -169,7 +169,7 @@
 			  <li><a class="mapName" data-id="110" onclick="map('HarrotHill', 110)" href="#HarrotHill">HarrotHill (0/3)</a></li>
 			  <li><a class="mapName" data-id="111" onclick="map('LudiArcade', 111)" href="#LudiArcade">Ludi Arcade (0/4)</a></li>
 			  <li><a class="mapName" data-id="112" onclick="map('CelimentalTestBunker', 112)" href="#CelimentalTestBunker">Celimental Test Bunker (0/4)</a></li>
-			  <li><a class="mapName" data-id="113" onclick="map('KarnifsFang', 113)" href="#KarnifsFang">Karnif's Fang (0/3)</a></li>
+			  <li><a class="mapName" data-id="113" onclick="map('KarnifsFang', 113)" href="#KarnifsFang">Karnifs Fang (0/3)</a></li>
 			  <li><a class="mapName" data-id="114" onclick="map('MSLElectronicsInstitute', 114)" href="#MSLElectronicsInstitute">MSL Electronics Institute (0/7)</a></li>
 			  <li><a class="mapName" data-id="115" onclick="map('MSLFactory', 115)" href="#MSLFactory">MSL Factory (0/4)</a></li>
 			  <li><a class="mapName" data-id="116" onclick="map('AntTunnelPassage', 116)" href="#AntTunnelPassage">Ant Tunnel Passage (0/5)</a></li>
@@ -180,7 +180,7 @@
 			  <li><a class="mapName" data-id="121" onclick="map('MSLRobotDevCenter', 121)" href="#MSLRobotDevCenter">MSL Robot Dev Center (0/2)</a></li>
 			  <li><a class="mapName" data-id="122" onclick="map('LavalunaCave', 122)" href="#LavalunaCave">Lavaluna Cave (0/3)</a></li>
 			  <li><a class="mapName" data-id="123" onclick="map('LuditionCarnival', 123)" href="#LuditionCarnival">Ludition Carnival (0/3)</a></li>
-			  <li><a class="mapName" data-id="124" onclick="map('CaveOfEternity', 124)" href="#CaveOfEternity">Cave of Eternity (0/10)</a></li>
+			  <li><a class="mapName" data-id="124" onclick="map('CaveofEternity', 124)" href="#CaveofEternity">Cave of Eternity (0/10)</a></li>
 			  <li><a class="mapName" data-id="125" onclick="map('LavaCrest', 125)" href="#LavaCrest">Lava Crest (0/6)</a></li>
 			  <li><a class="mapName" data-id="126" onclick="map('Steamerbrook', 126)" href="#Steamerbrook">Steamerbrook (0/5)</a></li>
 			  <li><a class="mapName" data-id="127" onclick="map('Frozencrest', 127)" href="#Frozencrest">Frozencrest (0/3)</a></li>
@@ -220,7 +220,7 @@
 		  </div>
 		  
 		  <div class="right" id="right">
-			<img id="map" width="828" height="791" draggable="false">
+			<img id="map" onclick="pos(event)" width="828" height="791" draggable="false">
 			
 			<div class="loader">
 				<div class="loader_2"></div>
@@ -254,6 +254,12 @@
 	<script type="text/javascript" src="scripts/index.js"></script>
 	<script type="text/javascript" src="scripts/explore.js"></script>
 	<script type="text/javascript" src="scripts/map.js"></script>
+	
+	<script>
+		function pos(event){
+			<!-- console.log( event.offsetX - 20, event.offsetY - 20 ); -->
+		}
+	</script>
 	
 </body>
 

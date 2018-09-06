@@ -146,12 +146,12 @@ function getMapName(name){
 		case "MSLRobotDevCenter": return MSLRobotDevCenter;
 		case "LavalunaCave": return LavalunaCave;
 		case "LuditionCarnival": return LuditionCarnival;
-		case "CaveOfEtenrity": return CaveOfEtenrity;
+		case "CaveofEternity": return CaveofEternity;
 		case "LavaCrest": return LavaCrest;
 		case "Steamerbrook": return Steamerbrook;
 		case "Frozencrest": return Frozencrest;
 		case "WaterSupplyCenter": return WaterSupplyCenter;
-		case "CrystalforstWall": return CrystalforstWall;
+		case "CrystalfrostWall": return CrystalfrostWall;
 		case "MagmaGorge": return MagmaGorge;
 		case "WailingMine": return WailingMine;
 		case "IglooHill": return IglooHill;
