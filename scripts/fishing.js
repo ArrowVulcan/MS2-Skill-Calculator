@@ -10,7 +10,8 @@ var cought = false;
 
 // List of Fishes
 var fishNames = ["Crucian Carp", "Piranha", "Ricefish", "Axolotl", "Mantis Shrimp"];
-var fishNamesGold = ["Golden Lobster"];
+var fishNamesGold = ["Golden Lobster", "Golden Ricefish", "Golden Seaweed"];
+var fishCollected = [0, 0, 0, 0, 0, 0, 0, 0];
 
 // List of Numbers
 var fishAmount = 0;
@@ -39,6 +40,12 @@ var fishGoldAmount_List_Text = ["The Golden Reel I", "The Golden Reel II", "The 
 var fishBigAmount_List = [1, 10, 25, 50, 100];
 var fishBigAmount_List_Collected = [0, 0, 0, 0, 0];
 var fishBigAmount_List_Text = ["The Big One I", "The Big One II", "The Big One III", "The Big One IV", "The Big One V"];
+
+// Book
+var rank_exp = 0;
+var rank_name = ["Beginner I", "Beginner II", "Amateur I", "Amateur II", "Expert I"];
+var currentRank = 0;
+var expToLevel = [10, 20, 30, 40, 50];
 
 // ::::: FUNCTIONS :::::
 function start(){
@@ -126,7 +133,7 @@ function start3(){
 	}else{
 		fishSelection = fishNames;
 	}
-
+	
 	// Set fish
 	let rand2 = Math.floor((Math.random() * fishSelection.length));
 
@@ -135,11 +142,19 @@ function start3(){
 	
 	// Set fish length
 	let rand = Math.floor((Math.random() * 120) + 1);
-	$("#fish_size").text( rand + "cm");
+	$("#fish_size").text( rand + " cm");
 	
 	fishAmount += 1;
 
 	if( cought ){
+	
+		// Add to book
+		if( fishSelection == fishNamesGold ){
+			fishCollected[fishNames.length + rand2] = 1;
+		}else{
+			fishCollected[rand2] = 1;
+		}
+	
 		$("#fish_text").text("You caught " + fishSelection[rand2] + ".");
 		$("#fish_text").removeClass("fish_failed");
 		$("#fish_bg").css("visibility", "visible");
@@ -154,6 +169,15 @@ function start3(){
 		if( rand >= 100 ){
 			fishBigAmount += 1;
 		}
+		
+		rank_exp += 2;
+		
+		if( rank_exp >= expToLevel[currentRank] ){
+			rank_exp = rank_exp - expToLevel[currentRank];
+			currentRank += 1;
+		}
+		let calcExp = ( 371 / expToLevel[currentRank] ) * rank_exp;
+		$("#fish_exp_bar").css("width", calcExp + "px");
 		
 	}else{
 		$("#fish_text").text("Failed to catch " + fishSelection[rand2] + ".");
@@ -325,6 +349,11 @@ $("body").keydown(function(event){
 		
 	}
 	
+	// If esc is pressed
+	if( event.keyCode == 27 ){
+		$("#book").hide();
+	}
+	
 	if( event.keyCode == 32 && state == 2){
 		
 		disableDropping = true;
@@ -393,3 +422,66 @@ setInterval(function(){
 	}
 	
 }, 10);
+
+function openBook(){
+
+	$("#book").toggle();
+	
+	// Clean list
+	$('#fish_list').empty();
+	
+	$("#fish_select").hide();
+	$("#fish_big_image").css("background", "");
+	$("#fish_name").text("");
+	
+	let fullFishList = fishNames.concat(fishNamesGold);
+	
+	for(let i=0; i < fullFishList.length; i++){
+		let fish_list = document.getElementById("fish_list");
+		
+		if( fishCollected[i] == 1 ){
+			fish_list.innerHTML += '<div class="fish_box fish-' + i + '" data-id=' + i + '></div>';
+		}else{
+			fish_list.innerHTML += '<div class="fish_box fish-' + i + ' fish_locked" data-id=' + i + '></div>';
+		}
+		
+		$(".fish-" + i).css("background", "url(./images/fishing/" + fullFishList[i].replace(" ", "_") + ".png)");
+		$(".fish-" + i).css("background-size", "contain");
+	}
+
+}
+
+$("#book").on("mousedown", ".fish_box", function(event){
+
+	let fullFishList = fishNames.concat(fishNamesGold);
+	let fishId = event.target.dataset.id;
+	
+	// Set image to fish image
+	$("#fish_big_image").css("background", "url(./images/fishing/" + fullFishList[fishId].replace(" ", "_") + ".png)");
+	
+	if( fishCollected[fishId] == 0 ){
+		$("#fish_big_image").addClass("fish_locked");
+		$("#fish_name").text("??????");
+	}else{
+		$("#fish_big_image").removeClass("fish_locked");
+		$("#fish_name").text(fullFishList[fishId]);
+	}
+	
+	$("#fish_select").show();
+	
+	let baseTop = 191;
+	let baseLeft = 29;
+
+	let top = baseTop + parseInt(event.target.offsetTop) - 3;
+	let left = baseLeft + parseInt(event.target.offsetLeft) - 3;
+	
+	$("#fish_select").css("top", top + "px");
+	$("#fish_select").css("left", left + "px");
+
+});
+
+$("#fish_exp_container").hover(function(event){
+	$("#fish_exp").text( rank_exp + " / " + expToLevel[currentRank] );
+}, function(event){
+	$("#fish_exp").text( rank_name[currentRank] );
+});

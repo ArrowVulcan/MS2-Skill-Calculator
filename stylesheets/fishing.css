@@ -332,3 +332,140 @@
 	z-index: 5;
 	transition: opacity 800ms cubic-bezier(0.4, 0, 1, 1), transform 500ms cubic-bezier(0.6, -0.68, 0.74, 0.05);
 }
+
+#book_button{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	width: 52px;
+	height: 58px;
+	background: url("../images/fishing/book_button.png");
+	background-repeat: no-repeat;
+	transform: scale(0.9);
+}
+
+#book_button:hover{
+	transform: scale(1);
+}
+
+#book{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	width: 850px;
+	height: 571px;
+	background: url("../images/fishing/book.png");
+	background-repeat: no-repeat;
+	transform: scale(0.75);
+	display: none;
+	z-index: 150;
+}
+
+#fish_rank_icon{
+    position: relative;
+    top: 25px;
+    left: 36px;
+	width: 29px;
+	height: 35px;
+	background: url("../images/fishing/rank1.png");
+	background-repeat: no-repeat;
+}
+
+#fish_rank_text{
+    position: relative;
+    top: 0px;
+    left: 72px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#fish_exp_bar{
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    background: url(../images/fishing/fish_exp_bar.png);
+    width: 0px; /* Max: 371px */
+    height: 22px;
+}
+
+#fish_exp{
+	position: relative;
+    text-align: center;
+    width: 371px;
+    height: 20px;
+    left: 0px;
+    top: -2px;
+}
+
+#fish_list{
+    position: relative;
+    width: 385px;
+    height: 305px;
+    top: 113px;
+    left: 29px;
+}
+
+.fish_box{
+	background: url(../images/fishing/Axolotl.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 68px;
+    width: 68px;
+    float: left;
+    position: relative;
+    left: 3px;
+    top: 3px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+
+.fish_locked{
+    -webkit-filter: brightness(20%); /* Safari 6.0 - 9.0 */
+    filter: brightness(20%);
+	opacity: 0.2;
+}
+
+#page2{
+	position: absolute;
+    top: 9px;
+    right: 20px;
+    width: 404px;
+    height: 539px;
+}
+
+#fish_big_image{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    top: 30px;
+    left: 19px;
+}
+
+#fish_name{
+    position: absolute;
+    width: 244px;
+    top: 32px;
+    right: 5px;
+    font-size: 20px;
+    font-weight: 500;
+	color: #555;
+}
+
+#fish_select{
+	position: absolute;
+	top: 191px;
+    left: 29px;
+	width: 75px;
+	height: 75px;
+	background: url(../images/fishing/fish_selected.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: none;
+}
+
+#fish_exp_container{
+	position: relative;
+    width: 370px;
+    top: 7px;
+    left: 35px;
+}
