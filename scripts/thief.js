@@ -61,7 +61,7 @@ var thief_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 16+</span></p><p><span class='info_red'>Double Slash [Level 3+]</span></p><p><span class='info_red'>Poison Edge [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 16+</span></p><p><span class='info_red'>Double Slash [Level 3+]</span></p><p><span class='info_red'>Poison Edge [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p>",
 			"texts": [
 				"",
@@ -102,7 +102,7 @@ var thief_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "3-6-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Poison Edge [Level 6+]</span></p><p><span class='info_red'>Poison Vial [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 31+</span></p><p><span class='info_red'>Poison Edge [Level 6+]</span></p><p><span class='info_red'>Poison Vial [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger</span></p>",
 			"texts": [
 				"",
@@ -129,7 +129,7 @@ var thief_skills = [
 			"maxLevel": 6,
 			"locked": 1,
 			"lockReq": "3-6-6-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Poison Vial [Level 6+]</span></p><p><span class='info_red'>Poison Edge [Level 6+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p><p><span class='info_red'>Poison Vial [Level 6+]</span></p><p><span class='info_red'>Poison Edge [Level 6+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Physical</span></p>",
 			"texts": [
 				"",
@@ -197,7 +197,7 @@ var thief_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 19+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 19+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [
 				"",
@@ -223,7 +223,7 @@ var thief_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Cunning Tactics [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Cunning Tactics [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger</span></p>",
 			"texts": [
 				"",
@@ -249,7 +249,7 @@ var thief_skills = [
 			"maxLevel": 7,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-2-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Blade Dance [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Blade Dance [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -321,7 +321,7 @@ var thief_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 10+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 10+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p>",
 			"texts": [
 				"",
@@ -346,7 +346,7 @@ var thief_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 25+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [
 				"",
@@ -387,7 +387,7 @@ var thief_skills = [
 			"maxLevel": 3,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 46+</span></p><p><span class='info_red'>Quick Step [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Quick Step [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [
 				"",
@@ -444,7 +444,7 @@ var thief_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 13+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 13+</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -470,7 +470,7 @@ var thief_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-2-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Somersault Kick [Level 2+]</span></p><p><span class='info_red'>Mind Breaker [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 22+</span></p><p><span class='info_red'>Somersault Kick [Level 2+]</span></p><p><span class='info_red'>Mind Breaker [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger</span></p>",
 			"texts": [
 				"",
@@ -496,7 +496,7 @@ var thief_skills = [
 			"maxLevel": 9,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-5-3-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Mind Breaker [Level 5+]</span></p><p><span class='info_red'>Vicious Cuts [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Mind Breaker [Level 5+]</span></p><p><span class='info_red'>Vicious Cuts [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [
 				"",
@@ -522,7 +522,7 @@ var thief_skills = [
 			"maxLevel": 4,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-5-5-3-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Vicious Cuts [Level 5+]</span></p><p><span class='info_red'>Haste [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Vicious Cuts [Level 5+]</span></p><p><span class='info_red'>Haste [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",

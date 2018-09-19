@@ -61,7 +61,7 @@ var berserker_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 19+</span></p><p><span class='info_red'>Raging Slash [Level 4+]</span></p><p><span class='info_red'>Death Spin [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 19+</span></p><p><span class='info_red'>Raging Slash [Level 4+]</span></p><p><span class='info_red'>Death Spin [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
 			"texts": [
 				"",
@@ -118,7 +118,7 @@ var berserker_skills = [
 			"maxLevel": 6,
 			"locked": 1,
 			"lockReq": "6-3-6-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Raging Slash [Level 6+]</span></p><p><span class='info_red'>Ground Breaker [Level 6+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p><p><span class='info_red'>Raging Slash [Level 6+]</span></p><p><span class='info_red'>Ground Breaker [Level 6+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [
 				"",
@@ -175,7 +175,7 @@ var berserker_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 10+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 10+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
 			"texts": [
 				"",
@@ -202,7 +202,7 @@ var berserker_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Raging Slash [Level 4+]</span></p><p><span class='info_red'>Void Slash [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 22+</span></p><p><span class='info_red'>Raging Slash [Level 4+]</span></p><p><span class='info_red'>Void Slash [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
 			"texts": [
 				"",
@@ -228,7 +228,7 @@ var berserker_skills = [
 			"maxLevel": 9,
 			"locked": 1,
 			"lockReq": "4-0-0-0-0-0-0-0-6-5-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Void Slash [Level 6+]</span></p><p><span class='info_red'>Dark Breaker [Level 5+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Void Slash [Level 6+]</span></p><p><span class='info_red'>Dark Breaker [Level 5+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -303,7 +303,7 @@ var berserker_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 13+</span></p><p><span class='info_red'>Raging Slash [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 13+</span></p><p><span class='info_red'>Raging Slash [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two Handed Greatsword</span></p>",
 			"texts": [
 				"",
@@ -330,7 +330,7 @@ var berserker_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Bloodlust [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p><p><span class='info_red'>Bloodlust [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -357,7 +357,7 @@ var berserker_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-6-2-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Bloodlust [Level 6+]</span></p><p><span class='info_red'>Adrenaline Rush [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 31+</span></p><p><span class='info_red'>Bloodlust [Level 6+]</span></p><p><span class='info_red'>Adrenaline Rush [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [
 				"",
@@ -383,7 +383,7 @@ var berserker_skills = [
 			"maxLevel": 4,
 			"locked": 1,
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-6-3-1-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Adrenaline Rush [Level 3+]</span></p><p><span class='info_red'>Blood Price [Level 1+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Adrenaline Rush [Level 3+]</span></p><p><span class='info_red'>Blood Price [Level 1+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -441,7 +441,7 @@ var berserker_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 16+</span></p><p><span class='info_red'>Raging Slash [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 16+</span></p><p><span class='info_red'>Raging Slash [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -467,7 +467,7 @@ var berserker_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Greatsword Mastery [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Greatsword Mastery [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p>",
 			"texts": [
 				"",
@@ -493,7 +493,7 @@ var berserker_skills = [
 			"maxLevel": 7,
 			"locked": 1,
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-4-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Greatsword Mastery [Level 6+]</span></p><p><span class='info_red'>Intimidation [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Greatsword Mastery [Level 6+]</span></p><p><span class='info_red'>Intimidation [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Physical</span></p>",
 			"texts": [
 				"",
@@ -519,7 +519,7 @@ var berserker_skills = [
 			"maxLevel": 3,
 			"locked": 1,
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-4-2-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 46+</span></p><p><span class='info_red'>Deep Wounds [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Deep Wounds [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
 			"texts": [
 				"",
