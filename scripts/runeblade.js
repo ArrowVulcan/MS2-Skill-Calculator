@@ -384,7 +384,7 @@ var runeblade_skills = [
 			"resource": "Cooldown 180 second(s)",
 			"level": 0,
 			"maxLevel": 3,
-			"locked": 1,
+			"locked": 0,
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [

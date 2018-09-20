@@ -42,17 +42,17 @@ function loadUrlPoints(){
 		// Get job
 		let job = knight_skills;
 		let name = "";
-		if( params.slice(-1) == 0 ){ job = knight_skills; name = "Knight"; }
-		if( params.slice(-1) == 1 ){ job = berserker_skills; name = "Berserker"; }
-		if( params.slice(-1) == 2 ){ job = wizard_skills; name = "Wizard"; }
-		if( params.slice(-1) == 3 ){ job = priest_skills; name = "Priest"; }
-		if( params.slice(-1) == 4 ){ job = ranger_skills; name = "Ranger"; }
-		if( params.slice(-1) == 5 ){ job = heavy_gunner_skills; name = "Heavy Gunner"; }
-		if( params.slice(-1) == 6 ){ job = thief_skills; name = "Thief"; }
-		if( params.slice(-1) == 7 ){ job = assassin_skills; name = "Assassin"; }
-		if( params.slice(-1) == 8 ){ job = runeblade_skills; name = "Runeblade"; }
-		if( params.slice(-1) == 9 ){ job = soul_binder_skills; name = "Soul Binder"; }
-		if( params.slice(-1) == 10 ){ job = striker_skills; name = "Striker"; }
+		if( params.slice(-2).replace("-","") == 0 ){ job = knight_skills; name = "Knight"; }
+		if( params.slice(-2).replace("-","") == 1 ){ job = berserker_skills; name = "Berserker"; }
+		if( params.slice(-2).replace("-","") == 2 ){ job = wizard_skills; name = "Wizard"; }
+		if( params.slice(-2).replace("-","") == 3 ){ job = priest_skills; name = "Priest"; }
+		if( params.slice(-2).replace("-","") == 4 ){ job = ranger_skills; name = "Ranger"; }
+		if( params.slice(-2).replace("-","") == 5 ){ job = heavy_gunner_skills; name = "Heavy Gunner"; }
+		if( params.slice(-2).replace("-","") == 6 ){ job = thief_skills; name = "Thief"; }
+		if( params.slice(-2).replace("-","") == 7 ){ job = assassin_skills; name = "Assassin"; }
+		if( params.slice(-2).replace("-","") == 8 ){ job = runeblade_skills; name = "Runeblade"; }
+		if( params.slice(-2).replace("-","") == 9 ){ job = soul_binder_skills; name = "Soul Binder"; }
+		if( params.slice(-2).replace("-","") == 10 ){ job = striker_skills; name = "Striker"; }
 		Class_skills = job;
 		
 		params = params.split('-');
