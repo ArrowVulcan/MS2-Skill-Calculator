@@ -50,7 +50,9 @@ function loadUrlPoints(){
 		if( params.slice(-1) == 5 ){ job = heavy_gunner_skills; name = "Heavy Gunner"; }
 		if( params.slice(-1) == 6 ){ job = thief_skills; name = "Thief"; }
 		if( params.slice(-1) == 7 ){ job = assassin_skills; name = "Assassin"; }
-		if( params.slice(-1) == 8 ){ job = rune_blader_skills; name = "Rune Blader"; }
+		if( params.slice(-1) == 8 ){ job = runeblade_skills; name = "Runeblade"; }
+		if( params.slice(-1) == 9 ){ job = soul_binder_skills; name = "Soul Binder"; }
+		if( params.slice(-1) == 10 ){ job = striker_skills; name = "Striker"; }
 		Class_skills = job;
 		
 		params = params.split('-');
@@ -482,7 +484,9 @@ function setUrl(){
 	if( Class_skills == heavy_gunner_skills ){ job = 5; }
 	if( Class_skills == thief_skills ){ job = 6; }
 	if( Class_skills == assassin_skills ){ job = 7; }
-	if( Class_skills == rune_blader_skills ){ job = 8; }
+	if( Class_skills == runeblade_skills ){ job = 8; }
+	if( Class_skills == soul_binder_skills ){ job = 9; }
+	if( Class_skills == striker_skills ){ job = 10; }
 	
 	for(let i=0; i < levels.length; i++){
 		if( i == levels.length - 1 ){
@@ -662,7 +666,9 @@ function setJobLines(){
 	if( Class_skills == heavy_gunner_skills ){ name = "heavy_gunner"; }
 	if( Class_skills == thief_skills ){ name = "thief"; }
 	if( Class_skills == assassin_skills ){ name = "assassin"; }
-	if( Class_skills == rune_blader_skills ){ name = "rune_blader"; }
+	if( Class_skills == runeblade_skills ){ name = "runeblade"; }
+	if( Class_skills == soul_binder_skills ){ name = "soul_binder"; }
+	if( Class_skills == striker_skills ){ name = "striker"; }
 
 	// Set job skill lines
 	$("#lines").css("background-image", "url(./images/lines/" + name + "_lines.png)");
