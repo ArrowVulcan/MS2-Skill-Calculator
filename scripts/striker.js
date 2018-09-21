@@ -326,7 +326,7 @@ var striker_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"lockReq": "2-0-0-0-0-0-0-2-4-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0",
+			"lockReq": "2-0-0-0-0-0-0-0-4-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p><p><span class='info_red'>Rising Kick [Level 4+]</span></p><p><span class='info_red'>Hurricane Cutter [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Knuckles</span></p>",
 			"texts": [
@@ -353,7 +353,7 @@ var striker_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"lockReq": "2-0-0-0-0-0-0-2-4-0-0-0-0-0-5-4-0-0-0-0-0-0-0-0",
+			"lockReq": "2-0-0-0-0-0-0-0-4-0-0-0-0-0-5-4-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_red'>Level 37+</span></p><p><span class='info_red'>Hurrican Cutter [Level 5+]</span></p><p><span class='info_red'>Guillotine [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
@@ -380,7 +380,7 @@ var striker_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 1,
-			"lockReq": "2-0-0-0-0-0-0-2-6-0-0-0-0-0-5-4-2-0-0-0-0-0-0-0",
+			"lockReq": "2-0-0-0-0-0-0-0-6-0-0-0-0-0-5-4-2-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Rising Kick [Level 6+]</span></p><p><span class='info_red'>Kick Technician [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Knuckles</span></p>",
 			"texts": [
