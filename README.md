@@ -8,7 +8,6 @@ To try out the Skill Calculator, visit https://arrowvulcan.github.io/MS2-Skill-C
 
 Todo:
 - Skill information may not be 100% accurate, but includes additional details on skills not found in-game, such as Thief's EX: skills.
-- Rune Blader, Soul Binder, Striker skills are not included yet
 - Exploration guide is a WIP
 
  ### Contributing
