@@ -12,6 +12,7 @@ var cought = false;
 var fishNames = ["Crucian Carp", "Piranha", "Ricefish", "Axolotl", "Mantis Shrimp"];
 var fishNamesGold = ["Golden Lobster", "Golden Ricefish", "Golden Seaweed"];
 var fishCollected = [0, 0, 0, 0, 0, 0, 0, 0];
+var fishCollectedSize = [0, 0, 0, 0, 0, 0, 0, 0];
 
 // List of Numbers
 var fishAmount = 0;
@@ -150,9 +151,13 @@ function start3(){
 	
 		// Add to book
 		if( fishSelection == fishNamesGold ){
-			fishCollected[fishNames.length + rand2] = 1;
+			fishCollected[fishNames.length + rand2] += 1;
 		}else{
-			fishCollected[rand2] = 1;
+			fishCollected[rand2] += 1;
+		}
+		
+		if( rand > fishCollectedSize[rand2] ){
+			fishCollectedSize[rand2] = rand;
 		}
 	
 		$("#fish_text").text("You caught " + fishSelection[rand2] + ".");
@@ -430,6 +435,7 @@ function openBook(){
 	// Clean list
 	$('#fish_list').empty();
 	
+	$("#fish_amount, #fish_biggest_size").hide();
 	$("#fish_select").hide();
 	$("#fish_big_image").css("background", "");
 	$("#fish_name").text("");
@@ -439,7 +445,7 @@ function openBook(){
 	for(let i=0; i < fullFishList.length; i++){
 		let fish_list = document.getElementById("fish_list");
 		
-		if( fishCollected[i] == 1 ){
+		if( fishCollected[i] >= 1 ){
 			fish_list.innerHTML += '<div class="fish_box fish-' + i + '" data-id=' + i + '></div>';
 		}else{
 			fish_list.innerHTML += '<div class="fish_box fish-' + i + ' fish_locked" data-id=' + i + '></div>';
@@ -466,6 +472,11 @@ $("#book").on("mousedown", ".fish_box", function(event){
 		$("#fish_big_image").removeClass("fish_locked");
 		$("#fish_name").text(fullFishList[fishId]);
 	}
+	
+	$("#fish_amount_num").text(fishCollected[fishId]);
+	$("#fish_biggest_size_num").text(fishCollectedSize[fishId] + " cm");
+	
+	$("#fish_amount, #fish_biggest_size").show();
 	
 	$("#fish_select").show();
 	

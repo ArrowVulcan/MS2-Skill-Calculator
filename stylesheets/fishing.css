@@ -469,3 +469,26 @@
     top: 7px;
     left: 35px;
 }
+
+#fish_amount{
+	position: relative;
+    width: 371px;
+    height: 24px;
+    top: 197px;
+    left: 30px;
+	display: none;
+}
+
+#fish_biggest_size{
+	position: relative;
+    width: 371px;
+    height: 24px;
+    top: 236px;
+    left: 30px;
+	display: none;
+}
+
+#fish_amount_num, #fish_biggest_size_num{
+	position: absolute;
+    left: 180px;
+}

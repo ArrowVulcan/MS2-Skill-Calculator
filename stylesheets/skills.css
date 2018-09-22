@@ -377,10 +377,33 @@ div{
     bottom: 55px;
 }
 
+#jobDrop2{
+    position: absolute;
+    left: 147px;
+    top: 34px;
+    z-index: 100;
+}
+
+#jobDrop2 button:after {
+	position: absolute;
+	top: 13px;
+    left: 151px;
+}
+
 #jobDrop button{
 	background-color: #0000;
     width: 118px;
     height: 36px;
+}
+
+#jobDrop2 button{
+	background-color: #0000;
+	width: 168px;
+    height: 31px;
+}
+
+#jobDrop2 .btn:focus{
+	box-shadow:none;
 }
 
 #jobDrop button:after{
