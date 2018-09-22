@@ -46,7 +46,7 @@ function loadUrlPoints(){
 		if( params.slice(-2).replace("-","") == 1 ){ job = berserker_skills; name = "Berserker"; }
 		if( params.slice(-2).replace("-","") == 2 ){ job = wizard_skills; name = "Wizard"; }
 		if( params.slice(-2).replace("-","") == 3 ){ job = priest_skills; name = "Priest"; }
-		if( params.slice(-2).replace("-","") == 4 ){ job = ranger_skills; name = "Ranger"; }
+		if( params.slice(-2).replace("-","") == 4 ){ job = archer_skills; name = "Archer"; }
 		if( params.slice(-2).replace("-","") == 5 ){ job = heavy_gunner_skills; name = "Heavy Gunner"; }
 		if( params.slice(-2).replace("-","") == 6 ){ job = thief_skills; name = "Thief"; }
 		if( params.slice(-2).replace("-","") == 7 ){ job = assassin_skills; name = "Assassin"; }
@@ -480,7 +480,7 @@ function setUrl(){
 	if( Class_skills == berserker_skills ){ job = 1; }
 	if( Class_skills == wizard_skills ){ job = 2; }
 	if( Class_skills == priest_skills ){ job = 3; }
-	if( Class_skills == ranger_skills ){ job = 4; }
+	if( Class_skills == archer_skills ){ job = 4; }
 	if( Class_skills == heavy_gunner_skills ){ job = 5; }
 	if( Class_skills == thief_skills ){ job = 6; }
 	if( Class_skills == assassin_skills ){ job = 7; }
@@ -662,7 +662,7 @@ function setJobLines(){
 	if( Class_skills == berserker_skills ){ name = "berserker"; }
 	if( Class_skills == wizard_skills ){ name = "wizard"; }
 	if( Class_skills == priest_skills ){ name = "priest"; }
-	if( Class_skills == ranger_skills ){ name = "ranger"; }
+	if( Class_skills == archer_skills ){ name = "archer"; }
 	if( Class_skills == heavy_gunner_skills ){ name = "heavy_gunner"; }
 	if( Class_skills == thief_skills ){ name = "thief"; }
 	if( Class_skills == assassin_skills ){ name = "assassin"; }

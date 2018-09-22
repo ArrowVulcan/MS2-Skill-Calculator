@@ -1,4 +1,4 @@
-var ranger_skills = [
+var archer_skills = [
 	column1 = [
 		{
 			"hidden": 0,
@@ -124,7 +124,7 @@ var ranger_skills = [
 			"title": "Screwdriver Shot",
 			"resource": "Cooldown 13 second(s)",
 			"level": 0,
-			"maxLevel": 4,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "3-3-8-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Rapid Shot [Level 8+]</span></p>",
@@ -259,7 +259,7 @@ var ranger_skills = [
 			"title": "Bow Swing",
 			"resource": "Cooldown 6 second(s)",
 			"level": 0,
-			"maxLevel": 6,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-5-4-3-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p><p><span class='info_red'>Agile Archer [Level 3+]</span></p>",
@@ -368,7 +368,7 @@ var ranger_skills = [
 			"title": "Eagle's Majesty",
 			"resource": "Cooldown 60 second(s)",
 			"level": 0,
-			"maxLevel": 7,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-7-3-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Eagle Claw [Level 3+]</span></p>",
@@ -481,7 +481,7 @@ var ranger_skills = [
 			"title": "Sharp Eyes",
 			"resource": "Cooldown 180 second(s)",
 			"level": 0,
-			"maxLevel": 9,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Conditioning [Level 6+]</span></p>",
@@ -507,7 +507,7 @@ var ranger_skills = [
 			"title": "Precision Shooter",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 3,
+			"maxLevel": 10,
 			"locked": 0,
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
