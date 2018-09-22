@@ -1,4 +1,3 @@
-// TODO: Focus Seal
 var wizard_skills = [
 	column1 = [
 		{
@@ -111,7 +110,7 @@ var wizard_skills = [
 			"element": "Fire",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 9,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-5-5-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Flame Wave [Level 5+]</span></p><p><span class='info_red'>Flame Tornado [Level 5+]</span></p>",
@@ -137,7 +136,7 @@ var wizard_skills = [
 			"title": "Mana Claw",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 3,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Arcane Blast [Level 3+]</span></p>",
@@ -248,7 +247,7 @@ var wizard_skills = [
 			"element": "Ice",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 7,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-5-5-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Ice Spear [Level 5+]</span></p><p><span class='info_red'>Ice Storm [Level 5+]</span></p>",
@@ -390,7 +389,7 @@ var wizard_skills = [
 			"element": "Electric",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 6,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-5-5-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p><p><span class='info_red'>Chain Lightning [Level 5+]</span></p><p><span class='info_red'>Thunderbolt [Level 5+]</span></p>",
@@ -514,7 +513,7 @@ var wizard_skills = [
 			"title": "Elemental Master",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 4,
+			"maxLevel": 10,
 			"locked": 0,
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
