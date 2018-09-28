@@ -3,6 +3,7 @@ node_modules/
 package.json
 package-lock.json
 .eslintrc.json
+Thumbs.db
 
 # WIP
 images/mini.png
