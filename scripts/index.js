@@ -14,6 +14,7 @@ var Class_skills;
 var attributePoints = 50;
 var lockedsURL = [];
 var levelsURL = [];
+var npcList = {};
 
 // changeJob - Change skills to another job
 function changeJob(job, name){
@@ -751,56 +752,7 @@ function setMouseTriggers(){
 
 function showSkills(){
 	$("#window").show();
-	$("#blocker, #selectArrows").hide();
 	$("#window").css("z-index", 20);
-	$("#window_2").css("z-index", 10);
-	$("#window_3").css("z-index", 10);
-}
-
-function showStats(){
-	$("#window_2").show();
-	$("#blocker, #selectArrows").hide();
-	$("#window").css("z-index", 10);
-	$("#window_2").css("z-index", 20);
-}
-
-function showStats_2(){
-	$("#window_3").show();
-	
-	//Get window_2 position and width
-	let top = parseInt($("#window_2").css("top").split('px')[0]);
-	let left = parseInt($("#window_2").css("left").split('px')[0]);
-	let width = parseInt($("#window_2").css("width").split('px')[0]);
-	
-	// Set window_3 right to window_2
-	$("#window_3").css("top", top);
-	
-	if( left + width < 1513 ){
-		$("#window_3").css("left", (left + width));
-	}else{
-		$("#window_3").css("left", 1513);
-	}
-}
-
-function hideWindow(){
-	$("#window").hide();
-	
-	//if( $("#window_2").is(":hidden") ){
-		$("#blocker, #selectArrows").show();
-	//}
-}
-
-function hideWindow_2(){
-	$("#window_2").hide();
-	$("#window_3").hide();
-	
-	if( $("#window").is(":hidden") ){
-		$("#blocker, #selectArrows").show();
-	}
-}
-
-function hideWindow_3(){
-	$("#window_3").hide();
 }
 
 $( window ).on( "load", function(){
@@ -814,7 +766,7 @@ $( window ).on( "load", function(){
 	loadUrlPoints();
 
 	// Make window draggable
-	$("#window").draggable({ handle: "#drag_bar", containment: [0, 0, 1060, 1920] });
+	$("#window").draggable({ handle: "#drag_bar", containment: [0, 100, 1060, 1920] });
 	
 	// Collect data, load url points, create columns, set points and skill locks.
 	createBase();
@@ -822,19 +774,15 @@ $( window ).on( "load", function(){
 	// Set Mouse triggers (mousemove, mouseleave, mousedown)
 	setMouseTriggers();
 	
-	// Mousedown for #window
-	$("#window").mousedown(function(event){
-		$("#window").css("z-index", 20);
-		$("#window_2").css("z-index", 10);
-		$("#window_3").css("z-index", 10);
-	});
-	
 });
 
-function setCookie(cname,cvalue,exdays) {
+function setCookie(cname,cvalue,exdays,cexpire) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires=" + d.toGMTString();
+	var expires = "";
+	if( !cexpire ){
+		expires = "expires=" + d.toGMTString();
+	}
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
@@ -854,53 +802,88 @@ function getCookie(cname) {
     return "";
 }
 
+function createChat(image, title, text, buttonText){
+
+	setTimeout(function(){
+		$("#new_chat_avatar").css("background-image", "url(./images/" + image + ".png)");
+		$("#new_chat_title").text(title);
+		$("#new_chat_text").text(text);
+		$("#new_chat_button_text").text(buttonText);
+		$("#new_chat").css("opacity", 1);
+		$("#new_chat").css("pointer-events", "auto");
+	}, 1000);
+
+}
+
 $( window ).on( "load", function(){
+
+	// Loader
+	$(".new_loader").css("opacity", 0);
 
 	// Show/Hide cookie alert
 	let cAgree = getCookie("cookie");
+	let cWelcome = getCookie("npc_welcome");
+	
 	if( cAgree == 0 ){
-		$(".alert").show();
-	}
-	
-	let darkmode = getCookie("darkmode");
-	if( darkmode == "true" ){
-		setDarkmode();
-	}
-	
-	function setDarkmode(){
-		let getSwitch = document.getElementById("switch");
-		$(getSwitch).removeClass("fa-toggle-off");
-		$(getSwitch).addClass("fa-toggle-on");
-		document.body.style.backgroundColor = "#111";
-		$("#footer_text").css("color", "#fff");
-		$(".themeColor").css("color", "#fff");
-		$(".icon-bar").addClass("icon-hover");
-	}
-	
-	function removeDarkmode(){
-		let getSwitch = document.getElementById("switch");
-		$(getSwitch).addClass("fa-toggle-off");
-		$(getSwitch).removeClass("fa-toggle-on");
-		document.body.style.backgroundColor = "#fff";
-		$("#footer_text").css("color", "#1c1c1c");
-		$(".themeColor").css("color", "#1c1c1c");
-		$(".icon-bar").removeClass("icon-hover");
-	}
-	
-	$("#switch").mousedown(function(event){
-		if( $(this).hasClass("fa-toggle-off") ){
-			setDarkmode();
-			setCookie("darkmode", "true", 30);
-		}else{
-			removeDarkmode();
-			setCookie("darkmode", "false", 30);
-		}
 
+		npcList.cookie = function(){
+			createChat("npc1", "Joddy", "This site uses cookies to remember some of your stuff.\nUsing this fansite means that you are okey with this.", "Accept");
+		}
+		
+	}else{
+		$("#new_chat").css("pointer-events", "none");
+		if( !cWelcome ){
+			
+			setCookie("npc_welcome", "1", 30, true);
+			
+			npcList.welcomeback = function(){
+				if( location.href.search("skills.html") != -1 ){
+					createChat("npc5", "Katvan", "Welcome back, ready to make some new skill builds?", "Close");
+				}
+				
+				if( location.href.search("fishing.html") != -1 ){
+					createChat("npc3", "Terry", "Welcome back, let's catch something rare today!", "Close");
+				}
+				
+				if( location.href.search("explore.html") != -1 ){
+					createChat("npc4", "Lennon", "Welcome back, let's explore some new maps!", "Close");
+				}
+				
+				if( location.href.search("index.html") != -1 ){
+					createChat("npc2", "Growlie", "Welcome back.\nThe weather is nice today, let's have some fun!", "Close");
+				}
+			}
+		}
+	}
+	
+	$("#new_chat_button").mousedown(function(event){
+	
+		$("#new_chat").css("opacity", 0);
+		$("#new_chat").css("pointer-events", "none");
+	
+		cAgree = getCookie("cookie");
+		if( cAgree == 0 ){
+			setCookie("cookie", "1", 30);
+			setCookie("npc_welcome", "1", 30, true);
+			
+			npcList.welcome = function(){
+				createChat("npc2", "Growlie", "Welcome to this MapleStory 2 fansite.\nThe site is still WIP but I hope you find something useful!", "Close");
+			}
+		}
+		
+		if( Object.keys(npcList).length > 0 ){
+			Object.values(npcList)[0]();
+			let firstKey = Object.keys(npcList)[0];
+			delete npcList[firstKey];
+		}
+		
 	});
 	
-	$(".alert .close").mousedown(function(event){
-		setCookie("cookie", "1", 30);
-	});
+	if( Object.keys(npcList).length > 0 ){
+		Object.values(npcList)[0]();
+		let firstKey = Object.keys(npcList)[0];
+		delete npcList[firstKey];
+	}
 	
 });
 

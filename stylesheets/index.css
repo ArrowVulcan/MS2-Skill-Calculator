@@ -16,6 +16,7 @@ html, body{
 	overflow-x: hidden;
 	height: 100%;
 	width: 100%;
+	background-color: #000;
 }
 
 /* width */
@@ -41,6 +42,194 @@ html, body{
 
 .loader_1, .loader_2, .loader_3{
 	background: url('../images/sprites.png') no-repeat;
+}
+
+.new_loader{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 1000;
+	transition: opacity 1000ms;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	align-items: center;
+	pointer-events: none;
+}
+
+.spinner{
+	position: relative;
+	background-image: url('../images/spinner.png');
+	width: 694px;
+	height: 694px;
+	background-repeat: no-repeat;
+	-webkit-animation: spinner 30s;
+	animation: spinner 30s;
+}
+
+.spinner_text{
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+	font-size: 64px;
+	color: #fff;
+	font-family: Montserrat;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes spinner {
+    from { transform: rotate(0deg); } 
+    to { transform: rotate(360deg); }
+}
+
+#new_bg{
+	position: relative;
+	background-image: url('../images/bg.jpg');
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: background-image 1000ms;
+}
+
+#new_navbar{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #0008;
+}
+
+.new_nav{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-color: #5555;
+	transition: background-color 250ms;
+}
+
+.new_nav:hover{
+	background-color: #0001;
+}
+
+.nav-active{
+	background-color: #0001;
+}
+
+.new_nav_box{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.new_nav_icon{
+	background-image: url('../images/nav_icon_gray.png');
+	background-repeat: no-repeat;
+	width: 59px;
+	height: 44px;
+	margin-right: 15px;
+}
+
+.new_nav_text{
+	font-family: Montserrat;
+	color: #fff;
+	font-size: 24px;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+.new_nav_box .text-active{
+	color: #f8b415;
+}
+
+.new_nav_box .icon-active{
+	background-image: url('../images/nav_icon.png');
+}
+
+#new_chat{
+	position: fixed;
+	bottom: 0;
+	background-image: url('../images/dark_frame.png');
+	width: 100%;
+	height: 228px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: opacity 250ms;
+	opacity: 0;
+	z-index: 1000;
+}
+
+#new_chat_avatar{
+	position: absolute;
+	bottom: 93px;
+	background-image: url('../images/npc1.png');
+	width: 700px;
+	height: 700px;
+	background-repeat: no-repeat;
+	transform: scale(0.75);
+	animation-name: slide-in;
+	animation-duration: 600ms;
+	pointer-events: none;
+}
+
+@keyframes slide-in {
+    from { left: -25px; opacity: 0; }
+    to { left: 0px; opacity: 1; }
+}
+
+#new_chat_box{
+	left: 30%;
+	width: 33%;
+	height: 180px;
+	position: absolute;
+	bottom: 0;
+}
+
+#new_chat_title{
+	margin-top: 5px;
+	font-size: 32px;
+	color: #bdd47d;
+	font-family: Montserrat;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#new_chat_text{
+	white-space: pre-line;
+	margin-top: 5px;
+	font-size: 18px;
+	color: #fff;
+	font-family: Montserrat;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+#new_chat_button{
+	background-image: url('../images/frame_button.png');
+	position: absolute;
+	bottom: 10px;
+	right: 20%;
+	width: 169px;
+	height: 55px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#new_chat_button_text{
+	position: relative;
+	text-align: center;
+	top: 6px;
+	font-size: 24px;
+}
+
+#new_info{
+	position: absolute;
+	top: 100px;
+	right: 20px;
+	width: 500px;
+	height: 445px;
+	background-color: #0005;
+	border-radius: 12px;
+	box-shadow: 0px 0px 5px #000;
 }
 
 #thief_image{
@@ -107,9 +296,9 @@ footer p{
 
 /* Create a column layout with Flexbox */
 .row2{
-  display: flex;
-  margin-left: 0px;
-  margin-right: 0px;
+	display: flex;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 /* Left column (menu) */
@@ -126,7 +315,7 @@ footer p{
 }
 
 .left h2 {
-  padding-left: 8px;
+	padding-left: 8px;
 }
 
 /* Right column (page content) */
@@ -187,7 +376,7 @@ footer p{
 
 #golden_treasure{
 	position: relative;
-    top: 50px;
+    top: 90px;
     width: 1107px;
     height: 791px;
     background-image: url(../images/board.png);
@@ -701,15 +890,15 @@ However, delay the fade out process for 2.5 seconds */
 
 .middle {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 7%;
+    left: -48%;
     text-align: center;
+    width: 972px;
 }
 
 .middle h1, .middle p{
 	font-family: 'Merienda', cursive;
-	font-size: 3vw;
+	font-size: 42px;
 	color: #d8d8d8;
 	text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
@@ -728,10 +917,11 @@ hr {
 
 #timeHolder, #timeHolder2{
 	display: flex;
-	transform: scale(0.5);
+	transform: scale(0.32);
 	position: relative;
-	top: -25px;
+	top: -55px;
 	margin-bottom: -45px;
+	float: left;
 }
 
 .numDots{
@@ -740,6 +930,11 @@ hr {
     background: url('../images/numbers.png') -136px 179px;
 	margin-left: -15px;
     margin-right: -15px;
+}
+
+.numDots, .num0, .num1, .num2, .num3, .num4, .num5, .num6, .num7, .num8, .num8, .num9{
+	position: relative;
+	right: 660px;
 }
 
 .num0{

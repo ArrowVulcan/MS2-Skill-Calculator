@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Itim|Merienda" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Itim|Merienda" rel="stylesheet">
 	
 	<link rel="icon" href="images/favicon.png">
 	
@@ -20,68 +20,79 @@
 </head>
 <body>
 
-	<div class="alert alert-dismissible">
-		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-		<h3 class="alertTxt"><strong>Cookies!</strong></h3><br>
-		<p class="alertTxt">This site uses cookies to remember marked chests and dark theme.
-		Using this fansite means that you are okey with this.</p>
-	</div>
-
-	<div class="icon-bar">
-		<a class="active" href="index.html"><i class="fa fa-home"></i></a>
-		<a href="explore.html"><i class="fa fa-map-o"></i></a>
-		<!--<a href="minigames.html"><i class="fa fa-gamepad"></i></a>
-		<a href="trophies.html"><i class="fa fa-trophy"></i></a>-->
-		<a href="skills.html"><i class="fa fa-list-alt"></i></a>
-		<!--<a href="items.html"><i class="fa fa-archive"></i></a>-->
-		<a href="fishing.html"><i class="fa fa-gamepad"></i></a>
-	</div>
-
-	<div id="sideText">
-		<p>Home</p>
-		<p>Explore</p>
-		<!--<p>MC Kay</p>
-		<p>Trophies</p>-->
-		<p>Skill Calculator</p>
-		<!--<p>Items</p>-->
-		<p>Fishing</p>
-	</div>
-
 	<!--
-	<div class="bgimg2">
-
-		<div class="middle">
-			<h1>Welcome to this maple fansite!</h1>
-			<h3 class="shine">- This site is still in development -</h3>
-		</div>
-		
-		<div class="bgimg3"></div>
-		<div class="bgimg4"></div>
-		<span class="meteor"></span>
-		<span class="meteor2"></span>
-		<span class="stars1"></span>
-		<span class="lights1"></span>
+	<div class="new_loader">
+		<div class="spinner"></div>
+		<div class="spinner_text">Loading...</div>
 	</div>
 	-->
 
-	<div class="bgimg">
-		<div class="bgimgShoulder"></div>
-		<div class="bgimgEyes"></div>
-		<div class="bgimgEyes2"></div>
-		<div class="bgimgMouth"></div>
-		<div class="bgimgHair"></div>
-		<div class="bgimgHairGlow"></div>
-		<div class="bgimgSplash"></div>
-		<div class="middle">
-			<h1 id="cSoon"></h1>
-			<hr>
-			<p id="timeLeft"></p>
-			<p id="timeHolder"></p>
-			<h1 id="cSoon2"></h1>
-			<hr>
-			<p id="timeLeft2"></p>
-			<p id="timeHolder2"></p>
+	<div id="new_bg">
+	
+		<div id="new_navbar">
+			
+			<a href="index.html">
+				<div class="new_nav nav-active">
+					<div class="new_nav_box">
+						<div class="new_nav_icon icon-active"></div>
+						<div class="new_nav_text text-active">Home</div>
+					</div>
+				</div>
+			</a>
+			
+			<a href="explore.html">
+				<div class="new_nav">
+					<div class="new_nav_box">
+						<div class="new_nav_icon"></div>
+						<div class="new_nav_text">Explore</div>
+					</div>
+				</div>
+			</a>
+			
+			<a href="skills.html">
+				<div class="new_nav">
+					<div class="new_nav_box">
+						<div class="new_nav_icon"></div>
+						<div class="new_nav_text">Skill Calculator</div>
+					</div>
+				</div>
+			</a>
+			
+			<a href="fishing.html">
+				<div class="new_nav">
+					<div class="new_nav_box">
+						<div class="new_nav_icon"></div>
+						<div class="new_nav_text">Fishing</div>
+					</div>
+				</div>
+			</a>
+			
 		</div>
+	
+		<div id="new_chat">
+			<div id="new_chat_avatar"></div>
+			<div id="new_chat_box">
+				<div id="new_chat_title"></div>
+				<div id="new_chat_text"></div>
+			</div>
+			<div id="new_chat_button">
+				<p id="new_chat_button_text"></p>
+			</div>
+		</div>
+		
+		<div id="new_info">
+			<div class="middle">
+				<h1 id="cSoon"></h1>
+				<hr>
+				<p id="timeLeft"></p>
+				<p id="timeHolder"></p>
+				<h1 id="cSoon2"></h1>
+				<hr>
+				<p id="timeLeft2"></p>
+				<p id="timeHolder2"></p>
+			</div>
+		</div>
+		
 	</div>
 
 	<footer>
@@ -89,6 +100,10 @@
 	</footer>
 	
 	<script>
+	
+		setTimeout(function(){
+			$("#new_bg").css("background-image", "url('./images/bg_1.jpg')");
+		}, 500);
 	
 		function addNumbers(timer, arg){
 			for(let i=0; i < arg.toString().length; i++){

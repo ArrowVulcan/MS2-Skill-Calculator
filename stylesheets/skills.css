@@ -46,13 +46,17 @@ div{
 	background: url('../images/sprites.png') no-repeat;
 }
 
+.calcBox{
+    transform: scale(0.8);
+}
+
 #window{
 	background-image:url('../images/window_new.png');
 	width: 847px;
 	height: 910px;
 	display: block;
 	position: absolute;
-	top: 0px;
+	top: 100px;
 	left: 20%;
 	margin-bottom: 20px;
 	margin: auto;

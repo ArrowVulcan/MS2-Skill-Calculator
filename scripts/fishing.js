@@ -9,10 +9,10 @@ var disableTime = 0;
 var cought = false;
 
 // List of Fishes
-var fishNames = ["Crucian Carp", "Piranha", "Ricefish", "Axolotl", "Mantis Shrimp"];
+var fishNames = ["Crucian Carp", "Piranha", "Ricefish", "Axolotl", "Mantis Shrimp", "Broccoturtle", "Porcupinefish", "Cutlassfish", "Flying Fish", "Squid", "Jellyfish", "Pearl Oyster", "Toasty Crab", "Zebra Bream", "Stingray"];
 var fishNamesGold = ["Golden Lobster", "Golden Ricefish", "Golden Seaweed"];
-var fishCollected = [0, 0, 0, 0, 0, 0, 0, 0];
-var fishCollectedSize = [0, 0, 0, 0, 0, 0, 0, 0];
+var fishCollected = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+var fishCollectedSize = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 // List of Numbers
 var fishAmount = 0;
@@ -44,9 +44,9 @@ var fishBigAmount_List_Text = ["The Big One I", "The Big One II", "The Big One I
 
 // Book
 var rank_exp = 0;
-var rank_name = ["Beginner I", "Beginner II", "Amateur I", "Amateur II", "Expert I"];
+var rank_name = ["Beginner I", "Beginner II", "Amateur I", "Amateur II", "Expert I", "Master"];
 var currentRank = 0;
-var expToLevel = [10, 20, 30, 40, 50];
+var expToLevel = [10, 20, 30, 40, 50, 99999];
 
 // ::::: FUNCTIONS :::::
 function start(){
@@ -129,7 +129,7 @@ function start3(){
 	// Roll rarity
 	let rarity = Math.floor((Math.random() * 100) + 1);
 	
-	if( rarity <= 2 ){
+	if( rarity <= 5 ){
 		fishSelection = fishNamesGold;
 	}else{
 		fishSelection = fishNames;
@@ -152,12 +152,16 @@ function start3(){
 		// Add to book
 		if( fishSelection == fishNamesGold ){
 			fishCollected[fishNames.length + rand2] += 1;
+			
+			if( rand > fishCollectedSize[fishNames.length + rand2] ){
+				fishCollectedSize[fishNames.length + rand2] = rand;
+			}
 		}else{
 			fishCollected[rand2] += 1;
-		}
-		
-		if( rand > fishCollectedSize[rand2] ){
-			fishCollectedSize[rand2] = rand;
+			
+			if( rand > fishCollectedSize[rand2] ){
+				fishCollectedSize[rand2] = rand;
+			}
 		}
 	
 		$("#fish_text").text("You caught " + fishSelection[rand2] + ".");
@@ -180,6 +184,7 @@ function start3(){
 		if( rank_exp >= expToLevel[currentRank] ){
 			rank_exp = rank_exp - expToLevel[currentRank];
 			currentRank += 1;
+			$("#fish_exp").text( rank_name[currentRank] );
 		}
 		let calcExp = ( 371 / expToLevel[currentRank] ) * rank_exp;
 		$("#fish_exp_bar").css("width", calcExp + "px");

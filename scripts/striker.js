@@ -515,7 +515,7 @@ var striker_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 1,
-			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0",
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Pace Control [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [

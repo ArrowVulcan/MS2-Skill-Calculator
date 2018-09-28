@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Itim" rel="stylesheet">
 	
 	<link rel="icon" href="images/favicon.png">
 	
@@ -21,116 +21,156 @@
 </head>
 <body>
 
-	<div class="alert alert-dismissible">
-		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-		<h3 class="alertTxt"><strong>Cookies!</strong></h3><br>
-		<p class="alertTxt">This site uses cookies to remember marked chests and dark theme.
-		Using this fansite means that you are okey with this.</p>
+	<!--
+	<div class="new_loader">
+		<div class="spinner"></div>
+		<div class="spinner_text">Loading...</div>
 	</div>
+	-->
 
-	<div id="dark_mode">
-		<p>Dark Theme</p>
-		<i id="switch" class="fa fa-toggle-off"></i>
-	</div>
-
-	<div id="blocker">
-		<img id="blocker_image">
-	</div>
-
-	<img id="thief_image" src="./images/thief.png">
-
-	<div class="icon-bar">
-		<a href="index.html"><i class="fa fa-home"></i></a>
-		<a href="explore.html"><i class="fa fa-map-o"></i></a>
-		<!--<a href="minigames.html"><i class="fa fa-gamepad"></i></a>
-		<a href="trophies.html"><i class="fa fa-trophy"></i></a>-->
-		<a href="skills.html"><i class="fa fa-list-alt"></i></a>
-		<!--<a href="items.html"><i class="fa fa-archive"></i></a>-->
-		<a class="active" href="fishing.html"><i class="fa fa-gamepad"></i></a>
-	</div>
+	<div id="new_bg">
 	
-	<div id="fishing">
-	
-		<div id="fishing2"></div>
-	
-		<div id="wip_image"></div>
-	
-		<div id="rod_alert"></div>
-	
-		<div id="start">
-			<div id="start_btn"></div>
+		<div id="new_navbar">
+			
+			<a href="index.html">
+				<div class="new_nav">
+					<div class="new_nav_box">
+						<div class="new_nav_icon"></div>
+						<div class="new_nav_text">Home</div>
+					</div>
+				</div>
+			</a>
+			
+			<a href="explore.html">
+				<div class="new_nav">
+					<div class="new_nav_box">
+						<div class="new_nav_icon"></div>
+						<div class="new_nav_text">Explore</div>
+					</div>
+				</div>
+			</a>
+			
+			<a href="skills.html">
+				<div class="new_nav">
+					<div class="new_nav_box">
+						<div class="new_nav_icon"></div>
+						<div class="new_nav_text">Skill Calculator</div>
+					</div>
+				</div>
+			</a>
+			
+			<a href="fishing.html">
+				<div class="new_nav nav-active">
+					<div class="new_nav_box">
+						<div class="new_nav_icon icon-active"></div>
+						<div class="new_nav_text text-active">Fishing</div>
+					</div>
+				</div>
+			</a>
+			
 		</div>
-		
-		<div id="bar">
-			<p id="bar_text"></p>
-			<div id="bar2">
-				<div id="bar_shine"></div>
-				<div id="bar_shine2"></div>
+	
+		<div id="new_chat">
+			<div id="new_chat_avatar"></div>
+			<div id="new_chat_box">
+				<div id="new_chat_title"></div>
+				<div id="new_chat_text"></div>
+			</div>
+			<div id="new_chat_button">
+				<p id="new_chat_button_text"></p>
 			</div>
 		</div>
 		
-		<div id="rod">
-			
-			<div id="rod_space_btn"></div>
-			<div id="rod_bar">
-				<div id="rod_drop"></div>
-				<div id="rod_middle"></div>
+		<div id="fishing">
+		
+			<div id="fishing2"></div>
+		
+			<div id="wip_image"></div>
+		
+			<div id="rod_alert"></div>
+		
+			<div id="start">
+				<div id="start_btn"></div>
 			</div>
 			
-		</div>
-		
-		<div id="fish">
-		
-			<div id="fish_image"></div>
-			<div id="fish_image_shine"></div>
-			<div id="fish_size">Length</div>
-			<div id="fish_text">Name</div>
-			<div id="fish_bg"></div>
-			<div id="fish_bg_shine"></div>
-		
-		</div>
-		
-		<div id="trophy">
-		
-			<div id="trophy_image"></div>
-			<div id="trophy_image_shine"></div>
-			<div id="trophy_text">Trophy</div>
-			<div id="trophy_text2">Name</div>
-			<div id="trophy_bg"></div>
-			<div id="trophy_bg_shine"></div>
-		
-		</div>
-		
-		<div id="book">
-			<div id="fish_rank_icon"></div>
-			<div id="fish_rank_text">Amateur Angler</div>
-			<div id="fish_exp_container">
-				<div id="fish_exp_bar"></div>
-				<div id="fish_exp">Beginner I</div>
+			<div id="bar">
+				<p id="bar_text"></p>
+				<div id="bar2">
+					<div id="bar_shine"></div>
+					<div id="bar_shine2"></div>
+				</div>
 			</div>
 			
-			<div id="fish_list">
-			
-			</div>
-			<div id="fish_select"></div>
-			
-			<div id="page2">
-				<div id="fish_big_image"></div>
-				<div id="fish_name"></div>
+			<div id="rod">
 				
-				<div id="fish_amount">Total Caught <span id="fish_amount_num">0</span></div>
-				<div id="fish_biggest_size">Largest Fish <span id="fish_biggest_size_num">0 cm</span></div>
+				<div id="rod_space_btn"></div>
+				<div id="rod_bar">
+					<div id="rod_drop"></div>
+					<div id="rod_middle"></div>
+				</div>
+				
 			</div>
 			
+			<div id="fish">
+			
+				<div id="fish_image"></div>
+				<div id="fish_image_shine"></div>
+				<div id="fish_size">Length</div>
+				<div id="fish_text">Name</div>
+				<div id="fish_bg"></div>
+				<div id="fish_bg_shine"></div>
+			
+			</div>
+			
+			<div id="trophy">
+			
+				<div id="trophy_image"></div>
+				<div id="trophy_image_shine"></div>
+				<div id="trophy_text">Trophy</div>
+				<div id="trophy_text2">Name</div>
+				<div id="trophy_bg"></div>
+				<div id="trophy_bg_shine"></div>
+			
+			</div>
+			
+			<div id="book">
+				<div id="fish_rank_icon"></div>
+				<div id="fish_rank_text">Amateur Angler</div>
+				<div id="fish_exp_container">
+					<div id="fish_exp_bar"></div>
+					<div id="fish_exp">Beginner I</div>
+				</div>
+				
+				<div id="fish_list">
+				
+				</div>
+				<div id="fish_select"></div>
+				
+				<div id="page2">
+					<div id="fish_big_image"></div>
+					<div id="fish_name"></div>
+					
+					<div id="fish_amount">Total Caught <span id="fish_amount_num">0</span></div>
+					<div id="fish_biggest_size">Largest Fish <span id="fish_biggest_size_num">0 cm</span></div>
+				</div>
+				
+			</div>
+			
+			<div id="book_button" onClick="openBook()"></div>
+			
 		</div>
-		
-		<div id="book_button" onClick="openBook()"></div>
 		
 	</div>
 	
 	<footer>
 		<p id="footer_text">© 2018 Maplestory 2 Fansite</p>
 	</footer>
+	
+	<script>
+		setTimeout(function(){
+			$("#new_bg").css("background-image", "url('./images/bg_4.jpg')");
+		}, 500);
+	</script>
 	
 	<!-- jQuery, Popper, Bootstrap -->
 	<script src="scripts/jquery.slim.min.js"></script>
