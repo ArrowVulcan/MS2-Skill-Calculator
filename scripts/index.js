@@ -824,6 +824,10 @@ $( window ).on( "load", function(){
 	let cAgree = getCookie("cookie");
 	let cWelcome = getCookie("npc_welcome");
 	
+	if( cWelcome ){
+		setCookie("npc_welcome", "1", 30, true);
+	}
+	
 	if( cAgree == 0 ){
 
 		npcList.cookie = function(){
