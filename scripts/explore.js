@@ -232,7 +232,7 @@ function mapSearch() {
 
 function map(name, id){
 
-	$('[data-toggle="tooltip"]').tooltip();
+	//$('[data-toggle="tooltip"]').tooltip();
 
 	// Clean old stars and objects
 	$("img").remove(".star");

@@ -3,20 +3,27 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 html, body{
 	overflow-x: hidden;
 	height: 100%;
 	width: 100%;
-	background-color: #000;
+	background-color: #412a1a;
+	font-family: "Montserrat", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	line-height: 1.5;
+}
+
+p{
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 /* width */
@@ -417,6 +424,22 @@ footer p{
 
 .list-group-item {
 	padding: 2px !important;
+	position: relative;
+    display: block;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
 }
 
 #blocker{
@@ -498,7 +521,7 @@ footer p{
 
 h1, h4, p, a, button, strong, input, li, #snackbar{
 	color: #1c1c1c;
-	font-family: 'Itim', cursive;
+	font-family: 'Montserrat';
 }
 
 #sideText{
@@ -897,7 +920,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 
 .middle h1, .middle p{
-	font-family: 'Merienda', cursive;
+	font-family: 'Montserrat';
 	font-size: 42px;
 	color: #d8d8d8;
 	text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
@@ -913,6 +936,7 @@ hr {
     width: 40%;
 	background-color: #FFF;
 	box-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+	height: 1px;
 }
 
 #timeHolder, #timeHolder2{
@@ -920,7 +944,7 @@ hr {
 	transform: scale(0.32);
 	position: relative;
 	top: -55px;
-	margin-bottom: -45px;
+	margin-bottom: -60px;
 	float: left;
 }
 

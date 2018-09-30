@@ -83,7 +83,7 @@ function createColumn(start, stop){
 
 	let storeInfo = "";
 	
-	storeInfo = storeInfo + '<div class="col-3" id="skills_row">';
+	storeInfo = storeInfo + '<div class="col-3">';
 	
 	for(let i=start; i < stop; i++){
 		storeInfo = storeInfo + '<div class="skill_box">' +
@@ -766,7 +766,7 @@ $( window ).on( "load", function(){
 	loadUrlPoints();
 
 	// Make window draggable
-	$("#window").draggable({ handle: "#drag_bar", containment: [0, 100, 1060, 1920] });
+	//$("#window").draggable({ handle: "#drag_bar", containment: [0, 100, 1060, 1920] });
 	
 	// Collect data, load url points, create columns, set points and skill locks.
 	createBase();

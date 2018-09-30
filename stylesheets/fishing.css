@@ -1,3 +1,13 @@
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
 #fishing{
 	position: relative;
     top: 90px;
@@ -394,7 +404,7 @@
     width: 371px;
     height: 20px;
     left: 0px;
-    top: -2px;
+    top: -1px;
 }
 
 #fish_list{
