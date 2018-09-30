@@ -175,7 +175,7 @@ function getMapName(name){
 		case "BittersValley": return BittersValley;
 		case "PiercingWindHills": return PiercingWindHills;
 		case "StormyHills": return StormyHills;
-		case "Demonsprings": return Demonsprings;
+		case "Demonspring": return Demonspring;
 		case "BlackForest": return BlackForest;
 		case "Calamitysnare": return Calamitysnare;
 		case "MoldyHollow": return MoldyHollow;

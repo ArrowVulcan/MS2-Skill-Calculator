@@ -178,6 +178,7 @@ p{
 	animation-name: slide-in;
 	animation-duration: 600ms;
 	pointer-events: none;
+	display: none;
 }
 
 @keyframes slide-in {

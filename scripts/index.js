@@ -809,6 +809,7 @@ function createChat(image, title, text, buttonText){
 		$("#new_chat_title").text(title);
 		$("#new_chat_text").text(text);
 		$("#new_chat_button_text").text(buttonText);
+		$("#new_chat_avatar").css("display", "block");
 		$("#new_chat").css("opacity", 1);
 		$("#new_chat").css("pointer-events", "auto");
 	}, 1000);
@@ -862,6 +863,7 @@ $( window ).on( "load", function(){
 	
 	$("#new_chat_button").mousedown(function(event){
 	
+		$("#new_chat_avatar").css("display", "none");
 		$("#new_chat").css("opacity", 0);
 		$("#new_chat").css("pointer-events", "none");
 	
