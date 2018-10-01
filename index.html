@@ -77,17 +77,11 @@
 			</div>
 		</div>
 		
-		<div id="new_info">
-			<div class="middle">
-				<h1 id="cSoon"></h1>
-				<hr>
-				<p id="timeLeft"></p>
-				<p id="timeHolder"></p>
-				<h1 id="cSoon2"></h1>
-				<hr>
-				<p id="timeLeft2"></p>
-				<p id="timeHolder2"></p>
-			</div>
+		<div class="new_info">
+			<h1>Update Schedule</h1>
+			<p>[Explore] Add images and videos.</p>
+			<p>[Fishing] Cookies to save progress.</p>
+			<p>[Fishing] Fish description in the book.</p>
 		</div>
 		
 	</div>
@@ -101,131 +95,6 @@
 		setTimeout(function(){
 			$("#new_bg").css("background-image", "url('./images/bg_1.jpg')");
 		}, 500);
-	
-		function addNumbers(timer, arg){
-			for(let i=0; i < arg.toString().length; i++){
-			
-				if( arg.toString().length == 1 ){
-					let para = document.createElement('p');
-					para.className  = "num0";
-					let timeHolder = document.getElementById(timer);
-					timeHolder.appendChild(para);
-				}
-			
-				let para = document.createElement('p');
-				para.className  = "num" + arg.toString()[i];
-				let timeHolder = document.getElementById(timer);
-				timeHolder.appendChild(para);
-			}
-		}
-	
-		function addDots(timer){
-			let para = document.createElement('p');
-			para.className  = "numDots";
-			let timeHolder = document.getElementById(timer);
-			timeHolder.appendChild(para);
-		}
-	
-		// Set the date we're counting down to
-		var countDownDate = new Date("Oct 01, 2018 17:00:00").getTime(); // Head start
-		var countDownDate2 = new Date("Oct 10, 2018 17:00:00").getTime(); // Release
-		
-		function headStart(){
-
-			// Get todays date and time
-			var now = Date.now();
-			var d = new Date();
-		
-			now = now + (d.getTimezoneOffset() * 60000);
-
-			// Find the distance between now an the count down date
-			var distance = countDownDate - now;
-
-			// Time calculations for days, hours, minutes and seconds
-			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-			 
-			$('#timeHolder').empty();
-			
-			addNumbers("timeHolder", days);
-			addDots("timeHolder");
-			addNumbers("timeHolder", hours);
-			addDots("timeHolder");
-			addNumbers("timeHolder", minutes);
-			addDots("timeHolder");
-			addNumbers("timeHolder", seconds);
-
-			// If the count down is finished, write some text 
-			if (distance < 0) {
-				clearInterval(x);
-				document.getElementById("cSoon").innerHTML = "Head Start is released!";
-				$('#timeHolder').empty();
-				addNumbers("timeHolder", 0);
-				addDots("timeHolder");
-				addNumbers("timeHolder", 0);
-				addDots("timeHolder");
-				addNumbers("timeHolder", 0);
-				addDots("timeHolder");
-				addNumbers("timeHolder", 0);
-			}else{
-				document.getElementById("cSoon").innerHTML = "Head Start";
-			}
-		
-		}
-	
-		function release(){
-		
-			// Get todays date and time
-			var now = Date.now();
-			var d = new Date();
-		
-			now = now + (d.getTimezoneOffset() * 60000);
-
-			// Find the distance between now an the count down date
-			var distance = countDownDate2 - now;
-
-			// Time calculations for days, hours, minutes and seconds
-			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-		
-			$('#timeHolder2').empty();
-		
-			addNumbers("timeHolder2", days);
-			addDots("timeHolder2");
-			addNumbers("timeHolder2", hours);
-			addDots("timeHolder2");
-			addNumbers("timeHolder2", minutes);
-			addDots("timeHolder2");
-			addNumbers("timeHolder2", seconds);
-			
-			// If the count down is finished, write some text 
-			if (distance < 0) {
-				clearInterval(y);
-				document.getElementById("cSoon2").innerHTML = "The game is released!";
-				$('#timeHolder2').empty();
-				addNumbers("timeHolder2", 0);
-				addDots("timeHolder2");
-				addNumbers("timeHolder2", 0);
-				addDots("timeHolder2");
-				addNumbers("timeHolder2", 0);
-				addDots("timeHolder2");
-				addNumbers("timeHolder2", 0);
-			}else{
-				document.getElementById("cSoon2").innerHTML = "Official Launch";
-			}
-		
-		}
-	
-		setTimeout(function(){ headStart(); }, 50);
-		setTimeout(function(){ release(); }, 50);
-
-		// Update the count down every 1 second
-		var x = setInterval(function(){ headStart(); }, 1000);
-		var y = setInterval(function(){ release(); }, 1000);
 		
 	</script>
 

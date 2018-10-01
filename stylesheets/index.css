@@ -229,15 +229,36 @@ p{
 	font-size: 24px;
 }
 
-#new_info{
-	position: absolute;
+.new_info{
+	position: relative;
+	float: right;
+	clear: both;
 	top: 100px;
 	right: 20px;
 	width: 500px;
-	height: 445px;
 	background-color: #0005;
 	border-radius: 12px;
 	box-shadow: 0px 0px 5px #000;
+	padding: 20px;
+	min-height: 80px;
+	margin-bottom: 10px;
+}
+
+.new_info h1{
+	text-align: center;
+    color: #fff;
+	font-size: 24px;
+	margin-bottom: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.new_info p{
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.new_info a{
+	color: #f8b415;
 }
 
 #thief_image{
