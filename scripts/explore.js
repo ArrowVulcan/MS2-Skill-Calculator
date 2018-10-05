@@ -408,13 +408,15 @@ $( window ).on( "load", function(){
 			if( latestStar.dataset.image != "undefined" ){
 			
 				// Show blocker
-				let blocker = $("#blocker");
-				$("#blocker_image").css("display", "block");
-				blocker.css("display", "block");
+				//let blocker = $("#blocker");
+				//$("#blocker_image").css("display", "block");
+				//blocker.css("display", "block");
 			
-				let image = document.getElementById("blocker_image");
+				//let image = document.getElementById("blocker_image");
 			
-				image.src = "./images/chests/" + latestStar.dataset.image + ".jpg";
+				//image.src = "./images/chests/" + latestStar.dataset.image + ".jpg";
+				window.open("https://i.imgur.com/" + latestStar.dataset.image + ".jpg");
+				
 			}else{
 				snackBar("No image available!");
 			}
