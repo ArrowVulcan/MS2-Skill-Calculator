@@ -24,7 +24,7 @@ function getMapName(name){
 	switch (name) {
 		case "RoyalRoadPlaza": return RoyalRoadPlaza;
 		case "SouthRoyalRoad": return SouthRoyalRoad;
-		case "Hushwood": return Hushwood;
+		case "HushwoodVale": return HushwoodVale;
 		case "CrookedCanyon": return CrookedCanyon;
 		case "NorthRoyalRoad": return NorthRoyalRoad;
 		case "LudibriumCrater": return LudibriumCrater;
@@ -51,7 +51,7 @@ function getMapName(name){
 		case "FellowstoneConstruction": return FellowstoneConstruction;
 		case "Mounthill": return Mounthill;
 		case "GoldusPharmaceuticals": return GoldusPharmaceuticals;
-		case "NeuronDNAResearchSite": return NeuronDNAResearchSite;
+		case "NeuronDNAResearchCenter": return NeuronDNAResearchCenter;
 		case "ShadowGate": return ShadowGate;
 		case "AndreaBarony": return AndreaBarony;
 		case "TrinianCrossing": return TrinianCrossing;

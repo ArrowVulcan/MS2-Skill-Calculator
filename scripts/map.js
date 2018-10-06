@@ -99,7 +99,7 @@ var explore_map = [
 			"image": "XqQn9hH",
 		},
 	],
-	Hushwood = [
+	HushwoodVale = [
 		{
 			"star": 1,
 			"x": 547,
@@ -820,7 +820,7 @@ var explore_map = [
 			"image": "yBFlnqV",
 		},
 	],
-	NeuronDNAResearchSite = [
+	NeuronDNAResearchCenter = [
 		{
 			"star": 1,
 			"x": 517,
@@ -2241,8 +2241,9 @@ var explore_map = [
 		},
 		{
 			"star": 3,
-			"x": 241,
-			"y": 550,
+			"x": 478,
+			"y": 250,
+			"image": "5BshqcD",
 		},
 		{
 			"star": 4,
