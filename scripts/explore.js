@@ -87,7 +87,7 @@ function getMapName(name){
 		case "VerdantHeights": return VerdantHeights;
 		case "CoronaLake": return CoronaLake;
 		case "LavaSprings": return LavaSprings;
-		case "GiantEllinTrees": return GiantEllinTrees;
+		case "GreatEllinTrees": return GreatEllinTrees;
 		case "MoonglowForest": return MoonglowForest;
 		case "ForestofLife": return ForestofLife;
 		case "Godspring": return Godspring;
@@ -99,9 +99,9 @@ function getMapName(name){
 		case "GreeniaFalls": return GreeniaFalls;
 		case "ElluaRiverside": return ElluaRiverside;
 		case "FungeeburgStump": return FungeeburgStump;
-		case "ReflectionCastle": return ReflectionCastle;
+		case "MirrorCastle": return MirrorCastle;
 		case "TwilightMoonCastle": return TwilightMoonCastle;
-		case "SilentFerry": return SilentFerry;
+		case "SereneDocks": return SereneDocks;
 		case "CausticGarden": return CausticGarden;
 		case "RainbowMountain": return RainbowMountain;
 		case "Ellosylva": return Ellosylva;
