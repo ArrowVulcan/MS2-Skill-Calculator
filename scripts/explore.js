@@ -117,7 +117,7 @@ function getMapName(name){
 		case "MurosMediaPark": return MurosMediaPark;
 		case "RedWall": return RedWall;
 		case "WhistlerCliffs": return WhistlerCliffs;
-		case "PigmingTribeAltar": return PigmingTribeAltar;
+		case "PigmingClanAltar": return PigmingClanAltar;
 		case "WolfclawCanyon": return WolfclawCanyon;
 		case "LudiStation": return LudiStation;
 		case "HighcliffTemple": return HighcliffTemple;
@@ -134,7 +134,7 @@ function getMapName(name){
 		case "BerrysweetCastle": return BerrysweetCastle;
 		case "HarrotHill": return HarrotHill;
 		case "LudiArcade": return LudiArcade;
-		case "CelimentalTestBunker": return CelimentalTestBunker;
+		case "CellimentalTestBunker": return CellimentalTestBunker;
 		case "KarnifsFang": return KarnifsFang;
 		case "MSLElectronicsInstitute": return MSLElectronicsInstitute;
 		case "MSLFactory": return MSLFactory;
