@@ -1,4 +1,4 @@
-var ranger_skills = [
+var archer_skills = [
 	column1 = [
 		{
 			"hidden": 0,
