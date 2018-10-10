@@ -62,7 +62,7 @@ var priest_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 19+</span></p><p><span class='info_red'>Celestial Light [Level 3+]</span></p><p><span class='info_red'>Holy Blast [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 19+</span></p><p><span class='info_red'>Celestial Light [Level 3+]</span></p><p><span class='info_red'>Holy Blast [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Magic</span></p>",
 			"texts": [
 				"",
@@ -89,7 +89,7 @@ var priest_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Shield of the Archon [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Shield of the Archon [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Magic</span></p>",
 			"texts": [
 				"",
@@ -176,7 +176,7 @@ var priest_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 10+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 10+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex</span></p>",
 			"texts": [
 				"",
@@ -203,7 +203,7 @@ var priest_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 22+</span></p><p><span class='info_red'>Healing Prayer [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Healing Prayer [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter</span></p>",
 			"texts": [
 				"",
@@ -230,7 +230,7 @@ var priest_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 31+</span></p><p><span class='info_red'>Healing Prayer [Level 3+]</span></p><p><span class='info_red'>Scourging Wave [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Healing Prayer [Level 3+]</span></p><p><span class='info_red'>Scourging Wave [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Magic</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex</span></p>",
 			"texts": [
 				"",
@@ -257,7 +257,7 @@ var priest_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-0-0-0-0-0-0-0-3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p><p><span class='info_red'>Celestial Light [Level 4+]</span></p><p><span class='info_red'>Sanctuary[Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Celestial Light [Level 4+]</span></p><p><span class='info_red'>Sanctuary[Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
 			"texts": [
 				"",
@@ -316,7 +316,7 @@ var priest_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 16+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 16+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex</span></p>",
 			"texts": [
 				"",
@@ -343,7 +343,7 @@ var priest_skills = [
 			"maxLevel": 10,
 			"locked": 0,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p><p><span class='info_red'>Celestial Guardian [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Celestial Guardian [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex</span></p>",
 			"texts": [
 				"",
@@ -370,7 +370,7 @@ var priest_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-3-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Celestial Guardian [Level 6+]</span></p><p><span class='info_red'>Celestial Blessings [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Celestial Guardian [Level 6+]</span></p><p><span class='info_red'>Celestial Blessings [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p>",
 			"texts": [
 				"",
@@ -394,10 +394,10 @@ var priest_skills = [
 			"element": "Holy",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 10,
+			"maxLevel": 9,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-6-4-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Celestial Blessings [Level 6+]</span></p><p><span class='info_red'>Holy Symbols [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Celestial Blessings [Level 6+]</span></p><p><span class='info_red'>Holy Symbols [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex</span></p>",
 			"texts": [
 				"",
@@ -455,7 +455,7 @@ var priest_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 13+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 13+</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -497,7 +497,7 @@ var priest_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Scepter Mastery [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Scepter Mastery [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -521,10 +521,10 @@ var priest_skills = [
 			"element": "Holy",
 			"resource": "Spirit 30 / Cooldown 10 second(s)",
 			"level": 0,
-			"maxLevel": 10,
+			"maxLevel": 8,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Scepter Mastery [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 46+</span></p><p><span class='info_red'>Scepter Mastery [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter, Off-hand Codex</span></p>",
 			"texts": [
 				"",
