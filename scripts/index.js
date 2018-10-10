@@ -219,9 +219,12 @@ function setSkillInfo(event, type){
 		// Get tooltip offsetHeight
 		let infoContent = document.getElementById("info_content");
 		let offset = infoContent.offsetHeight;
+
+		// Get window height
+		let windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 	
 		// Move the tooltip above the cursor to prevent text from going outside the screen
-		if( event.pageY > 511 ){
+		if( event.pageY > windowHeight / 2 ){
 		
 			if( offset > 0 ){
 				box.style.left = event.pageX + 25 + 'px';
