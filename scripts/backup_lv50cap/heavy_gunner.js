@@ -59,7 +59,7 @@ var heavy_gunner_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 19+</span></p><p><span class='info_red'>Bullet Spray [Level 4+]</span></p><p><span class='info_red'>Gatling Fire [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 19+</span></p><p><span class='info_red'>Bullet Spray [Level 4+]</span></p><p><span class='info_red'>Gatling Fire [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
 			"texts": [
 				"",
@@ -100,7 +100,7 @@ var heavy_gunner_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-5-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Gatling Fire [Level 5+]</span></p><p><span class='info_red'>Lock-on [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 31+</span></p><p><span class='info_red'>Gatling Fire [Level 5+]</span></p><p><span class='info_red'>Lock-on [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -173,7 +173,7 @@ var heavy_gunner_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 13+</span></p><p><span class='info_red'>Bullet Spray [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 13+</span></p><p><span class='info_red'>Bullet Spray [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
 			"texts": [
 				"",
@@ -200,7 +200,7 @@ var heavy_gunner_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Magnetic Bomb [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p><p><span class='info_red'>Magnetic Bomb [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
 			"texts": [
 				"",
@@ -227,7 +227,7 @@ var heavy_gunner_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-0-0-0-0-0-0-0-4-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Electric Blast [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Electric Blast [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Physical</span></p>",
 			"texts": [
 				"",
@@ -250,10 +250,10 @@ var heavy_gunner_skills = [
 			"title": "Blast Charge Kit",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 8,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-0-0-0-0-0-0-0-4-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 46+</span></p><p><span class='info_red'>Electric Blast [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Electric Blast [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p>",
 			"texts": [
 				"",
@@ -311,7 +311,7 @@ var heavy_gunner_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 10+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 10+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
 			"texts": [
 				"",
@@ -338,7 +338,7 @@ var heavy_gunner_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Rocket Launcher [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 22+</span></p><p><span class='info_red'>Rocket Launcher [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
 			"texts": [
 				"",
@@ -365,7 +365,7 @@ var heavy_gunner_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-5-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Homing Missiles [Level 5+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Homing Missiles [Level 5+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p>",
 			"texts": [
 				"",
@@ -389,10 +389,10 @@ var heavy_gunner_skills = [
 			"element": "Fire",
 			"resource": "",
 			"level": 0,
-			"maxLevel": 9,
+			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-4-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Homing Missiles [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Homing Missiles [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Physical</span></p>",
 			"texts": [
 				"",
@@ -450,7 +450,7 @@ var heavy_gunner_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 16+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 16+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p>",
 			"texts": [
 				"",
@@ -477,7 +477,7 @@ var heavy_gunner_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Stun Grenades [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Stun Grenades [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p>",
 			"texts": [
 				"",
@@ -517,7 +517,7 @@ var heavy_gunner_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 40+</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p>",
 			"texts": [
 				"",
