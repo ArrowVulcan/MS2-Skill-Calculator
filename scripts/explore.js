@@ -139,7 +139,7 @@ function getMapName(name){
 		case "MSLElectronicsInstitute": return MSLElectronicsInstitute;
 		case "MSLFactory": return MSLFactory;
 		case "AntTunnelPassage": return AntTunnelPassage;
-		case "FrostpeakMountains": return FrostpeakMountains;
+		case "FrostpeakMountain": return FrostpeakMountain;
 		case "KernelEnergyResearch": return KernelEnergyResearch;
 		case "FrostemberVoid": return FrostemberVoid;
 		case "SnowscarfHaven": return SnowscarfHaven;
@@ -168,20 +168,26 @@ function getMapName(name){
 		case "SavageCrossroads": return SavageCrossroads;
 		case "DebloonRanch": return DebloonRanch;
 		case "Stormville": return Stormville;
-		case "VictoriaLiner": return VictoriaLiner;
-		case "NorthSidianRoad": return NorthSidianRoad;
-		case "SouthSidianRoad": return SouthSidianRoad;
+		case "VictoriasRest": return VictoriasRest;
+		case "NorthTyrannyRoad": return NorthTyrannyRoad;
+		case "SouthTyrannyRoad": return SouthTyrannyRoad;
 		case "Wallowville": return Wallowville;
 		case "BittersValley": return BittersValley;
-		case "PiercingWindHills": return PiercingWindHills;
+		case "PiercewindHills": return PiercewindHills;
 		case "StormyHills": return StormyHills;
 		case "Demonspring": return Demonspring;
 		case "BlackForest": return BlackForest;
 		case "Calamitysnare": return Calamitysnare;
 		case "MoldyHollow": return MoldyHollow;
 		case "OutlawsOverlook": return OutlawsOverlook;
-		case "BurningRazedForest": return BurningRazedForest;
-		case "InfernoTree": return InfernoTree;
+		case "BlazingForest": return BlazingForest;
+		case "InfernalTree": return InfernalTree;
+		case "CocoIsland": return CocoIsland;
+		case "MeltaDam": return MeltaDam;
+		case "ObsidianMount": return ObsidianMount;
+		case "CozalitaGraveyard": return CozalitaGraveyard;
+		case "GloomyForest": return GloomyForest;
+		case "SealedForest": return SealedForest;
 	}
 }
 

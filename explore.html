@@ -88,7 +88,7 @@
 		
 			<div class="row2">
 			  <div class="left">
-				<input type="text" id="mySearch" onkeyup="mapSearch()" placeholder="Map..">
+				<input type="text" id="mySearch" onkeyup="mapSearch()" placeholder="Search..">
 				<ul id="myMenu">
 				  <li><a class="mapName" data-id="0" onclick="map('RoyalRoadPlaza', 0)" href="#RoyalRoadPlaza">Royal Road Plaza (0/8)</a></li>
 				  <li><a class="mapName" data-id="1" onclick="map('SouthRoyalRoad', 1)" href="#SouthRoyalRoad">South Royal Road (0/8)</a></li>
@@ -207,7 +207,7 @@
 				  <li><a class="mapName" data-id="114" onclick="map('MSLElectronicsInstitute', 114)" href="#MSLElectronicsInstitute">MSL Electronics Institute (0/7)</a></li>
 				  <li><a class="mapName" data-id="115" onclick="map('MSLFactory', 115)" href="#MSLFactory">MSL Factory (0/4)</a></li>
 				  <li><a class="mapName" data-id="116" onclick="map('AntTunnelPassage', 116)" href="#AntTunnelPassage">Ant Tunnel Passage (0/5)</a></li>
-				  <li><a class="mapName" data-id="117" onclick="map('FrostpeakMountains', 117)" href="#FrostpeakMountains">Frostpeak Mountains (0/5)</a></li>
+				  <li><a class="mapName" data-id="117" onclick="map('FrostpeakMountain', 117)" href="#FrostpeakMountain">Frostpeak Mountain (0/5)</a></li>
 				  <li><a class="mapName" data-id="118" onclick="map('KernelEnergyResearch', 118)" href="#KernelEnergyResearch">Kernel Energy Research (0/5)</a></li>
 				  <li><a class="mapName" data-id="119" onclick="map('FrostemberVoid', 119)" href="#FrostemberVoid">Frostember Void (0/5)</a></li>
 				  <li><a class="mapName" data-id="120" onclick="map('SnowscarfHaven', 120)" href="#SnowscarfHaven">Snowscarf Haven (0/5)</a></li>
@@ -236,20 +236,26 @@
 				  <li><a class="mapName" data-id="143" onclick="map('SavageCrossroads', 143)" href="#SavageCrossroads">Savage Crossroads (0/2)</a></li>
 				  <li><a class="mapName" data-id="144" onclick="map('DebloonRanch', 144)" href="#DebloonRanch">Debloon Ranch (0/5)</a></li>
 				  <li><a class="mapName" data-id="145" onclick="map('Stormville', 145)" href="#Stormville">Stormville (0/4)</a></li>
-				  <li><a class="mapName" data-id="146" onclick="map('VictoriaLiner', 146)" href="#VictoriaLiner">Victoria Liner (0/3)</a></li>
-				  <li><a class="mapName" data-id="147" onclick="map('NorthSidianRoad', 147)" href="#NorthSidianRoad">North Sidian Road (0/7)</a></li>
-				  <li><a class="mapName" data-id="148" onclick="map('SouthSidianRoad', 148)" href="#SouthSidianRoad">South Sidian Road (0/6)</a></li>
+				  <li><a class="mapName" data-id="146" onclick="map('VictoriasRest', 146)" href="#VictoriasRest">Victorias Rest (0/3)</a></li>
+				  <li><a class="mapName" data-id="147" onclick="map('NorthTyrannyRoad', 147)" href="#NorthTyrannyRoad">North Tyranny Road (0/7)</a></li>
+				  <li><a class="mapName" data-id="148" onclick="map('SouthTyrannyRoad', 148)" href="#SouthTyrannyRoad">South Tyranny Road (0/6)</a></li>
 				  <li><a class="mapName" data-id="149" onclick="map('Wallowville', 149)" href="#Wallowville">Wallowville (0/5)</a></li>
 				  <li><a class="mapName" data-id="150" onclick="map('BittersValley', 150)" href="#BittersValley">Bitters Valley (0/5)</a></li>
-				  <li><a class="mapName" data-id="151" onclick="map('PiercingWindHills', 151)" href="#PiercingWindHills">Piercing Wind Hills (0/3)</a></li>
+				  <li><a class="mapName" data-id="151" onclick="map('PiercewindHills', 151)" href="#PiercewindHills">Piercewind Hills (0/3)</a></li>
 				  <li><a class="mapName" data-id="152" onclick="map('StormyHills', 152)" href="#StormyHills">Stormy Hills (0/5)</a></li>
 				  <li><a class="mapName" data-id="153" onclick="map('Demonspring', 153)" href="#Demonspring">Demonspring (0/3)</a></li>
 				  <li><a class="mapName" data-id="154" onclick="map('BlackForest', 154)" href="#BlackForest">Black Forest (0/2)</a></li>
 				  <li><a class="mapName" data-id="155" onclick="map('Calamitysnare', 155)" href="#Calamitysnare">Calamitysnare (0/3)</a></li>
 				  <li><a class="mapName" data-id="156" onclick="map('MoldyHollow', 156)" href="#MoldyHollow">Moldy Hollow (0/5)</a></li>
 				  <li><a class="mapName" data-id="157" onclick="map('OutlawsOverlook', 157)" href="#OutlawsOverlook">Outlaws Overlook (0/4)</a></li>
-				  <li><a class="mapName" data-id="158" onclick="map('BurningRazedForest', 158)" href="#BurningRazedForest">Burning Razed Forest (0/5)</a></li>
-				  <li><a class="mapName" data-id="159" onclick="map('InfernoTree', 159)" href="#InfernoTree">Inferno Tree (0/4)</a></li>
+				  <li><a class="mapName" data-id="158" onclick="map('BlazingForest', 158)" href="#BlazingForest">Blazing Forest (0/5)</a></li>
+				  <li><a class="mapName" data-id="159" onclick="map('InfernalTree', 159)" href="#InfernalTree">Infernal Tree (0/4)</a></li>
+				  <li><a class="mapName" data-id="160" onclick="map('CocoIsland', 160)" href="#CocoIsland">Coco Island (0/3)</a></li>
+				  <li><a class="mapName" data-id="161" onclick="map('MeltaDam', 161)" href="#MeltaDam">Melta Dam (0/5)</a></li>
+				  <li><a class="mapName" data-id="162" onclick="map('ObsidianMount', 162)" href="#ObsidianMount">Obsidian Mount (0/3)</a></li>
+				  <li><a class="mapName" data-id="163" onclick="map('CozalitaGraveyard', 163)" href="#CozalitaGraveyard">Cozalita Graveyard (0/3)</a></li>
+				  <li><a class="mapName" data-id="164" onclick="map('GloomyForest', 164)" href="#GloomyForest">Gloomy Forest (0/6)</a></li>
+				  <li><a class="mapName" data-id="165" onclick="map('SealedForest', 165)" href="#SealedForest">Sealed Forest (0/6)</a></li>
 				</ul>
 			  </div>
 			  

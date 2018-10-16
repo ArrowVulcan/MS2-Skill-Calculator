@@ -335,7 +335,7 @@ footer p{
     position: absolute;
     width: 265px;
     height: 622px;
-    overflow: hidden;
+    overflow-x: hidden;
     right: 18px;
     top: 43px;
     background-color: #fef1ad;
