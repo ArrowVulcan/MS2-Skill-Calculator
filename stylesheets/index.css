@@ -340,7 +340,7 @@ footer p{
     top: 43px;
     background-color: #fef1ad;
 	border-radius: 4px;
-    padding-top: 17px;
+    padding-top: 45px;
 }
 
 .left h2 {
@@ -370,11 +370,25 @@ footer p{
 	color: #1c1c1c;
 	border-radius: 12px;
 	margin-bottom: 10px;
+	position: absolute;
+	right: 4px;
+	top: 10px;
 }
 
 #mySearch:focus {
 	outline: none;
 	box-shadow: 0px 0px 2px #ff8319;
+}
+
+#searchBox{
+position: absolute;
+    right: 28px;
+    top: 43px;
+    width: 255px;
+    height: 49px;
+    background-color: #fef1ad;
+    z-index: 100;
+    box-shadow: 0px 1px 2px -2px #000;
 }
 
 /* Style the navigation menu inside the left column */

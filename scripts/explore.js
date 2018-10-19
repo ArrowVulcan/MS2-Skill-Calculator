@@ -188,6 +188,28 @@ function getMapName(name){
 		case "CozalitaGraveyard": return CozalitaGraveyard;
 		case "GloomyForest": return GloomyForest;
 		case "SealedForest": return SealedForest;
+		case "RizabIsland": return RizabIsland;
+		case "TiaresDesert": return TiaresDesert;
+		case "LudariArena": return LudariArena;
+		case "TuningMotorsShowroom": return TuningMotorsShowroom;
+		case "LudariStation": return LudariStation;
+		case "ParadiseCircuit": return ParadiseCircuit;
+		case "LavenderIsland": return LavenderIsland;
+		case "WestAutoBridge": return WestAutoBridge;
+		case "EastAutoBridge": return EastAutoBridge;
+		case "RainbowValley": return RainbowValley;
+		case "RedsandHills": return RedsandHills;
+		case "MoonlightDesert": return MoonlightDesert;
+		case "MoonlightGarden": return MoonlightGarden;
+		case "SandstarRuins": return SandstarRuins;
+		case "NazkarPyramid": return NazkarPyramid;
+		case "NazkarPassageways": return NazkarPassageways;
+		case "NazkarCentralChamber": return NazkarCentralChamber;
+		case "NazkarAltar": return NazkarAltar;
+		case "NazkarMainHall": return NazkarMainHall;
+		case "LudariMall": return LudariMall;
+		case "TheDeckSkatepark": return TheDeckSkatepark;
+		case "Aquatopia": return Aquatopia;
 	}
 }
 

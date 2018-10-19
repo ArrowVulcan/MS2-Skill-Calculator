@@ -87,8 +87,10 @@
 		<div id="golden_treasure">
 		
 			<div class="row2">
+				<div id="searchBox">
+					<input type="text" id="mySearch" onkeyup="mapSearch()" placeholder="Search..">
+				</div>
 			  <div class="left">
-				<input type="text" id="mySearch" onkeyup="mapSearch()" placeholder="Search..">
 				<ul id="myMenu">
 				  <li><a class="mapName" data-id="0" onclick="map('RoyalRoadPlaza', 0)" href="#RoyalRoadPlaza">Royal Road Plaza (0/8)</a></li>
 				  <li><a class="mapName" data-id="1" onclick="map('SouthRoyalRoad', 1)" href="#SouthRoyalRoad">South Royal Road (0/8)</a></li>
@@ -106,13 +108,13 @@
 				  <li><a class="mapName" data-id="13" onclick="map('Lavaworks', 13)" href="#Lavaworks">Lavaworks (0/2)</a></li>
 				  <li><a class="mapName" data-id="14" onclick="map('Beachway111', 14)" href="#Beachway111">Beachway 111 (0/2)</a></li>
 				  <li><a class="mapName" data-id="15" onclick="map('BoulderwhiteMountains', 15)" href="#BoulderwhiteMountains">Boulderwhite Mountains (0/3)</a></li>
-				  <li><a class="mapName" data-id="16" onclick="map('NoxiousGrotto', 16)" href="#NoxiousGrotto">Noxious Grotto (0/3)</a></li>
+				  <!-- <li><a class="mapName" data-id="16" onclick="map('NoxiousGrotto', 16)" href="#NoxiousGrotto">Noxious Grotto (0/3)</a></li> -->
 				  <li><a class="mapName" data-id="17" onclick="map('BarrotaPort', 17)" href="#BarrotaPort">Barrota Port (0/7)</a></li>
 				  <li><a class="mapName" data-id="18" onclick="map('Frostheart', 18)" href="#Frostheart">Frostheart (0/3)</a></li>
 				  <li><a class="mapName" data-id="19" onclick="map('FloraAvenue', 19)" href="#FloraAvenue">Flora Avenue (0/9)</a></li>
 				  <li><a class="mapName" data-id="20" onclick="map('SufferingWasteland', 20)" href="#SufferingWasteland">Suffering Wasteland (0/3)</a></li>
 				  <li><a class="mapName" data-id="21" onclick="map('Woodward', 21)" href="#Woodward">Woodward (0/4)</a></li>
-				  <li><a class="mapName" data-id="22" onclick="map('EnigmaArcade', 22)" href="#EnigmaArcade">Enigma Arcade (0/4)</a></li>
+				  <!--<li><a class="mapName" data-id="22" onclick="map('EnigmaArcade', 22)" href="#EnigmaArcade">Enigma Arcade (0/4)</a></li>-->
 				  <li><a class="mapName" data-id="23" onclick="map('LoggersHill', 23)" href="#Logger'sHill">Logger's Hill (0/2)</a></li>
 				  <li><a class="mapName" data-id="24" onclick="map('AbandonedCharnelHouse', 24)" href="#AbandonedCharnelHouse">Abandoned Charnel House (0/6)</a></li>
 				  <li><a class="mapName" data-id="25" onclick="map('Spectrumwood', 25)" href="#Spectrumwood">Spectrumwood (0/7)</a></li>
@@ -150,14 +152,14 @@
 				  <li><a class="mapName" data-id="57" onclick="map('Sweetskirts', 57)" href="#Sweetskirts">Sweetskirts (0/3)</a></li>
 				  <li><a class="mapName" data-id="58" onclick="map('ForestofLostMemories', 58)" href="#ForestofLostMemories">Forest of Lost Memories (0/2)</a></li>
 				  <li><a class="mapName" data-id="59" onclick="map('AntTunnelPlaza', 59)" href="#AntTunnelPlaza">Ant Tunnel Plaza (0/2)</a></li>
-				  <li><a class="mapName" data-id="60" onclick="map('GreenoCrossing', 60)" href="#GreenoCrossing">Greeno Crossing (0/3)</a></li>
+				  <!-- <li><a class="mapName" data-id="60" onclick="map('GreenoCrossing', 60)" href="#GreenoCrossing">Greeno Crossing (0/3)</a></li> -->
 				  <li><a class="mapName" data-id="61" onclick="map('SweetToothValley', 61)" href="#SweetToothValley">Sweet Tooth Valley (0/3)</a></li>
 				  <li><a class="mapName" data-id="62" onclick="map('VerdantHeights', 62)" href="#VerdantHeights">Verdant Heights (0/3)</a></li>
 				  <li><a class="mapName" data-id="63" onclick="map('CoronaLake', 63)" href="#CoronaLake">Corona Lake (0/3)</a></li>
 				  <li><a class="mapName" data-id="64" onclick="map('LavaSprings', 64)" href="#LavaSprings">Lava Springs (0/4)</a></li>
 				  <li><a class="mapName" data-id="65" onclick="map('GreatEllinTrees', 65)" href="#GreatEllinTrees">Great Ellin Trees (0/8)</a></li>
 				  <li><a class="mapName" data-id="66" onclick="map('MoonglowForest', 66)" href="#MoonglowForest">Moonglow Forest (0/9)</a></li>
-				  <li><a class="mapName" data-id="67" onclick="map('ForestofLife', 67)" href="#ForestofLife">Forest of Life (0/3)</a></li>
+				  <!-- <li><a class="mapName" data-id="67" onclick="map('ForestofLife', 67)" href="#ForestofLife">Forest of Life (0/3)</a></li> -->
 				  <li><a class="mapName" data-id="68" onclick="map('Godspring', 68)" href="#Godspring">Godspring (0/3)</a></li>
 				  <li><a class="mapName" data-id="69" onclick="map('SandDunes', 69)" href="#SandDunes">Sand Dunes (0/5)</a></li>
 				  <li><a class="mapName" data-id="70" onclick="map('BesherelMagicLibrary', 70)" href="#BesherelMagicLibrary">Besherel Magic Library (0/3)</a></li>
@@ -221,9 +223,9 @@
 				  <li><a class="mapName" data-id="128" onclick="map('WaterSupplyCenter', 128)" href="#WaterSupplyCenter">Water Supply Center (0/3)</a></li>
 				  <li><a class="mapName" data-id="129" onclick="map('CrystalfrostWall', 129)" href="#CrystalfrostWall">Crystalfrost Wall (0/3)</a></li>
 				  <li><a class="mapName" data-id="130" onclick="map('MagmaGorge', 130)" href="#MagmaGorge">Magma Gorge (0/6)</a></li>
-				  <li><a class="mapName" data-id="131" onclick="map('WailingMine', 131)" href="#WailingMine">Wailing Mine (0/4)</a></li>
+				  <!-- <li><a class="mapName" data-id="131" onclick="map('WailingMine', 131)" href="#WailingMine">Wailing Mine (0/4)</a></li> -->
 				  <li><a class="mapName" data-id="132" onclick="map('IglooHill', 132)" href="#IglooHill">Igloo Hill (0/6)</a></li>
-				  <li><a class="mapName" data-id="133" onclick="map('MagmaTrail', 133)" href="#MagmaTrail">Magma Trail (0/2)</a></li>
+				  <!-- <li><a class="mapName" data-id="133" onclick="map('MagmaTrail', 133)" href="#MagmaTrail">Magma Trail (0/2)</a></li> -->
 				  <li><a class="mapName" data-id="134" onclick="map('PhantomaCyborgCenter', 134)" href="#PhantomaCyborgCenter">Phantoma Cyborg Center (0/5)</a></li>
 				  <li><a class="mapName" data-id="135" onclick="map('KabriumBasin', 135)" href="#KabriumBasin">Kabrium Basin (0/2)</a></li>
 				  <li><a class="mapName" data-id="136" onclick="map('ChekartaChemicals', 136)" href="#ChekartaChemicals">Chekarta Chemicals (0/2)</a></li>
@@ -256,6 +258,28 @@
 				  <li><a class="mapName" data-id="163" onclick="map('CozalitaGraveyard', 163)" href="#CozalitaGraveyard">Cozalita Graveyard (0/3)</a></li>
 				  <li><a class="mapName" data-id="164" onclick="map('GloomyForest', 164)" href="#GloomyForest">Gloomy Forest (0/6)</a></li>
 				  <li><a class="mapName" data-id="165" onclick="map('SealedForest', 165)" href="#SealedForest">Sealed Forest (0/6)</a></li>
+				  <li><a class="mapName" data-id="166" onclick="map('RizabIsland', 166)" href="#RizabIsland">Rizab Island (0/4)</a></li>
+				  <li><a class="mapName" data-id="167" onclick="map('TiaresDesert', 167)" href="#TiaresDesert">Tiares Desert (0/4)</a></li>
+				  <li><a class="mapName" data-id="168" onclick="map('LudariArena', 168)" href="#LudariArena">Ludari Arena (0/4)</a></li>
+				  <li><a class="mapName" data-id="169" onclick="map('TuningMotorsShowroom', 169)" href="#TuningMotorsShowroom">Tuning Motors Showroom (0/4)</a></li>
+				  <li><a class="mapName" data-id="170" onclick="map('LudariStation', 170)" href="#LudariStation">Ludari Station (0/4)</a></li>
+				  <li><a class="mapName" data-id="171" onclick="map('ParadiseCircuit', 171)" href="#ParadiseCircuit">Paradise Circuit (0/5)</a></li>
+				  <li><a class="mapName" data-id="172" onclick="map('LavenderIsland', 172)" href="#LavenderIsland">Lavender Island (0/4)</a></li>
+				  <li><a class="mapName" data-id="173" onclick="map('WestAutoBridge', 173)" href="#WestAutoBridge">West Auto Bridge (0/3)</a></li>
+				  <li><a class="mapName" data-id="174" onclick="map('EastAutoBridge', 174)" href="#EastAutoBridge">East  Auto Bridge (0/3)</a></li>
+				  <li><a class="mapName" data-id="175" onclick="map('RainbowValley', 175)" href="#RainbowValley">Rainbow Valley (0/6)</a></li>
+				  <li><a class="mapName" data-id="176" onclick="map('RedsandHills', 176)" href="#RedsandHills">Redsand Hills (0/5)</a></li>
+				  <li><a class="mapName" data-id="177" onclick="map('MoonlightDesert', 177)" href="#MoonlightDesert">Moonlight Desert (0/5)</a></li>
+				  <li><a class="mapName" data-id="178" onclick="map('MoonlightGarden', 178)" href="#MoonlightGarden">Moonlight Garden (0/5)</a></li>
+				  <li><a class="mapName" data-id="179" onclick="map('SandstarRuins', 179)" href="#SandstarRuins">Sandstar Ruins (0/5)</a></li>
+				  <li><a class="mapName" data-id="180" onclick="map('NazkarPyramid', 180)" href="#NazkarPyramid">Nazkar Pyramid (0/5)</a></li>
+				  <li><a class="mapName" data-id="181" onclick="map('NazkarPassageways', 181)" href="#NazkarPassageways">Nazkar Passageways (0/4)</a></li>
+				  <li><a class="mapName" data-id="182" onclick="map('NazkarCentralChamber', 182)" href="#NazkarCentralChamber">Nazkar Central Chamber (0/4)</a></li>
+				  <li><a class="mapName" data-id="183" onclick="map('NazkarAltar', 183)" href="#NazkarAltar">Nazkar Altar (0/4)</a></li>
+				  <li><a class="mapName" data-id="184" onclick="map('NazkarMainHall', 184)" href="#NazkarMainHall">Nazkar Main Hall (0/3)</a></li>
+				  <li><a class="mapName" data-id="185" onclick="map('LudariMall', 185)" href="#LudariMall">Ludari Mall (0/5)</a></li>
+				  <li><a class="mapName" data-id="186" onclick="map('TheDeckSkatepark', 186)" href="#TheDeckSkatepark">The Deck Skatepark (0/3)</a></li>
+				  <li><a class="mapName" data-id="187" onclick="map('Aquatopia', 187)" href="#Aquatopia">Aquatopia (0/4)</a></li>
 				</ul>
 			  </div>
 			  
