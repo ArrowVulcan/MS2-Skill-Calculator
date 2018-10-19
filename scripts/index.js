@@ -12,6 +12,7 @@ var infos = [];
 var texts = [];
 var Class_skills;
 var attributePoints = 50;
+var pointsMax = 59 + 9 + 4; // 59 points from leveling + 9 points from trophies + 4 base skills
 var lockedsURL = [];
 var levelsURL = [];
 var npcList = {};
@@ -219,9 +220,13 @@ function setSkillInfo(event, type){
 		// Get tooltip offsetHeight
 		let infoContent = document.getElementById("info_content");
 		let offset = infoContent.offsetHeight;
+
+		// Get window dimensions
+		let windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+		let windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 	
 		// Move the tooltip above the cursor to prevent text from going outside the screen
-		if( event.pageY > 511 ){
+		if( event.pageY > windowHeight / 2 ){
 		
 			if( offset > 0 ){
 				box.style.left = event.pageX + 25 + 'px';
@@ -233,9 +238,9 @@ function setSkillInfo(event, type){
 			box.style.top = event.pageY + 25 + 'px';
 		}
 		
-		if( event.pageX > 960 ){
+		if( event.pageX > windowWidth / 2 ){
 			box.style.left = event.pageX - 362 - 15 + 'px';
-			if( event.pageY > 511 ){
+			if( event.pageY > windowHeight / 2 ){
 			
 				if( offset > 0){
 					box.style.top = event.pageY - offset - 25 + 'px';
@@ -536,7 +541,6 @@ function resetSkills(){
 function getSkillpoints(){
 
 		let pointsUsed = 0;
-		let pointsMax = 58 + 4; // 49 points from leveling + 9 points from trophies and quests + 4 base skills
 		
 		// Collect all the skill levels
 		for(let i=0; i < levels.length; i++){
