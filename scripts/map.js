@@ -351,12 +351,14 @@ var explore_map = [
 			"x": 196,
 			"y": 211,
 			"image": "8dAE4bm",
+			"video": "IlnpoJy7tqs",
 		},
 		{
 			"star": 2,
 			"x": 158,
 			"y": 346,
 			"image": "iAqGrD3",
+			"video": "G8Wb_jhM4_A",
 		},
 		{
 			"star": 3,
@@ -379,6 +381,7 @@ var explore_map = [
 			"x": 260,
 			"y": 292,
 			"image": "Zn1UOn9",
+			"video": "n9beS8rYniI",
 		},
 		{
 			"star": 2,
@@ -407,6 +410,7 @@ var explore_map = [
 			"x": 115,
 			"y": 416,
 			"image": "PiDm55l",
+			"video": "m0QOUq4AOhU",
 		},
 		{
 			"star": 2,
@@ -458,12 +462,14 @@ var explore_map = [
 			"x": 634,
 			"y": 339,
 			"image": "TgdAkhk",
+			"video": "wYZHFKxxehk",
 		},
 		{
 			"star": 2,
 			"x": 582,
 			"y": 318,
 			"image": "9calcNO",
+			"video": "1A8JUXnuVJA",
 		},
 		{
 			"star": 3,
@@ -494,6 +500,7 @@ var explore_map = [
 			"x": 664,
 			"y": 503,
 			"image": "ccu5gHv",
+			"video": "3Lfl2q9Vl1E",
 		},
 	],
 	Frostheart = [
@@ -546,6 +553,7 @@ var explore_map = [
 			"x": 604,
 			"y": 557,
 			"image": "AzTZSML",
+			"video": "bi0kf93Fjug",
 		},
 		{
 			"star": 6,
@@ -652,6 +660,7 @@ var explore_map = [
 			"x": 709,
 			"y": 326,
 			"image": "FKvaZuD",
+			"video": "nnrTsNbPCRU",
 		},
 	],
 	AbandonedCharnelHouse = [
@@ -762,6 +771,7 @@ var explore_map = [
 			"x": 366,
 			"y": 315,
 			"image": "HnKcvoS",
+			"video": "CvhOgJsgGFo",
 		},
 		{
 			"star": 3,
@@ -786,12 +796,14 @@ var explore_map = [
 			"x": 325,
 			"y": 502,
 			"image": "h321Txk",
+			"video": "BPDL2nEzHxE",
 		},
 		{
 			"star": 7,
 			"x": 710,
 			"y": 371,
 			"image": "xthjvup",
+			"video": "ciE-gCMwsbA",
 		},
 		{
 			"star": 8,
@@ -854,6 +866,7 @@ var explore_map = [
 			"x": 606,
 			"y": 224,
 			"image": "wVt7Ytm",
+			"video": "bBrtVvOqbXs",
 		},
 		{
 			"star": 2,
@@ -948,6 +961,7 @@ var explore_map = [
 			"x": 275,
 			"y": 554,
 			"image": "yy907xo",
+			"video": "_CETtkCIFYo",
 		},
 	],
 	EllbosHollow = [
@@ -976,12 +990,14 @@ var explore_map = [
 			"x": 393,
 			"y": 241,
 			"image": "HkxffQj",
+			"video": "PAtgBqGRddw",
 		},
 		{
 			"star": 2,
 			"x": 342,
 			"y": 524,
 			"image": "L5H55ZR",
+			"video": "T4Zs4_A-Lh8",
 		},
 		{
 			"star": 3,
@@ -1022,6 +1038,7 @@ var explore_map = [
 			"x": 181,
 			"y": 565,
 			"image": "nyKdxQN",
+			"video": "-tV_3hFi9Uw",
 		},
 		{
 			"star": 2,
@@ -1046,6 +1063,7 @@ var explore_map = [
 			"x": 557,
 			"y": 573,
 			"image": "qkyQHc4",
+			"video": "wJAqv_I2KQo",
 		},
 		{
 			"star": 6,
@@ -1114,6 +1132,7 @@ var explore_map = [
 			"x": 290,
 			"y": 351,
 			"image": "kfoaBgb",
+			"video": "uz_5Gk2pXrk",
 		},
 		{
 			"star": 2,
@@ -1140,12 +1159,14 @@ var explore_map = [
 			"x": 643,
 			"y": 473,
 			"image": "zK7Tb3x",
+			"video": "yLeWdvQXBgw",
 		},
 		{
 			"star": 3,
 			"x": 350,
 			"y": 481,
 			"image": "lg2n0OS",
+			"video": "ir1iz0yU6hU",
 		},
 	],
 	StoneQuarry = [
@@ -1166,6 +1187,7 @@ var explore_map = [
 			"x": 377,
 			"y": 252,
 			"image": "ymoDTxv",
+			"video": "VTfzt140w0I",
 		},
 	],
 	StonehillDigSite = [
@@ -1268,12 +1290,14 @@ var explore_map = [
 			"x": 651,
 			"y": 168,
 			"image": "70HRRY5",
+			"video": "pPLAmJBoyFs",
 		},
 		{
 			"star": 2,
 			"x": 213,
 			"y": 474,
 			"image": "cb3Iukq",
+			"video": "bOuY3t8vyCA",
 		},
 		{
 			"star": 3,
@@ -1288,12 +1312,14 @@ var explore_map = [
 			"x": 312,
 			"y": 253,
 			"image": "I8uEDPk",
+			"video": "1Xq0hhO8IqM",
 		},
 		{
 			"star": 2,
 			"x": 472,
 			"y": 329,
 			"image": "V6se4Ph",
+			"video": "PaifqzBBLtU",
 		},
 		{
 			"star": 3,
@@ -1354,6 +1380,7 @@ var explore_map = [
 			"x": 463,
 			"y": 194,
 			"image": "8PozbT0",
+			"video": "HDUzv00DoWE",
 		},
 		{
 			"star": 3,
@@ -1398,12 +1425,14 @@ var explore_map = [
 			"x": 404,
 			"y": 397,
 			"image": "ThWgZ9Q",
+			"video": "BEYIO_hp1Go",
 		},
 		{
 			"star": 3,
 			"x": 172,
 			"y": 410,
 			"image": "s75gHMy",
+			"video": "pQ7wp7vt270",
 		},
 		{
 			"star": 4,
@@ -1416,6 +1445,7 @@ var explore_map = [
 			"x": 313,
 			"y": 107,
 			"image": "8xF3D4o",
+			"video": "5vaUiJADXv0",
 		},
 	],
 	HenesysDocks = [
@@ -1450,6 +1480,7 @@ var explore_map = [
 			"x": 277,
 			"y": 448,
 			"image": "YB2Z7aJ",
+			"video": "Sp5DopzpsGI",
 		},
 		{
 			"star": 2,
@@ -1496,6 +1527,7 @@ var explore_map = [
 			"x": 517,
 			"y": 434,
 			"image": "G1AdF7B",
+			"video": "ZScxqTTRtYQ",
 		},
 	],
 	AntTunnelPlaza = [
@@ -1567,6 +1599,7 @@ var explore_map = [
 			"x": 376,
 			"y": 263,
 			"image": "NYKstsA",
+			"video": "UBKyXbw-WQ8",
 		},
 	],
 	CoronaLake = [
@@ -1575,6 +1608,7 @@ var explore_map = [
 			"x": 312,
 			"y": 560,
 			"image": "w7gstMx",
+			"video": "9P241pjfILo",
 		},
 		{
 			"star": 2,
@@ -1595,6 +1629,7 @@ var explore_map = [
 			"x": 455,
 			"y": 584,
 			"image": "Ukb0o03",
+			"video": "XVpXEecNVKg",
 		},
 		{
 			"star": 2,
@@ -1607,12 +1642,14 @@ var explore_map = [
 			"x": 670,
 			"y": 476,
 			"image": "Boq4eep",
+			"video": "sPxPL5RqpKU",
 		},
 		{
 			"star": 4,
 			"x": 203,
 			"y": 423,
 			"image": "BzZKfaE",
+			"video": "0y7bItyxY7M",
 		},
 	],
 	GreatEllinTrees = [
@@ -1764,18 +1801,21 @@ var explore_map = [
 			"x": 349,
 			"y": 267,
 			"image": "F5SROvg",
+			"video": "xFppXhJzp_E",
 		},
 		{
 			"star": 2,
 			"x": 347,
 			"y": 537,
 			"image": "0S0p0oS",
+			"video": "xzc0EY0DU6s",
 		},
 		{
 			"star": 3,
 			"x": 381,
 			"y": 408,
 			"image": "9C3BvPz",
+			"video": "WBFVUnvGYUY",
 		},
 		{
 			"star": 4,
@@ -1822,6 +1862,7 @@ var explore_map = [
 			"x": 213,
 			"y": 439,
 			"image": "F5XUl7Z",
+			"video": "f9E7eDfIIDE",
 		},
 		{
 			"star": 3,
@@ -1842,6 +1883,7 @@ var explore_map = [
 			"x": 333,
 			"y": 203,
 			"image": "9MbbT9Z",
+			"video": "0bi_9t4Ykhw",
 		},
 		{
 			"star": 3,
@@ -1868,6 +1910,7 @@ var explore_map = [
 			"x": 405,
 			"y": 347,
 			"image": "VrbzApT",
+			"video": "QKHk2HXWNrQ",
 		},
 		{
 			"star": 4,
@@ -1908,12 +1951,14 @@ var explore_map = [
 			"x": 444,
 			"y": 129,
 			"image": "8RFVG7E",
+			"video": "1A7DX97s9GQ",
 		},
 		{
 			"star": 2,
 			"x": 451,
 			"y": 302,
 			"image": "93XArsc",
+			"video": "m7RCU5W6v6U",
 		},
 		{
 			"star": 3,
@@ -1934,12 +1979,14 @@ var explore_map = [
 			"x": 343,
 			"y": 261,
 			"image": "aUcuZxA",
+			"video": "ere0dRGyOYw",
 		},
 		{
 			"star": 3,
 			"x": 439,
 			"y": 468,
 			"image": "XRBIb9y",
+			"video": "dJcDDHGiq2g",
 		},
 		{
 			"star": 4,
@@ -1958,6 +2005,7 @@ var explore_map = [
 			"x": 565,
 			"y": 548,
 			"image": "QICip9O",
+			"video": "h9arwD2kb3A",
 		},
 		{
 			"star": 7,
@@ -1992,12 +2040,14 @@ var explore_map = [
 			"x": 489,
 			"y": 567,
 			"image": "kloBVSN",
+			"video": "msZGEX2ECd4",
 		},
 		{
 			"star": 2,
 			"x": 324,
 			"y": 435,
 			"image": "thNOoR5",
+			"video": "H-Ywxzwmyhw",
 		},
 		{
 			"star": 3,
@@ -2058,6 +2108,7 @@ var explore_map = [
 			"x": 377,
 			"y": 603,
 			"image": "XrkZXvA",
+			"video": "buh72oN5V4g",
 		},
 		{
 			"star": 2,
@@ -2084,6 +2135,7 @@ var explore_map = [
 			"x": 97,
 			"y": 423,
 			"image": "JDIunr1",
+			"video": "v7yzU07AnG8",
 		},
 		{
 			"star": 2,
@@ -2140,12 +2192,14 @@ var explore_map = [
 			"x": 207,
 			"y": 478,
 			"image": "nzhp0AE",
+			"video": "bZZSJN2DsO8",
 		},
 		{
 			"star": 2,
 			"x": 376,
 			"y": 300,
 			"image": "mxwfdVY",
+			"video": "EhcY350Z2cg",
 		},
 	],
 	TidepoolCliffs = [
@@ -2160,12 +2214,14 @@ var explore_map = [
 			"x": 303,
 			"y": 553,
 			"image": "bbpom5R",
+			"video": "VHMP4fAxcyU",
 		},
 		{
 			"star": 3,
 			"x": 527,
 			"y": 511,
 			"image": "2m2c1Oh",
+			"video": "vKOeCLyZsvE",
 		},
 		{
 			"star": 4,
@@ -2178,6 +2234,7 @@ var explore_map = [
 			"x": 261,
 			"y": 672,
 			"image": "Z2pky0i",
+			"video": "QtR_6FsIxJ4",
 		},
 		{
 			"star": 6,
@@ -2198,6 +2255,7 @@ var explore_map = [
 			"x": 299,
 			"y": 325,
 			"image": "iLGdGaE",
+			"video": "dBwRXJybJPU",
 		},
 		{
 			"star": 3,
@@ -2210,6 +2268,7 @@ var explore_map = [
 			"x": 541,
 			"y": 402,
 			"image": "KPiMNbm",
+			"video": "ytkqw1hUKJc",
 		},
 	],
 	OvertopBeanstalk = [
@@ -2238,6 +2297,7 @@ var explore_map = [
 			"x": 382,
 			"y": 550,
 			"image": "VTMXj1J",
+			"video": "pe4VJakeGeo",
 		},
 		{
 			"star": 3,
@@ -2250,30 +2310,35 @@ var explore_map = [
 			"x": 338,
 			"y": 351,
 			"image": "tKxdjTy",
+			"video": "MA_5A3mbAkY",
 		},
 		{
 			"star": 5,
 			"x": 454,
 			"y": 571,
 			"image": "ZFjTF5r",
+			"video": "Y9oH-7m3Nr0",
 		},
 		{
 			"star": 6,
 			"x": 172,
 			"y": 487,
 			"image": "Jcn0bEP",
+			"video": "3DZVJ7g6zrY",
 		},
 		{
 			"star": 7,
 			"x": 211,
 			"y": 341,
 			"image": "X0ek6Y6",
+			"video": "6UThR--b3bM",
 		},
 		{
 			"star": 8,
 			"x": 213,
 			"y": 429,
 			"image": "pNjFqWa",
+			"video": "xx_tdmX0CmI",
 		},
 	],
 	ClockTowerSquare = [
@@ -2308,6 +2373,7 @@ var explore_map = [
 			"x": 418,
 			"y": 489,
 			"image": "hn6mvz3",
+			"video": "ZgO8eG82-dQ",
 		},
 	],
 	TortugaSeasideCliff = [
@@ -2356,6 +2422,7 @@ var explore_map = [
 			"x": 549,
 			"y": 346,
 			"image": "DSWIe4C",
+			"video": "FSLBDxfBFm0",
 		},
 		{
 			"star": 2,
@@ -2368,12 +2435,14 @@ var explore_map = [
 			"x": 278,
 			"y": 449,
 			"image": "H5cOXKc",
+			"video": "2Hvtal_8rcY",
 		},
 		{
 			"star": 4,
 			"x": 473,
 			"y": 220,
 			"image": "6jCA9DH",
+			"video": "WBWpBFOr_Ec",
 		},
 		{
 			"star": 5,
@@ -2456,6 +2525,7 @@ var explore_map = [
 			"x": 318,
 			"y": 278,
 			"image": "B2dtrVw",
+			"video": "0obVSz0IMbw",
 		},
 	],
 	PigmingClanAltar = [
@@ -2528,6 +2598,7 @@ var explore_map = [
 			"x": 411,
 			"y": 506,
 			"image": "eDrExAY",
+			"video": "Pfd0Qxieayg",
 		},
 		{
 			"star": 2,
@@ -2546,6 +2617,7 @@ var explore_map = [
 			"x": 227,
 			"y": 468,
 			"image": "O2iU0vV",
+			"video": "OO8qes9hPrs",
 		},
 	],
 	HighcliffTemple = [
@@ -2788,6 +2860,7 @@ var explore_map = [
 			"x": 156,
 			"y": 294,
 			"image": "22NWp06",
+			"video": "fZEydq9kUs8",
 		},
 		{
 			"star": 4,
@@ -2814,6 +2887,7 @@ var explore_map = [
 			"x": 485,
 			"y": 379,
 			"image": "Se5fXkb",
+			"video": "ZLqO5sHl-pU",
 		},
 		{
 			"star": 2,
@@ -2826,6 +2900,7 @@ var explore_map = [
 			"x": 601,
 			"y": 552,
 			"image": "MRe4tTX",
+			"video": "f6siVkOtdKg",
 		},
 		{
 			"star": 4,
@@ -2972,6 +3047,7 @@ var explore_map = [
 			"x": 216,
 			"y": 207,
 			"image": "kPdwX9p",
+			"video": "TRozImYE1Mo",
 		},
 		{
 			"star": 4,
@@ -2984,6 +3060,7 @@ var explore_map = [
 			"x": 572,
 			"y": 494,
 			"image": "Rzrdfz6",
+			"video": "H-K1h3vNVvc",
 		},
 	],
 	HarrotHill = [
@@ -2992,6 +3069,7 @@ var explore_map = [
 			"x": 561,
 			"y": 235,
 			"image": "ptZQMFH",
+			"video": "_sPaOj9LgiY",
 		},
 		{
 			"star": 2,
@@ -3038,6 +3116,7 @@ var explore_map = [
 			"x": 342,
 			"y": 361,
 			"image": "WGefirs",
+			"video": "Alnimh6eHKg",
 		},
 		{
 			"star": 2,
@@ -3050,12 +3129,14 @@ var explore_map = [
 			"x": 110,
 			"y": 294,
 			"image": "CCQcgB3",
+			"video": "XfNbDJ8OX24",
 		},
 		{
 			"star": 4,
 			"x": 297,
 			"y": 168,
 			"image": "6FFvs8X",
+			"video": "8Y62woIb3kc",
 		},
 	],
 	KarnifsFang = [
@@ -3128,6 +3209,7 @@ var explore_map = [
 			"x": 651,
 			"y": 392,
 			"image": "h1SUWr6",
+			"video": "Y72woYqg_ls",
 		},
 		{
 			"star": 2,
@@ -3154,6 +3236,7 @@ var explore_map = [
 			"x": 142,
 			"y": 507,
 			"image": "e2fio38",
+			"video": "fPb8vQjaXNo",
 		},
 		{
 			"star": 2,
@@ -3172,6 +3255,7 @@ var explore_map = [
 			"x": 286,
 			"y": 327,
 			"image": "WapJjqa",
+			"video": "N71BX2toDA4",
 		},
 		{
 			"star": 5,
@@ -3218,6 +3302,7 @@ var explore_map = [
 			"x": 282,
 			"y": 573,
 			"image": "cWmN4BB",
+			"video": "afHfKem5XN0",
 		},
 		{
 			"star": 2,
@@ -3230,6 +3315,7 @@ var explore_map = [
 			"x": 477,
 			"y": 607,
 			"image": "YU0uDEy",
+			"video": "LZ8xn698uvA",
 		},
 		{
 			"star": 4,
@@ -3500,18 +3586,21 @@ var explore_map = [
 			"x": 503,
 			"y": 491,
 			"image": "mLXkKy3",
+			"video": "QKzVjAjXrSU",
 		},
 		{
 			"star": 2,
 			"x": 500,
 			"y": 371,
 			"image": "M8l07el",
+			"video": "GT5if8_CD2Y",
 		},
 		{
 			"star": 3,
 			"x": 442,
 			"y": 408,
 			"image": "jiQfArZ",
+			"video": "TSHI6DhCEsw",
 		},
 	],
 	WaterSupplyCenter = [
@@ -3526,12 +3615,14 @@ var explore_map = [
 			"x": 495,
 			"y": 327,
 			"image": "JUKEAt5",
+			"video": "xBQ9xKkr_z4",
 		},
 		{
 			"star": 3,
 			"x": 200,
 			"y": 323,
 			"image": "le3mboy",
+			"video": "2MUB8DhaT18",
 		},
 	],
 	CrystalfrostWall = [
@@ -3632,6 +3723,7 @@ var explore_map = [
 			"x": 330,
 			"y": 585,
 			"image": "PzBneyX",
+			"video": "6HXlDPwhXJA",
 		},
 		{
 			"star": 4,
@@ -3650,6 +3742,7 @@ var explore_map = [
 			"x": 232,
 			"y": 305,
 			"image": "NdcZXfc",
+			"video": "Nuq6eIpvOyk",
 		},
 	],
 	MagmaTrail = [
@@ -3676,6 +3769,7 @@ var explore_map = [
 			"x": 246,
 			"y": 420,
 			"image": "DrwJB68",
+			"video": "IJqfoiI3Wao",
 		},
 		{
 			"star": 3,
@@ -3688,6 +3782,7 @@ var explore_map = [
 			"x": 405,
 			"y": 555,
 			"image": "gspEXr4",
+			"video": "0-HKV7bdagc",
 		},
 		{
 			"star": 5,
