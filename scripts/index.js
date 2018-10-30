@@ -233,9 +233,20 @@ function setSkillInfo(event, type){
 				box.style.top = event.pageY - offset - 25 + 'px';
 			}
 			
+			if( box.style.top.replace("px", "") <= 0 ){
+				box.style.top = "0px";
+			}
+			
 		}else{
+			
+			if( (windowHeight / 2) + offset + 25 >= windowHeight){
+				box.style.top = (windowHeight - offset - 50) + "px";
+			}else{
+				box.style.top = event.pageY + 'px';
+			}
+			
 			box.style.left = event.pageX + 25 + 'px';
-			box.style.top = event.pageY + 25 + 'px';
+			
 		}
 		
 		if( event.pageX > windowWidth / 2 ){
@@ -245,9 +256,19 @@ function setSkillInfo(event, type){
 				if( offset > 0){
 					box.style.top = event.pageY - offset - 25 + 'px';
 				}
+				
+				if( box.style.top.replace("px", "") <= 0 ){
+					box.style.top = "0px";
+				}
 			
 			}else{
-				box.style.top = event.pageY + 25 + 'px';
+			
+				if( (windowHeight / 2) + offset + 25 >= windowHeight){
+					box.style.top = (windowHeight - offset - 50) + "px";
+				}else{
+					box.style.top = event.pageY + 'px';
+				}
+
 			}
 		}
 		

@@ -4411,6 +4411,7 @@ var explore_map = [
 			"x": 613,
 			"y": 375,
 			"image": "F07QZ26",
+			"video": "RU1AzgigYzM",
 		},
 		{
 			"star": 2,
@@ -4423,6 +4424,7 @@ var explore_map = [
 			"x": 200,
 			"y": 525,
 			"image": "scd34OC",
+			"video": "6SODcouM_zk",
 		},
 	],
 	MeltaDam = [
@@ -4597,6 +4599,7 @@ var explore_map = [
 			"x": 381,
 			"y": 146,
 			"image": "eIZfO63",
+			"video": "d5MDpgHY3L8",
 		},
 	],
 	TiaresDesert = [
@@ -4611,6 +4614,7 @@ var explore_map = [
 			"x": 467,
 			"y": 355,
 			"image": "d6q6vPy",
+			"video": "mb0KVuPbSpI",
 		},
 		{
 			"star": 3,
@@ -4623,6 +4627,7 @@ var explore_map = [
 			"x": 563,
 			"y": 500,
 			"image": "AIrivWK",
+			"video": "KaN2S9SP8k0",
 		},
 	],
 	LudariArena = [
@@ -4657,6 +4662,7 @@ var explore_map = [
 			"x": 218,
 			"y": 310,
 			"image": "hVHMUe7",
+			"video": "4286QKlB8Qs",
 		},
 		{
 			"star": 2,
@@ -4701,6 +4707,7 @@ var explore_map = [
 			"x": 558,
 			"y": 136,
 			"image": "XeBqn1A",
+			"video": "mjy-wj9JemU",
 		},
 	],
 	ParadiseCircuit = [
@@ -4709,6 +4716,7 @@ var explore_map = [
 			"x": 423,
 			"y": 125,
 			"image": "j25oTY0",
+			"video": "uLJRBx3Fs-U",
 		},
 		{
 			"star": 2,
@@ -4741,12 +4749,14 @@ var explore_map = [
 			"x": 603,
 			"y": 287,
 			"image": "E38y6OC",
+			"video": "wotW1M0gYKk",
 		},
 		{
 			"star": 2,
 			"x": 531,
 			"y": 480,
 			"image": "bdlNDOE",
+			"video": "-uOALGt8u7w",
 		},
 		{
 			"star": 3,
@@ -4759,6 +4769,7 @@ var explore_map = [
 			"x": 368,
 			"y": 620,
 			"image": "HIMkzc1",
+			"video": "xfSjn-mnXZo",
 		},
 	],
 	WestAutoBridge = [
@@ -4767,12 +4778,14 @@ var explore_map = [
 			"x": 182,
 			"y": 185,
 			"image": "B2PSJH3",
+			"video": "s85kXWkM9EM",
 		},
 		{
 			"star": 2,
 			"x": 191,
 			"y": 257,
 			"image": "td0MNbm",
+			"video": "g4XFPVDMsSU",
 		},
 		{
 			"star": 3,
@@ -4787,6 +4800,7 @@ var explore_map = [
 			"x": 220,
 			"y": 424,
 			"image": "isB7M0r",
+			"video": "NWUgTkstxP4",
 		},
 		{
 			"star": 2,
@@ -4819,12 +4833,14 @@ var explore_map = [
 			"x": 473,
 			"y": 519,
 			"image": "BwuBO8G",
+			"video": "j4mBW9Wg08I",
 		},
 		{
 			"star": 4,
 			"x": 396,
 			"y": 282,
 			"image": "M1jBbHN",
+			"video": "tZMUndNo9CI",
 		},
 		{
 			"star": 5,
@@ -4837,6 +4853,7 @@ var explore_map = [
 			"x": 501,
 			"y": 319,
 			"image": "iLFkkyZ",
+			"video": "fw1GFQQmuaw",
 		},
 	],
 	RedsandHills = [
@@ -4845,6 +4862,7 @@ var explore_map = [
 			"x": 422,
 			"y": 165,
 			"image": "b2Ygh81",
+			"video": "5TbHHE8-ONk",
 		},
 		{
 			"star": 2,
@@ -4863,12 +4881,14 @@ var explore_map = [
 			"x": 223,
 			"y": 481,
 			"image": "H3d8v7f",
+			"video": "Sra6PCFLuVo",
 		},
 		{
 			"star": 5,
 			"x": 589,
 			"y": 507,
 			"image": "DyousO5",
+			"video": "G6IJ6o67-5s",
 		},
 	],
 	MoonlightDesert = [
@@ -4901,6 +4921,7 @@ var explore_map = [
 			"x": 112,
 			"y": 518,
 			"image": "dwhJZlm",
+			"video": "9cbvO8mV3_8",
 		},
 	],
 	MoonlightGarden = [
@@ -4965,6 +4986,7 @@ var explore_map = [
 			"x": 186,
 			"y": 465,
 			"image": "hPaNlR4",
+			"video": "nhE7CigRLRA",
 		},
 	],
 	NazkarPyramid = [
@@ -4979,18 +5001,21 @@ var explore_map = [
 			"x": 333,
 			"y": 575,
 			"image": "6MqPMzD",
+			"video": "axxre1Z9W_E",
 		},
 		{
 			"star": 3,
 			"x": 193,
 			"y": 542,
 			"image": "HbXnVjv",
+			"video": "YNwY4_blnec",
 		},
 		{
 			"star": 4,
 			"x": 397,
 			"y": 436,
 			"image": "Izr260L",
+			"video": "jWeYknuXFpo",
 		},
 		{
 			"star": 5,
@@ -5023,6 +5048,7 @@ var explore_map = [
 			"x": 161,
 			"y": 158,
 			"image": "WPSQ7YL",
+			"video": "5BFFAy8aZaY",
 		},
 	],
 	NazkarCentralChamber = [
@@ -5043,6 +5069,7 @@ var explore_map = [
 			"x": 154,
 			"y": 168,
 			"image": "o1ho05q",
+			"video": "K0Qt__PurcA",
 		},
 		{
 			"star": 4,
@@ -5069,6 +5096,7 @@ var explore_map = [
 			"x": 764,
 			"y": 210,
 			"image": "wNBSU5L",
+			"video": "zb9_i4_lSQ4",
 		},
 		{
 			"star": 4,
@@ -5135,18 +5163,21 @@ var explore_map = [
 			"x": 335,
 			"y": 137,
 			"image": "Hfmio4n",
+			"video": "aQ4t4nAeTLg",
 		},
 		{
 			"star": 2,
 			"x": 673,
 			"y": 313,
 			"image": "4LYlX3d",
+			"video": "fDuuGQxMJ0Y",
 		},
 		{
 			"star": 3,
 			"x": 501,
 			"y": 621,
 			"image": "1x8nGiI",
+			"video": "Fo2FpwJqsV4",
 		},
 	],
 	Aquatopia = [
@@ -5161,18 +5192,21 @@ var explore_map = [
 			"x": 717,
 			"y": 332,
 			"image": "CEKdK2X",
+			"video": "lfMctUPRBEA",
 		},
 		{
 			"star": 3,
 			"x": 318,
 			"y": 176,
 			"image": "yQClB6B",
+			"video": "lKvSgv1gc7U",
 		},
 		{
 			"star": 4,
 			"x": 572,
 			"y": 304,
 			"image": "Syq1xPt",
+			"video": "ZM7vZ6geipg",
 		},
 	],
 ];
