@@ -381,7 +381,7 @@ footer p{
 }
 
 #searchBox{
-position: absolute;
+	position: absolute;
     right: 28px;
     top: 43px;
     width: 255px;
@@ -1103,4 +1103,49 @@ hr {
 @keyframes spin {
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg); }
+}
+
+/* ----- Slider ----- */
+.slidecontainer {
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+
+.slider {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 200px;
+	height: 12px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.5;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	border-radius: 24px;
+	position: absolute;
+	left: 35px;
+	top: 684px;
+}
+
+.slider:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background: #ff8319;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+	width: 20px;
+	height: 20px;
+	background: #ff8319;
+	cursor: pointer;
+	border-radius: 50%;
 }

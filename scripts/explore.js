@@ -210,6 +210,11 @@ function getMapName(name){
 		case "LudariMall": return LudariMall;
 		case "TheDeckSkatepark": return TheDeckSkatepark;
 		case "Aquatopia": return Aquatopia;
+		case "ExpeditionBase": return ExpeditionBase;
+		case "AuroraLaboratory": return AuroraLaboratory;
+		case "LuluVillage": return LuluVillage;
+		case "ForsakenFields": return ForsakenFields;
+		case "LionsGate": return LionsGate;
 	}
 }
 
@@ -557,5 +562,11 @@ $( window ).on( "load", function(){
 		$("#myMenu li a").removeClass("active");
 		$(this).addClass("active");
 	});
+	
+	var slider = document.getElementById("myRange");
+	var mapImage = document.getElementById("map");
+	slider.oninput = function() {
+		mapImage.style.filter = "contrast(" + this.value/10 + ")";
+	}
 	
 });
