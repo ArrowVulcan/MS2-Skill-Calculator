@@ -3,7 +3,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 170,
-			"title": "Chain Spear",
+			"title": "Soaring Orb",
 			"resource": "",
 			"level": 1,
 			"maxLevel": 10,
@@ -28,7 +28,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 173,
-			"title": "Ray Storm",
+			"title": "Radiant Salvo",
 			"resource": "Spirit 3",
 			"level": 1,
 			"maxLevel": 10,
@@ -53,7 +53,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 177,
-			"title": "Expansion Ball",
+			"title": "Expansion Blast",
 			"resource": "Spirit 4 / Cooldown 8 second(s)",
 			"level": 0,
 			"maxLevel": 10,
@@ -131,7 +131,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 181,
-			"title": "Chain Explosion",
+			"title": "Concussion Orb",
 			"resource": "",
 			"level": 0,
 			"maxLevel": 9,
@@ -188,7 +188,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 183,
-			"title": "Cyclone Bomber",
+			"title": "Raging Tempset",
 			"resource": "Cooldown 15 second(s)",
 			"level": 0,
 			"maxLevel": 10,
@@ -214,12 +214,12 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 184,
-			"title": "Energy Stream",
+			"title": "Energy Surge",
 			"resource": "Spirit 5 / Cooldown 16 second(s)",
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 1,
-			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0",
+			"lockReq": "4-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Split Barrier [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
 			"texts": [
@@ -240,12 +240,12 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 182,
-			"title": "Electric Energy Discharge",
+			"title": "Static Flash",
 			"resource": "Spirit 15 / Cooldown 10 second(s)",
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 1,
-			"lockReq": "4-0-0-0-0-0-0-0-6-2-0-0-0-0-3-0-0-0-0-0-0-0-0-0",
+			"lockReq": "4-0-0-0-0-0-0-0-6-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Cyclone Bomber [Level 6+]</span></p><p><span class='info_red'>Energy Stream [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
 			"texts": [
@@ -282,7 +282,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 175,
-			"title": "Mantra Release",
+			"title": "Mantra Array",
 			"resource": "",
 			"level": 1,
 			"maxLevel": 1,
@@ -313,9 +313,9 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 176,
-			"title": "Split Barrier",
+			"title": "Light Barrier",
 			"element": "",
-			"resource": "Cooldown 1 second(s)",
+			"resource": "Spirit 12 / Cooldown 30 second(s)",
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
@@ -339,7 +339,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 179,
-			"title": "Life String",
+			"title": "Healing Bond",
 			"element": "",
 			"resource": "Spirit 12",
 			"level": 0,
@@ -381,7 +381,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 186,
-			"title": "Zone of Renewal",
+			"title": "Fount of Renewal",
 			"resource": "Cooldown 30 second(s)",
 			"level": 0,
 			"maxLevel": 8,
@@ -479,7 +479,7 @@ var soul_binder_skills = [
 		{
 			"hidden": 0,
 			"image": 178,
-			"title": "Narubashan Liberation",
+			"title": "Narubashan Unleashed",
 			"resource": "Cooldown 60 second(s)",
 			"level": 0,
 			"maxLevel": 10,
