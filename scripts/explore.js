@@ -215,6 +215,35 @@ function getMapName(name){
 		case "LuluVillage": return LuluVillage;
 		case "ForsakenFields": return ForsakenFields;
 		case "LionsGate": return LionsGate;
+		case "BarrenBarony": return BarrenBarony;
+		case "Beachway666": return Beachway666;
+		case "BleakshadowCrossing": return BleakshadowCrossing;
+		case "BleakshadowWasteCenter": return BleakshadowWasteCenter;
+		case "BoilingPeaks": return BoilingPeaks;
+		case "BonebridgeRuins": return BonebridgeRuins;
+		case "CorruptedSquare": return CorruptedSquare;
+		case "CrystalValeRuins": return CrystalValeRuins;
+		case "DarkHeart": return DarkHeart;
+		case "DarkstoneQuarry": return DarkstoneQuarry;
+		case "Deadsville": return Deadsville;
+		case "GrimThoroughfare": return GrimThoroughfare;
+		case "InfernalHourglass": return InfernalHourglass;
+		case "LavarushValley": return LavarushValley;
+		case "LithRuins": return LithRuins;
+		case "MajoreBog": return MajoreBog;
+		case "PhantasmFalls": return PhantasmFalls;
+		case "RavagedHenesys": return RavagedHenesys;
+		case "ShadowFactory": return ShadowFactory;
+		case "ShadowFortress": return ShadowFortress;
+		case "ShattofyerRiver": return ShattofyerRiver;
+		case "SilentStreets": return SilentStreets;
+		case "SnagwoodForest": return SnagwoodForest;
+		case "SpecterWoodsTrail": return SpecterWoodsTrail;
+		case "StormForge": return StormForge;
+		case "TumultuousDocks": return TumultuousDocks;
+		case "TurkasWatchtower": return TurkasWatchtower;
+		case "TyrranyRoadPlaza": return TyrranyRoadPlaza;
+		case "WailingCragFortress": return WailingCragFortress;
 	}
 }
 
