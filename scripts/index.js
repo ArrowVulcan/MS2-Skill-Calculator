@@ -670,7 +670,7 @@ function setUrl(){
 			str = str + "_" + location.href.split("#")[1].split("_")[1];
 		}
 	}else{
-		if( !isNaN( location.href.split('#')[1][0] ) ){
+		if( location.href.split('#')[1] != undefined && !isNaN( location.href.split('#')[1][0] ) ){
 			str = "#" + location.href.split("#")[1].split("_")[0] + "_" + str;
 		}else{
 			str = "#1-1-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-" + job + "_" + str;
