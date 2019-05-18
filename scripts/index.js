@@ -11,7 +11,7 @@ var requirements = [];
 var infos = [];
 var texts = [];
 var Class_skills;
-var pointsMax = 59 + 9 + 4; // 59 points from leveling + 9 points from trophies + 4 base skills
+var pointsMax = 69 + 9 + 4; // 59 points from leveling + 9 points from trophies + 4 base skills
 var pointsMax2 = 14 + 1; // 14 points from leveling + 1 base skill
 var lockedsURL = [];
 var levelsURL = [];
