@@ -527,3 +527,409 @@ var runeblade_skills = [
 		}
 	]
 ];
+
+var runeblade_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 259,
+			"title": "Quintuple Cut",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+				"<p><span class='info_gray'>Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+				"<p><span class='info_gray'>Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+				"<p><span class='info_gray'>Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 260,
+			"title": "Blade Whip",
+			"resource": "Spirit 40",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Quintuple Cut [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>57%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+				"<p><span class='info_gray'>Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>57%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+				"<p><span class='info_gray'>Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>57%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+				"<p><span class='info_gray'>Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>57%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 261,
+			"title": "Blade Expert",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Blade Whip [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>8%.</span></span></p>",
+				"<p><span class='info_gray'>You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>8%.</span></span></p>",
+				"<p><span class='info_gray'>You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>8%.</span></span></p>",
+				"<p><span class='info_gray'>You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>8%.</span></span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 262,
+			"title": "Phantasm Slash",
+			"resource": "Cooldown: 10 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Blade Whip [Level 3+]</span></p><p><span class='info_orange'>Blade Expert [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>1096%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>547%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>746%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.</span></p>",
+				"<p><span class='info_gray'>Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>1096%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>547%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>746%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.</span></p>",
+				"<p><span class='info_gray'>Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>1096%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>547%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>746%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.</span></p>",
+				"<p><span class='info_gray'>Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>1096%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>547%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>746%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 263,
+			"title": "Rune Trigger",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>128%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>128%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>128%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>128%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 264,
+			"title": "Dimension Blade",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Rune Trigger [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 265,
+			"title": "Rune Expert",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Dimension Blade [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>2%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 266,
+			"title": "Rune Ignition",
+			"resource": "Spirit 45 / Cooldown: 12 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Rune Expert [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>300%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>300%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>300%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"<p><span class='info_gray'>Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>300%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 267,
+			"title": "Physical Boost",
+			"resource": "Stamina 120 / Cooldown 6 Sec",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Charge your body with rune magic, increasing your physical capabilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>30%</span> and defense by <span class='info_blue'>20%</span>.</span></p><br><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'>40</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

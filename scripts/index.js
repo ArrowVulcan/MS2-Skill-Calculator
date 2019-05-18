@@ -11,23 +11,105 @@ var requirements = [];
 var infos = [];
 var texts = [];
 var Class_skills;
-var attributePoints = 50;
 var pointsMax = 59 + 9 + 4; // 59 points from leveling + 9 points from trophies + 4 base skills
+var pointsMax2 = 14 + 1; // 14 points from leveling + 1 base skill
 var lockedsURL = [];
 var levelsURL = [];
-var npcList = {};
+var awakening = false;
+var page1 = {};
+var page2 = {};
+var currentPage = 1;
+
+// changeRank - Change rank to second skill tree or lapenshard
+function changeRank(numb, jobName){
+	
+	$("#rbi1").removeClass("selected");
+	$("#rbi2").removeClass("selected");
+	$("#rbi3").removeClass("selected");
+	
+	if( numb == 1 ){ awakening = false; $("#rbi1").addClass("selected"); $("#rank2_bg").hide(); }
+	if( numb == 2 ){ awakening = true; $("#rbi2").addClass("selected"); $("#rank2_bg").show(); }
+	if( numb == 3 ){ $("#rbi3").addClass("selected"); }
+	
+	let jobName2 = document.getElementById("jobName");
+	name = jobName || jobName2.innerText;
+	
+	if( !awakening ){
+		$(".levels_bar_text").css("margin-bottom", "100px");
+		$(".levels_bar_text:first-child").css("margin-bottom", "208px");
+		$("#levels_bar_1").text("Level 1");
+		$("#levels_bar_2").text("Level 10");
+		$("#levels_bar_3").text("Level 20");
+		$("#levels_bar_4").text("Level 30");
+		$("#levels_bar_5").text("Level 40");
+		$("#levels_bar_6").text("Level 50");
+	}else{
+		$(".levels_bar_text").css("margin-bottom", "95px");
+		$(".levels_bar_text:first-child").css("margin-bottom", "92px");
+		$("#levels_bar_1").text("Level 60");
+		$("#levels_bar_2").text("Level 62");
+		$("#levels_bar_3").text("Level 64");
+		$("#levels_bar_4").text("Level 66");
+		$("#levels_bar_5").text("Level 68");
+		$("#levels_bar_6").text("Level 70");
+	}
+	
+	let job;
+	
+	if( name == "Knight" ){ job = awakening ? knight_skills_awakening : knight_skills; }
+	if( name == "Berserker" ){ job = awakening ? berserker_skills_awakening : berserker_skills; }
+	if( name == "Wizard" ){ job = awakening ? wizard_skills_awakening : wizard_skills; }
+	if( name == "Priest" ){ job = awakening ? priest_skills_awakening : priest_skills; }
+	if( name == "Archer" ){ job = awakening ? archer_skills_awakening : archer_skills; }
+	if( name == "Heavy Gunner" ){ job = awakening ? heavy_gunner_skills_awakening : heavy_gunner_skills; }
+	if( name == "Thief" ){ job = awakening ? thief_skills_awakening : thief_skills; }
+	if( name == "Assassin" ){ job = awakening ? assassin_skills_awakening : assassin_skills; }
+	if( name == "Runeblade" ){ job = awakening ? runeblade_skills_awakening : runeblade_skills; }
+	if( name == "Soul Binder" ){ job = awakening ? soul_binder_skills_awakening : soul_binder_skills; }
+	if( name == "Striker" ){ job = awakening ? striker_skills_awakening : striker_skills; }
+	
+	changeJob(job, name, numb);
+	
+}
 
 // changeJob - Change skills to another job
-function changeJob(job, name){
-
+function changeJob(job, name, numb){
+	
+	if( numb == undefined ){ changeRank(1, name); };
+	
 	if( job == undefined ){ return; }
 
+	if( name == "Knight" ){ job = awakening ? knight_skills_awakening : knight_skills; }
+	if( name == "Berserker" ){ job = awakening ? berserker_skills_awakening : berserker_skills; }
+	if( name == "Wizard" ){ job = awakening ? wizard_skills_awakening : wizard_skills; }
+	if( name == "Priest" ){ job = awakening ? priest_skills_awakening : priest_skills; }
+	if( name == "Archer" ){ job = awakening ? archer_skills_awakening : archer_skills; }
+	if( name == "Heavy Gunner" ){ job = awakening ? heavy_gunner_skills_awakening : heavy_gunner_skills; }
+	if( name == "Thief" ){ job = awakening ? thief_skills_awakening : thief_skills; }
+	if( name == "Assassin" ){ job = awakening ? assassin_skills_awakening : assassin_skills; }
+	if( name == "Runeblade" ){ job = awakening ? runeblade_skills_awakening : runeblade_skills; }
+	if( name == "Soul Binder" ){ job = awakening ? soul_binder_skills_awakening : soul_binder_skills; }
+	if( name == "Striker" ){ job = awakening ? striker_skills_awakening : striker_skills; }
+
 	Class_skills = job;
+
+	let switched = false;
+	if( numb == undefined ){
+		numb = 2;
+		switched = true;
+	}else{
+		loadUrlPoints();
+	}
 
 	$('#skills_right').empty();
 	createBase();
 	setMouseTriggers();
-	resetSkills();
+	
+	setTimeout(function(){
+		
+		resetSkills(numb, switched);
+		
+	}, 10);
 	
 	let infoRequirement = document.getElementById("jobName");
 	infoRequirement.innerHTML = "<p>" + name + "</p>";
@@ -36,45 +118,95 @@ function changeJob(job, name){
 
 // loadUrlPoints - Grabs the url info and set points into the skills
 function loadUrlPoints(){
+	
+	if( currentPage != 2 ){ return; };
 
 	let params = location.href.split('#')[1];
 	
-	if(params){
+	if( params && !isNaN(params[0]) ){
 	
 		// Get job
 		let job = knight_skills;
 		let name = "";
-		if( params.slice(-2).replace("-","") == 0 ){ job = knight_skills; name = "Knight"; }
-		if( params.slice(-2).replace("-","") == 1 ){ job = berserker_skills; name = "Berserker"; }
-		if( params.slice(-2).replace("-","") == 2 ){ job = wizard_skills; name = "Wizard"; }
-		if( params.slice(-2).replace("-","") == 3 ){ job = priest_skills; name = "Priest"; }
-		if( params.slice(-2).replace("-","") == 4 ){ job = archer_skills; name = "Archer"; }
-		if( params.slice(-2).replace("-","") == 5 ){ job = heavy_gunner_skills; name = "Heavy Gunner"; }
-		if( params.slice(-2).replace("-","") == 6 ){ job = thief_skills; name = "Thief"; }
-		if( params.slice(-2).replace("-","") == 7 ){ job = assassin_skills; name = "Assassin"; }
-		if( params.slice(-2).replace("-","") == 8 ){ job = runeblade_skills; name = "Runeblade"; }
-		if( params.slice(-2).replace("-","") == 9 ){ job = soul_binder_skills; name = "Soul Binder"; }
-		if( params.slice(-2).replace("-","") == 10 ){ job = striker_skills; name = "Striker"; }
+		
+		if( params.includes("_") ){
+			
+			if( params.split("_")[0].slice(-1) == 0 ){ job = awakening ? knight_skills_awakening : knight_skills; name = "Knight"; }
+			if( params.split("_")[0].slice(-1) == 1 ){ job = awakening ? berserker_skills_awakening : berserker_skills; name = "Berserker"; }
+			if( params.split("_")[0].slice(-1) == 2 ){ job = awakening ? wizard_skills_awakening : wizard_skills; name = "Wizard"; }
+			if( params.split("_")[0].slice(-1) == 3 ){ job = awakening ? priest_skills_awakening : priest_skills; name = "Priest"; }
+			if( params.split("_")[0].slice(-1) == 4 ){ job = awakening ? archer_skills_awakening : archer_skills; name = "Archer"; }
+			if( params.split("_")[0].slice(-1) == 5 ){ job = awakening ? heavy_gunner_skills_awakening : heavy_gunner_skills; name = "Heavy Gunner"; }
+			if( params.split("_")[0].slice(-1) == 6 ){ job = awakening ? thief_skills_awakening : thief_skills; name = "Thief"; }
+			if( params.split("_")[0].slice(-1) == 7 ){ job = awakening ? assassin_skills_awakening : assassin_skills; name = "Assassin"; }
+			if( params.split("_")[0].slice(-1) == 8 ){ job = awakening ? runeblade_skills_awakening : runeblade_skills; name = "Runeblade"; }
+			if( params.split("_")[0].slice(-1) == 9 ){ job = awakening ? soul_binder_skills_awakening : soul_binder_skills; name = "Soul Binder"; }
+			if( params.split("_")[0].slice(-2) == 10 ){ job = awakening ? striker_skills_awakening : striker_skills; name = "Striker"; }
+		}else{
+		
+			if( params.slice(-2).replace("-","") == 0 ){ job = awakening ? knight_skills_awakening : knight_skills; name = "Knight"; }
+			if( params.slice(-2).replace("-","") == 1 ){ job = awakening ? berserker_skills_awakening : berserker_skills; name = "Berserker"; }
+			if( params.slice(-2).replace("-","") == 2 ){ job = awakening ? wizard_skills_awakening : wizard_skills; name = "Wizard"; }
+			if( params.slice(-2).replace("-","") == 3 ){ job = awakening ? priest_skills_awakening : priest_skills; name = "Priest"; }
+			if( params.slice(-2).replace("-","") == 4 ){ job = awakening ? archer_skills_awakening : archer_skills; name = "Archer"; }
+			if( params.slice(-2).replace("-","") == 5 ){ job = awakening ? heavy_gunner_skills_awakening : heavy_gunner_skills; name = "Heavy Gunner"; }
+			if( params.slice(-2).replace("-","") == 6 ){ job = awakening ? thief_skills_awakening : thief_skills; name = "Thief"; }
+			if( params.slice(-2).replace("-","") == 7 ){ job = awakening ? assassin_skills_awakening : assassin_skills; name = "Assassin"; }
+			if( params.slice(-2).replace("-","") == 8 ){ job = awakening ? runeblade_skills_awakening : runeblade_skills; name = "Runeblade"; }
+			if( params.slice(-2).replace("-","") == 9 ){ job = awakening ? soul_binder_skills_awakening : soul_binder_skills; name = "Soul Binder"; }
+			if( params.slice(-2).replace("-","") == 10 ){ job = awakening ? striker_skills_awakening : striker_skills; name = "Striker"; }
+		
+		}
+		
 		Class_skills = job;
 		
-		params = params.split('-');
+		if( !awakening ){
+			params = params.split("_")[0].split('-');
+		}else{
+			params = params.split("_")[1].split('-');
+		}
+		
+		if( params.length <= 1 ){
+			params = ["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","1","0","0","0","0","0"];
+		}
 
-		for(let i=0; i < (params.length - 1); i++){
+		if( awakening ){
+			
+			for(let i=0; i < (params.length); i++){
 
-			levelsURL[i] = params[i];
-			if( params[i] > 0 ){
-				lockedsURL[i] = 0;
-			}else{
-				lockedsURL[i] = 1;
+				levelsURL[i] = params[i];
+				if( params[i] > 0 ){
+					lockedsURL[i] = 0;
+				}else{
+					lockedsURL[i] = 1;
+				}
+
 			}
+			
+		}else{
+			
+			for(let i=0; i < (params.length - 1); i++){
 
+				levelsURL[i] = params[i];
+				if( params[i] > 0 ){
+					lockedsURL[i] = 0;
+				}else{
+					lockedsURL[i] = 1;
+				}
+
+			}
+			
+		}
+		
+		if( !location.href.split("#")[1].includes("_") ){
+			location.href = location.href.split('#')[0] + "#" + location.href.split('#')[1] + "_0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0";
 		}
 		
 		showSkills();
 		
 		let infoRequirement = document.getElementById("jobName");
 		infoRequirement.innerHTML = "<p>" + name + "</p>";
-	
+		
 	}
 
 }
@@ -88,7 +220,7 @@ function createColumn(start, stop){
 	
 	for(let i=start; i < stop; i++){
 		storeInfo = storeInfo + '<div class="skill_box">' +
-			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill skill_' + i + '"></div>' +
+			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill skill_' + i + (awakening ? "_noSP" : "") + '"></div>' +
 			'<div class="skillImage"></div>' +
 			'<div class="point_box">' +
 			'<div class="bar">' +
@@ -182,6 +314,22 @@ function storeData(){
 		}
 	}
 	
+	if( awakening ){
+		page2.levelsURL = levelsURL;
+		page2.lockedsURL = lockedsURL;
+	}else{
+		page1.levelsURL = levelsURL;
+		page1.lockedsURL = lockedsURL;
+	}
+	
+	if( awakening ){
+		levelsURL = page2.levelsURL;
+		lockedsURL = page2.lockedsURL;
+	}else{
+		levelsURL = page1.levelsURL;
+		lockedsURL = page1.lockedsURL;		
+	}
+	
 	// If URL have info, Use it instead
 	if( levelsURL.length > 0 && lockedsURL.length > 0 ){
 		levels = levelsURL;
@@ -219,57 +367,39 @@ function setSkillInfo(event, type){
 	
 		// Get tooltip offsetHeight
 		let infoContent = document.getElementById("info_content");
-		let offset = infoContent.offsetHeight;
+		//let offset = infoContent.offsetHeight;
 
 		// Get window dimensions
 		let windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 		let windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 	
-		// Move the tooltip above the cursor to prevent text from going outside the screen
-		if( event.pageY > windowHeight / 2 ){
+		let info = document.getElementById("info_box");
+		let offset = info.offsetHeight;
+		let offset2 = info.offsetWidth;
+		let infoWidth = 350;
 		
-			if( offset > 0 ){
-				box.style.left = event.pageX + 25 + 'px';
-				box.style.top = event.pageY - offset - 25 + 'px';
-			}
+		if( event.pageY - 70 + offset >= windowHeight ){
 			
-			if( box.style.top.replace("px", "") <= 0 ){
-				box.style.top = "0px";
-			}
+			info.style.top = (windowHeight - offset - 10) + "px";
+			
+		}else if( event.pageY + 60 - offset/2 <= 0 ){
+			
+			info.style.top = 60 + "px";
 			
 		}else{
 			
-			if( (windowHeight / 2) + offset + 25 >= windowHeight){
-				box.style.top = (windowHeight - offset - 50) + "px";
-			}else{
-				box.style.top = event.pageY + 'px';
-			}
-			
-			box.style.left = event.pageX + 25 + 'px';
+			info.style.top = event.pageY - 80 + "px";
 			
 		}
 		
-		if( event.pageX > windowWidth / 2 ){
-			box.style.left = event.pageX - 362 - 15 + 'px';
-			if( event.pageY > windowHeight / 2 ){
+		if( event.pageX - offset2 - 30 <= 0 ){
 			
-				if( offset > 0){
-					box.style.top = event.pageY - offset - 25 + 'px';
-				}
-				
-				if( box.style.top.replace("px", "") <= 0 ){
-					box.style.top = "0px";
-				}
+			info.style.left = 10 + "px";
 			
-			}else{
-			
-				if( (windowHeight / 2) + offset + 25 >= windowHeight){
-					box.style.top = (windowHeight - offset - 50) + "px";
-				}else{
-					box.style.top = event.pageY + 'px';
-				}
-
-			}
+		}else{
+		
+			info.style.left = event.pageX - infoWidth - 20 + "px";
+		
 		}
 		
 		let infoTitle = event.target.dataset.title;
@@ -293,13 +423,13 @@ function setSkillInfo(event, type){
 				}
 				
 				// Prevent skill(12, 18) from showing tooltip on plus/minus.
-				if( (i == 12 || i == 18) && type != "skill" ){
+				if( ( (!awakening && i == 12 || i == 18) || (awakening && i == 18) ) && type != "skill" ){
 					box.style.display = "none";
 					return;
 				}
 				
 				// Prevent skill(0, 1) from showing tooltip on minus.
-				if( (i == 0 || i == 1) && levels[i] <= 1 && type == "minus" ){
+				if( (!awakening && i == 0 || i == 1) && levels[i] <= 1 && type == "minus" ){
 					box.style.display = "none";
 					return;
 				}
@@ -451,7 +581,7 @@ function setSkillLock(){
 			}
 
 			// Locks base skills(0, 1) from having 0 points.
-			if( i == 0 || i == 1) {
+			if( !awakening && (i == 0 || i == 1) ){
 				if (parseInt(levels[i]) == 1) {
 					skillMinus[i].classList.replace("minus", "max");
 				} else {
@@ -483,7 +613,7 @@ function setSkillLock(){
 			}
 
 			// Locks sp and movement skill(12, 18)
-			if(i == 12 || i == 18 ){
+			if( (!awakening && i == 12 || i == 18) || (awakening && i == 18)){
 				skillPlus[i].classList.add("plus_locked");
 				skillPlus[i].classList.replace("min", "plus");
 				skillMinus[i].classList.add("minus_locked");
@@ -498,22 +628,25 @@ function setSkillLock(){
 // setUrl - Sets the skillpoints into the url so that it can be linked
 function setUrl(){
 
+	//if( awakening ){ return; }
+
 	// make url include skill numbers
 	let str = "#";
+	if( awakening ){ str = ""; };
 	
 	// Set Job id
 	let job = 0;
-	if( Class_skills == knight_skills ){ job = 0; }
-	if( Class_skills == berserker_skills ){ job = 1; }
-	if( Class_skills == wizard_skills ){ job = 2; }
-	if( Class_skills == priest_skills ){ job = 3; }
-	if( Class_skills == archer_skills ){ job = 4; }
-	if( Class_skills == heavy_gunner_skills ){ job = 5; }
-	if( Class_skills == thief_skills ){ job = 6; }
-	if( Class_skills == assassin_skills ){ job = 7; }
-	if( Class_skills == runeblade_skills ){ job = 8; }
-	if( Class_skills == soul_binder_skills ){ job = 9; }
-	if( Class_skills == striker_skills ){ job = 10; }
+	if( Class_skills == knight_skills || Class_skills == knight_skills_awakening ){ job = 0; }
+	if( Class_skills == berserker_skills || Class_skills == berserker_skills_awakening ){ job = 1; }
+	if( Class_skills == wizard_skills || Class_skills == wizard_skills_awakening ){ job = 2; }
+	if( Class_skills == priest_skills || Class_skills == priest_skills_awakening ){ job = 3; }
+	if( Class_skills == archer_skills || Class_skills == archer_skills_awakening ){ job = 4; }
+	if( Class_skills == heavy_gunner_skills || Class_skills == heavy_gunner_skills_awakening ){ job = 5; }
+	if( Class_skills == thief_skills || Class_skills == thief_skills_awakening ){ job = 6; }
+	if( Class_skills == assassin_skills || Class_skills == assassin_skills_awakening ){ job = 7; }
+	if( Class_skills == runeblade_skills || Class_skills == runeblade_skills_awakening ){ job = 8; }
+	if( Class_skills == soul_binder_skills || Class_skills == soul_binder_skills_awakening ){ job = 9; }
+	if( Class_skills == striker_skills || Class_skills == striker_skills_awakening ){ job = 10; }
 	
 	for(let i=0; i < levels.length; i++){
 		if( i == levels.length - 1 ){
@@ -523,26 +656,53 @@ function setUrl(){
 		}
 	}
 	
-	// Check if job already exists if URL was loaded and add only if not
-	if(str.split("-").length == 24){
-		str = str + "-" + job;
+	if( !awakening ){
+		// Check if job already exists if URL was loaded and add only if not
+		if(str.split("-").length == 24){
+			str = str + "-" + job;
+		}
 	}
-		
+	
+	if( !awakening ){
+		if( !location.href.includes("#") || !location.href.split("#")[1].includes("_") ){
+			str = str + "_0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0";
+		}else{
+			str = str + "_" + location.href.split("#")[1].split("_")[1];
+		}
+	}else{
+		if( !isNaN( location.href.split('#')[1][0] ) ){
+			str = "#" + location.href.split("#")[1].split("_")[0] + "_" + str;
+		}else{
+			str = "#1-1-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-" + job + "_" + str;
+		}
+	}
+	
 	location.href = location.href.split('#')[0] + str;
 
 }
 
 // resetSkills - Reset all the skillpoints
-function resetSkills(){
+function resetSkills(numb, switched){
+	
+	if( switched == false ){ return; }
 
 	for (let i=0; i < levels.length; i++){
 		
-		if( i == 12 || i == 18 ){ continue; }
+		if( !awakening ){
 		
-		if( i == 0 || i == 1 ){
-			levels[i] = 1;
+			if( i == 12 || i == 18 ){ continue; }
+			
+			if( i == 0 || i == 1 ){
+				levels[i] = 1;
+			}else{
+				levels[i] = 0;
+			}
+			
 		}else{
+
+			if( i == 18 ){ continue; }
 			levels[i] = 0;
+		
 		}
 		
 		let skillTexts = document.getElementsByClassName("skill_text");
@@ -568,6 +728,10 @@ function getSkillpoints(){
 			pointsUsed += parseInt(levels[i]);
 		}
 		
+		if( awakening ){
+			return (pointsMax2 - pointsUsed);
+		}
+		
 		return (pointsMax - pointsUsed);
 
 }
@@ -585,7 +749,7 @@ function changeSkillPoints(event, value){
 	for(let i=0; i < titles.length; i++){
 	
 		// Prevent skill(12, 18) to be increased/decreased
-		if( i == 12 || i == 18 ){ continue; }
+		if( (!awakening && i == 12 || i == 18) || (awakening && i == 18) ){ continue; }
 	
 		if( titles[i] == infoTitle ){
 			
@@ -606,7 +770,7 @@ function changeSkillPoints(event, value){
 				}else if( levels[i] == maxLevels[i] ){
 					
 					// if you click on the {+} button at max skill level, set your starter skills to lv1
-					if ( i == 0 || i == 1) {
+					if (!awakening && (i == 0 || i == 1)) {
 						levels[i] = 1;
 					} else {
 						levels[i] = 0;
@@ -619,7 +783,7 @@ function changeSkillPoints(event, value){
 			
 				// Set skill level to max if you click on the {-} button at the minimum skill level
 				// and prevent skill(0, 1) from being decreased lower than rank 1
-				if( levels[i] == 0 || (levels[i] == 1 && i <= 1)){
+				if( (levels[i] == 0) || (levels[i] == 1 && (!awakening && i <= 1)) ){
 
 					if( lockeds[i] == 1 ){ 
 						levelUpAllPrereqSkills(i);
@@ -670,6 +834,7 @@ function setPointsUsed(){
  */
 function levelUpAllPrereqSkills(index) {
 	let skillTexts = document.getElementsByClassName("skill_text");
+	if( lockReqs[index] == undefined ){ return; }
 	let prereqArray = lockReqs[index].split('-');
 	
 	for (let i = 0; i < levels.length; i++) {
@@ -697,7 +862,11 @@ function setJobLines(){
 	if( Class_skills == striker_skills ){ name = "striker"; }
 
 	// Set job skill lines
-	$("#lines").css("background-image", "url(./images/lines/" + name + "_lines.png)");
+	if( awakening ){
+		$("#lines").css("background-image", "none");
+	}else{
+		$("#lines").css("background-image", "url(./images/lines/" + name + "_lines.png)");
+	}
 
 }
 
@@ -720,23 +889,6 @@ function createBase(){
 	
 	// Set lock on skills that aren't unlocked yet
 	setSkillLock();
-
-}
-
-function resetStats(){
-
-	attributePoints = 50;
-	
-	let stats = document.getElementsByClassName("statsButton");
-
-	for(let i=0; i < stats.length; i++){
-		stats[i].innerHTML = "<p>" + stats[i].dataset.base + "</p>";
-		stats[i].classList.remove("bonus");
-	}
-	
-	// Set new points
-	let points = document.getElementById("attributePoints");
-	points.innerHTML = "<p>" + attributePoints + "</p>";
 
 }
 
@@ -780,18 +932,33 @@ function showSkills(){
 	$("#window").css("z-index", 20);
 }
 
-$( window ).on( "load", function(){
+function setCurrentPage(num){
+	currentPage = num;
+	if( currentPage == 2 ){
+		$('#skills_right').empty();
+		loadUrlPoints();
+		createBase();
+		setMouseTriggers();
+		//resetSkills(currentPage, true);
+	}
+}
 
-	if( location.href.search("skills.html") == -1 ){ return; }
+$( window ).on( "load", function(){
+	
+	let params = location.href.split('#')[1];
+	if( params != undefined && params.length > 1 ){
+		if( params.includes("-") ){
+			currentPage = 2;
+		}else{
+			currentPage = 1;
+		}
+	}
 
 	// Set Default
 	Class_skills = knight_skills;
 	
 	// Load url points
 	loadUrlPoints();
-
-	// Make window draggable
-	//$("#window").draggable({ handle: "#drag_bar", containment: [0, 100, 1060, 1920] });
 	
 	// Collect data, load url points, create columns, set points and skill locks.
 	createBase();
@@ -827,95 +994,20 @@ function getCookie(cname) {
     return "";
 }
 
-function createChat(image, title, text, buttonText){
-
-	setTimeout(function(){
-		$("#new_chat_avatar").css("background-image", "url(./images/" + image + ".png)");
-		$("#new_chat_title").text(title);
-		$("#new_chat_text").text(text);
-		$("#new_chat_button_text").text(buttonText);
-		$("#new_chat_avatar").css("display", "block");
-		$("#new_chat").css("opacity", 1);
-		$("#new_chat").css("pointer-events", "auto");
-	}, 1000);
-
-}
-
 $( window ).on( "load", function(){
-
-	// Loader
-	$(".new_loader").css("opacity", 0);
 
 	// Show/Hide cookie alert
 	let cAgree = getCookie("cookie");
-	let cWelcome = getCookie("npc_welcome");
-	
-	if( cWelcome ){
-		setCookie("npc_welcome", "1", 30, true);
-	}
 	
 	if( cAgree == 0 ){
-
-		npcList.cookie = function(){
-			createChat("npc1", "Joddy", "This site uses cookies to remember some of your stuff.\nUsing this fansite means that you are okey with this.", "Accept");
-		}
-		
-	}else{
-		$("#new_chat").css("pointer-events", "none");
-		if( !cWelcome ){
-			
-			setCookie("npc_welcome", "1", 30, true);
-			
-			npcList.welcomeback = function(){
-				if( location.href.search("skills.html") != -1 ){
-					createChat("npc5", "Katvan", "Welcome back, ready to make some new skill builds?", "Close");
-				}
-				
-				if( location.href.search("fishing.html") != -1 ){
-					createChat("npc3", "Terry", "Welcome back, let's catch something rare today!", "Close");
-				}
-				
-				if( location.href.search("explore.html") != -1 ){
-					createChat("npc4", "Lennon", "Welcome back, let's explore some new maps!", "Close");
-				}
-				
-				if( location.href.search("index.html") != -1 ){
-					createChat("npc2", "Growlie", "Welcome back.\nThe weather is nice today, let's have some fun!", "Close");
-				}
-			}
-		}
+		$("#cookies").show();
 	}
 	
-	$("#new_chat_button").mousedown(function(event){
-	
-		$("#new_chat_avatar").css("display", "none");
-		$("#new_chat").css("opacity", 0);
-		$("#new_chat").css("pointer-events", "none");
-	
-		cAgree = getCookie("cookie");
-		if( cAgree == 0 ){
-			setCookie("cookie", "1", 30);
-			setCookie("npc_welcome", "1", 30, true);
-			
-			npcList.welcome = function(){
-				createChat("npc2", "Growlie", "Welcome to this MapleStory 2 fansite.\nThe site is still WIP but I hope you find something useful!", "Close");
-			}
-		}
-		
-		if( Object.keys(npcList).length > 0 ){
-			Object.values(npcList)[0]();
-			let firstKey = Object.keys(npcList)[0];
-			delete npcList[firstKey];
-		}
-		
+	$("#cookies_button").mousedown(function(event){
+		$("#cookies").hide();
+		setCookie("cookie", "1", 3650);
 	});
-	
-	if( Object.keys(npcList).length > 0 ){
-		Object.values(npcList)[0]();
-		let firstKey = Object.keys(npcList)[0];
-		delete npcList[firstKey];
-	}
-	
+
 });
 
 // if phone or pad

@@ -527,3 +527,411 @@ var archer_skills = [
 		}
 	]
 ];
+
+var archer_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 223,
+			"title": "Flame Arrow",
+			"element": "Fire",
+			"resource": "Spirit 8",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Loose <span class='info_blue'>3</span> flaming arrows at enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>255%</span> damage <span class='info_blue'>1</span> time and <span class='info_blue'>112%</span> damage <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_gray'>Grants <span class='info_blue'>1</span> stack of Burning Arrow.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>When Burning Arrow is at <span class='info_blue'>10</span> stacks, use Multi-Drive Shot to enable Flame Arrow II.</span></p>",
+				"<p><span class='info_gray'>Loose <span class='info_blue'>3</span> flaming arrows at enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>255%</span> damage <span class='info_blue'>1</span> time and <span class='info_blue'>112%</span> damage <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_gray'>Grants <span class='info_blue'>1</span> stack of Burning Arrow.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>When Burning Arrow is at <span class='info_blue'>10</span> stacks, use Multi-Drive Shot to enable Flame Arrow II.</span></p>",
+				"<p><span class='info_gray'>Loose <span class='info_blue'>3</span> flaming arrows at enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>255%</span> damage <span class='info_blue'>1</span> time and <span class='info_blue'>112%</span> damage <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_gray'>Grants <span class='info_blue'>1</span> stack of Burning Arrow.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>When Burning Arrow is at <span class='info_blue'>10</span> stacks, use Multi-Drive Shot to enable Flame Arrow II.</span></p>",
+				"<p><span class='info_gray'>Loose <span class='info_blue'>3</span> flaming arrows at enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>255%</span> damage <span class='info_blue'>1</span> time and <span class='info_blue'>112%</span> damage <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_gray'>Grants <span class='info_blue'>1</span> stack of Burning Arrow.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>When Burning Arrow is at <span class='info_blue'>10</span> stacks, use Multi-Drive Shot to enable Flame Arrow II.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 224,
+			"title": "Multi-Drive Shot",
+			"element": "Fire",
+			"resource": "Cooldown: 3 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Flame Arrow [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Loose <span class='info_blue'>3</span> guided fire arrows at the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>273%</span> damage <span class='info_blue'>3</span> times and explodes.</span></p><br><p><span class='info_gray'>When you have Burning Arrow II, this skill becomes Multi-Drive Shot II.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The explosion deals <span class='info_blue'>24%</span> damage <span class='info_blue'>3</span> times to nearby enemies.</span></p><p><span class='info_gray'>Use this skill when Burning Arrow is at <span class='info_blue'>10</span> stacks to enable Flame Arrow II</span></p>",
+				"<p><span class='info_gray'>Loose <span class='info_blue'>3</span> guided fire arrows at the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>273%</span> damage <span class='info_blue'>3</span> times and explodes.</span></p><br><p><span class='info_gray'>When you have Burning Arrow II, this skill becomes Multi-Drive Shot II.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The explosion deals <span class='info_blue'>24%</span> damage <span class='info_blue'>3</span> times to nearby enemies.</span></p><p><span class='info_gray'>Use this skill when Burning Arrow is at <span class='info_blue'>10</span> stacks to enable Flame Arrow II</span></p>",
+				"<p><span class='info_gray'>Loose <span class='info_blue'>3</span> guided fire arrows at the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>273%</span> damage <span class='info_blue'>3</span> times and explodes.</span></p><br><p><span class='info_gray'>When you have Burning Arrow II, this skill becomes Multi-Drive Shot II.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The explosion deals <span class='info_blue'>24%</span> damage <span class='info_blue'>3</span> times to nearby enemies.</span></p><p><span class='info_gray'>Use this skill when Burning Arrow is at <span class='info_blue'>10</span> stacks to enable Flame Arrow II</span></p>",
+				"<p><span class='info_gray'>Loose <span class='info_blue'>3</span> guided fire arrows at the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>273%</span> damage <span class='info_blue'>3</span> times and explodes.</span></p><br><p><span class='info_gray'>When you have Burning Arrow II, this skill becomes Multi-Drive Shot II.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The explosion deals <span class='info_blue'>24%</span> damage <span class='info_blue'>3</span> times to nearby enemies.</span></p><p><span class='info_gray'>Use this skill when Burning Arrow is at <span class='info_blue'>10</span> stacks to enable Flame Arrow II</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 225,
+			"title": "Ranger's Focus",
+			"resource": "Cooldown: 40 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Multi-Drive Shot [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Focus your senses to gain explosive power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical attack by <span class='info_blue'>9%</span> and grants unlimited spirit for <span class='info_blue'>15</span> sec.</span></p><br><p><span class='info_gray'>Enables Flame Arrow IV. When Ranger's Focus ends, enables Flame Arrow III.</span></p>",
+				"<p><span class='info_gray'>Focus your senses to gain explosive power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical attack by <span class='info_blue'>9%</span> and grants unlimited spirit for <span class='info_blue'>15</span> sec.</span></p><br><p><span class='info_gray'>Enables Flame Arrow IV. When Ranger's Focus ends, enables Flame Arrow III.</span></p>",
+				"<p><span class='info_gray'>Focus your senses to gain explosive power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical attack by <span class='info_blue'>9%</span> and grants unlimited spirit for <span class='info_blue'>15</span> sec.</span></p><br><p><span class='info_gray'>Enables Flame Arrow IV. When Ranger's Focus ends, enables Flame Arrow III.</span></p>",
+				"<p><span class='info_gray'>Focus your senses to gain explosive power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical attack by <span class='info_blue'>9%</span> and grants unlimited spirit for <span class='info_blue'>15</span> sec.</span></p><br><p><span class='info_gray'>Enables Flame Arrow IV. When Ranger's Focus ends, enables Flame Arrow III.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 226,
+			"title": "Haster's Teachings",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Multi-Drive Shot [Level 3+]</span></p><p><span class='info_orange'>Ranger's Focus [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Haster's tips and tricks have sharpened your abilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Multi-Drive Shot and Flame Arrow by <span class='info_blue'>6%</span>. Reduces the spirit cost of Flame Arrow III by <span class='info_blue'>20%</span>. These damage bonuses also affect the enhanced forms of abilities.</span></p>",
+				"<p><span class='info_gray'>Haster's tips and tricks have sharpened your abilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Multi-Drive Shot and Flame Arrow by <span class='info_blue'>6%</span>. Reduces the spirit cost of Flame Arrow III by <span class='info_blue'>20%</span>. These damage bonuses also affect the enhanced forms of abilities.</span></p>",
+				"<p><span class='info_gray'>Haster's tips and tricks have sharpened your abilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Multi-Drive Shot and Flame Arrow by <span class='info_blue'>6%</span>. Reduces the spirit cost of Flame Arrow III by <span class='info_blue'>20%</span>. These damage bonuses also affect the enhanced forms of abilities.</span></p>",
+				"<p><span class='info_gray'>Haster's tips and tricks have sharpened your abilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Multi-Drive Shot and Flame Arrow by <span class='info_blue'>6%</span>. Reduces the spirit cost of Flame Arrow III by <span class='info_blue'>20%</span>. These damage bonuses also affect the enhanced forms of abilities.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 227,
+			"title": "Piercing Arrow",
+			"resource": "Spirit 10",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Launch an arrow propelled by the power of the wind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>417%</span> damage. Press the skill key again to perform a quick follow-up shot.</span></p>",
+				"<p><span class='info_gray'>Launch an arrow propelled by the power of the wind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>417%</span> damage. Press the skill key again to perform a quick follow-up shot.</span></p>",
+				"<p><span class='info_gray'>Launch an arrow propelled by the power of the wind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>417%</span> damage. Press the skill key again to perform a quick follow-up shot.</span></p>",
+				"<p><span class='info_gray'>Launch an arrow propelled by the power of the wind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>417%</span> damage. Press the skill key again to perform a quick follow-up shot.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 228,
+			"title": "Spiral Arrow",
+			"resource": "Spirit 20 / Cooldown: 10 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Piercing Arrow [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Arc an arrow into the air and use the power of wind to guide it.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>42%</span> damage and creates a whirlwind.</span></p><br><p><span class='info_gray'>After using Piercing Arrow or Spiral Arrow, there is a <span class='info_blue'>12%</span> chance to reset cooldown.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The whirlwind deals <span class='info_blue'>177%</span> damage <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Enhanced by Archer's Secrets.</span></p>",
+				"<p><span class='info_gray'>Arc an arrow into the air and use the power of wind to guide it.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>42%</span> damage and creates a whirlwind.</span></p><br><p><span class='info_gray'>After using Piercing Arrow or Spiral Arrow, there is a <span class='info_blue'>12%</span> chance to reset cooldown.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The whirlwind deals <span class='info_blue'>177%</span> damage <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Enhanced by Archer's Secrets.</span></p>",
+				"<p><span class='info_gray'>Arc an arrow into the air and use the power of wind to guide it.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>42%</span> damage and creates a whirlwind.</span></p><br><p><span class='info_gray'>After using Piercing Arrow or Spiral Arrow, there is a <span class='info_blue'>12%</span> chance to reset cooldown.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The whirlwind deals <span class='info_blue'>177%</span> damage <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Enhanced by Archer's Secrets.</span></p>",
+				"<p><span class='info_gray'>Arc an arrow into the air and use the power of wind to guide it.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>42%</span> damage and creates a whirlwind.</span></p><br><p><span class='info_gray'>After using Piercing Arrow or Spiral Arrow, there is a <span class='info_blue'>12%</span> chance to reset cooldown.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The whirlwind deals <span class='info_blue'>177%</span> damage <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Enhanced by Archer's Secrets.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 229,
+			"title": "Archer's Secrets",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Spiral Arrow [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Bow</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Master the secrets of archery to unlock hidden skills and strengthen physical ability.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Available while Full Wind Draw is active. Increases piercing by <span class='info_blue'>1%</span> and accuracy by <span class='info_blue'>1</span> for <span class='info_blue'>20</span> sec. Enables use of Enhanced Spiral Arrow and Twirling Wind Arrow. Once learned, unlocks Wind Draw and Full Wind Draw.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Hit enemies with Piercing Arrow and Spiral Arrow to gain Wind Draw, which lasts for <span class='info_blue'>15</span> sec and stacks up to <span class='info_blue'>15</span> times. At max stacks, gain Full Wind Draw.</span></p><p><span class='info_gray'>Full Wind Draw enables for <span class='info_blue'>30</span> sec.</span></p>",
+				"<p><span class='info_gray'>Master the secrets of archery to unlock hidden skills and strengthen physical ability.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Available while Full Wind Draw is active. Increases piercing by <span class='info_blue'>1%</span> and accuracy by <span class='info_blue'>1</span> for <span class='info_blue'>20</span> sec. Enables use of Enhanced Spiral Arrow and Twirling Wind Arrow. Once learned, unlocks Wind Draw and Full Wind Draw.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Hit enemies with Piercing Arrow and Spiral Arrow to gain Wind Draw, which lasts for <span class='info_blue'>15</span> sec and stacks up to <span class='info_blue'>15</span> times. At max stacks, gain Full Wind Draw.</span></p><p><span class='info_gray'>Full Wind Draw enables for <span class='info_blue'>30</span> sec.</span></p>",
+				"<p><span class='info_gray'>Master the secrets of archery to unlock hidden skills and strengthen physical ability.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Available while Full Wind Draw is active. Increases piercing by <span class='info_blue'>1%</span> and accuracy by <span class='info_blue'>1</span> for <span class='info_blue'>20</span> sec. Enables use of Enhanced Spiral Arrow and Twirling Wind Arrow. Once learned, unlocks Wind Draw and Full Wind Draw.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Hit enemies with Piercing Arrow and Spiral Arrow to gain Wind Draw, which lasts for <span class='info_blue'>15</span> sec and stacks up to <span class='info_blue'>15</span> times. At max stacks, gain Full Wind Draw.</span></p><p><span class='info_gray'>Full Wind Draw enables for <span class='info_blue'>30</span> sec.</span></p>",
+				"<p><span class='info_gray'>Master the secrets of archery to unlock hidden skills and strengthen physical ability.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Available while Full Wind Draw is active. Increases piercing by <span class='info_blue'>1%</span> and accuracy by <span class='info_blue'>1</span> for <span class='info_blue'>20</span> sec. Enables use of Enhanced Spiral Arrow and Twirling Wind Arrow. Once learned, unlocks Wind Draw and Full Wind Draw.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Hit enemies with Piercing Arrow and Spiral Arrow to gain Wind Draw, which lasts for <span class='info_blue'>15</span> sec and stacks up to <span class='info_blue'>15</span> times. At max stacks, gain Full Wind Draw.</span></p><p><span class='info_gray'>Full Wind Draw enables for <span class='info_blue'>30</span> sec.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 230,
+			"title": "Greater Sharp Eyes",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Archer's Secrets [Level 3+]</span></p><p><span class='info_orange'>Spiral Arrow [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Master the secrets of archery to draw out the true power of Sharp Eyes.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Sharp Eyes becomes Enhanced Sharp Eyes.</span></p><br><p><span class='info_gray'>Enhanced Sharp Eyes grants a <span class='info_blue'>3%</span> physical attack bonus to the caster.</span></p>",
+				"<p><span class='info_gray'>Master the secrets of archery to draw out the true power of Sharp Eyes.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Sharp Eyes becomes Enhanced Sharp Eyes.</span></p><br><p><span class='info_gray'>Enhanced Sharp Eyes grants a <span class='info_blue'>3%</span> physical attack bonus to the caster.</span></p>",
+				"<p><span class='info_gray'>Master the secrets of archery to draw out the true power of Sharp Eyes.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Sharp Eyes becomes Enhanced Sharp Eyes.</span></p><br><p><span class='info_gray'>Enhanced Sharp Eyes grants a <span class='info_blue'>3%</span> physical attack bonus to the caster.</span></p>",
+				"<p><span class='info_gray'>Master the secrets of archery to draw out the true power of Sharp Eyes.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Sharp Eyes becomes Enhanced Sharp Eyes.</span></p><br><p><span class='info_gray'>Enhanced Sharp Eyes grants a <span class='info_blue'>3%</span> physical attack bonus to the caster.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 231,
+			"title": "Improved Gliding",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Glide through the air on your eagle's wings.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases dexterity by <span class='info_blue'>40.</span></span></p><br><p><span class='info_gray'>Enhances Eagle Glide.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

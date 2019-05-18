@@ -537,3 +537,411 @@ var berserker_skills = [
 		}
 	]
 ];
+
+var berserker_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 196,
+			"title": "Skull Splitter",
+			"resource": "Spirit 10",
+			"level": 1,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>453%</span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'>647%</span> and <span class='info_blue'>1040%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>453%</span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'>647%</span> and <span class='info_blue'>1040%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>453%</span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'>647%</span> and <span class='info_blue'>1040%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>453%</span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'>647%</span> and <span class='info_blue'>1040%</span> damage. Grants knockback immunity.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 197,
+			"title": "Blood Fury",
+			"resource": "",
+			"level": 1,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Skull Splitter [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'>30%</span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'>6%</span> and Bloodlust damage by <span class='info_blue'>166%</span>. While this effect is active, Bloodlust has a <span class='info_blue'>30%</span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.</span></p>",
+				"<p><span class='info_gray'>Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'>30%</span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'>6%</span> and Bloodlust damage by <span class='info_blue'>166%</span>. While this effect is active, Bloodlust has a <span class='info_blue'>30%</span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.</span></p>",
+				"<p><span class='info_gray'>Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'>30%</span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'>6%</span> and Bloodlust damage by <span class='info_blue'>166%</span>. While this effect is active, Bloodlust has a <span class='info_blue'>30%</span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.</span></p>",
+				"<p><span class='info_gray'>Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'>30%</span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'>6%</span> and Bloodlust damage by <span class='info_blue'>166%</span>. While this effect is active, Bloodlust has a <span class='info_blue'>30%</span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 198,
+			"title": "Parry the Moon",
+			"resource": "Spirit 20 / Cooldown: 30 Sec",
+			"level": 1,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Blood Fury [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1240%</span> damage and generates a shockwave that deals <span class='info_blue'>242%</span> damage on hit and <span class='info_blue'>182%</span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'>10</span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'>3%</span>.</span></p>",
+				"<p><span class='info_gray'>Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1240%</span> damage and generates a shockwave that deals <span class='info_blue'>242%</span> damage on hit and <span class='info_blue'>182%</span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'>10</span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'>3%</span>.</span></p>",
+				"<p><span class='info_gray'>Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1240%</span> damage and generates a shockwave that deals <span class='info_blue'>242%</span> damage on hit and <span class='info_blue'>182%</span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'>10</span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'>3%</span>.</span></p>",
+				"<p><span class='info_gray'>Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1240%</span> damage and generates a shockwave that deals <span class='info_blue'>242%</span> damage on hit and <span class='info_blue'>182%</span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'>10</span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'>3%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 199,
+			"title": "Aerial Smash",
+			"resource": "Cooldown: 8 Sec",
+			"level": 1,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Blood Fury [Level 3+]</span></p><p><span class='info_orange'>Parry the Moon [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'>10</span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'>366%</span> and <span class='info_blue'>1004%</span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'>2010%</span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'>20%</span>.</span></p>",
+				"<p><span class='info_gray'>Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'>10</span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'>366%</span> and <span class='info_blue'>1004%</span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'>2010%</span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'>20%</span>.</span></p>",
+				"<p><span class='info_gray'>Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'>10</span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'>366%</span> and <span class='info_blue'>1004%</span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'>2010%</span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'>20%</span>.</span></p>",
+				"<p><span class='info_gray'>Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'>10</span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'>366%</span> and <span class='info_blue'>1004%</span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'>2010%</span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'>20%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 200,
+			"title": "Squall",
+			"resource": "Spirit 6",
+			"level": 1,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>96%</span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'>3</span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'>4%</span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'>30</span>, decrease damage to <span class='info_blue'>56%</span>, gain knockback immunity, and deal an additional <span class='info_blue'>38%</span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.</span></p>",
+				"<p><span class='info_gray'>Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>96%</span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'>3</span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'>4%</span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'>30</span>, decrease damage to <span class='info_blue'>56%</span>, gain knockback immunity, and deal an additional <span class='info_blue'>38%</span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.</span></p>",
+				"<p><span class='info_gray'>Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>96%</span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'>3</span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'>4%</span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'>30</span>, decrease damage to <span class='info_blue'>56%</span>, gain knockback immunity, and deal an additional <span class='info_blue'>38%</span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.</span></p>",
+				"<p><span class='info_gray'>Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>96%</span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'>3</span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'>4%</span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'>30</span>, decrease damage to <span class='info_blue'>56%</span>, gain knockback immunity, and deal an additional <span class='info_blue'>38%</span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 201,
+			"title": "Rend Wound",
+			"resource": "",
+			"level": 1,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Squall [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'>76%</span>. Landing <span class='info_blue'>2</span> critical hits within <span class='info_blue'>4</span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'>52%</span> damage every sec for each stack, and stacks up to <span class='info_blue'>5</span> times.</span></p>",
+				"<p><span class='info_gray'>Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'>76%</span>. Landing <span class='info_blue'>2</span> critical hits within <span class='info_blue'>4</span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'>52%</span> damage every sec for each stack, and stacks up to <span class='info_blue'>5</span> times.</span></p>",
+				"<p><span class='info_gray'>Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'>76%</span>. Landing <span class='info_blue'>2</span> critical hits within <span class='info_blue'>4</span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'>52%</span> damage every sec for each stack, and stacks up to <span class='info_blue'>5</span> times.</span></p>",
+				"<p><span class='info_gray'>Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'>76%</span>. Landing <span class='info_blue'>2</span> critical hits within <span class='info_blue'>4</span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'>52%</span> damage every sec for each stack, and stacks up to <span class='info_blue'>5</span> times.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 202,
+			"title": "Raging Soul",
+			"resource": "Cooldown: 40 Sec",
+			"level": 1,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Rend Wound [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'>30%</span>, increases physical attack by <span class='info_blue'>5%</span>, increases dark attack by <span class='info_blue'>5%</span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'>42%</span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'>100</span>.</span></p>",
+				"<p><span class='info_gray'>Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'>30%</span>, increases physical attack by <span class='info_blue'>5%</span>, increases dark attack by <span class='info_blue'>5%</span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'>42%</span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'>100</span>.</span></p>",
+				"<p><span class='info_gray'>Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'>30%</span>, increases physical attack by <span class='info_blue'>5%</span>, increases dark attack by <span class='info_blue'>5%</span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'>42%</span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'>100</span>.</span></p>",
+				"<p><span class='info_gray'>Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'>30%</span>, increases physical attack by <span class='info_blue'>5%</span>, increases dark attack by <span class='info_blue'>5%</span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'>42%</span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'>100</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 203,
+			"title": "Blood Slash",
+			"element": "Dark",
+			"resource": "",
+			"level": 1,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Raging Soul [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>10</span> stacks of Dark Aura. Each strike deals <span class='info_blue'>259%</span> damage and restores <span class='info_blue'>1.5%</span> health. Final hit deals an additional <span class='info_blue'>50%</span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'>100%</span> and <span class='info_blue'>635%</span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'>207%</span> damage, and does not consume Dark Aura.</span></p>",
+				"<p><span class='info_gray'>Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>10</span> stacks of Dark Aura. Each strike deals <span class='info_blue'>259%</span> damage and restores <span class='info_blue'>1.5%</span> health. Final hit deals an additional <span class='info_blue'>50%</span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'>100%</span> and <span class='info_blue'>635%</span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'>207%</span> damage, and does not consume Dark Aura.</span></p>",
+				"<p><span class='info_gray'>Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>10</span> stacks of Dark Aura. Each strike deals <span class='info_blue'>259%</span> damage and restores <span class='info_blue'>1.5%</span> health. Final hit deals an additional <span class='info_blue'>50%</span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'>100%</span> and <span class='info_blue'>635%</span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'>207%</span> damage, and does not consume Dark Aura.</span></p>",
+				"<p><span class='info_gray'>Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>10</span> stacks of Dark Aura. Each strike deals <span class='info_blue'>259%</span> damage and restores <span class='info_blue'>1.5%</span> health. Final hit deals an additional <span class='info_blue'>50%</span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'>100%</span> and <span class='info_blue'>635%</span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'>207%</span> damage, and does not consume Dark Aura.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 204,
+			"title": "Infinite Darkness",
+			"element": "Dark",
+			"resource": "",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>A thick darkness engulfs your body.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'>40</span>. Increases Dark Aura's duration to <span class='info_blue'>10</span> sec. Consuming <span class='info_blue'>10</span> stacks of Dark Aura at once has a <span class='info_blue'>20%</span> chance to trigger Surging Darkness.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Surging Darkness grants <span class='info_blue'>10</span> stacks of Dark Aura.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

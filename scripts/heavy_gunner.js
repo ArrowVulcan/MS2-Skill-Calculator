@@ -535,3 +535,414 @@ var heavy_gunner_skills = [
 		}
 	]
 ];
+
+var heavy_gunner_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 232,
+			"title": "Focused Fire",
+			"resource": "Cooldown: 1 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Unleash focused mortar fire on enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>138%</span> damage. Can keep firing until ammo is depleted. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Unleash focused mortar fire on enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>138%</span> damage. Can keep firing until ammo is depleted. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Unleash focused mortar fire on enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>138%</span> damage. Can keep firing until ammo is depleted. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Unleash focused mortar fire on enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>138%</span> damage. Can keep firing until ammo is depleted. Grants knockback immunity.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 233,
+			"title": "Fire Bomber",
+			"resource": "Cooldown: 8 Sec",
+			"element": "Fire",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Focused Fire [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Launch explosive fire missiles to engulf targets in fiery doom.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>487%</span> damage. Deals <span class='info_blue'>497%</span> damage and burns targets who are enveloped in flames. Can keep firing until missiles are depleted.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Burn deals <span class='info_blue'>90%</span> fire damage per sec for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Launch explosive fire missiles to engulf targets in fiery doom.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>487%</span> damage. Deals <span class='info_blue'>497%</span> damage and burns targets who are enveloped in flames. Can keep firing until missiles are depleted.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Burn deals <span class='info_blue'>90%</span> fire damage per sec for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Launch explosive fire missiles to engulf targets in fiery doom.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>487%</span> damage. Deals <span class='info_blue'>497%</span> damage and burns targets who are enveloped in flames. Can keep firing until missiles are depleted.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Burn deals <span class='info_blue'>90%</span> fire damage per sec for <span class='info_blue'>10</span> sec.</span></p>",
+				"<p><span class='info_gray'>Launch explosive fire missiles to engulf targets in fiery doom.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>487%</span> damage. Deals <span class='info_blue'>497%</span> damage and burns targets who are enveloped in flames. Can keep firing until missiles are depleted.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Burn deals <span class='info_blue'>90%</span> fire damage per sec for <span class='info_blue'>10</span> sec.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 234,
+			"title": "Missile Supercharger",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Fire Bomber [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Upgrade your ammo chambers to improve certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Focused Fire, Fire Bomber, and Demolition Cannon damage by <span class='info_blue'>8%</span>.</span></p>",
+				"<p><span class='info_gray'>Upgrade your ammo chambers to improve certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Focused Fire, Fire Bomber, and Demolition Cannon damage by <span class='info_blue'>8%</span>.</span></p>",
+				"<p><span class='info_gray'>Upgrade your ammo chambers to improve certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Focused Fire, Fire Bomber, and Demolition Cannon damage by <span class='info_blue'>8%</span>.</span></p>",
+				"<p><span class='info_gray'>Upgrade your ammo chambers to improve certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Focused Fire, Fire Bomber, and Demolition Cannon damage by <span class='info_blue'>8%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 235,
+			"title": "Demolition Cannon",
+			"resource": "Cooldown: 12 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Fire Bomber [Level 3+]</span></p><p><span class='info_orange'>Missile Supercharger [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Modify your satellite to fire high-powered, explosive missles.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>539%</span> damage. First and second explosions deal <span class='info_blue'>658%</span> damage each. Can keep firing until ammo is depleted. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Modify your satellite to fire high-powered, explosive missles.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>539%</span> damage. First and second explosions deal <span class='info_blue'>658%</span> damage each. Can keep firing until ammo is depleted. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Modify your satellite to fire high-powered, explosive missles.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>539%</span> damage. First and second explosions deal <span class='info_blue'>658%</span> damage each. Can keep firing until ammo is depleted. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Modify your satellite to fire high-powered, explosive missles.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>539%</span> damage. First and second explosions deal <span class='info_blue'>658%</span> damage each. Can keep firing until ammo is depleted. Grants knockback immunity.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 236,
+			"title": "Plasma Chain",
+			"resource": "Spirit 5",
+			"element": "Electric",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Route power from your jet boots to rain superheated plasma on your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Repeatedly deals <span class='info_blue'>123%</span> damage to <span class='info_blue'>7</span> enemies within <span class='info_blue'>9</span> m.</span></p><br><p><span class='info_gray'>Triggers an explosion after damaging a target 5 times.</span></p><br><p><span class='info_gray'>Able to move while skill is active</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Explosion deals <span class='info_blue'>348%</span> electric damage.</span></p>",
+				"<p><span class='info_gray'>Route power from your jet boots to rain superheated plasma on your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Repeatedly deals <span class='info_blue'>123%</span> damage to <span class='info_blue'>7</span> enemies within <span class='info_blue'>9</span> m.</span></p><br><p><span class='info_gray'>Triggers an explosion after damaging a target 5 times.</span></p><br><p><span class='info_gray'>Able to move while skill is active</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Explosion deals <span class='info_blue'>348%</span> electric damage.</span></p>",
+				"<p><span class='info_gray'>Route power from your jet boots to rain superheated plasma on your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Repeatedly deals <span class='info_blue'>123%</span> damage to <span class='info_blue'>7</span> enemies within <span class='info_blue'>9</span> m.</span></p><br><p><span class='info_gray'>Triggers an explosion after damaging a target 5 times.</span></p><br><p><span class='info_gray'>Able to move while skill is active</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Explosion deals <span class='info_blue'>348%</span> electric damage.</span></p>",
+				"<p><span class='info_gray'>Route power from your jet boots to rain superheated plasma on your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Repeatedly deals <span class='info_blue'>123%</span> damage to <span class='info_blue'>7</span> enemies within <span class='info_blue'>9</span> m.</span></p><br><p><span class='info_gray'>Triggers an explosion after damaging a target 5 times.</span></p><br><p><span class='info_gray'>Able to move while skill is active</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Explosion deals <span class='info_blue'>348%</span> electric damage.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 237,
+			"title": "Sky Hunter",
+			"resource": "Cooldown: 60 Sec",
+			"element": "Electric",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Plasma Chain [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Remotely control a high-intensity laser fired from one of your heavy weapons satellites.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>565%</span> electric damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Grants a Deflector Shield that absorbs damage equal to <span class='info_blue'>30%</span> of your max health.</span></p>",
+				"<p><span class='info_gray'>Remotely control a high-intensity laser fired from one of your heavy weapons satellites.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>565%</span> electric damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Grants a Deflector Shield that absorbs damage equal to <span class='info_blue'>30%</span> of your max health.</span></p>",
+				"<p><span class='info_gray'>Remotely control a high-intensity laser fired from one of your heavy weapons satellites.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>565%</span> electric damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Grants a Deflector Shield that absorbs damage equal to <span class='info_blue'>30%</span> of your max health.</span></p>",
+				"<p><span class='info_gray'>Remotely control a high-intensity laser fired from one of your heavy weapons satellites.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>565%</span> electric damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Grants a Deflector Shield that absorbs damage equal to <span class='info_blue'>30%</span> of your max health.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 238,
+			"title": "Plasma Supercharger",
+			"resource": "",
+			"element": "Electric",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Sky Hunter [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Upgrade the plasma reactor in your cannon for increased firepower.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Plasma Chain, Sky Hunter, and Hyper Giga Launcher damage by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>Upgrade the plasma reactor in your cannon for increased firepower.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Plasma Chain, Sky Hunter, and Hyper Giga Launcher damage by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>Upgrade the plasma reactor in your cannon for increased firepower.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Plasma Chain, Sky Hunter, and Hyper Giga Launcher damage by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>Upgrade the plasma reactor in your cannon for increased firepower.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Plasma Chain, Sky Hunter, and Hyper Giga Launcher damage by <span class='info_blue'>2%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 239,
+			"title": "Hyper Giga Cannon",
+			"resource": "",
+			"element": "Electric",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Plasma Supercharger [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Cannon</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Patch your jet boot power into your cannon, firing a powerful laser while you fly around.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>190%</span> damage <span class='info_blue'>4</span> times. Can keep firing until battery is depleted.</span></p><br><p><span class='info_gray'>Able to move while skill is active.</span></p>",
+				"<p><span class='info_gray'>Patch your jet boot power into your cannon, firing a powerful laser while you fly around.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>190%</span> damage <span class='info_blue'>4</span> times. Can keep firing until battery is depleted.</span></p><br><p><span class='info_gray'>Able to move while skill is active.</span></p>",
+				"<p><span class='info_gray'>Patch your jet boot power into your cannon, firing a powerful laser while you fly around.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>190%</span> damage <span class='info_blue'>4</span> times. Can keep firing until battery is depleted.</span></p><br><p><span class='info_gray'>Able to move while skill is active.</span></p>",
+				"<p><span class='info_gray'>Patch your jet boot power into your cannon, firing a powerful laser while you fly around.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>190%</span> damage <span class='info_blue'>4</span> times. Can keep firing until battery is depleted.</span></p><br><p><span class='info_gray'>Able to move while skill is active.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 240,
+			"title": "Mobile Armory",
+			"resource": "Cooldown: 5 Sec",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Deploy a station that automatically refills your ammo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Restores <span class='info_blue'>20</span> spirit per sec.</span></p><br><p><span class='info_gray'>Permanently increases dexterity by <span class='info_blue'>40</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

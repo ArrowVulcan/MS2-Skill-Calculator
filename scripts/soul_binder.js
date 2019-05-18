@@ -529,3 +529,409 @@ var soul_binder_skills = [
 		}
 	]
 ];
+
+var soul_binder_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 268,
+			"title": "Spirit Bound",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>189%</span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'>414%</span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'>3</span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'>1</span> enemy in range.</span></p>",
+				"<p><span class='info_gray'>Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>189%</span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'>414%</span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'>3</span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'>1</span> enemy in range.</span></p>",
+				"<p><span class='info_gray'>Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>189%</span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'>414%</span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'>3</span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'>1</span> enemy in range.</span></p>",
+				"<p><span class='info_gray'>Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>189%</span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'>414%</span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'>3</span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'>1</span> enemy in range.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 269,
+			"title": "Spirit Crush",
+			"resource": "Spirit 20 / Cooldown: 5 sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 62+</span></p><p><span class='info_orange'>Spirit Bound [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1239%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.</span></p>",
+				"<p><span class='info_gray'>Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1239%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.</span></p>",
+				"<p><span class='info_gray'>Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1239%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.</span></p>",
+				"<p><span class='info_gray'>Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1239%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 270,
+			"title": "Vision Torrent",
+			"resource": "Cooldown: 60 sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 64+</span></p><p><span class='info_orange'>Spirit Crush [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'>8%</span> for <span class='info_blue'>20</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.</span></p>",
+				"<p><span class='info_gray'>Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'>8%</span> for <span class='info_blue'>20</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.</span></p>",
+				"<p><span class='info_gray'>Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'>8%</span> for <span class='info_blue'>20</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.</span></p>",
+				"<p><span class='info_gray'>Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'>8%</span> for <span class='info_blue'>20</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 271,
+			"title": "Awakened Mind",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 68+</span></p><p><span class='info_orange'>Spirit Crush [Level 3+]</span></p><p><span class='info_orange'>Vision Torrent [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'>12%</span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>20%</span> after using Vision Strike.</span></p>",
+				"<p><span class='info_gray'>Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'>12%</span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>20%</span> after using Vision Strike.</span></p>",
+				"<p><span class='info_gray'>Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'>12%</span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>20%</span> after using Vision Strike.</span></p>",
+				"<p><span class='info_gray'>Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'>12%</span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>20%</span> after using Vision Strike.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 272,
+			"title": "Soul Flock",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>205%</span> damage <span class='info_blue'>3</span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'>1.2%</span> and movement speed by <span class='info_blue'>1.2%</span> for <span class='info_blue'>20</span> sec, stacks up to <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.</span></p>",
+				"<p><span class='info_gray'>Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>205%</span> damage <span class='info_blue'>3</span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'>1.2%</span> and movement speed by <span class='info_blue'>1.2%</span> for <span class='info_blue'>20</span> sec, stacks up to <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.</span></p>",
+				"<p><span class='info_gray'>Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>205%</span> damage <span class='info_blue'>3</span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'>1.2%</span> and movement speed by <span class='info_blue'>1.2%</span> for <span class='info_blue'>20</span> sec, stacks up to <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.</span></p>",
+				"<p><span class='info_gray'>Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>205%</span> damage <span class='info_blue'>3</span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'>1.2%</span> and movement speed by <span class='info_blue'>1.2%</span> for <span class='info_blue'>20</span> sec, stacks up to <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 273,
+			"title": "Soul Shield",
+			"resource": "Spirit 50 / Cooldown: 30 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 62+</span></p><p><span class='info_orange'>Soul Flock [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>80%</span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'>20%</span> of their max health and lasts for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.</span></p>",
+				"<p><span class='info_gray'>Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>80%</span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'>20%</span> of their max health and lasts for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.</span></p>",
+				"<p><span class='info_gray'>Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>80%</span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'>20%</span> of their max health and lasts for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.</span></p>",
+				"<p><span class='info_gray'>Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>80%</span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'>20%</span> of their max health and lasts for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 274,
+			"title": "Soul Harmony",
+			"resource": "Spirit 10",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 66+</span></p><p><span class='info_orange'>Soul Shield [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'>4</span> nearby allies by <span class='info_blue'>145%</span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Dissonance.</span></p>",
+				"<p><span class='info_gray'>Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'>4</span> nearby allies by <span class='info_blue'>145%</span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Dissonance.</span></p>",
+				"<p><span class='info_gray'>Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'>4</span> nearby allies by <span class='info_blue'>145%</span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Dissonance.</span></p>",
+				"<p><span class='info_gray'>Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'>4</span> nearby allies by <span class='info_blue'>145%</span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Dissonance.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 275,
+			"title": "Triune Link",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 68+</span></p><p><span class='info_orange'>Soul Harmony [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'>3%</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'>5%</span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'>10</span> critical evasion and <span class='info_blue'>1</span> evasion.</span></p>",
+				"<p><span class='info_gray'>Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'>3%</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'>5%</span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'>10</span> critical evasion and <span class='info_blue'>1</span> evasion.</span></p>",
+				"<p><span class='info_gray'>Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'>3%</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'>5%</span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'>10</span> critical evasion and <span class='info_blue'>1</span> evasion.</span></p>",
+				"<p><span class='info_gray'>Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'>3%</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'>5%</span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'>10</span> critical evasion and <span class='info_blue'>1</span> evasion.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 276,
+			"title": "Awakened Mantra",
+			"resource": "Cooldown: 12 Sec",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Harness your animus to create a purer form of Mantra Core.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases intelligence by <span class='info_blue'>40</span>.</span></p><p><span class='info_gray'>Create up to <span class='info_blue'>2</span>.</span></p><p><span class='info_gray'>Grants Awakened Mantra Core, and restores <span class='info_blue'>50</span> spirit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Awakened Mantra Cores empower Expansion Blast, Spirit Crush, Soul Shield, and Soul Harmony.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

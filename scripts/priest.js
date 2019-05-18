@@ -542,3 +542,418 @@ var priest_skills = [
 		}
 	]
 ];
+
+var priest_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 214,
+			"title": "Scathing Light",
+			"element": "Holy",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>390%</span> damage <span class='info_blue'>2</span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'>4%</span> holy damage per second for <span class='info_blue'>8</span> sec.</span></p>",
+				"<p><span class='info_gray'>Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>390%</span> damage <span class='info_blue'>2</span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'>4%</span> holy damage per second for <span class='info_blue'>8</span> sec.</span></p>",
+				"<p><span class='info_gray'>Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>390%</span> damage <span class='info_blue'>2</span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'>4%</span> holy damage per second for <span class='info_blue'>8</span> sec.</span></p>",
+				"<p><span class='info_gray'>Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>390%</span> damage <span class='info_blue'>2</span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'>4%</span> holy damage per second for <span class='info_blue'>8</span> sec.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 215,
+			"title": "Light Spear",
+			"element": "Holy",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Scathing Light [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>151%</span> damage and summons a Light Spear to strike <span class='info_blue'>3</span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'>762%</span> damage to surrounding enemies.</span></p>",
+				"<p><span class='info_gray'>Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>151%</span> damage and summons a Light Spear to strike <span class='info_blue'>3</span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'>762%</span> damage to surrounding enemies.</span></p>",
+				"<p><span class='info_gray'>Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>151%</span> damage and summons a Light Spear to strike <span class='info_blue'>3</span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'>762%</span> damage to surrounding enemies.</span></p>",
+				"<p><span class='info_gray'>Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>151%</span> damage and summons a Light Spear to strike <span class='info_blue'>3</span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'>762%</span> damage to surrounding enemies.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 216,
+			"title": "Clarity",
+			"element": "Holy",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Scathing Light [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'>4%</span>, accuracy by <span class='info_blue'>3</span> and critical rate by <span class='info_blue'>21</span>.</span></p>",
+				"<p><span class='info_gray'>Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'>4%</span>, accuracy by <span class='info_blue'>3</span> and critical rate by <span class='info_blue'>21</span>.</span></p>",
+				"<p><span class='info_gray'>Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'>4%</span>, accuracy by <span class='info_blue'>3</span> and critical rate by <span class='info_blue'>21</span>.</span></p>",
+				"<p><span class='info_gray'>Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'>4%</span>, accuracy by <span class='info_blue'>3</span> and critical rate by <span class='info_blue'>21</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 217,
+			"title": "Heaven's Wrath",
+			"element": "Holy",
+			"resource": "Cooldown: 60 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Light Spear [Level 3+]</span></p><p><span class='info_orange'>Clarity [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'>3</span> explosions, dealing <span class='info_blue'>660%</span>, <span class='info_blue'>1233%</span>, and <span class='info_blue'>1984%</span> damage. The circle persists for <span class='info_blue'>20</span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'>20%</span>, health by <span class='info_blue'>10%</span>, and movement speed by <span class='info_blue'>16%</span>. Light Spear becomes Light Sword while you are within the circle.</span></p>",
+				"<p><span class='info_gray'>Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'>3</span> explosions, dealing <span class='info_blue'>660%</span>, <span class='info_blue'>1233%</span>, and <span class='info_blue'>1984%</span> damage. The circle persists for <span class='info_blue'>20</span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'>20%</span>, health by <span class='info_blue'>10%</span>, and movement speed by <span class='info_blue'>16%</span>. Light Spear becomes Light Sword while you are within the circle.</span></p>",
+				"<p><span class='info_gray'>Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'>3</span> explosions, dealing <span class='info_blue'>660%</span>, <span class='info_blue'>1233%</span>, and <span class='info_blue'>1984%</span> damage. The circle persists for <span class='info_blue'>20</span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'>20%</span>, health by <span class='info_blue'>10%</span>, and movement speed by <span class='info_blue'>16%</span>. Light Spear becomes Light Sword while you are within the circle.</span></p>",
+				"<p><span class='info_gray'>Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'>3</span> explosions, dealing <span class='info_blue'>660%</span>, <span class='info_blue'>1233%</span>, and <span class='info_blue'>1984%</span> damage. The circle persists for <span class='info_blue'>20</span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'>20%</span>, health by <span class='info_blue'>10%</span>, and movement speed by <span class='info_blue'>16%</span>. Light Spear becomes Light Sword while you are within the circle.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 218,
+			"title": "Purifying Light",
+			"element": "Holy",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>131%</span> damage and inflicts defense reduction on <span class='info_blue'>3</span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'>1.5%</span> for <span class='info_blue'>8</span> sec. This activates the Steadfast Faith spirit effect.</span></p>",
+				"<p><span class='info_gray'>Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>131%</span> damage and inflicts defense reduction on <span class='info_blue'>3</span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'>1.5%</span> for <span class='info_blue'>8</span> sec. This activates the Steadfast Faith spirit effect.</span></p>",
+				"<p><span class='info_gray'>Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>131%</span> damage and inflicts defense reduction on <span class='info_blue'>3</span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'>1.5%</span> for <span class='info_blue'>8</span> sec. This activates the Steadfast Faith spirit effect.</span></p>",
+				"<p><span class='info_gray'>Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>131%</span> damage and inflicts defense reduction on <span class='info_blue'>3</span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'>1.5%</span> for <span class='info_blue'>8</span> sec. This activates the Steadfast Faith spirit effect.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 219,
+			"title": "Divine Wave",
+			"element": "Holy",
+			"resource": "Spirit 17",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Purifying Light [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>405%</span> damage to <span class='info_blue'>5</span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'>12%</span> chance to deal an additional <span class='info_blue'>161%</span> damage and heal the ally with the lowest health by <span class='info_blue'>120%</span> of your magic attack.</span></p>",
+				"<p><span class='info_gray'>Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>405%</span> damage to <span class='info_blue'>5</span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'>12%</span> chance to deal an additional <span class='info_blue'>161%</span> damage and heal the ally with the lowest health by <span class='info_blue'>120%</span> of your magic attack.</span></p>",
+				"<p><span class='info_gray'>Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>405%</span> damage to <span class='info_blue'>5</span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'>12%</span> chance to deal an additional <span class='info_blue'>161%</span> damage and heal the ally with the lowest health by <span class='info_blue'>120%</span> of your magic attack.</span></p>",
+				"<p><span class='info_gray'>Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>405%</span> damage to <span class='info_blue'>5</span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'>12%</span> chance to deal an additional <span class='info_blue'>161%</span> damage and heal the ally with the lowest health by <span class='info_blue'>120%</span> of your magic attack.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 220,
+			"title": "Greater Healing",
+			"element": "Holy",
+			"resource": "Spirit 15 / Cooldown: 30 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Divine Wave [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'>10</span> allies every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>6</span> sec by <span class='info_blue'>56%</span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'>2</span> allies with the lowest health by <span class='info_blue'>240%</span> of your magic attack. Increases your damage by <span class='info_blue'>9%</span> for <span class='info_blue'>5</span> sec.</span></p>",
+				"<p><span class='info_gray'>Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'>10</span> allies every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>6</span> sec by <span class='info_blue'>56%</span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'>2</span> allies with the lowest health by <span class='info_blue'>240%</span> of your magic attack. Increases your damage by <span class='info_blue'>9%</span> for <span class='info_blue'>5</span> sec.</span></p>",
+				"<p><span class='info_gray'>Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'>10</span> allies every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>6</span> sec by <span class='info_blue'>56%</span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'>2</span> allies with the lowest health by <span class='info_blue'>240%</span> of your magic attack. Increases your damage by <span class='info_blue'>9%</span> for <span class='info_blue'>5</span> sec.</span></p>",
+				"<p><span class='info_gray'>Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'>10</span> allies every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>6</span> sec by <span class='info_blue'>56%</span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'>2</span> allies with the lowest health by <span class='info_blue'>240%</span> of your magic attack. Increases your damage by <span class='info_blue'>9%</span> for <span class='info_blue'>5</span> sec.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 221,
+			"title": "Vitality",
+			"element": "Holy",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Greater Healing [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'>7%</span> for <span class='info_blue'>30</span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'>3%</span>. This physical and magic attack increase doesn't stack with Celestial Blessings.</span></p>",
+				"<p><span class='info_gray'>Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'>7%</span> for <span class='info_blue'>30</span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'>3%</span>. This physical and magic attack increase doesn't stack with Celestial Blessings.</span></p>",
+				"<p><span class='info_gray'>Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'>7%</span> for <span class='info_blue'>30</span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'>3%</span>. This physical and magic attack increase doesn't stack with Celestial Blessings.</span></p>",
+				"<p><span class='info_gray'>Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'>7%</span> for <span class='info_blue'>30</span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'>3%</span>. This physical and magic attack increase doesn't stack with Celestial Blessings.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 222,
+			"title": "Life's Guardian",
+			"element": "Holy",
+			"resource": "Cooldown: 45 Sec",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Call upon the sacred power at the heart of the world, permanently increasing intelligence by <span class='info_blue'>40</span>.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases recovery by <span class='info_blue'>20%</span> and movement speed by <span class='info_blue'>20%</span> for <span class='info_blue'>12</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Healing Prayer prioritizes the ally with the lowest health.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

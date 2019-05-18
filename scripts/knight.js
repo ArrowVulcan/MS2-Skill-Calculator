@@ -531,3 +531,413 @@ var knight_skills = [
 		}
 	]
 ];
+
+var knight_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 187,
+			"title": "Conviction Strike",
+			"resource": "Spirit 20",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>989%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>989%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>989%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>989%</span> damage. Grants knockback immunity.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 188,
+			"title": "Divine Retribution",
+			"element": "Holy",
+			"resource": "Spirit 40 / Cooldown 30 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 1,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Conviction Strike [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'>15%</span>, but decreases defense by <span class='info_blue'>30%.</span> Disables all shield skills except for Shield Charge.</span></p>",
+				"<p><span class='info_gray'>Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'>15%</span>, but decreases defense by <span class='info_blue'>30%.</span> Disables all shield skills except for Shield Charge.</span></p>",
+				"<p><span class='info_gray'>Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'>15%</span>, but decreases defense by <span class='info_blue'>30%.</span> Disables all shield skills except for Shield Charge.</span></p>",
+				"<p><span class='info_gray'>Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'>15%</span>, but decreases defense by <span class='info_blue'>30%.</span> Disables all shield skills except for Shield Charge.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 189,
+			"title": "Sword Discipline",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 1,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Divine Retribution [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'>9%.</span></span></p>",
+				"<p><span class='info_gray'>You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'>9%.</span></span></p>",
+				"<p><span class='info_gray'>You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'>9%.</span></span></p>",
+				"<p><span class='info_gray'>You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'>9%.</span></span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 190,
+			"title": "Light Bringer",
+			"element": "Holy",
+			"resource": "Cooldown: 30 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 1,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Divine Retribution [Level 3+]</span></p><p><span class='info_orange'>Sword Discipline [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1912%.</span> damage per hit. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1912%.</span> damage per hit. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1912%.</span> damage per hit. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1912%.</span> damage per hit. Grants knockback immunity.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 191,
+			"title": "Guardian's Wings",
+			"element": "Holy",
+			"resource": "Spirit 8",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>227%.</span> damage. Reduces incoming damage by <span class='info_blue'>30%.</span> Increases perfect guard by <span class='info_blue'>9%.</span> Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'>505%</span> damage and pierces targets <span class='info_blue'>8</span> times.</span></p>",
+				"<p><span class='info_gray'>Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>227%.</span> damage. Reduces incoming damage by <span class='info_blue'>30%.</span> Increases perfect guard by <span class='info_blue'>9%.</span> Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'>505%</span> damage and pierces targets <span class='info_blue'>8</span> times.</span></p>",
+				"<p><span class='info_gray'>Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>227%.</span> damage. Reduces incoming damage by <span class='info_blue'>30%.</span> Increases perfect guard by <span class='info_blue'>9%.</span> Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'>505%</span> damage and pierces targets <span class='info_blue'>8</span> times.</span></p>",
+				"<p><span class='info_gray'>Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>227%.</span> damage. Reduces incoming damage by <span class='info_blue'>30%.</span> Increases perfect guard by <span class='info_blue'>9%.</span> Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'>505%</span> damage and pierces targets <span class='info_blue'>8</span> times.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 192,
+			"title": "Cyclone Shield",
+			"resource": "Spirit 20 / Cooldown: 8 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Guardian's Wings [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>222%.</span> damage every <span class='info_blue'>0.2</span> sec. Decreases enemy defense by <span class='info_blue'>2%.</span> This does not stack with Shield Toss.</span></p>",
+				"<p><span class='info_gray'>Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>222%.</span> damage every <span class='info_blue'>0.2</span> sec. Decreases enemy defense by <span class='info_blue'>2%.</span> This does not stack with Shield Toss.</span></p>",
+				"<p><span class='info_gray'>Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>222%.</span> damage every <span class='info_blue'>0.2</span> sec. Decreases enemy defense by <span class='info_blue'>2%.</span> This does not stack with Shield Toss.</span></p>",
+				"<p><span class='info_gray'>Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>222%.</span> damage every <span class='info_blue'>0.2</span> sec. Decreases enemy defense by <span class='info_blue'>2%.</span> This does not stack with Shield Toss.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 193,
+			"title": "Shield Training",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Cyclone Shield [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'>3%.</span></span></p>",
+				"<p><span class='info_gray'>You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'>3%.</span></span></p>",
+				"<p><span class='info_gray'>You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'>3%.</span></span></p>",
+				"<p><span class='info_gray'>You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'>3%.</span></span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 194,
+			"title": "Heaven's Judgment",
+			"element": "Holy",
+			"resource": "Spirit 40 / Cooldown: 8 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 1,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Shield Training [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1125%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1125%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1125%</span> damage. Grants knockback immunity.</span></p>",
+				"<p><span class='info_gray'>Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1125%</span> damage. Grants knockback immunity.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 195,
+			"title": "Dual Tactics",
+			"resource": "",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 1,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Change up your tactics based on your current health.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>When max health is at least <span class='info_blue'>70%</span>, activates Offensive Tactics.</span></p><br><p><span class='info_gray'>When max health is <span class='info_blue'>30%</span> or less, activates Defensive Tactics.</span></p><br><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'>40.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Offensive Tactics increases all damage by <span class='info_blue'>10%.</span></span></p><p><span class='info_gray'>Defensive Tactics increases physical and magic defense by <span class='info_blue'>150.</span></span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

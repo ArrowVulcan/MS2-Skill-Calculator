@@ -534,3 +534,417 @@ var wizard_skills = [
 		}
 	]
 ];
+
+var wizard_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 205,
+			"title": "Dual Cast",
+			"element": "Electric",
+			"resource": "Spirit 15",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Staff</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Cast spells of electricity and ice at the same time.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Cast Handy Lightning and Ice Shot at the same time.</span></p><br><p><span class='info_gray'>Handy Lightning deals <span class='info_blue'>90%</span> damage and places a status effect on the target. At <span class='info_blue'>5</span> stacks, the Handy Lightning effect detonates, dealing an additional <span class='info_blue'>315%</span> damage.</span></p><br><p><span class='info_gray'>Ice Shot Deals <span class='info_blue'>100%</span> damage.</span></p><br><p><span class='info_gray'>Permanently enhances Ice Spear.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Ice Spear costs no spiritand inflicts Frost. Enemies suffering from Frost take an additional <span class='info_blue'>49%</span> damage from Handy Lightning.</span></p>",
+				"<p><span class='info_gray'>Cast spells of electricity and ice at the same time.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Cast Handy Lightning and Ice Shot at the same time.</span></p><br><p><span class='info_gray'>Handy Lightning deals <span class='info_blue'>90%</span> damage and places a status effect on the target. At <span class='info_blue'>5</span> stacks, the Handy Lightning effect detonates, dealing an additional <span class='info_blue'>315%</span> damage.</span></p><br><p><span class='info_gray'>Ice Shot Deals <span class='info_blue'>100%</span> damage.</span></p><br><p><span class='info_gray'>Permanently enhances Ice Spear.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Ice Spear costs no spiritand inflicts Frost. Enemies suffering from Frost take an additional <span class='info_blue'>49%</span> damage from Handy Lightning.</span></p>",
+				"<p><span class='info_gray'>Cast spells of electricity and ice at the same time.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Cast Handy Lightning and Ice Shot at the same time.</span></p><br><p><span class='info_gray'>Handy Lightning deals <span class='info_blue'>90%</span> damage and places a status effect on the target. At <span class='info_blue'>5</span> stacks, the Handy Lightning effect detonates, dealing an additional <span class='info_blue'>315%</span> damage.</span></p><br><p><span class='info_gray'>Ice Shot Deals <span class='info_blue'>100%</span> damage.</span></p><br><p><span class='info_gray'>Permanently enhances Ice Spear.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Ice Spear costs no spiritand inflicts Frost. Enemies suffering from Frost take an additional <span class='info_blue'>49%</span> damage from Handy Lightning.</span></p>",
+				"<p><span class='info_gray'>Cast spells of electricity and ice at the same time.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Cast Handy Lightning and Ice Shot at the same time.</span></p><br><p><span class='info_gray'>Handy Lightning deals <span class='info_blue'>90%</span> damage and places a status effect on the target. At <span class='info_blue'>5</span> stacks, the Handy Lightning effect detonates, dealing an additional <span class='info_blue'>315%</span> damage.</span></p><br><p><span class='info_gray'>Ice Shot Deals <span class='info_blue'>100%</span> damage.</span></p><br><p><span class='info_gray'>Permanently enhances Ice Spear.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Ice Spear costs no spiritand inflicts Frost. Enemies suffering from Frost take an additional <span class='info_blue'>49%</span> damage from Handy Lightning.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 206,
+			"title": "Ice Cream Time",
+			"element": "Ice",
+			"resource": "Spirit 40 / Cooldown: 20 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Dual Cast [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Staff</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Make ice cream with ice magic to give your foes some serious brain freeze.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>418%</span> damage. Inflicts a stack of Chill every second. Hit affected enemies with Thunderbolt to trigger Electric Ice Cream. Deals <span class='info_blue'>500%</span> damage when the skill is used again or the duration ends.</span></p><br><p><span class='info_gray'>Permanently enhances Ice Storm</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Chill decreases movement speed by <span class='info_blue'>15%</span> per stack. Targets are unable to act at <span class='info_blue'>6</span> stacks. Electric Ice Cream deals <span class='info_blue'>150%</span> damage per sec for <span class='info_blue'>10</span> sec.</span></p><p><span class='info_gray'>Increases Ice Storm damage by <span class='info_blue'>49%.</span></span></p>",
+				"<p><span class='info_gray'>Make ice cream with ice magic to give your foes some serious brain freeze.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>418%</span> damage. Inflicts a stack of Chill every second. Hit affected enemies with Thunderbolt to trigger Electric Ice Cream. Deals <span class='info_blue'>500%</span> damage when the skill is used again or the duration ends.</span></p><br><p><span class='info_gray'>Permanently enhances Ice Storm</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Chill decreases movement speed by <span class='info_blue'>15%</span> per stack. Targets are unable to act at <span class='info_blue'>6</span> stacks. Electric Ice Cream deals <span class='info_blue'>150%</span> damage per sec for <span class='info_blue'>10</span> sec.</span></p><p><span class='info_gray'>Increases Ice Storm damage by <span class='info_blue'>49%.</span></span></p>",
+				"<p><span class='info_gray'>Make ice cream with ice magic to give your foes some serious brain freeze.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>418%</span> damage. Inflicts a stack of Chill every second. Hit affected enemies with Thunderbolt to trigger Electric Ice Cream. Deals <span class='info_blue'>500%</span> damage when the skill is used again or the duration ends.</span></p><br><p><span class='info_gray'>Permanently enhances Ice Storm</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Chill decreases movement speed by <span class='info_blue'>15%</span> per stack. Targets are unable to act at <span class='info_blue'>6</span> stacks. Electric Ice Cream deals <span class='info_blue'>150%</span> damage per sec for <span class='info_blue'>10</span> sec.</span></p><p><span class='info_gray'>Increases Ice Storm damage by <span class='info_blue'>49%.</span></span></p>",
+				"<p><span class='info_gray'>Make ice cream with ice magic to give your foes some serious brain freeze.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>418%</span> damage. Inflicts a stack of Chill every second. Hit affected enemies with Thunderbolt to trigger Electric Ice Cream. Deals <span class='info_blue'>500%</span> damage when the skill is used again or the duration ends.</span></p><br><p><span class='info_gray'>Permanently enhances Ice Storm</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Chill decreases movement speed by <span class='info_blue'>15%</span> per stack. Targets are unable to act at <span class='info_blue'>6</span> stacks. Electric Ice Cream deals <span class='info_blue'>150%</span> damage per sec for <span class='info_blue'>10</span> sec.</span></p><p><span class='info_gray'>Increases Ice Storm damage by <span class='info_blue'>49%.</span></span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 207,
+			"title": "Lodestone Field",
+			"element": "Electric",
+			"resource": "Cooldown: 30 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Ice Cream Time [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Fill the air with magnetic charge to augment your attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Grants a stack of Lightning Charge.</span></p><br><p><span class='info_gray'>If you already have Lightning Charge, consume all stacks and cast Call Lightning instead, dealing <span class='info_blue'>320%</span> damage, plus an additional <span class='info_blue'>44%</span> damage per stacks.</span></p><br><p><span class='info_gray'>Permanently enhances Thunderbolt.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>When Lightning Charge stacks, inflicts <span class='info_blue'>92%</span> damage to nearby enemies and increases evasion by <span class='info_blue'>10%</span> per stacks. Gain stacks by casting Handy Lightning or Electric Ice Cream, or by getting hit.</span></p><p><span class='info_gray'>Increases Thunderbolt damage by <span class='info_blue'>45%.</span></span></p>",
+				"<p><span class='info_gray'>Fill the air with magnetic charge to augment your attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Grants a stack of Lightning Charge.</span></p><br><p><span class='info_gray'>If you already have Lightning Charge, consume all stacks and cast Call Lightning instead, dealing <span class='info_blue'>320%</span> damage, plus an additional <span class='info_blue'>44%</span> damage per stacks.</span></p><br><p><span class='info_gray'>Permanently enhances Thunderbolt.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>When Lightning Charge stacks, inflicts <span class='info_blue'>92%</span> damage to nearby enemies and increases evasion by <span class='info_blue'>10%</span> per stacks. Gain stacks by casting Handy Lightning or Electric Ice Cream, or by getting hit.</span></p><p><span class='info_gray'>Increases Thunderbolt damage by <span class='info_blue'>45%.</span></span></p>",
+				"<p><span class='info_gray'>Fill the air with magnetic charge to augment your attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Grants a stack of Lightning Charge.</span></p><br><p><span class='info_gray'>If you already have Lightning Charge, consume all stacks and cast Call Lightning instead, dealing <span class='info_blue'>320%</span> damage, plus an additional <span class='info_blue'>44%</span> damage per stacks.</span></p><br><p><span class='info_gray'>Permanently enhances Thunderbolt.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>When Lightning Charge stacks, inflicts <span class='info_blue'>92%</span> damage to nearby enemies and increases evasion by <span class='info_blue'>10%</span> per stacks. Gain stacks by casting Handy Lightning or Electric Ice Cream, or by getting hit.</span></p><p><span class='info_gray'>Increases Thunderbolt damage by <span class='info_blue'>45%.</span></span></p>",
+				"<p><span class='info_gray'>Fill the air with magnetic charge to augment your attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Grants a stack of Lightning Charge.</span></p><br><p><span class='info_gray'>If you already have Lightning Charge, consume all stacks and cast Call Lightning instead, dealing <span class='info_blue'>320%</span> damage, plus an additional <span class='info_blue'>44%</span> damage per stacks.</span></p><br><p><span class='info_gray'>Permanently enhances Thunderbolt.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>When Lightning Charge stacks, inflicts <span class='info_blue'>92%</span> damage to nearby enemies and increases evasion by <span class='info_blue'>10%</span> per stacks. Gain stacks by casting Handy Lightning or Electric Ice Cream, or by getting hit.</span></p><p><span class='info_gray'>Increases Thunderbolt damage by <span class='info_blue'>45%.</span></span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 208,
+			"title": "Perfect Storm",
+			"element": "Electric",
+			"resource": "Spirit 5 / Cooldown: 40 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Ice Cream Time [Level 3+]</span></p><p><span class='info_orange'>Lodestone Field [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Staff</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Attack with a perfect blend of ice and electricity.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Summon a bolt of ice and a bolt of electrictiy, each dealing <span class='info_blue'>229%</span> damage. Hold down the skill key to unleash a fused attack that deals <span class='info_blue'>731%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'> After casting Perfect Storm, temporarily increase electric and ice attack by <span class='info_blue'>24%</span> and reset the cooldowns for Thunderbolt and Ice Storm.</span></p>",
+				"<p><span class='info_gray'>Attack with a perfect blend of ice and electricity.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Summon a bolt of ice and a bolt of electrictiy, each dealing <span class='info_blue'>229%</span> damage. Hold down the skill key to unleash a fused attack that deals <span class='info_blue'>731%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'> After casting Perfect Storm, temporarily increase electric and ice attack by <span class='info_blue'>24%</span> and reset the cooldowns for Thunderbolt and Ice Storm.</span></p>",
+				"<p><span class='info_gray'>Attack with a perfect blend of ice and electricity.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Summon a bolt of ice and a bolt of electrictiy, each dealing <span class='info_blue'>229%</span> damage. Hold down the skill key to unleash a fused attack that deals <span class='info_blue'>731%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'> After casting Perfect Storm, temporarily increase electric and ice attack by <span class='info_blue'>24%</span> and reset the cooldowns for Thunderbolt and Ice Storm.</span></p>",
+				"<p><span class='info_gray'>Attack with a perfect blend of ice and electricity.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Summon a bolt of ice and a bolt of electrictiy, each dealing <span class='info_blue'>229%</span> damage. Hold down the skill key to unleash a fused attack that deals <span class='info_blue'>731%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'> After casting Perfect Storm, temporarily increase electric and ice attack by <span class='info_blue'>24%</span> and reset the cooldowns for Thunderbolt and Ice Storm.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 209,
+			"title": "Ember",
+			"element": "Fire",
+			"resource": "Spirit 20",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Staff</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Launch a small fireball to start a big fire.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>246%</span> damage and inflicts Ember. Prioritizes enemies already suffering from Ember or Kindling.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Ember deals <span class='info_blue'>31%</span> damage per sec. When a new stack is added, deals <span class='info_blue'>298%</span> area damage and inflicts Spreading Embers and Kindling.</span></p><p><span class='info_gray'>Kindling deals <span class='info_blue'>37%</span> damage per sec. When Ember is inflicted, deals <span class='info_blue'>371%</span> area damage and inflicts Spreading Embers.</span></p><p><span class='info_gray'>Spreading Embers deals an additional <span class='info_blue'>37%</span> damage when hit by Flame Wave.</span></p>",
+				"<p><span class='info_gray'>Launch a small fireball to start a big fire.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>246%</span> damage and inflicts Ember. Prioritizes enemies already suffering from Ember or Kindling.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Ember deals <span class='info_blue'>31%</span> damage per sec. When a new stack is added, deals <span class='info_blue'>298%</span> area damage and inflicts Spreading Embers and Kindling.</span></p><p><span class='info_gray'>Kindling deals <span class='info_blue'>37%</span> damage per sec. When Ember is inflicted, deals <span class='info_blue'>371%</span> area damage and inflicts Spreading Embers.</span></p><p><span class='info_gray'>Spreading Embers deals an additional <span class='info_blue'>37%</span> damage when hit by Flame Wave.</span></p>",
+				"<p><span class='info_gray'>Launch a small fireball to start a big fire.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>246%</span> damage and inflicts Ember. Prioritizes enemies already suffering from Ember or Kindling.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Ember deals <span class='info_blue'>31%</span> damage per sec. When a new stack is added, deals <span class='info_blue'>298%</span> area damage and inflicts Spreading Embers and Kindling.</span></p><p><span class='info_gray'>Kindling deals <span class='info_blue'>37%</span> damage per sec. When Ember is inflicted, deals <span class='info_blue'>371%</span> area damage and inflicts Spreading Embers.</span></p><p><span class='info_gray'>Spreading Embers deals an additional <span class='info_blue'>37%</span> damage when hit by Flame Wave.</span></p>",
+				"<p><span class='info_gray'>Launch a small fireball to start a big fire.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>246%</span> damage and inflicts Ember. Prioritizes enemies already suffering from Ember or Kindling.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Ember deals <span class='info_blue'>31%</span> damage per sec. When a new stack is added, deals <span class='info_blue'>298%</span> area damage and inflicts Spreading Embers and Kindling.</span></p><p><span class='info_gray'>Kindling deals <span class='info_blue'>37%</span> damage per sec. When Ember is inflicted, deals <span class='info_blue'>371%</span> area damage and inflicts Spreading Embers.</span></p><p><span class='info_gray'>Spreading Embers deals an additional <span class='info_blue'>37%</span> damage when hit by Flame Wave.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 210,
+			"title": "Barbecue Party",
+			"element": "Fire",
+			"resource": "Spirit 40 / Cooldown: 8 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Ember [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Staff</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Grill your enemies with magical flames.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>552%</span> damage <span class='info_blue'>3</span> times and inflicts Deep Fried.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Deep Fried deals <span class='info_blue'>59%</span> damage per sec and deals <span class='info_blue'>548%</span> area damage when Arcane Blast hits.</span></p>",
+				"<p><span class='info_gray'>Grill your enemies with magical flames.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>552%</span> damage <span class='info_blue'>3</span> times and inflicts Deep Fried.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Deep Fried deals <span class='info_blue'>59%</span> damage per sec and deals <span class='info_blue'>548%</span> area damage when Arcane Blast hits.</span></p>",
+				"<p><span class='info_gray'>Grill your enemies with magical flames.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>552%</span> damage <span class='info_blue'>3</span> times and inflicts Deep Fried.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Deep Fried deals <span class='info_blue'>59%</span> damage per sec and deals <span class='info_blue'>548%</span> area damage when Arcane Blast hits.</span></p>",
+				"<p><span class='info_gray'>Grill your enemies with magical flames.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>552%</span> damage <span class='info_blue'>3</span> times and inflicts Deep Fried.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Deep Fried deals <span class='info_blue'>59%</span> damage per sec and deals <span class='info_blue'>548%</span> area damage when Arcane Blast hits.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 211,
+			"title": "Playing with Fire",
+			"element": "Fire",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Barbecue Party [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Staff</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>You've befriended a mischievous fire spirit.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently grants Dancing Flames. Casting Flame Tornado temporarily grants Flame Imp.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Dancing Flames removes the spirit cost of Flame Wave and increases Flame Tornado damage by <span class='info_blue'>137%</span>.</span></p><br><p><span class='info_gray'>Flame Imp lasts for <span class='info_blue'>11</span> sec, guaranteeing a critical when Ember hits and granting a <span class='info_blue'>27%</span> chance to trigger Party Time on critical hit.</span></p><p><span class='info_gray'>Party Time resets Barbecue Party's cooldown and allows it to be cast instantly.</span></p>",
+				"<p><span class='info_gray'>You've befriended a mischievous fire spirit.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently grants Dancing Flames. Casting Flame Tornado temporarily grants Flame Imp.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Dancing Flames removes the spirit cost of Flame Wave and increases Flame Tornado damage by <span class='info_blue'>137%</span>.</span></p><br><p><span class='info_gray'>Flame Imp lasts for <span class='info_blue'>11</span> sec, guaranteeing a critical when Ember hits and granting a <span class='info_blue'>27%</span> chance to trigger Party Time on critical hit.</span></p><p><span class='info_gray'>Party Time resets Barbecue Party's cooldown and allows it to be cast instantly.</span></p>",
+				"<p><span class='info_gray'>You've befriended a mischievous fire spirit.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently grants Dancing Flames. Casting Flame Tornado temporarily grants Flame Imp.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Dancing Flames removes the spirit cost of Flame Wave and increases Flame Tornado damage by <span class='info_blue'>137%</span>.</span></p><br><p><span class='info_gray'>Flame Imp lasts for <span class='info_blue'>11</span> sec, guaranteeing a critical when Ember hits and granting a <span class='info_blue'>27%</span> chance to trigger Party Time on critical hit.</span></p><p><span class='info_gray'>Party Time resets Barbecue Party's cooldown and allows it to be cast instantly.</span></p>",
+				"<p><span class='info_gray'>You've befriended a mischievous fire spirit.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently grants Dancing Flames. Casting Flame Tornado temporarily grants Flame Imp.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Dancing Flames removes the spirit cost of Flame Wave and increases Flame Tornado damage by <span class='info_blue'>137%</span>.</span></p><br><p><span class='info_gray'>Flame Imp lasts for <span class='info_blue'>11</span> sec, guaranteeing a critical when Ember hits and granting a <span class='info_blue'>27%</span> chance to trigger Party Time on critical hit.</span></p><p><span class='info_gray'>Party Time resets Barbecue Party's cooldown and allows it to be cast instantly.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 212,
+			"title": "Little Meteor",
+			"element": "Fire",
+			"resource": "Spirit 60 / Cooldown: 30 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Playing with Fire [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Staff</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Summon a meteor to strike enemies. Sometimes summons something else by mistake.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>2000%</span> damage and grants Enlightenment. Deals an additional <span class='info_blue'>199%</span> damage to targets hit with Flame Tornado.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enlightenment causes Ember to strike twice, dealing <span class='info_blue'>340%</span> damage and then <span class='info_blue'>350%</span> damage at no spirit cost.</span></p>",
+				"<p><span class='info_gray'>Summon a meteor to strike enemies. Sometimes summons something else by mistake.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>2000%</span> damage and grants Enlightenment. Deals an additional <span class='info_blue'>199%</span> damage to targets hit with Flame Tornado.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enlightenment causes Ember to strike twice, dealing <span class='info_blue'>340%</span> damage and then <span class='info_blue'>350%</span> damage at no spirit cost.</span></p>",
+				"<p><span class='info_gray'>Summon a meteor to strike enemies. Sometimes summons something else by mistake.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>2000%</span> damage and grants Enlightenment. Deals an additional <span class='info_blue'>199%</span> damage to targets hit with Flame Tornado.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enlightenment causes Ember to strike twice, dealing <span class='info_blue'>340%</span> damage and then <span class='info_blue'>350%</span> damage at no spirit cost.</span></p>",
+				"<p><span class='info_gray'>Summon a meteor to strike enemies. Sometimes summons something else by mistake.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>2000%</span> damage and grants Enlightenment. Deals an additional <span class='info_blue'>199%</span> damage to targets hit with Flame Tornado.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enlightenment causes Ember to strike twice, dealing <span class='info_blue'>340%</span> damage and then <span class='info_blue'>350%</span> damage at no spirit cost.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 213,
+			"title": "Mana Control",
+			"resource": "Spirit 10 / Cooldown: 60 Sec",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 1,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Staff</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Bend mana to your will.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently increase Intelligence by <span class='info_blue'>40.</span> Using a skill grants Mana Control, which increases movement speed by <span class='info_blue'>35%</span>, increases magic attack by <span class='info_blue'>20%</span> when spirit is <span class='info_blue'>50%</span> or higher, restores spirit by <span class='info_blue'>50%</span>, and decreases spirit cost by half when spirit is less than <span class='info_blue'>50%.</span></span></p></span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

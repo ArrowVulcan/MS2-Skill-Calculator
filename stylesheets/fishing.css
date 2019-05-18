@@ -8,6 +8,16 @@ body{
     background-color: #fff;
 }
 
+#new_bg{
+	background-image: url("../images/striker.jpg");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center 50%;	
+}
+
 #fishing{
 	position: relative;
     top: 90px;

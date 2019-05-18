@@ -534,3 +534,413 @@ var striker_skills = [
 		}
 	]
 ];
+
+var striker_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 277,
+			"title": "Shockwave Punch",
+			"element": "Fire",
+			"resource": "Cooldown: 3 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Knuckles</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Muster up a surge of fiery energy and unleash it on your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>457%</span> damage to the area in front of you.</span></p><br><p><span class='info_gray'>Grants Punching Stance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Punching Stance enhances all punching skills.</span></p><p><span class='info_gray'>Permanently upgrades Magnum Blow to Mega Blow, increasing damage by <span class='info_blue'>12%</span>.</span></p>",
+				"<p><span class='info_gray'>Muster up a surge of fiery energy and unleash it on your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>457%</span> damage to the area in front of you.</span></p><br><p><span class='info_gray'>Grants Punching Stance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Punching Stance enhances all punching skills.</span></p><p><span class='info_gray'>Permanently upgrades Magnum Blow to Mega Blow, increasing damage by <span class='info_blue'>12%</span>.</span></p>",
+				"<p><span class='info_gray'>Muster up a surge of fiery energy and unleash it on your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>457%</span> damage to the area in front of you.</span></p><br><p><span class='info_gray'>Grants Punching Stance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Punching Stance enhances all punching skills.</span></p><p><span class='info_gray'>Permanently upgrades Magnum Blow to Mega Blow, increasing damage by <span class='info_blue'>12%</span>.</span></p>",
+				"<p><span class='info_gray'>Muster up a surge of fiery energy and unleash it on your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>457%</span> damage to the area in front of you.</span></p><br><p><span class='info_gray'>Grants Punching Stance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Punching Stance enhances all punching skills.</span></p><p><span class='info_gray'>Permanently upgrades Magnum Blow to Mega Blow, increasing damage by <span class='info_blue'>12%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 278,
+			"title": "Vulcan Punch",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 62+</span></p><p><span class='info_orange'>Shockwave Punch [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Batter enemies with a rapid barrage of jabs.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>91%</span> damage to enemies infront of you <span class='info_blue'>12</span> times. Grants knockback immunity.</span></p><br><p><span class='info_gray'>Enhanced by Punching Stance.</span></p>",
+				"<p><span class='info_gray'>Batter enemies with a rapid barrage of jabs.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>91%</span> damage to enemies infront of you <span class='info_blue'>12</span> times. Grants knockback immunity.</span></p><br><p><span class='info_gray'>Enhanced by Punching Stance.</span></p>",
+				"<p><span class='info_gray'>Batter enemies with a rapid barrage of jabs.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>91%</span> damage to enemies infront of you <span class='info_blue'>12</span> times. Grants knockback immunity.</span></p><br><p><span class='info_gray'>Enhanced by Punching Stance.</span></p>",
+				"<p><span class='info_gray'>Batter enemies with a rapid barrage of jabs.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>91%</span> damage to enemies infront of you <span class='info_blue'>12</span> times. Grants knockback immunity.</span></p><br><p><span class='info_gray'>Enhanced by Punching Stance.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 279,
+			"title": "Double-Fist Smash",
+			"resource": "Cooldown: 2 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 64+</span></p><p><span class='info_orange'>Vulcan Punch [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Leap into the air and strike the ground.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>560%</span> damage in an area.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Punching Stance.</span></p>",
+				"<p><span class='info_gray'>Leap into the air and strike the ground.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>560%</span> damage in an area.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Punching Stance.</span></p>",
+				"<p><span class='info_gray'>Leap into the air and strike the ground.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>560%</span> damage in an area.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Punching Stance.</span></p>",
+				"<p><span class='info_gray'>Leap into the air and strike the ground.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>560%</span> damage in an area.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Punching Stance.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 280,
+			"title": "Meridian Flow",
+			"resource": "Spirit 100 / Cooldown: 30 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 68+</span></p><p><span class='info_orange'>Vulcan Punch [Level 3+]</span></p><p><span class='info_orange'>Double-Fist Smash [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Open the pressure points within your body to amplify your physical abilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical attack by <span class='info_blue'>12%</span>, attack speed by <span class='info_blue'>10%</span>, and physical and magic resistance by <span class='info_blue'>75</span> for <span class='info_blue'>30</span> sec. Restores 2 spirit per sec.</span></p><br><p><span class='info_gray'>Can use Meridian Flow II while this is active. Grants knockback immunity.</span></p><br><p><span class='info_gray'>Can cancel other skills.</span></p><br><p><span class='info_gray'>Inflicts Balance Disrupted when this skill expires naturally.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Balance Disrupted prevents the use of Meridian Flow, Overcome, Pattern Break, and Fighting Spirit for <span class='info_blue'>30</span> sec.</span></p>",
+				"<p><span class='info_gray'>Open the pressure points within your body to amplify your physical abilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical attack by <span class='info_blue'>12%</span>, attack speed by <span class='info_blue'>10%</span>, and physical and magic resistance by <span class='info_blue'>75</span> for <span class='info_blue'>30</span> sec. Restores 2 spirit per sec.</span></p><br><p><span class='info_gray'>Can use Meridian Flow II while this is active. Grants knockback immunity.</span></p><br><p><span class='info_gray'>Can cancel other skills.</span></p><br><p><span class='info_gray'>Inflicts Balance Disrupted when this skill expires naturally.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Balance Disrupted prevents the use of Meridian Flow, Overcome, Pattern Break, and Fighting Spirit for <span class='info_blue'>30</span> sec.</span></p>",
+				"<p><span class='info_gray'>Open the pressure points within your body to amplify your physical abilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical attack by <span class='info_blue'>12%</span>, attack speed by <span class='info_blue'>10%</span>, and physical and magic resistance by <span class='info_blue'>75</span> for <span class='info_blue'>30</span> sec. Restores 2 spirit per sec.</span></p><br><p><span class='info_gray'>Can use Meridian Flow II while this is active. Grants knockback immunity.</span></p><br><p><span class='info_gray'>Can cancel other skills.</span></p><br><p><span class='info_gray'>Inflicts Balance Disrupted when this skill expires naturally.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Balance Disrupted prevents the use of Meridian Flow, Overcome, Pattern Break, and Fighting Spirit for <span class='info_blue'>30</span> sec.</span></p>",
+				"<p><span class='info_gray'>Open the pressure points within your body to amplify your physical abilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical attack by <span class='info_blue'>12%</span>, attack speed by <span class='info_blue'>10%</span>, and physical and magic resistance by <span class='info_blue'>75</span> for <span class='info_blue'>30</span> sec. Restores 2 spirit per sec.</span></p><br><p><span class='info_gray'>Can use Meridian Flow II while this is active. Grants knockback immunity.</span></p><br><p><span class='info_gray'>Can cancel other skills.</span></p><br><p><span class='info_gray'>Inflicts Balance Disrupted when this skill expires naturally.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Balance Disrupted prevents the use of Meridian Flow, Overcome, Pattern Break, and Fighting Spirit for <span class='info_blue'>30</span> sec.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 281,
+			"title": "Setup Kick",
+			"element": "Fire",
+			"resource": "Cooldown: 3 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Knuckles</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Deliver a rising kick to the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>375%</span> damage. Grants Kicking Stance.</span></p><br><p><span class='info_gray'>Hold down the skill key to move forward <span class='info_blue'>1.5</span> m.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Kicking Stance upgrades some kick-based skills. Permanently upgrades Dragon Kick to Dragon Fury, increasing damage by <span class='info_blue'>4%</span>.</span></p>",
+				"<p><span class='info_gray'>Deliver a rising kick to the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>375%</span> damage. Grants Kicking Stance.</span></p><br><p><span class='info_gray'>Hold down the skill key to move forward <span class='info_blue'>1.5</span> m.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Kicking Stance upgrades some kick-based skills. Permanently upgrades Dragon Kick to Dragon Fury, increasing damage by <span class='info_blue'>4%</span>.</span></p>",
+				"<p><span class='info_gray'>Deliver a rising kick to the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>375%</span> damage. Grants Kicking Stance.</span></p><br><p><span class='info_gray'>Hold down the skill key to move forward <span class='info_blue'>1.5</span> m.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Kicking Stance upgrades some kick-based skills. Permanently upgrades Dragon Kick to Dragon Fury, increasing damage by <span class='info_blue'>4%</span>.</span></p>",
+				"<p><span class='info_gray'>Deliver a rising kick to the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>375%</span> damage. Grants Kicking Stance.</span></p><br><p><span class='info_gray'>Hold down the skill key to move forward <span class='info_blue'>1.5</span> m.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Kicking Stance upgrades some kick-based skills. Permanently upgrades Dragon Kick to Dragon Fury, increasing damage by <span class='info_blue'>4%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 282,
+			"title": "Spiral Cannon",
+			"element": "Fire",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 62+</span></p><p><span class='info_orange'>Setup Kick [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Knuckles</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Launch a spinning kick at the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>108%</span> damage <span class='info_blue'>8</span> times in front of you.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Kicking Stance.</span></p>",
+				"<p><span class='info_gray'>Launch a spinning kick at the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>108%</span> damage <span class='info_blue'>8</span> times in front of you.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Kicking Stance.</span></p>",
+				"<p><span class='info_gray'>Launch a spinning kick at the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>108%</span> damage <span class='info_blue'>8</span> times in front of you.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Kicking Stance.</span></p>",
+				"<p><span class='info_gray'>Launch a spinning kick at the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>108%</span> damage <span class='info_blue'>8</span> times in front of you.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Kicking Stance.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 283,
+			"title": "Spin Kick",
+			"element": "Fire",
+			"resource": "Cooldown: 3 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 66+</span></p><p><span class='info_orange'>Spiral Cannon [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Knuckles</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Spin in the air and drive your leg into the enemy as you drop down.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>162%</span> damage, then <span class='info_blue'>431%</span> damage.</span></p><br><p><span class='info_gray'>Press a directional key to move <span class='info_blue'>2</span> m.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Kicking Stance.</span></p>",
+				"<p><span class='info_gray'>Spin in the air and drive your leg into the enemy as you drop down.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>162%</span> damage, then <span class='info_blue'>431%</span> damage.</span></p><br><p><span class='info_gray'>Press a directional key to move <span class='info_blue'>2</span> m.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Kicking Stance.</span></p>",
+				"<p><span class='info_gray'>Spin in the air and drive your leg into the enemy as you drop down.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>162%</span> damage, then <span class='info_blue'>431%</span> damage.</span></p><br><p><span class='info_gray'>Press a directional key to move <span class='info_blue'>2</span> m.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Kicking Stance.</span></p>",
+				"<p><span class='info_gray'>Spin in the air and drive your leg into the enemy as you drop down.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>162%</span> damage, then <span class='info_blue'>431%</span> damage.</span></p><br><p><span class='info_gray'>Press a directional key to move <span class='info_blue'>2</span> m.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Enhanced by Kicking Stance.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 284,
+			"title": "Taunting Feint",
+			"resource": "Spirit 10 / Cooldown: 3 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 68+</span></p><p><span class='info_orange'>Spin Kick [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Knuckles</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Momentarily take a counterattacking stance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>if stuck in melee, deals <span class='info_blue'>240%</span> damage <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_gray'>If stuck at range, deals <span class='info_blue'>480%</span> damage.</span></p><br><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>1200</span> and grants counterattack immunity.</span></p><br><p><span class='info_gray'>Permanently increases kick skill damage by <span class='info_blue'>3%</span> per skill level.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>After a successful counterattack, gain Confidence, increasing attack speed by <span class='info_blue'>10%</span> and physical attack by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Kick skills include Setup Kick, Spin Kick, Spink Kick EX, Spiral Cannon, Spiral Cannon EX, Melee Fade, and Ranged Fade.</span></p>",
+				"<p><span class='info_gray'>Momentarily take a counterattacking stance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>if stuck in melee, deals <span class='info_blue'>240%</span> damage <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_gray'>If stuck at range, deals <span class='info_blue'>480%</span> damage.</span></p><br><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>1200</span> and grants counterattack immunity.</span></p><br><p><span class='info_gray'>Permanently increases kick skill damage by <span class='info_blue'>3%</span> per skill level.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>After a successful counterattack, gain Confidence, increasing attack speed by <span class='info_blue'>10%</span> and physical attack by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Kick skills include Setup Kick, Spin Kick, Spink Kick EX, Spiral Cannon, Spiral Cannon EX, Melee Fade, and Ranged Fade.</span></p>",
+				"<p><span class='info_gray'>Momentarily take a counterattacking stance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>if stuck in melee, deals <span class='info_blue'>240%</span> damage <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_gray'>If stuck at range, deals <span class='info_blue'>480%</span> damage.</span></p><br><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>1200</span> and grants counterattack immunity.</span></p><br><p><span class='info_gray'>Permanently increases kick skill damage by <span class='info_blue'>3%</span> per skill level.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>After a successful counterattack, gain Confidence, increasing attack speed by <span class='info_blue'>10%</span> and physical attack by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Kick skills include Setup Kick, Spin Kick, Spink Kick EX, Spiral Cannon, Spiral Cannon EX, Melee Fade, and Ranged Fade.</span></p>",
+				"<p><span class='info_gray'>Momentarily take a counterattacking stance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>if stuck in melee, deals <span class='info_blue'>240%</span> damage <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_gray'>If stuck at range, deals <span class='info_blue'>480%</span> damage.</span></p><br><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>1200</span> and grants counterattack immunity.</span></p><br><p><span class='info_gray'>Permanently increases kick skill damage by <span class='info_blue'>3%</span> per skill level.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>After a successful counterattack, gain Confidence, increasing attack speed by <span class='info_blue'>10%</span> and physical attack by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Kick skills include Setup Kick, Spin Kick, Spink Kick EX, Spiral Cannon, Spiral Cannon EX, Melee Fade, and Ranged Fade.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 285,
+			"title": "Raining Blows",
+			"resource": "",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Gain strength as you land more hits on the enemy.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently increases dexterity by <span class='info_blue'>40</span>.</span></p><br><p><span class='info_gray'>Using punching and kicking skills increase physical damage by <span class='info_blue'>1%</span> and spirit recovery by <span class='info_blue'>1</span>, stacking up to <span class='info_blue'>10</span> times.</span></p><br><p><span class='info_gray'>Can use Feinting Guard EX while in a Kicking or Punching Stance.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

@@ -540,3 +540,410 @@ var thief_skills = [
 		}
 	]
 ];
+
+var thief_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 241,
+			"title": "Savage Strikes",
+			"resource": "Spirit 36",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Brandish your daggers, slashing enemies <span class='info_blue'>6</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>197%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'>335%</span> damage per hit.</span></p>",
+				"<p><span class='info_gray'>Brandish your daggers, slashing enemies <span class='info_blue'>6</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>197%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'>335%</span> damage per hit.</span></p>",
+				"<p><span class='info_gray'>Brandish your daggers, slashing enemies <span class='info_blue'>6</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>197%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'>335%</span> damage per hit.</span></p>",
+				"<p><span class='info_gray'>Brandish your daggers, slashing enemies <span class='info_blue'>6</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>197%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'>335%</span> damage per hit.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 242,
+			"title": "Battle Plan",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Savage Strikes [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>12.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'>9%</span> for <span class='info_blue'>6.</span></span></p>",
+				"<p><span class='info_gray'>You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>12.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'>9%</span> for <span class='info_blue'>6.</span></span></p>",
+				"<p><span class='info_gray'>You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>12.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'>9%</span> for <span class='info_blue'>6.</span></span></p>",
+				"<p><span class='info_gray'>You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>12.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'>9%</span> for <span class='info_blue'>6.</span></span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 243,
+			"title": "Poison Master",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Battle Plan [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'>9%</span>. Increases Surprise Attack damage by <span class='info_blue'>170%</span> and cooldown by <span class='info_blue'>50%</span>.</span></p>",
+				"<p><span class='info_gray'>You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'>9%</span>. Increases Surprise Attack damage by <span class='info_blue'>170%</span> and cooldown by <span class='info_blue'>50%</span>.</span></p>",
+				"<p><span class='info_gray'>You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'>9%</span>. Increases Surprise Attack damage by <span class='info_blue'>170%</span> and cooldown by <span class='info_blue'>50%</span>.</span></p>",
+				"<p><span class='info_gray'>You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'>9%</span>. Increases Surprise Attack damage by <span class='info_blue'>170%</span> and cooldown by <span class='info_blue'>50%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 244,
+			"title": "Volatile Vials",
+			"element": "Toxic",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Battle Plan [Level 3+]</span></p><p><span class='info_orange'>Poison Master [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Phyiscal</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Throw <span class='info_blue'>2</span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>199%</span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'>55%</span> poison damage for <span class='info_blue'>12</span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.</span></p>",
+				"<p><span class='info_gray'>Throw <span class='info_blue'>2</span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>199%</span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'>55%</span> poison damage for <span class='info_blue'>12</span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.</span></p>",
+				"<p><span class='info_gray'>Throw <span class='info_blue'>2</span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>199%</span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'>55%</span> poison damage for <span class='info_blue'>12</span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.</span></p>",
+				"<p><span class='info_gray'>Throw <span class='info_blue'>2</span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>199%</span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'>55%</span> poison damage for <span class='info_blue'>12</span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 245,
+			"title": "Critical Slice",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Phyiscal</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Slash twice to attack the enemy <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>135%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.</span></p>",
+				"<p><span class='info_gray'>Slash twice to attack the enemy <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>135%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.</span></p>",
+				"<p><span class='info_gray'>Slash twice to attack the enemy <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>135%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.</span></p>",
+				"<p><span class='info_gray'>Slash twice to attack the enemy <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>135%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 246,
+			"title": "Battle Step",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Critical Slice [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'>29%</span> and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>8</span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.</span></p>",
+				"<p><span class='info_gray'>Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'>29%</span> and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>8</span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.</span></p>",
+				"<p><span class='info_gray'>Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'>29%</span> and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>8</span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.</span></p>",
+				"<p><span class='info_gray'>Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'>29%</span> and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>8</span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 247,
+			"title": "Shadow Step",
+			"resource": "Spirit 60 / Cooldown: 7 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Battle Step [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'>12</span> m in front of you. Move <span class='info_blue'>4.5</span> m if there are no enemies within <span class='info_blue'>12</span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'>1602%</span> damage and grants Rush. While Rush is active converts this still to Finishing Step.</span></p>",
+				"<p><span class='info_gray'>Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'>12</span> m in front of you. Move <span class='info_blue'>4.5</span> m if there are no enemies within <span class='info_blue'>12</span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'>1602%</span> damage and grants Rush. While Rush is active converts this still to Finishing Step.</span></p>",
+				"<p><span class='info_gray'>Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'>12</span> m in front of you. Move <span class='info_blue'>4.5</span> m if there are no enemies within <span class='info_blue'>12</span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'>1602%</span> damage and grants Rush. While Rush is active converts this still to Finishing Step.</span></p>",
+				"<p><span class='info_gray'>Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'>12</span> m in front of you. Move <span class='info_blue'>4.5</span> m if there are no enemies within <span class='info_blue'>12</span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'>1602%</span> damage and grants Rush. While Rush is active converts this still to Finishing Step.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 248,
+			"title": "Deadly Strikes",
+			"resource": "Spirit 52",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Shadow Step [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Fiercely slash the target <span class='info_blue'>7</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>252%</span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>300</span> while Deadly Strikes is in use.</span></p>",
+				"<p><span class='info_gray'>Fiercely slash the target <span class='info_blue'>7</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>252%</span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>300</span> while Deadly Strikes is in use.</span></p>",
+				"<p><span class='info_gray'>Fiercely slash the target <span class='info_blue'>7</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>252%</span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>300</span> while Deadly Strikes is in use.</span></p>",
+				"<p><span class='info_gray'>Fiercely slash the target <span class='info_blue'>7</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>252%</span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>300</span> while Deadly Strikes is in use.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 249,
+			"title": "Vengeance",
+			"resource": "",
+			"level": 0,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Your fighting style is fueled by your thirst for vengeance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>40.</span> Can attack while climbing.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>340%</span> damage when attacking while climbing.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

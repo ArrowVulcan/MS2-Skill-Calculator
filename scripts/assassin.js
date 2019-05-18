@@ -536,3 +536,415 @@ var assassin_skills = [
 		}
 	]
 ];
+
+var assassin_skills_awakening = [
+	column1 = [
+		{
+			"hidden": 0,
+			"image": 250,
+			"title": "Redoubled Pain",
+			"resource": "Spirit 11",
+			"element": "Dark",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[Requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Thrown Weapon, One-handed Thrown Weapon</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Alternate attacks between your two weapons, poisoning enemies with your off-hand and then detonating the poison with your main hand.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Off-hand attack deal <span class='info_blue'>158%</span> damage per hit and inflict Dark Poison for <span class='info_blue'>10</span> sec. Main hand attacks deal <span class='info_blue'>158%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Dark Poison deals <span class='info_blue'>79%</span> damage per sec.</span></p><p><span class='info_gray'>Main hand attacks consume Dark Poison to deal an additional <span class='info_blue'>480%</span> damage.</span></p>",
+				"<p><span class='info_gray'>Alternate attacks between your two weapons, poisoning enemies with your off-hand and then detonating the poison with your main hand.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Off-hand attack deal <span class='info_blue'>158%</span> damage per hit and inflict Dark Poison for <span class='info_blue'>10</span> sec. Main hand attacks deal <span class='info_blue'>158%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Dark Poison deals <span class='info_blue'>79%</span> damage per sec.</span></p><p><span class='info_gray'>Main hand attacks consume Dark Poison to deal an additional <span class='info_blue'>480%</span> damage.</span></p>",
+				"<p><span class='info_gray'>Alternate attacks between your two weapons, poisoning enemies with your off-hand and then detonating the poison with your main hand.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Off-hand attack deal <span class='info_blue'>158%</span> damage per hit and inflict Dark Poison for <span class='info_blue'>10</span> sec. Main hand attacks deal <span class='info_blue'>158%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Dark Poison deals <span class='info_blue'>79%</span> damage per sec.</span></p><p><span class='info_gray'>Main hand attacks consume Dark Poison to deal an additional <span class='info_blue'>480%</span> damage.</span></p>",
+				"<p><span class='info_gray'>Alternate attacks between your two weapons, poisoning enemies with your off-hand and then detonating the poison with your main hand.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Off-hand attack deal <span class='info_blue'>158%</span> damage per hit and inflict Dark Poison for <span class='info_blue'>10</span> sec. Main hand attacks deal <span class='info_blue'>158%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Dark Poison deals <span class='info_blue'>79%</span> damage per sec.</span></p><p><span class='info_gray'>Main hand attacks consume Dark Poison to deal an additional <span class='info_blue'>480%</span> damage.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 251,
+			"title": "Binding Punishment",
+			"resource": "Spirit 20 / Cooldown: 10 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[Requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Redoubled Pain [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Thrown Weapon, One-handed Thrown Weapon</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Toss a spinning chain at an enemy, dealing damage to the target and nearby enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>The chain spins around the target for <span class='info_blue'>10</span> sec, dealing <span class='info_blue'>60%</span> damage per sec to nearby enemies.</span></p>",
+				"<p><span class='info_gray'>Toss a spinning chain at an enemy, dealing damage to the target and nearby enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>The chain spins around the target for <span class='info_blue'>10</span> sec, dealing <span class='info_blue'>60%</span> damage per sec to nearby enemies.</span></p>",
+				"<p><span class='info_gray'>Toss a spinning chain at an enemy, dealing damage to the target and nearby enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>The chain spins around the target for <span class='info_blue'>10</span> sec, dealing <span class='info_blue'>60%</span> damage per sec to nearby enemies.</span></p>",
+				"<p><span class='info_gray'>Toss a spinning chain at an enemy, dealing damage to the target and nearby enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>The chain spins around the target for <span class='info_blue'>10</span> sec, dealing <span class='info_blue'>60%</span> damage per sec to nearby enemies.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 252,
+			"title": "Art of the Shuriken",
+			"resource": "",
+			"element": "Dark",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[Requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Binding Punishment [Level 2+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Your skill with thrown weapons is truly lethal.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Redoubled Pain, Binding Punishment, and All-in-One by <span class='info_blue'>8%</span>.</span></p>",
+				"<p><span class='info_gray'>Your skill with thrown weapons is truly lethal.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Redoubled Pain, Binding Punishment, and All-in-One by <span class='info_blue'>8%</span>.</span></p>",
+				"<p><span class='info_gray'>Your skill with thrown weapons is truly lethal.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Redoubled Pain, Binding Punishment, and All-in-One by <span class='info_blue'>8%</span>.</span></p>",
+				"<p><span class='info_gray'>Your skill with thrown weapons is truly lethal.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Redoubled Pain, Binding Punishment, and All-in-One by <span class='info_blue'>8%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 253,
+			"title": "All-in-One",
+			"resource": "Spirit 15 / Cooldown: 10 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[Requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Binding Punishment [Level 3+]</span></p><p><span class='info_orange'>Art of the Shuriken [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Thrown Weapon, One-handed Thrown Weapon</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Hold down the skill key to unleash increasingly devastating attack on the enemy, maxing out at <span class='info_blue'>3</span> tiers.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Tier 1: Attacks <span class='info_blue'>3</span> times, dealing <span class='info_blue'>220%</span> damage per hit.</span></p><br><p><span class='info_gray'>Tier 2: Deals <span class='info_blue'>787%</span> damage.</span></p><br><p><span class='info_gray'>Tier 3: Attacks <span class='info_blue'>5</span> times, dealing <span class='info_blue'>272%</span> damage per hit.</span></p>",
+				"<p><span class='info_gray'>Hold down the skill key to unleash increasingly devastating attack on the enemy, maxing out at <span class='info_blue'>3</span> tiers.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Tier 1: Attacks <span class='info_blue'>3</span> times, dealing <span class='info_blue'>220%</span> damage per hit.</span></p><br><p><span class='info_gray'>Tier 2: Deals <span class='info_blue'>787%</span> damage.</span></p><br><p><span class='info_gray'>Tier 3: Attacks <span class='info_blue'>5</span> times, dealing <span class='info_blue'>272%</span> damage per hit.</span></p>",
+				"<p><span class='info_gray'>Hold down the skill key to unleash increasingly devastating attack on the enemy, maxing out at <span class='info_blue'>3</span> tiers.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Tier 1: Attacks <span class='info_blue'>3</span> times, dealing <span class='info_blue'>220%</span> damage per hit.</span></p><br><p><span class='info_gray'>Tier 2: Deals <span class='info_blue'>787%</span> damage.</span></p><br><p><span class='info_gray'>Tier 3: Attacks <span class='info_blue'>5</span> times, dealing <span class='info_blue'>272%</span> damage per hit.</span></p>",
+				"<p><span class='info_gray'>Hold down the skill key to unleash increasingly devastating attack on the enemy, maxing out at <span class='info_blue'>3</span> tiers.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Tier 1: Attacks <span class='info_blue'>3</span> times, dealing <span class='info_blue'>220%</span> damage per hit.</span></p><br><p><span class='info_gray'>Tier 2: Deals <span class='info_blue'>787%</span> damage.</span></p><br><p><span class='info_gray'>Tier 3: Attacks <span class='info_blue'>5</span> times, dealing <span class='info_blue'>272%</span> damage per hit.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column2 = [
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column3 = [
+		{
+			"hidden": 0,
+			"image": 254,
+			"title": "Dark Mire",
+			"resource": "Spirit 40",
+			"element": "Dark",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"requirement": "<p><span class='info_gray'>[Requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Conjure <span class='info_blue'>4</span> dark mires that drain enemies strength and transfers it to you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>81%</span> damage per hit for <span class='info_blue'>5</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases caster's dark damage by <span class='info_blue'>2%</span> for <span class='info_blue'>5</span> sec when an enemy is hit.</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>0</span> spirit when using Secret Arts.</span></p>",
+				"<p><span class='info_gray'>Conjure <span class='info_blue'>4</span> dark mires that drain enemies strength and transfers it to you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>81%</span> damage per hit for <span class='info_blue'>5</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases caster's dark damage by <span class='info_blue'>2%</span> for <span class='info_blue'>5</span> sec when an enemy is hit.</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>0</span> spirit when using Secret Arts.</span></p>",
+				"<p><span class='info_gray'>Conjure <span class='info_blue'>4</span> dark mires that drain enemies strength and transfers it to you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>81%</span> damage per hit for <span class='info_blue'>5</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases caster's dark damage by <span class='info_blue'>2%</span> for <span class='info_blue'>5</span> sec when an enemy is hit.</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>0</span> spirit when using Secret Arts.</span></p>",
+				"<p><span class='info_gray'>Conjure <span class='info_blue'>4</span> dark mires that drain enemies strength and transfers it to you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>81%</span> damage per hit for <span class='info_blue'>5</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases caster's dark damage by <span class='info_blue'>2%</span> for <span class='info_blue'>5</span> sec when an enemy is hit.</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>0</span> spirit when using Secret Arts.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 255,
+			"title": "Shadow Stance",
+			"resource": "Cooldown: 60 Sec",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[Requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Dark Mire [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Envelope yourself in shadows to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Absorb damage equal to <span class='info_blue'>6%</span> of your max health for <span class='info_blue'>12</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases dark damage by <span class='info_blue'>9%</span> while the shadow lasts.</span></p>",
+				"<p><span class='info_gray'>Envelope yourself in shadows to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Absorb damage equal to <span class='info_blue'>6%</span> of your max health for <span class='info_blue'>12</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases dark damage by <span class='info_blue'>9%</span> while the shadow lasts.</span></p>",
+				"<p><span class='info_gray'>Envelope yourself in shadows to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Absorb damage equal to <span class='info_blue'>6%</span> of your max health for <span class='info_blue'>12</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases dark damage by <span class='info_blue'>9%</span> while the shadow lasts.</span></p>",
+				"<p><span class='info_gray'>Envelope yourself in shadows to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Absorb damage equal to <span class='info_blue'>6%</span> of your max health for <span class='info_blue'>12</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases dark damage by <span class='info_blue'>9%</span> while the shadow lasts.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 256,
+			"title": "Art of the Shadows",
+			"resource": "",
+			"element": "Dark",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[Requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Shadow Stance [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Your mastery of the dark arts grows more intense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Dark Mire and Assassin's Circle by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>Your mastery of the dark arts grows more intense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Dark Mire and Assassin's Circle by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>Your mastery of the dark arts grows more intense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Dark Mire and Assassin's Circle by <span class='info_blue'>2%</span>.</span></p>",
+				"<p><span class='info_gray'>Your mastery of the dark arts grows more intense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Dark Mire and Assassin's Circle by <span class='info_blue'>2%</span>.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 0,
+			"image": 257,
+			"title": "Assassin's Circle",
+			"resource": "Spirit 28 / Cooldown: 30 Sec",
+			"element": "Dark",
+			"level": 0,
+			"maxLevel": 4,
+			"locked": 0,
+			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
+			"requirement": "<p><span class='info_gray'>[Requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Art of the Shadows [Level 3+]</span></p>",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Conjures a <span class='info_blue'>3</span>-tiered Assassin's Circle in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>The Assassin's Circle lasts for <span class='info_blue'>10</span> sec and places a Blade Mark on enemies for <span class='info_blue'>10</span> sec.</span></p><br><p><span class='info_gray'>Inflicts an Assassin's Insignia every <span class='info_blue'>0.5</span> sec.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Blade Mark reduces accuracy by <span class='info_blue'>29</span> and has a chance to deal <span class='info_blue'>28%</span> additional damage <span class='info_blue'>4</span> times.</span></p><p><span class='info_gray'>Assassin's Insignia deals <span class='info_blue'>2436%</span> damage at <span class='info_blue'>18</span> stacks.</span></p><p><span class='info_gray'>Cannot be used with Mirror Image: Dark Blade.</span></p><p><span class='info_gray'>Circles created while Secret Arts in active deal additional damage.</span></p>",
+				"<p><span class='info_gray'>Conjures a <span class='info_blue'>3</span>-tiered Assassin's Circle in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>The Assassin's Circle lasts for <span class='info_blue'>10</span> sec and places a Blade Mark on enemies for <span class='info_blue'>10</span> sec.</span></p><br><p><span class='info_gray'>Inflicts an Assassin's Insignia every <span class='info_blue'>0.5</span> sec.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Blade Mark reduces accuracy by <span class='info_blue'>29</span> and has a chance to deal <span class='info_blue'>28%</span> additional damage <span class='info_blue'>4</span> times.</span></p><p><span class='info_gray'>Assassin's Insignia deals <span class='info_blue'>2436%</span> damage at <span class='info_blue'>18</span> stacks.</span></p><p><span class='info_gray'>Cannot be used with Mirror Image: Dark Blade.</span></p><p><span class='info_gray'>Circles created while Secret Arts in active deal additional damage.</span></p>",
+				"<p><span class='info_gray'>Conjures a <span class='info_blue'>3</span>-tiered Assassin's Circle in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>The Assassin's Circle lasts for <span class='info_blue'>10</span> sec and places a Blade Mark on enemies for <span class='info_blue'>10</span> sec.</span></p><br><p><span class='info_gray'>Inflicts an Assassin's Insignia every <span class='info_blue'>0.5</span> sec.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Blade Mark reduces accuracy by <span class='info_blue'>29</span> and has a chance to deal <span class='info_blue'>28%</span> additional damage <span class='info_blue'>4</span> times.</span></p><p><span class='info_gray'>Assassin's Insignia deals <span class='info_blue'>2436%</span> damage at <span class='info_blue'>18</span> stacks.</span></p><p><span class='info_gray'>Cannot be used with Mirror Image: Dark Blade.</span></p><p><span class='info_gray'>Circles created while Secret Arts in active deal additional damage.</span></p>",
+				"<p><span class='info_gray'>Conjures a <span class='info_blue'>3</span>-tiered Assassin's Circle in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>The Assassin's Circle lasts for <span class='info_blue'>10</span> sec and places a Blade Mark on enemies for <span class='info_blue'>10</span> sec.</span></p><br><p><span class='info_gray'>Inflicts an Assassin's Insignia every <span class='info_blue'>0.5</span> sec.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Blade Mark reduces accuracy by <span class='info_blue'>29</span> and has a chance to deal <span class='info_blue'>28%</span> additional damage <span class='info_blue'>4</span> times.</span></p><p><span class='info_gray'>Assassin's Insignia deals <span class='info_blue'>2436%</span> damage at <span class='info_blue'>18</span> stacks.</span></p><p><span class='info_gray'>Cannot be used with Mirror Image: Dark Blade.</span></p><p><span class='info_gray'>Circles created while Secret Arts in active deal additional damage.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],
+	column4 = [
+		{
+			"hidden": 0,
+			"image": 258,
+			"title": "Dark Punisher",
+			"resource": "Cooldown: 5 Sec",
+			"element": "Dark",
+			"level": 1,
+			"maxLevel": 1,
+			"locked": 0,
+			"requirement": "",
+			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p>",
+			"texts": [
+				"",
+				"<p><span class='info_gray'>Use dark magic to brand enemies with an Assassin's Mark.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>92%</span> damage and inflicts Assassin's Mark for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>40</span>.</span></p><p><span class='info_gray'>Assassin's Mark restores <span class='info_blue'>1</span> spirit per <span class='info_blue'>0.1</span> sec for the caster.</span></p><p><span class='info_gray'>Bounces up to <span class='info_blue'>4</span> times to other enemies on hit.</span></p>",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	],[
+		{
+			"hidden": 1,
+			"image": 0,
+			"title": "",
+			"resource": 0,
+			"level": 0,
+			"maxLevel": 0,
+			"locked": 1,
+			"requirement": "",
+			"info": "",
+			"texts": [
+				"",
+			]
+		}
+	]
+];

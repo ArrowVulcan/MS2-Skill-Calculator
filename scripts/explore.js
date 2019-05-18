@@ -522,7 +522,7 @@ $( window ).on( "load", function(){
 						}
 					}
 					
-					setCookie(currentMap, starList, 30);
+					setCookie(currentMap, starList, 3650);
 				}else{
 					$(latestStar).attr("src", "./images/gold_chest_gray.png");
 					let starList = getCookie(currentMap);
@@ -540,7 +540,7 @@ $( window ).on( "load", function(){
 						}
 					}
 
-					setCookie(currentMap, starList, 30);
+					setCookie(currentMap, starList, 3650);
 				}
 			}
 			
