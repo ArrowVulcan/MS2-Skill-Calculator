@@ -182,7 +182,7 @@ footer p{
 
 #cookies p{
 	color: #CCC;
-	font-size: 12px;
+	font-size: 11px;
 	white-space: pre-line;	
 }
 
@@ -361,15 +361,16 @@ footer p{
 }
 
 #golden_treasure{
-	position: relative;
+    position: relative;
     top: 50px;
     width: 1107px;
-    height: 791px;
-    background-image: url(../images/board.png);
+    height: 714px;
+    background-image: url(../images/board.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
 #search{
@@ -499,15 +500,17 @@ a{
 }
 
 #window{
-	background-image:url('../images/window_new.png');
-	width: 988px;
-	height: 910px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	left: calc(50% - 494px);
-	margin-bottom: 20px;
-	margin: auto;
+    background-image: url(../images/window_new.jpg);
+    width: 988px;
+    height: 910px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 494px);
+    margin-bottom: 20px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: 0px 12px;
 }
 
 #rank_bar{
