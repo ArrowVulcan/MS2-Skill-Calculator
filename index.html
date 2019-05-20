@@ -335,6 +335,9 @@
 					
 				<div id="window">
 				
+					<div id="skill_icon"></div>
+					<div id="skill_title">Skills</div>
+				
 					<div id="rank2_bg"></div>
 				
 					<div id="rank_bar">
@@ -346,12 +349,12 @@
 							<div id="rbi2" class="rank_bar_img"></div>
 							<p>Rank 2 Skills</p>
 						</div>
-						<!-- Lapenshard if it's going to be used.
+						
 						<div onclick="changeRank(3)" class="rank_bar_icon">
 							<div id="rbi3" class="rank_bar_img"></div>
 							<p>Lapenshard</p>
 						</div>
-						-->
+						
 					</div>
 				
 					<div id="levels_bar">
@@ -472,6 +475,17 @@
 			
 		</div>
 		
+		<div id="lapenshard_box">
+		
+			<div id="lapenshard_icon"></div>
+			<div id="lapenshard_title">Lapenshard</div>
+		
+			<div id="close_btn" onclick="closeLapenshardMenu()"></div>
+		
+			<div id="lapen_list"></div>
+		
+		</div>
+		
 		<!-- CALCULATOR END -->
 		
 	</div>
@@ -492,6 +506,7 @@
 	<script type="text/javascript" src="scripts/runeblade.js"></script>
 	<script type="text/javascript" src="scripts/soul_binder.js"></script>
 	<script type="text/javascript" src="scripts/striker.js"></script>
+	<script type="text/javascript" src="scripts/lapenshard.js"></script>
 	
 	<!-- jQuery, Popper, Bootstrap -->
 	<script src="scripts/jquery.slim.min.js"></script>
@@ -588,7 +603,8 @@
 			
 			if( pages != 2 ){
 				let jobName = document.getElementById("jobName");
-				changeRank(1, jobName)
+				changeRank(1, jobName);
+				closeLapenshardMenu();
 			}
 			
 			setCurrentPage(pages);

@@ -20,8 +20,56 @@ var page1 = {};
 var page2 = {};
 var currentPage = 1;
 
+function createLapenshards(){
+	
+	$("#lapenshard_box").show();
+	
+	let list = document.getElementById("lapen_list");
+	list.innerHTML = "";
+	
+	let shards = lapenshard[0];
+	
+	let k = 0;
+	for(let i=0; i < 7; i++){
+
+		for(let j=0; j < 4; j++){
+			
+			if( shards[k] == undefined ){ continue; }
+			
+			if( shards[k].title != "" ){
+				list.innerHTML += '<div class="lapen_item_box">' + '<div data-title="' + shards[k].title + '" data-requirement="' + shards[k].requirement + ' "data-texts="' + shards[k].texts + '" class="lapen_item" style="background-position: ' + (48 * -j) + 'px ' + (56 * -i) + 'px;"></div>' + '</div>';
+			}
+			
+			k++;
+
+		}
+	
+	}
+	
+	$(".lapen_item").mousemove(function(event){
+	
+		let type = event.target.classList[0];
+		setSkillInfo(event, type);
+	
+	});
+	
+	$(".lapen_item").mouseleave(function(event){
+
+		let box = document.getElementById('info_box');
+		box.style.display = "none";
+		
+	});
+
+}
+
+function closeLapenshardMenu(){
+	$("#lapenshard_box").hide();
+}
+
 // changeRank - Change rank to second skill tree or lapenshard
 function changeRank(numb, jobName){
+	
+	if( numb == 3 ){ createLapenshards(); return; }
 	
 	$("#rbi1").removeClass("selected");
 	$("#rbi2").removeClass("selected");
@@ -29,7 +77,6 @@ function changeRank(numb, jobName){
 	
 	if( numb == 1 ){ awakening = false; $("#rbi1").addClass("selected"); $("#rank2_bg").hide(); }
 	if( numb == 2 ){ awakening = true; $("#rbi2").addClass("selected"); $("#rank2_bg").show(); }
-	if( numb == 3 ){ $("#rbi3").addClass("selected"); }
 	
 	let jobName2 = document.getElementById("jobName");
 	name = jobName || jobName2.innerText;
@@ -529,6 +576,60 @@ function setSkillInfo(event, type){
 			
 			}
 		
+		}
+		
+		if( type == "lapen_item" ){
+			
+			let infoTitle = event.target.dataset.title;
+			$("#info_name > p").html(infoTitle);
+				
+			$("#info_name").removeClass();
+			$("#info_element > p").text("");
+			$(".info_level").text("");
+			$(".info_resource").text("");
+			let infoDescription2 = document.getElementById("info_description_2");
+			infoDescription2.innerHTML = "";
+			
+			let linebreak = document.getElementsByClassName("info_linebreak");
+			linebreak[0].style.display = "none";
+
+			let infoRequirement = document.getElementById("info_description");
+			infoRequirement.innerHTML = event.target.dataset.requirement;
+			
+			let infoDescription = document.getElementById("info_description_3");
+			let texts = event.target.dataset.texts.split('>,');
+			
+			if( texts.length > 1 ){
+				infoDescription.innerHTML = isUndefined( texts[0] + ">" );
+			}else{
+				infoDescription.innerHTML = isUndefined( texts[0] );
+			}
+			
+			let infoImage = document.getElementById("info_image");
+			infoImage.style.backgroundPosition = event.target.style.backgroundPosition;
+			infoImage.style.backgroundImage = "url('./images/lapenshards.png')";
+			infoImage.style.width = "48px";
+			infoImage.style.height = "56px";
+			infoImage.style.transform = "scale(0.8)";
+			infoImage.style.top = "-6px";
+
+			let infoImageBox = document.getElementById("info_image_box");
+			infoImageBox.style.width = "54px";
+			
+		}else{
+			
+			let linebreak = document.getElementsByClassName("info_linebreak");
+			linebreak[0].style.display = "block";
+			
+			let infoImage = document.getElementById("info_image");
+			infoImage.style.width = "43px";
+			infoImage.style.height = "50px";
+			infoImage.style.transform = "scale(0.9)";
+			infoImage.style.top = "-3px";
+			
+			let infoImageBox = document.getElementById("info_image_box");
+			infoImageBox.style.width = "50px";
+			
 		}
 
 }
