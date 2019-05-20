@@ -219,7 +219,7 @@ var soul_binder_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 1,
-			"lockReq": "4-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0",
+			"lockReq": "4-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Split Barrier [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
 			"texts": [

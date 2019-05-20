@@ -218,22 +218,32 @@ function createColumn(start, stop){
 	
 	storeInfo = storeInfo + '<div class="col-3">';
 	
+	let _i = 0;
+	let _j = 0;
 	for(let i=start; i < stop; i++){
+		
+		if( i == 6 ){ _j = 1; }
+		if( i == 12 ){ _j = 2; }
+		if( i == 18 ){ _j = 3; }
+		
 		storeInfo = storeInfo + '<div class="skill_box">' +
 			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="skill skill_' + i + (awakening ? "_noSP" : "") + '"></div>' +
-			'<div class="skillImage"></div>' +
+			'<div class="skillImage" style="background-position: ' + (_j * -43) + 'px ' + (_i * -50) +'px"></div>' +
 			'<div class="point_box">' +
 			'<div class="bar">' +
 			'<span class="skill_text skill_text_' + i + '"></span></div>' +
 			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="minus dec_' + i + ' skill_btn"></div>' +
 			'<div data-hidden="' + hiddens[i] + '" data-title="' + titles[i] + '" class="plus inc_' + i + ' skill_btn"></div>' +
 			'</div></div>';
+			
+		_i++;
+		
 	}
 	
 	// Add columns to the right side of the skill window
 	let rightMenu = document.getElementById("skills_right");
 	rightMenu.innerHTML = rightMenu.innerHTML + storeInfo + '</div>';
-	
+
 	let skillBoxes = document.getElementsByClassName("skill_box");
 	let skillIcons = document.getElementsByClassName("skillImage");
 	let skillTexts = document.getElementsByClassName("skill_text");
@@ -244,7 +254,11 @@ function createColumn(start, stop){
 		if( hiddens[i] == 0 ){
 			
 			// Set skill icon
-			skillIcons[i].style.backgroundImage = "url('./images/skills/" + images[i] + ".png')";
+			//skillIcons[i].style.backgroundImage = "url('./images/skills/" + images[i] + ".png')";
+			let jobName = document.getElementById("jobName");
+			jobName = jobName.innerText || "Knight";
+			if( awakening ){ jobName = jobName + "_awakening"; }
+			skillIcons[i].style.backgroundImage = "url('./images/skills/" + jobName.toLowerCase() + ".png')";
 			
 			// Check if the skill text is available and set level/maxlevel text
 			if( skillTexts[i] != undefined ){
@@ -495,7 +509,13 @@ function setSkillInfo(event, type){
 			
 				// Set tooltip image
 				let infoImage = document.getElementById("info_image");
-				infoImage.style.backgroundImage = "url('./images/skills/" + images[i] + ".png')";
+				//infoImage.style.backgroundImage = "url('./images/skills/" + images[i] + ".png')";
+				let jobName = document.getElementById("jobName");
+				jobName = jobName.innerText || "Knight";
+				if( awakening ){ jobName = jobName + "_awakening"; }
+				let skillIcons = document.getElementsByClassName("skillImage");
+				infoImage.style.backgroundPosition = skillIcons[i].style.backgroundPosition;
+				infoImage.style.backgroundImage = "url('./images/skills/" + jobName.toLowerCase() + ".png')";
 				
 				// Set tooltip requirement text
 				let infoRequirement = document.getElementById("info_description");
