@@ -12,7 +12,7 @@ var infos = [];
 var texts = [];
 var Class_skills;
 var pointsMax = 69 + 9 + 4; // 59 points from leveling + 9 points from trophies + 4 base skills
-var pointsMax2 = 14 + 1; // 14 points from leveling + 1 base skill
+var pointsMax2 = 16 + 1; // 14 points from leveling + 1 base skill
 var lockedsURL = [];
 var levelsURL = [];
 var awakening = false;
@@ -37,7 +37,7 @@ function createLapenshards(){
 			if( shards[k] == undefined ){ continue; }
 			
 			if( shards[k].title != "" ){
-				list.innerHTML += '<div class="lapen_item_box">' + '<div data-title="' + shards[k].title + '" data-requirement="' + shards[k].requirement + ' "data-texts="' + shards[k].texts + '" class="lapen_item" style="background-position: ' + (48 * -j) + 'px ' + (56 * -i) + 'px;"></div>' + '</div>';
+				list.innerHTML += '<div class="lapen_item_box">' + '<div id="lapen_level"><p>+1</p></div>' + '<div class="lapen_level_box"> <div class="lapen_level_dec"><p>-</p></div>' + '<div class="lapen_level_inc"><p>+</p></div> </div>' + '<div data-textbasic="' + shards[k].textbasic + '" data-jobskills="' + shards[k].jobskills + '" data-title="' + shards[k].title + '" data-requirement="' + shards[k].requirement + ' "data-texts="' + shards[k].texts + '" class="lapen_item" style="background-position: ' + (48 * -j) + 'px ' + (56 * -i) + 'px;"></div>' + '</div>';
 			}
 			
 			k++;
@@ -50,6 +50,9 @@ function createLapenshards(){
 	
 		let type = event.target.classList[0];
 		setSkillInfo(event, type);
+		
+		let box = event.target.parentElement.children[1];
+		$(box).show();
 	
 	});
 	
@@ -57,6 +60,32 @@ function createLapenshards(){
 
 		let box = document.getElementById('info_box');
 		box.style.display = "none";
+		
+		//$(".lapen_level_box").hide();
+		
+	});
+	
+	$(".lapen_item_box").mouseleave(function(event){
+
+		$(".lapen_level_box").hide();
+		
+	});
+	
+	$(".lapen_level_inc").click(function(event){
+		
+		let txt = event.target.parentElement.parentElement.parentElement.firstElementChild;
+		level = parseInt(txt.innerText.replace("+","")) + 1;
+		if( level > 10 ){ level = 10; }
+		txt.innerHTML = "<p>+" + level + "</p>";
+		
+	});
+	
+	$(".lapen_level_dec").click(function(event){
+		
+		let txt = event.target.parentElement.parentElement.parentElement.firstElementChild;
+		level = parseInt(txt.innerText.replace("+","")) - 1;
+		if( level < 1 ){ level = 1; }
+		txt.innerHTML = "<p>+" + level + "</p>";
 		
 	});
 
@@ -581,7 +610,7 @@ function setSkillInfo(event, type){
 		if( type == "lapen_item" ){
 			
 			let infoTitle = event.target.dataset.title;
-			$("#info_name > p").html(infoTitle);
+			$("#info_name > p").html("<span class='info_lightblue'>" + infoTitle + "</span>");
 				
 			$("#info_name").removeClass();
 			$("#info_element > p").text("");
@@ -594,7 +623,12 @@ function setSkillInfo(event, type){
 			linebreak[0].style.display = "none";
 
 			let infoRequirement = document.getElementById("info_description");
-			infoRequirement.innerHTML = event.target.dataset.requirement;
+			let jobName = document.getElementById("jobName").innerText;
+			if( infoTitle.includes("Blue") ){
+				infoRequirement.innerHTML = event.target.dataset.requirement + "<p><span class='info_gray'>Job: " + jobName + "</span></p>";
+			}else{
+				infoRequirement.innerHTML = event.target.dataset.requirement;
+			}
 			
 			let infoDescription = document.getElementById("info_description_3");
 			let texts = event.target.dataset.texts.split('>,');
@@ -604,6 +638,19 @@ function setSkillInfo(event, type){
 			}else{
 				infoDescription.innerHTML = isUndefined( texts[0] );
 			}
+			
+			let skill = event.target.dataset.jobskills;
+			let skillBasic = event.target.dataset.textbasic;
+			if( skillBasic == "undefined" ){ skillBasic = "" };
+			if( infoTitle.includes("Blue") ){
+				skill = skill.split( jobName.toUpperCase() )[1].split("|")[1].split(",")[0];
+			}else{
+				skill = "";
+			}
+			
+			let skillLevel = parseInt( event.target.parentElement.firstChild.innerText.replace("+","") );
+			
+			infoDescription.innerHTML = skillBasic + "<p><span class='info_gray'>" + skill + " " + infoDescription.innerHTML.split(",")[skillLevel - 1] + " The lapenshard's power is reduced when paired with gear exceeding the lapenshard's level.</span></p>";
 			
 			let infoImage = document.getElementById("info_image");
 			infoImage.style.backgroundPosition = event.target.style.backgroundPosition;

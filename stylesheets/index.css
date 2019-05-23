@@ -1072,7 +1072,7 @@ a{
     float: left;
     margin-left: 4px;
     margin-bottom: 4px;
-	cursor: pointer;
+	z-index: 10;
 }
 
 .lapen_item{
@@ -1083,6 +1083,74 @@ a{
 	background-repeat: no-repeat;
     margin: 0 auto;
     top: 3px;
+}
+
+#lapen_level{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #ffca07;
+    min-width: 20px;
+    height: 15px;
+    z-index: 1;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #000;
+    padding-right: 4px;
+	pointer-events: none;
+}
+
+#lapen_level p{
+    position: relative;
+    font-size: 14px;
+    color: #000;
+    left: 2px;
+    bottom: 3px;
+}
+
+.lapen_level_box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	z-index: 1;
+	display: none;
+	pointer-events: none;
+}
+
+.lapen_level_dec{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 15px;
+	height: 15px;
+	background-color: #ffca07;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.lapen_level_inc{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 16px;
+	height: 16px;
+	background-color: #ffca07;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.lapen_level_inc p{
+	position: relative;
+	bottom: 3px;
+}
+
+.lapen_level_dec p{
+	position: relative;
+	bottom: 4px;
 }
 
 /*

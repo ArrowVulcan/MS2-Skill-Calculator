@@ -522,7 +522,7 @@
 	<script>
 	
 		let pages = 0;
-		let updateAgain = true;
+		let updateAgain = false;
 		
 		let params = location.href.split('#')[1];
 		if( params != undefined && params.length > 1 ){
@@ -619,6 +619,10 @@
 		setTimeout(function(){
 			updatePages();
 		}, 250);
+		
+		setTimeout(function(){
+			updateAgain = true;
+		}, 750);
 	
 	</script>
 
