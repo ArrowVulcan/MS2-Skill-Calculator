@@ -59,7 +59,7 @@ var soul_binder_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 13+</span></p><p><span class='info_red'>Chain Spear [Level 2+]</span></p><p><span class='info_red'>Ray Storm [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 13+</span></p><p><span class='info_red'>Soaring Orb [Level 2+]</span></p><p><span class='info_red'>Radiant Salvo [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
 			"texts": [
 				"",
@@ -111,7 +111,7 @@ var soul_binder_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "2-6-5-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Ray Storm [Level 6+]</span></p><p><span class='info_red'>Flash Strike [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Radiant Salvo [Level 6+]</span></p><p><span class='info_red'>Flash Strike [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
 			"texts": [
 				"",
@@ -137,7 +137,7 @@ var soul_binder_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "8-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Chain Spear [Level 8+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Soaring Orb [Level 8+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
 			"texts": [
 				"",
@@ -194,7 +194,7 @@ var soul_binder_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 16+</span><p><span class='info_red'>Chain Spear [Level 4+]</span></p></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 16+</span><p><span class='info_red'>Soaring Orb [Level 4+]</span></p></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
 			"texts": [
 				"",
@@ -220,7 +220,7 @@ var soul_binder_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Split Barrier [Level 3+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Raging Tempest [Level 3+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
 			"texts": [
 				"",
@@ -246,7 +246,7 @@ var soul_binder_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-0-0-0-0-0-0-0-6-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Cyclone Bomber [Level 6+]</span></p><p><span class='info_red'>Energy Stream [Level 2+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Raging Tempest [Level 6+]</span></p><p><span class='info_red'>Energy Surge [Level 2+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
 			"texts": [
 				"",
@@ -346,7 +346,7 @@ var soul_binder_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 22+</span></p><p><span class='info_red'>Split Barrier [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 22+</span></p><p><span class='info_red'>Light Barrier [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
 			"texts": [
 				"",
@@ -387,7 +387,7 @@ var soul_binder_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-4-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Life String [Level 4+]</span></p>",
+			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Healing Bond [Level 4+]</span></p>",
 			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb</span></p>",
 			"texts": [
 				"",

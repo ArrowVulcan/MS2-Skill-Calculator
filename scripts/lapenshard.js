@@ -50,7 +50,7 @@ var lapenshard = [
 				"ASSASSIN | All-in-One",
 				"RUNEBLADE | Blade Whip",
 				"SOUL BINDER | Spirit Crush",
-				"STRIKER | Punch Pressure",
+				"STRIKER | Shockwave Punch",
 			],
 			"texts": [
 				"has a chance to deal an additional <span class='info_blue'>169%</span> damage to the enemy.",
@@ -69,7 +69,7 @@ var lapenshard = [
 			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
 			"jobskills": [
 				"KNIGHT | Light Bringer",
-				"BERSERKER | Perry the Moon",
+				"BERSERKER | Parry the Moon",
 				"WIZARD | Perfect Storm",
 				"PRIEST | Heaven's Wrath",
 				"ARCHER | Multi-Drive Shot",
