@@ -1153,6 +1153,42 @@ a{
 	bottom: 4px;
 }
 
+.drop_zone{
+	position: absolute;
+	width: 62px;
+	height: 62px;
+}
+
+#drop_zone_1{
+	top: 158px;
+	left: 100px;
+}
+
+#drop_zone_2{
+	top: 158px;
+	left: 283px;
+}
+
+#drop_zone_3{
+	top: 158px;
+	left: 459px;
+}
+
+#drop_zone_4{
+	top: 328px;
+	left: 100px;
+}
+
+#drop_zone_5{
+	top: 328px;
+	left: 283px;
+}
+
+#drop_zone_6{
+	top: 328px;
+	left: 459px;
+}
+
 /*
 	------------------------------ INFO STUFF ------------------------------
 */

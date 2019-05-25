@@ -19,6 +19,228 @@ var awakening = false;
 var page1 = {};
 var page2 = {};
 var currentPage = 1;
+var lastAcceptedDrop;
+var lapenURL = "_0-0-0-0-0-0-0-0-0-0-0-0";
+
+function lapenDrag(event){
+	
+	event.dataTransfer.setData("text", event.target.id);
+	
+	let box = document.getElementById('info_box');
+	box.style.display = "none";
+	
+}
+
+function lapenAllowDrop(event){
+	
+	event.preventDefault();
+	
+	if( event.target.dataset.dropzone == "true" ){
+		
+		if( event.target.dataset.used != "true" ){
+
+			if( event.target.dataset && event.target.dataset.color != undefined ){
+			
+				lastAcceptedDrop = event.target;
+			
+			}
+			
+		}
+		
+	}
+
+}
+
+function setLapenUrl(zone, lap, lvl){
+	
+	if( zone == undefined ){
+	
+		let url = location.href.split("#")[1].split("_")[2];
+		let list = url.split("-");
+
+		for(let i=0; i < list.length; i+=2){
+
+			if( list[i] == lap ){
+				
+				list[i] = 0;
+				list[i+1] = 0;
+				
+				list = list.join("-");
+				lapenURL = "_" + list;
+				
+				setUrl();
+				
+				break;
+			
+			}
+		
+		}
+	
+		return;
+	}
+	
+	if( location.href.split("#")[1] == undefined || location.href.split("#")[1].split("_")[2] == undefined ){
+
+		setUrl();
+	
+	}
+	
+	let url = location.href.split("#")[1].split("_")[2];
+	
+	let list = url.split("-");
+	
+	let pos = [0,2,4,6,8,10];
+	
+	list[ pos[zone-1] ] = lap;
+	list[ pos[zone-1]+1 ] = lvl;
+	
+	list = list.join("-");
+	
+	lapenURL = "_" + list;
+	
+	setUrl();
+	
+}
+
+function lapenDrop(event){
+	
+	event.preventDefault();
+	
+	if( !lastAcceptedDrop ){ return };
+	
+	var data = event.dataTransfer.getData("text");
+	let lapen = document.getElementById(data);
+	
+	if( lapen.dataset.color != lastAcceptedDrop.dataset.color && lastAcceptedDrop.dataset.color != "base" ){
+		return;
+	}
+	
+	if( lastAcceptedDrop.dataset.color != "base" && lapen.dataset.inslot == "true" ){ return; }
+	
+	lastAcceptedDrop.appendChild( lapen );
+	
+	let dropZones = document.getElementsByClassName("drop_zone");
+	for(let i=0; i < dropZones.length; i++){
+		
+		if( dropZones[i].childElementCount == 0 ){
+			dropZones[i].dataset.used = "false";
+		}else{
+			dropZones[i].dataset.used = "true";
+		}
+		
+	}
+	
+	if( lastAcceptedDrop.dataset.color == "base" ){
+		lapen.dataset.inslot = "false";
+	}else{
+		lapen.dataset.inslot = "true";
+	}
+	
+	let lapenLevel = lapen.firstElementChild.innerText.replace("+","");
+	setLapenUrl(lastAcceptedDrop.dataset.id, lapen.dataset.id, lapenLevel);
+	
+}
+
+function lapenshardSetup(){
+	
+	function setLapenLevel(obj, newLevel){
+
+		let txt = obj.firstElementChild;
+		if( newLevel > 10 ){ level = 10; }
+		if( newLevel < 1 ){ level = 1; }
+		txt.innerHTML = "<p>+" + newLevel + "</p>";
+	
+	}
+
+	// Check if href can be split
+	if( location.href.split("#") == undefined ){ return; }
+	if( location.href.split("#")[1] == undefined || location.href.split("#")[1].split("_")[2] == undefined ){ return; }
+	
+	let str = location.href.split("#")[1].split("_")[2];
+	
+	let lapens = str.split("-");
+	
+	let dropZones = 1;
+	for(let i=0; i < lapens.length; i+=2){
+
+		let lap = document.getElementById("lapen_item_draggable_" + lapens[i]);
+		
+		if( lap ){
+
+			let dropZone = document.getElementById("drop_zone_"+ dropZones);
+			dropZone.appendChild(lap);
+			dropZone.dataset.used = "true";
+			lap.dataset.inslot = "true";
+			
+			setLapenLevel(lap, lapens[i+1]);
+		
+		}
+		
+		dropZones++;
+		
+	}
+	
+}
+
+function moveLapenshard(event){
+
+	event.preventDefault();
+	
+	if( $(event.target).hasClass("lapen_item_box") || $(event.target.parentElement).hasClass("lapen_item_box") ){
+
+		let shard;
+
+		if( $(event.target).hasClass("lapen_item_box") ){ shard = event.target; }
+		if( $(event.target.parentElement).hasClass("lapen_item_box") ){ shard = event.target.parentElement; }
+		
+		if( shard.dataset.inslot == "true" ){
+
+			let curr_zone = shard.parentElement;
+			curr_zone.dataset.used = "false";
+
+			let zone = document.getElementById("lapen_list");
+			zone.appendChild(shard);
+			shard.dataset.inslot = "false";
+			
+			setLapenUrl(null, shard.dataset.id);
+
+			return;
+		
+		}
+
+		let zones = document.getElementsByClassName("drop_zone");
+		for(let i=0; i < zones.length; i++){
+			
+			if( zones[i].dataset.used == "false" && (zones[i].dataset.color == shard.dataset.color) ){
+				
+				zones[i].appendChild(shard);
+				zones[i].dataset.used = "true";
+				shard.dataset.inslot = "true";
+				
+				let lvl = shard.firstElementChild.innerText.replace("+","");
+				setLapenUrl(zones[i].dataset.id, shard.dataset.id, lvl);
+				
+				break;
+			
+			}
+			
+		}
+		
+				
+		let dropZones = document.getElementsByClassName("drop_zone");
+		for(let i=0; i < dropZones.length; i++){
+			
+			if( dropZones[i].childElementCount == 0 ){
+				dropZones[i].dataset.used = "false";
+			}else{
+				dropZones[i].dataset.used = "true";
+			}
+			
+		}
+	
+	}
+	
+}
 
 function createLapenshards(){
 	
@@ -26,6 +248,13 @@ function createLapenshards(){
 	
 	let list = document.getElementById("lapen_list");
 	list.innerHTML = "";
+	
+	let dropZones = document.getElementsByClassName("drop_zone");
+	for(let i=0; i < dropZones.length; i++){
+
+		dropZones[i].innerHTML = "";
+		
+	}
 	
 	let shards = lapenshard[0];
 	
@@ -37,7 +266,7 @@ function createLapenshards(){
 			if( shards[k] == undefined ){ continue; }
 			
 			if( shards[k].title != "" ){
-				list.innerHTML += '<div class="lapen_item_box">' + '<div id="lapen_level"><p>+1</p></div>' + '<div class="lapen_level_box"> <div class="lapen_level_dec"><p>-</p></div>' + '<div class="lapen_level_inc"><p>+</p></div> </div>' + '<div data-textbasic="' + shards[k].textbasic + '" data-jobskills="' + shards[k].jobskills + '" data-title="' + shards[k].title + '" data-requirement="' + shards[k].requirement + ' "data-texts="' + shards[k].texts + '" class="lapen_item" style="background-position: ' + (48 * -j) + 'px ' + (56 * -i) + 'px;"></div>' + '</div>';
+				list.innerHTML += '<div oncontextmenu="moveLapenshard(event)" data-color="' + shards[k].color + '" data-inslot="false" id="lapen_item_draggable_' + k + '" data-id="' + k + '" draggable="true" ondragstart="lapenDrag(event)" class="lapen_item_box">' + '<div id="lapen_level"><p>+1</p></div>' + '<div class="lapen_level_box"> <div class="lapen_level_dec"><p>-</p></div>' + '<div class="lapen_level_inc"><p>+</p></div> </div>' + '<div data-textbasic="' + shards[k].textbasic + '" data-jobskills="' + shards[k].jobskills + '" data-title="' + shards[k].title + '" data-requirement="' + shards[k].requirement + ' "data-texts="' + shards[k].texts + '" class="lapen_item" style="background-position: ' + (48 * -j) + 'px ' + (56 * -i) + 'px;"></div>' + '</div>';
 			}
 			
 			k++;
@@ -78,6 +307,11 @@ function createLapenshards(){
 		if( level > 10 ){ level = 10; }
 		txt.innerHTML = "<p>+" + level + "</p>";
 		
+		let lap = event.target.parentElement.parentElement.parentElement.dataset.id;
+		let zone = event.target.parentElement.parentElement.parentElement.parentElement.dataset.id;
+		
+		setLapenUrl(zone, lap, level);
+		
 	});
 	
 	$(".lapen_level_dec").click(function(event){
@@ -87,12 +321,21 @@ function createLapenshards(){
 		if( level < 1 ){ level = 1; }
 		txt.innerHTML = "<p>+" + level + "</p>";
 		
+		let lap = event.target.parentElement.parentElement.parentElement.dataset.id;
+		let zone = event.target.parentElement.parentElement.parentElement.parentElement.dataset.id;
+		
+		setLapenUrl(zone, lap, level);
+		
 	});
+	
+	lapenshardSetup();
 
 }
 
 function closeLapenshardMenu(){
+	
 	$("#lapenshard_box").hide();
+	
 }
 
 // changeRank - Change rank to second skill tree or lapenshard
@@ -275,7 +518,7 @@ function loadUrlPoints(){
 		}
 		
 		if( !location.href.split("#")[1].includes("_") ){
-			location.href = location.href.split('#')[0] + "#" + location.href.split('#')[1] + "_0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0";
+			location.href = location.href.split('#')[0] + "#" + location.href.split('#')[1] + "_0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0" + lapenURL;
 		}
 		
 		showSkills();
@@ -833,15 +1076,15 @@ function setUrl(){
 	
 	if( !awakening ){
 		if( !location.href.includes("#") || !location.href.split("#")[1].includes("_") ){
-			str = str + "_0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0";
+			str = str + "_0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0" + lapenURL;
 		}else{
-			str = str + "_" + location.href.split("#")[1].split("_")[1];
+			str = str + "_" + location.href.split("#")[1].split("_")[1] + lapenURL;
 		}
 	}else{
 		if( location.href.split('#')[1] != undefined && !isNaN( location.href.split('#')[1][0] ) ){
-			str = "#" + location.href.split("#")[1].split("_")[0] + "_" + str;
+			str = "#" + location.href.split("#")[1].split("_")[0] + "_" + str + lapenURL;
 		}else{
-			str = "#1-1-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-" + job + "_" + str;
+			str = "#1-1-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-" + job + "_" + str + lapenURL;
 		}
 	}
 	
