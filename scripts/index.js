@@ -797,32 +797,32 @@ function setSkillInfo(event, type){
 					if( levels[i] == 0 ){
 						let newLevel = parseInt(levels[i]) + 1;
 						$(".info_level").text("Level " + newLevel );
-						infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+						infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
 						getResources(1);
 					}else{
 						$(".info_level").text("Level " + parseInt( levels[i]) );
-						infoDescription.innerHTML = isUndefined(texts[i][levels[i]]);
+						infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][levels[i]]) + "</span></p>";
 						getResources(0);
 					}
 				}else if( type == "plus" ){
 					let newLevel = parseInt(levels[i]) + 1;
 					$(".info_level").text("Level " + newLevel);
-					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
 					getResources(1);
 				}else if( type == "minus" ){
 					let newLevel = parseInt(levels[i]) - 1;
 					$(".info_level").text("Level " + newLevel );
-					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
 					getResources(-1);
 				}else if( type == "min" ){
 					let newLevel = 1;
 					$(".info_level").text("Level " + newLevel);
-					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
 					getResources(1 - parseInt(levels[i]));
 				}else if( type == "max" ){
 					let newLevel = parseInt(maxLevels[i]);
 					$(".info_level").text("Level " + newLevel);
-					infoDescription.innerHTML = isUndefined(texts[i][newLevel]);
+					infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
 					getResources(parseInt(maxLevels[i]) - parseInt(levels[i]));
 				}
 			
@@ -838,11 +838,11 @@ function setSkillInfo(event, type){
 				
 				// Set tooltip requirement text
 				let infoRequirement = document.getElementById("info_description");
-				infoRequirement.innerHTML = requirements[i];
+				infoRequirement.innerHTML = "<p><span class='info_gray'>" + requirements[i] + "</span></p>";
 			
 				// Set tooltip's first info text
 				let infoDescription2 = document.getElementById("info_description_2");
-				infoDescription2.innerHTML = infos[i];
+				infoDescription2.innerHTML = "<p><span class='info_gray'>" + infos[i] + "</span></p>";
 				
 				break;
 			
@@ -868,9 +868,9 @@ function setSkillInfo(event, type){
 			let infoRequirement = document.getElementById("info_description");
 			let jobName = document.getElementById("jobName").innerText;
 			if( infoTitle.includes("Blue") ){
-				infoRequirement.innerHTML = event.target.dataset.requirement + "<p><span class='info_gray'>Job: " + jobName + "</span></p>";
+				infoRequirement.innerHTML = "<p><span class='info_gray'>" + event.target.dataset.requirement + "<p><span class='info_gray'>Job: " + jobName + "</span></p>" + "</span></p>";
 			}else{
-				infoRequirement.innerHTML = event.target.dataset.requirement;
+				infoRequirement.innerHTML = "<p><span class='info_gray'>" + event.target.dataset.requirement + "</span></p>";
 			}
 			
 			let infoDescription = document.getElementById("info_description_3");
@@ -884,7 +884,7 @@ function setSkillInfo(event, type){
 			
 			let skill = event.target.dataset.jobskills;
 			let skillBasic = event.target.dataset.textbasic;
-			if( skillBasic == "undefined" ){ skillBasic = "" };
+			if( skillBasic == "undefined" ){ skillBasic = "" }else{ skillBasic = "<p><span class='info_gray'>" + skillBasic + "</span></p>"; }
 			if( infoTitle.includes("Blue") ){
 				skill = skill.split( jobName.toUpperCase() )[1].split("|")[1].split(",")[0];
 			}else{
@@ -1420,8 +1420,3 @@ $( window ).on( "load", function(){
 	});
 
 });
-
-// if phone or pad
-if( screen.width <= 768 ){
-	window.location.replace("./mobile.html");
-}

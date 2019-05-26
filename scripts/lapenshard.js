@@ -3,49 +3,49 @@ var lapenshard = [
 		{
 			"title": "",
 			"color": "red",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "red",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
 			"texts": [
 				"Fire <span class='info_blue'>1</span> electric current <span class='info_blue'>9</span> m in front of you. Targets take <span class='info_blue'>204%</span> damage and are stunned for <span class='info_blue'>20</span> sec, taking an additional <span class='info_blue'>204%</span> damage per second.",
 			]
 		},{
 			"title": "",
 			"color": "red",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
 			"texts": [
 				"Increases physical and magic attack by <span class='info_blue'>54</span> and decreases defense by <span class='info_blue'>50%</span> for <span class='info_blue'>10</span> sec.",
 			]
 		},{
 			"title": "",
 			"color": "red",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "red",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "red",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "Erda's Chill Blue Lapenshard",
 			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"jobskills": [
 				"KNIGHT | Conviction Strike",
 				"BERSERKER | Aerial Smash",
@@ -74,7 +74,7 @@ var lapenshard = [
 		},{
 			"title": "Master's Malice Blue Lapenshard",
 			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"jobskills": [
 				"KNIGHT | Light Bringer",
 				"BERSERKER | Parry the Moon",
@@ -103,7 +103,7 @@ var lapenshard = [
 		},{
 			"title": "Bjorn's Artistry Blue Lapenshard",
 			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"jobskills": [
 				"KNIGHT | Heaven's Judgment",
 				"BERSERKER | Blood Slash",
@@ -132,7 +132,7 @@ var lapenshard = [
 		},{
 			"title": "Pink Bean's Prank Blue Lapenshard",
 			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"jobskills": [
 				"KNIGHT | Cyclone Shield",
 				"BERSERKER | Squall",
@@ -161,7 +161,7 @@ var lapenshard = [
 		},{
 			"title": "Space Rift Blue Lapenshard",
 			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"jobskills": [
 				"KNIGHT | Divine Retribution and Guardian's Wings",
 				"BERSERKER | Skull Splitter and Raging Soul",
@@ -175,7 +175,7 @@ var lapenshard = [
 				"SOUL BINDER | Vision Torrent and Triune Link",
 				"STRIKER | Meridian Flow and Spiral Cannon",
 			],
-			"textbasic": "<p><span class='info_gray'>Basic Attributes<br> • Space Rift</span></p>",
+			"textbasic": "Basic Attributes<br> • Space Rift",
 			"texts": [
 				"have a chance to deal <span class='info_blue'>281%</span> damage. Inflicts <span class='info_blue'>5133</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
 				"have a chance to deal <span class='info_blue'>437%</span> damage. Inflicts <span class='info_blue'>6273</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
@@ -191,70 +191,70 @@ var lapenshard = [
 		},{
 			"title": "",
 			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
-			"texts": [
-				"<p><span class='info_gray'></span></p>",
-			]
-		},{
-			"title": "",
-			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
-			"texts": [
-				"<p><span class='info_gray'></span></p>",
-			]
-		},{
-			"title": "",
-			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "blue",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
+			"texts": [
+				"",
+			]
+		},{
+			"title": "",
+			"color": "blue",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
+			"texts": [
+				"",
+			]
+		},{
+			"title": "",
+			"color": "blue",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "green",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "green",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "green",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
 			"texts": [
 				"Increases health by <span class='info_blue'>750</span> and movement speed by <span class='info_blue'>2%</span>.",
 			]
 		},{
 			"title": "",
 			"color": "green",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "green",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "green",
-			"requirement": "<p><span class='info_gray'>Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard</span></p>",
+			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
 			"texts": [
 				"",
 			]

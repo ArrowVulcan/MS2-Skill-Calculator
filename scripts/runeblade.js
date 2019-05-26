@@ -8,20 +8,20 @@ var runeblade_skills = [
 			"level": 1,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 10+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 10+",
+			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>46%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>49%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>52%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>55%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>58%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>61%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>64%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>67%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>70%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Repeatedly attack enemies with your blade, dealing <span class='info_blue'>73%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>46%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>49%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>52%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>55%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>58%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>61%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>64%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>67%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>70%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Repeatedly attack enemies with your blade, dealing <span class='info_blue'>73%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. This skill attunes with your Flame, Frost and Storm Sigil skills.",
 			]
 		}
 	],[
@@ -33,20 +33,20 @@ var runeblade_skills = [
 			"level": 1,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 14+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 14+",
+			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>63%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>67%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>71%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>75%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>79%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>83%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>87%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>91%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>95%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Summon arcane echoes of your blade, dealing <span class='info_blue'>99%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.</span></p>",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>63%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>67%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>71%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>75%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>79%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>83%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>87%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>91%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>95%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
+				"Summon arcane echoes of your blade, dealing <span class='info_blue'>99%</span> damage <span class='info_blue'>7</span> times to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>3</span> m in front of you. The echoes fade when you perform another action. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>30</span> spirit.",
 			]
 		}
 	],[
@@ -59,36 +59,26 @@ var runeblade_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 19+</span></p><p><span class='info_red'>Triple Cut [Level 4+]</span></p><p><span class='info_red'>Infinity Cut [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 19+</span></p><p><span class='info_red'>Triple Cut [Level 4+]</span></p><p><span class='info_red'>Infinity Cut [Level 3+]",
+			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>303%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>324%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>345%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>366%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>387%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>408%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>429%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>450%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>471%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>492%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.</span></p>",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>303%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>324%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>345%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>366%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>387%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>408%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>429%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>450%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>471%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
+				"Drive your blade into the ground, creating a shock wave that deals <span class='info_blue'>492%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>2.25</span> m. This skill attunes with your Flame, Frost and Storm Sigil skills. You are immune to knockback while casting this skill. Consumes <span class='info_blue'>45</span> spirit.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
@@ -100,20 +90,20 @@ var runeblade_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 31+</span></p><p><span class='info_red'>Arcane Impact [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 31+</span></p><p><span class='info_red'>Arcane Impact [Level 3+]",
+			"info": "Passive",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>1%</span> and fire damage increases by <span class='info_blue'>1%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>1%</span> and your ice damage increases by <span class='info_blue'>1%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>1</span> and <span class='info_blue'>1%</span>, respectively, and your electric damage increases by <span class='info_blue'>1%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>1.4%</span> and fire damage increases by <span class='info_blue'>1.6%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>1.4%</span> and your ice damage increases by <span class='info_blue'>1.6%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>1</span> and <span class='info_blue'>2%</span>, respectively, and your electric damage increases by <span class='info_blue'>1.6%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>1.8%</span> and fire damage increases by <span class='info_blue'>2.2%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>1.8%</span> and your ice damage increases by <span class='info_blue'>2.2%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>1</span> and <span class='info_blue'>3%</span>, respectively, and your electric damage increases by <span class='info_blue'>2.2%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>2.2%</span> and fire damage increases by <span class='info_blue'>2.8%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>2.2%</span> and your ice damage increases by <span class='info_blue'>2.8%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>2</span> and <span class='info_blue'>4%</span>, respectively, and your electric damage increases by <span class='info_blue'>2.8%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>2.6%</span> and fire damage increases by <span class='info_blue'>3.4%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>2.6%</span> and your ice damage increases by <span class='info_blue'>3.4%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>2</span> and <span class='info_blue'>5%</span>, respectively, and your electric damage increases by <span class='info_blue'>3.4%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>3%</span> and fire damage increases by <span class='info_blue'>4%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>3%</span> and your ice damage increases by <span class='info_blue'>4%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>2</span> and <span class='info_blue'>6%</span>, respectively, and your electric damage increases by <span class='info_blue'>4%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>3.4%</span> and fire damage increases by <span class='info_blue'>4.6%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>3.4%</span> and your ice damage increases by <span class='info_blue'>4.6%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>3</span> and <span class='info_blue'>7%</span>, respectively, and your electric damage increases by <span class='info_blue'>4.6%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>3.8%</span> and fire damage increases by <span class='info_blue'>5.2%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>3.8%</span> and your ice damage increases by <span class='info_blue'>5.2%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>3</span> and <span class='info_blue'>8%</span>, respectively, and your electric damage increases by <span class='info_blue'>5.2%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>4.2%</span> and fire damage increases by <span class='info_blue'>5.8%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>4.2%</span> and your ice damage increases by <span class='info_blue'>5.8%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>3</span> and <span class='info_blue'>9%</span>, respectively, and your electric damage increases by <span class='info_blue'>5.8%</span>.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>4.6%</span> and fire damage increases by <span class='info_blue'>6.4%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>4.6%</span> and your ice damage increases by <span class='info_blue'>6.4%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>4</span> and <span class='info_blue'>10%</span>, respectively, and your electric damage increases by <span class='info_blue'>6.4%</span>.</span></p>",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>1%</span> and fire damage increases by <span class='info_blue'>1%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>1%</span> and your ice damage increases by <span class='info_blue'>1%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>1</span> and <span class='info_blue'>1%</span>, respectively, and your electric damage increases by <span class='info_blue'>1%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>1.4%</span> and fire damage increases by <span class='info_blue'>1.6%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>1.4%</span> and your ice damage increases by <span class='info_blue'>1.6%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>1</span> and <span class='info_blue'>2%</span>, respectively, and your electric damage increases by <span class='info_blue'>1.6%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>1.8%</span> and fire damage increases by <span class='info_blue'>2.2%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>1.8%</span> and your ice damage increases by <span class='info_blue'>2.2%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>1</span> and <span class='info_blue'>3%</span>, respectively, and your electric damage increases by <span class='info_blue'>2.2%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>2.2%</span> and fire damage increases by <span class='info_blue'>2.8%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>2.2%</span> and your ice damage increases by <span class='info_blue'>2.8%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>2</span> and <span class='info_blue'>4%</span>, respectively, and your electric damage increases by <span class='info_blue'>2.8%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>2.6%</span> and fire damage increases by <span class='info_blue'>3.4%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>2.6%</span> and your ice damage increases by <span class='info_blue'>3.4%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>2</span> and <span class='info_blue'>5%</span>, respectively, and your electric damage increases by <span class='info_blue'>3.4%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>3%</span> and fire damage increases by <span class='info_blue'>4%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>3%</span> and your ice damage increases by <span class='info_blue'>4%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>2</span> and <span class='info_blue'>6%</span>, respectively, and your electric damage increases by <span class='info_blue'>4%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>3.4%</span> and fire damage increases by <span class='info_blue'>4.6%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>3.4%</span> and your ice damage increases by <span class='info_blue'>4.6%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>3</span> and <span class='info_blue'>7%</span>, respectively, and your electric damage increases by <span class='info_blue'>4.6%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>3.8%</span> and fire damage increases by <span class='info_blue'>5.2%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>3.8%</span> and your ice damage increases by <span class='info_blue'>5.2%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>3</span> and <span class='info_blue'>8%</span>, respectively, and your electric damage increases by <span class='info_blue'>5.2%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>4.2%</span> and fire damage increases by <span class='info_blue'>5.8%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>4.2%</span> and your ice damage increases by <span class='info_blue'>5.8%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>3</span> and <span class='info_blue'>9%</span>, respectively, and your electric damage increases by <span class='info_blue'>5.8%</span>.",
+				"The teaching of the Jibricia Sect unlock the power of your rune magic. When Flame Sigil is active, your max health increases by <span class='info_blue'>4.6%</span> and fire damage increases by <span class='info_blue'>6.4%</span>. When Frost Sigil is active, your defense increases by <span class='info_blue'>4.6%</span> and your ice damage increases by <span class='info_blue'>6.4%</span>. When Storm Sigil is active, your evasion and movement speed increase by <span class='info_blue'>4</span> and <span class='info_blue'>10%</span>, respectively, and your electric damage increases by <span class='info_blue'>6.4%</span>.",
 			]
 		}
 	],[
@@ -126,52 +116,32 @@ var runeblade_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-3-3-0-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Runes Unleashed [Level 4+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Proximity / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Runes Unleashed [Level 4+]",
+			"info": "Active</span></p><p><span class='info_gray'>Proximity / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>53%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>106%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>57%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>114%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>61%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>122%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>65%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>130%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>69%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>138%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>73%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>146%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>77%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>154%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>81%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>162%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>85%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>170%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>89%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>178%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>53%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>106%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>57%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>114%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>61%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>122%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>65%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>130%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>69%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>138%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>73%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>146%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>77%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>154%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>81%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>162%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>85%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>170%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Charge forward <span class='info_blue'>7.5</span> m, splitting the ground with your blade to deal <span class='info_blue'>89%</span> damage to <span class='info_blue'>5</span> enemies in your path. The split explodes, dealing <span class='info_blue'>178%</span> damage to <span class='info_blue'>8</span> enemies in range. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
 			]
 		}
 	],
 	column2 = [
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
@@ -183,20 +153,20 @@ var runeblade_skills = [
 			"maxLevel": 10,
 			"locked": 0,
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 13+</span><p><span class='info_red'>Triple Cut [Level 2+]</span></p></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 13+</span><p><span class='info_red'>Triple Cut [Level 2+]</span></p></p>",
+			"info": "Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>49%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>53%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>57%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>61%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>65%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>69%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>73%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>77%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>81%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>85%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.</span></p>",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>49%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>53%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>57%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>61%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>65%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>69%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>73%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>77%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>81%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
+				"Throw <span class='info_blue'>3</span> arcane blades at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>85%</span> damage. This skill attunes with your Flame, Frost and Storm Sigil skills. Consumes <span class='info_blue'>40</span> spirit.",
 			]
 		}
 	],[
@@ -209,20 +179,20 @@ var runeblade_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "4-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p><p><span class='info_red'>Triple Cut [Level 4+]</span></p><p><span class='info_red'>Triple Splitter [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p><p><span class='info_red'>Triple Cut [Level 4+]</span></p><p><span class='info_red'>Triple Splitter [Level 3+]",
+			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>113%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>120%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>127%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>134%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>141%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>148%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>155%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>162%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>169%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
-				"<p><span class='info_gray'>Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>176%</span> damage. Consumes <span class='info_blue'>15</span> spirit.</span></p>",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>113%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>120%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>127%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>134%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>141%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>148%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>155%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>162%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>169%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
+				"Conjour <span class='info_blue'>5</span> arcane blades. Once per second, <span class='info_blue'>1</span> blade flies at the closest enemy within <span class='info_blue'>7.5</span> m, one per sec, dealing <span class='info_blue'>176%</span> damage. Consumes <span class='info_blue'>15</span> spirit.",
 			]
 		}
 	],[
@@ -235,36 +205,26 @@ var runeblade_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "5-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Triple Cut [Level 5+]</span></p><p><span class='info_red'>Illusory Blades [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Triple Cut [Level 5+]</span></p><p><span class='info_red'>Illusory Blades [Level 3+]",
+			"info": "Passive",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>1%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>1.6%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>2.2%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>2.8%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>3.4%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>4%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>4.6%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>5.2%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>5.8%</span> when you have a blade equipped.</span></p>",
-				"<p><span class='info_gray'>The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>6.4%</span> when you have a blade equipped.</span></p>",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>1%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>1.6%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>2.2%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>2.8%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>3.4%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>4%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>4.6%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>5.2%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>5.8%</span> when you have a blade equipped.",
+				"The teaching of the Pelgia Sect have sharpened your swordsmanship. Increases weapon attack by <span class='info_blue'>6.4%</span> when you have a blade equipped.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],
 	column3 = [
@@ -277,26 +237,16 @@ var runeblade_skills = [
 			"maxLevel": 1,
 			"locked": 0,
 			"requirement": "",
-			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"info": "Passive",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Your training allows you to absorb <span class='info_blue'>1</span> spirit every <span class='info_blue'>0.1</span> sec and increases your intelligence by <span class='info_blue'>70%</span> of your Strength.</span></p>",
+				"Your training allows you to absorb <span class='info_blue'>1</span> spirit every <span class='info_blue'>0.1</span> sec and increases your intelligence by <span class='info_blue'>70%</span> of your Strength.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
@@ -308,20 +258,20 @@ var runeblade_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 14+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 14+",
+			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>2%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>4%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>6%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>8%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>10%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>12%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>14%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>16%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>18%</span>. While active, certain skills become fire skills.</span></p>",
-				"<p><span class='info_gray'>Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>20%</span>. While active, certain skills become fire skills.</span></p>",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>2%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>4%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>6%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>8%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>10%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>12%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>14%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>16%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>18%</span>. While active, certain skills become fire skills.",
+				"Apply a fire rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing fire damage by <span class='info_blue'>20%</span>. While active, certain skills become fire skills.",
 			]
 		}
 	],[
@@ -334,20 +284,20 @@ var runeblade_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 22+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 22+",
+			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>2%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>4%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>6%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>8%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>10%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>12%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>14%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>16%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>18%</span>. While active, certain skills become ice skills.</span></p>",
-				"<p><span class='info_gray'>Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>20%</span>. While active, certain skills become ice skills.</span></p>",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>2%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>4%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>6%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>8%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>10%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>12%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>14%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>16%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>18%</span>. While active, certain skills become ice skills.",
+				"Apply an ice rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing Ice damage by <span class='info_blue'>20%</span>. While active, certain skills become ice skills.",
 			]
 		}
 	],[
@@ -360,20 +310,20 @@ var runeblade_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 25+",
+			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>2%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>4%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>6%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>8%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>10%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>12%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>14%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>16%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>18%</span>. While active, certain skills become electric skills.</span></p>",
-				"<p><span class='info_gray'>Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>20%</span>. While active, certain skills become electric skills.</span></p>",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>2%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>4%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>6%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>8%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>10%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>12%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>14%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>16%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>18%</span>. While active, certain skills become electric skills.",
+				"Apply a lightning rune to your blade that lasts <span class='info_blue'>240</span> sec, increasing electric damage by <span class='info_blue'>20%</span>. While active, certain skills become electric skills.",
 			]
 		}
 	],[
@@ -385,20 +335,20 @@ var runeblade_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 46+",
+			"info": "Active",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>2%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>1%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>4%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>2%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>6%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>3%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>8%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>4%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>10%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>5%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>12%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>6%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>14%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>7%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>16%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>8%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>18%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>9%</span>.</span></p>",
-				"<p><span class='info_gray'>Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>20%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>10%</span>.</span></p>",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>2%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>1%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>4%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>2%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>6%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>3%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>8%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>4%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>10%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>5%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>12%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>6%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>14%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>7%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>16%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>8%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>18%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>9%</span>.",
+				"Place <span class='info_blue'>9</span> runes of honing in a square around you. Allies who touch the runes gain <span class='info_blue'>20%</span> critical damage for <span class='info_blue'>180</span> sec. Passively increases your critical damage by <span class='info_blue'>10%</span>.",
 			]
 		}
 	],
@@ -412,26 +362,16 @@ var runeblade_skills = [
 			"maxLevel": 1,
 			"locked": 0,
 			"requirement": "",
-			"info": "<p><span class='info_gray'>Active</span></p>",
+			"info": "Active",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Teleport forward to the nearest enemy within <span class='info_blue'>6</span> m. If there are no enemies in range, teleport <span class='info_blue'>3</span> m instead. This skill can cancel out other skills. You will be immune to knockback while casting this skill.</span></p>",
+				"Teleport forward to the nearest enemy within <span class='info_blue'>6</span> m. If there are no enemies in range, teleport <span class='info_blue'>3</span> m instead. This skill can cancel out other skills. You will be immune to knockback while casting this skill.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
@@ -442,20 +382,20 @@ var runeblade_skills = [
 			"level": 0,
 			"maxLevel": 10,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 16+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 16+",
+			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>114%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>122%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>130%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>138%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>146%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>154%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>162%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>170%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>178%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
-				"<p><span class='info_gray'>Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>186%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.</span></p>",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>114%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>122%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>130%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>138%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>146%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>154%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>162%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>170%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>178%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
+				"Summon a rune <span class='info_blue'>3</span> m in front of you. The rune pulls enemies into it, dealing <span class='info_blue'>186%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.75</span> m.",
 			]
 		}
 	],[
@@ -468,36 +408,26 @@ var runeblade_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Gravity Rune [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Gravity Rune [Level 3+]",
+			"info": "Active",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>10</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>20</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>30</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>40</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>50</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>60</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>70</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>80</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>90</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>100</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.</span></p>",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>10</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>20</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>30</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>40</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>50</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>60</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>70</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>80</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>90</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
+				"Summon a shield that lasts <span class='info_blue'>9</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>100</span>. This skill attunes with your Flame, Frost and Storm Sigil skills.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
@@ -509,20 +439,20 @@ var runeblade_skills = [
 			"maxLevel": 10,
 			"locked": 1,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-4-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p><p><span class='info_red'>Runic Shield [Level 4+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p><p><span class='info_red'>Runic Shield [Level 4+]",
+			"info": "Active",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>2%</span> for <span class='info_blue'>10</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>4%</span> for <span class='info_blue'>11</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>6%</span> for <span class='info_blue'>12</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>8%</span> for <span class='info_blue'>13</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>10%</span> for <span class='info_blue'>14</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>12%</span> for <span class='info_blue'>15</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>14%</span> for <span class='info_blue'>16</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>16%</span> for <span class='info_blue'>17</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>18%</span> for <span class='info_blue'>18</span> sec.</span></p>",
-				"<p><span class='info_gray'>Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>20%</span> for <span class='info_blue'>19</span> sec.</span></p>",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>2%</span> for <span class='info_blue'>10</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>4%</span> for <span class='info_blue'>11</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>6%</span> for <span class='info_blue'>12</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>8%</span> for <span class='info_blue'>13</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>10%</span> for <span class='info_blue'>14</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>12%</span> for <span class='info_blue'>15</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>14%</span> for <span class='info_blue'>16</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>16%</span> for <span class='info_blue'>17</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>18%</span> for <span class='info_blue'>18</span> sec.",
+				"Amplify your rune power with this secret technique handed down by Master Ishura. Increases fire, ice and electric damage to enemies by <span class='info_blue'>20%</span> for <span class='info_blue'>19</span> sec.",
 			]
 		}
 	]
@@ -538,14 +468,14 @@ var runeblade_skills_awakening = [
 			"level": 0,
 			"maxLevel": 4,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
+			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>46%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
-				"<p><span class='info_gray'>Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>50%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
-				"<p><span class='info_gray'>Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>54%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
-				"<p><span class='info_gray'>Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+				"Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>46%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.",
+				"Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>50%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.",
+				"Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>54%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.",
+				"Unleash <span class='info_blue'>5</span> wild, flashy attacks with your blade.</span></p><br><p><span class='info_orange'>[Details]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.",
 			]
 		}
 	],[
@@ -558,14 +488,14 @@ var runeblade_skills_awakening = [
 			"maxLevel": 4,
 			"locked": 0,
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Quintuple Cut [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Quintuple Cut [Level 3+]",
+			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>49%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
-				"<p><span class='info_gray'>Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>53%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
-				"<p><span class='info_gray'>Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>57%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
-				"<p><span class='info_gray'>Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>61%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.</span></p>",
+				"Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>49%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.",
+				"Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>53%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.",
+				"Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>57%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.",
+				"Turn your blade into a whip, striking <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>61%</span> damage per hit.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil.",
 			]
 		}
 	],[
@@ -578,30 +508,20 @@ var runeblade_skills_awakening = [
 			"maxLevel": 4,
 			"locked": 0,
 			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Blade Whip [Level 2+]</span></p>",
-			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Blade Whip [Level 2+]",
+			"info": "Passive",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>2%.</span></span></p>",
-				"<p><span class='info_gray'>You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>4%.</span></span></p>",
-				"<p><span class='info_gray'>You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>6%.</span></span></p>",
-				"<p><span class='info_gray'>You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>8%.</span></span></p>",
+				"You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>2%.</span>",
+				"You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>4%.</span>",
+				"You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>6%.</span>",
+				"You've honed your swordplay through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Quintuple Cut, Blade Whip, and Phantasm Slash by <span class='info_blue'>8%.</span>",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
@@ -613,121 +533,51 @@ var runeblade_skills_awakening = [
 			"maxLevel": 4,
 			"locked": 0,
 			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Blade Whip [Level 3+]</span></p><p><span class='info_orange'>Blade Expert [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Blade Whip [Level 3+]</span></p><p><span class='info_orange'>Blade Expert [Level 3+]",
+			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>890%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>445%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>640%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.</span></p>",
-				"<p><span class='info_gray'>Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>993%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>496%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>693%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.</span></p>",
-				"<p><span class='info_gray'>Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>1096%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>547%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>746%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.</span></p>",
-				"<p><span class='info_gray'>Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>1199%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>598%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>799%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.</span></p>",
+				"Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>890%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>445%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>640%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.",
+				"Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>993%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>496%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>693%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.",
+				"Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>1096%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>547%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>746%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.",
+				"Create a circle of rune magic, then use your blade to lash the magic at enemies. Reactivate the skill after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>1199%</span> damage, then make multiple blade strikes that deal <span class='info_blue'>598%</span> damage each.</span></p><br><p><span class='info_gray'>Use the skill again after the initial strike to use Spell Splitter.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spell Splitter deals <span class='info_blue'>799%</span> damage <span class='info_blue'>10</span> times and refreshes the damage area every <span class='info_blue'>0.1</span> sec.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],
 	column2 = [
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],
 	column3 = [
@@ -739,14 +589,14 @@ var runeblade_skills_awakening = [
 			"level": 0,
 			"maxLevel": 4,
 			"locked": 0,
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 60+</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
+			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>110%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>119%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>128%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>137%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>110%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>119%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>128%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Cast focused rune magic at an enemy in front of you. The magic explodes from within the target.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>137%</span> damage to enemies within the explosion.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
 			]
 		}
 	],[
@@ -759,30 +609,20 @@ var runeblade_skills_awakening = [
 			"maxLevel": 4,
 			"locked": 0,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Rune Trigger [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Rune Trigger [Level 3+]",
+			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>86%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>115%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>143%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>58%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>86%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>115%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Conjure a globe of chaotic blade magic.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>143%</span> damage.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
@@ -794,14 +634,14 @@ var runeblade_skills_awakening = [
 			"maxLevel": 4,
 			"locked": 0,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Dimension Blade [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Passive</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Dimension Blade [Level 3+]",
+			"info": "Passive",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>2%</span>.</span></p>",
-				"<p><span class='info_gray'>You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>4%</span>.</span></p>",
-				"<p><span class='info_gray'>You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>6%</span>.</span></p>",
-				"<p><span class='info_gray'>You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>8%</span>.</span></p>",
+				"You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>2%</span>.",
+				"You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>4%</span>.",
+				"You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>6%</span>.",
+				"You've honed your runecraft through careful study of the Twin Arts.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Rune Trigger, Dimension Blade, and Rune Ignition by <span class='info_blue'>8%</span>.",
 			]
 		}
 	],[
@@ -814,30 +654,20 @@ var runeblade_skills_awakening = [
 			"maxLevel": 4,
 			"locked": 0,
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
-			"requirement": "<p><span class='info_gray'>[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Rune Expert [Level 3+]</span></p>",
-			"info": "<p><span class='info_gray'>Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade</span></p>",
+			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Rune Expert [Level 3+]",
+			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Blade",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>300%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>315%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>330%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
-				"<p><span class='info_gray'>Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>345%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.</span></p>",
+				"Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>300%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>315%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>330%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
+				"Plunge your blade into the ground to send forth <span class='info_blue'>4</span> shockwaves.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>345%</span> damage per shockwave.</span></p><br><p><span class='info_gray'>Grants knockback immunity.</span></p><br><p><span class='info_gray'>This skill attunes with your Flame, Frost, and Storm Sigil skills.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],
 	column4 = [
@@ -850,86 +680,36 @@ var runeblade_skills_awakening = [
 			"maxLevel": 1,
 			"locked": 0,
 			"requirement": "",
-			"info": "<p><span class='info_gray'>Active</span></p>",
+			"info": "Active",
 			"texts": [
 				"",
-				"<p><span class='info_gray'>Charge your body with rune magic, increasing your physical capabilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>30%</span> and defense by <span class='info_blue'>20%</span>.</span></p><br><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'>40</span>.</span></p>",
+				"Charge your body with rune magic, increasing your physical capabilities.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>30%</span> and defense by <span class='info_blue'>20%</span>.</span></p><br><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'>40</span>.",
 			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	],[
 		{
 			"hidden": 1,
-			"image": 0,
-			"title": "",
-			"resource": 0,
 			"level": 0,
-			"maxLevel": 0,
-			"locked": 1,
-			"requirement": "",
-			"info": "",
-			"texts": [
-				"",
-			]
 		}
 	]
 ];
