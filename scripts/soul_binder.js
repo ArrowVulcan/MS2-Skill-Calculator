@@ -10,18 +10,19 @@ var soul_binder_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'></span> m in front, dealing <span class='info_blue'></span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within a <span class='info_blue'></span> m radius.",
+			"skilltext": [
 				"",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>38%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>170%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>41%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>182%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>44%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>194%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>47%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>206%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>50%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>218%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>53%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>230%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>56%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>242%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>59%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>254%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>62%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>266%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
-				"Gather energy from your surroundings to create an energy orb and launch it at the nearest enemy <span class='info_blue'>7.5</span> m in front, dealing <span class='info_blue'>65%</span> damage. By pressing the key consecutively, a 3-stage attack can be performed. Stages 1 and 2 have the same effect, but stage 3 launches an energy orb that explodes upon collision, dealing <span class='info_blue'>278%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius.",
+				"7.5,38%,170%,5,2.25",
+				"7.5,41%,182%,5,2.25",
+				"7.5,44%,194%,5,2.25",
+				"7.5,47%,206%,5,2.25",
+				"7.5,50%,218%,5,2.25",
+				"7.5,53%,230%,5,2.25",
+				"7.5,56%,242%,5,2.25",
+				"7.5,59%,254%,5,2.25",
+				"7.5,62%,266%,5,2.25",
+				"7.5,65%,278%,5,2.25",
 			]
 		}
 	],[
@@ -35,18 +36,19 @@ var soul_binder_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'></span> m, dealing <span class='info_blue'></span> damage <span class='info_blue'></span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'></span> times to other enemies within a <span class='info_blue'></span> m radius, dealing <span class='info_blue'></span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>58%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>58%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>62%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>62%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>66%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>66%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>70%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>70%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>74%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>74%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>78%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>78%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>82%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>82%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>86%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>86%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>90%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>90%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
-				"Concentrate the surrounding energy into both your hands to create energy orbs that consecutively launch at the nearest enemy within <span class='info_blue'>7.5</span> m, dealing <span class='info_blue'>94%</span> damage <span class='info_blue'>4</span> times. Each energy orb that collides with an enemy ricochets <span class='info_blue'>4</span> times to other enemies within a <span class='info_blue'>3</span> m radius, dealing <span class='info_blue'>94%</span> damage. Energy orbs do not attack the same target twice. Consumes <span class='info_blue'>3</span> spirit.",
+				"7.5,58%,4,4,3,58%,3",
+				"7.5,62%,4,4,3,62%,3",
+				"7.5,66%,4,4,3,66%,3",
+				"7.5,70%,4,4,3,70%,3",
+				"7.5,74%,4,4,3,74%,3",
+				"7.5,78%,4,4,3,78%,3",
+				"7.5,82%,4,4,3,82%,3",
+				"7.5,86%,4,4,3,86%,3",
+				"7.5,90%,4,4,3,90%,3",
+				"7.5,94%,4,4,3,94%,3",
 			]
 		}
 	],[
@@ -61,18 +63,19 @@ var soul_binder_skills = [
 			"lockReq": "2-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 13+</span></p><p><span class='info_red'>Soaring Orb [Level 2+]</span></p><p><span class='info_red'>Radiant Salvo [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'></span> m forward, dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'></span> electric damage every sec for <span class='info_blue'></span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>625%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>669%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>713%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>757%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>801%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>845%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>889%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>933%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>977%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Condense the energy of Narubashan into a powerful one-meter-wide electric energy orb and send it <span class='info_blue'>7.5</span> m forward, dealing <span class='info_blue'>1021%</span> damage to <span class='info_blue'>8</span> enemies within its path.  The electric energy orb shocks targets, dealing an additional <span class='info_blue'>20%</span> electric damage every sec for <span class='info_blue'>3</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
+				"7.5,625%,8,20%,3,4",
+				"7.5,669%,8,20%,3,4",
+				"7.5,713%,8,20%,3,4",
+				"7.5,757%,8,20%,3,4",
+				"7.5,801%,8,20%,3,4",
+				"7.5,845%,8,20%,3,4",
+				"7.5,889%,8,20%,3,4",
+				"7.5,933%,8,20%,3,4",
+				"7.5,977%,8,20%,3,4",
+				"7.5,1021%,8,20%,3,4",
 			]
 		}
 	],[
@@ -87,18 +90,19 @@ var soul_binder_skills = [
 			"lockReq": "2-2-5-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 25+</span></p><p><span class='info_red'>Expansion Ball [Level 5+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'></span> m. The light beam deals <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>688%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>736%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>784%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>832%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>880%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>928%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>976%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>1024%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>1072%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
-				"Gather the energy of light in both hands and release a powerful beam that pushes you back <span class='info_blue'>1.5</span> m. The light beam deals <span class='info_blue'>1120%</span> damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>10.5</span> m in front of you. Consumes <span class='info_blue'>6</span> spirit.",
+				"1.5,688%,8,10.5,6",
+				"1.5,736%,8,10.5,6",
+				"1.5,784%,8,10.5,6",
+				"1.5,832%,8,10.5,6",
+				"1.5,880%,8,10.5,6",
+				"1.5,928%,8,10.5,6",
+				"1.5,976%,8,10.5,6",
+				"1.5,1024%,8,10.5,6",
+				"1.5,1072%,8,10.5,6",
+				"1.5,1120%,8,10.5,6",
 			]
 		}
 	],[
@@ -113,18 +117,19 @@ var soul_binder_skills = [
 			"lockReq": "2-6-5-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 37+</span></p><p><span class='info_red'>Radiant Salvo [Level 6+]</span></p><p><span class='info_red'>Flash Strike [Level 4+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Using the strength of animus, create <span class='info_blue'></span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'></span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within a <span class='info_blue'></span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>242%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>259%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>276%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>293%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>310%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>327%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>344%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>361%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>378%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
-				"Using the strength of animus, create <span class='info_blue'>3</span> energy orbs infused with the energy of the stars and launch them at enemies up to <span class='info_blue'>8</span> m in front of you. The energy orbs explode upon collision, spreading the stars' energy and dealing <span class='info_blue'>395%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>4</span> spirit.",
+				"3,8,242%,5,2.25,4",
+				"3,8,259%,5,2.25,4",
+				"3,8,276%,5,2.25,4",
+				"3,8,293%,5,2.25,4",
+				"3,8,310%,5,2.25,4",
+				"3,8,327%,5,2.25,4",
+				"3,8,344%,5,2.25,4",
+				"3,8,361%,5,2.25,4",
+				"3,8,378%,5,2.25,4",
+				"3,8,395%,5,2.25,4",
 			]
 		}
 	],[
@@ -139,18 +144,19 @@ var soul_binder_skills = [
 			"lockReq": "8-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 43+</span></p><p><span class='info_red'>Soaring Orb [Level 8+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'></span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within a <span class='info_blue'></span> m radius. Press the key consecutively to activate a 2-step attack.",
+			"skilltext": [
 				"",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>179%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>191%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>203%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>215%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>227%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>239%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>251%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>263%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>275%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
-				"Gather surrounding energy to create an explosive energy orb and launch it at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you. The energy orb explodes upon collision, dealing <span class='info_blue'>287%</span> damage to <span class='info_blue'>5</span> enemies within a <span class='info_blue'>2.25</span> m radius. Press the key consecutively to activate a 2-step attack.",
+				"7.5,179%,5,2.25",
+				"7.5,191%,5,2.25",
+				"7.5,203%,5,2.25",
+				"7.5,215%,5,2.25",
+				"7.5,227%,5,2.25",
+				"7.5,239%,5,2.25",
+				"7.5,251%,5,2.25",
+				"7.5,263%,5,2.25",
+				"7.5,275%,5,2.25",
+				"7.5,287%,5,2.25",
 			]
 		}
 	],
@@ -176,18 +182,19 @@ var soul_binder_skills = [
 			"lockReq": "4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 16+</span><p><span class='info_red'>Soaring Orb [Level 4+]</span></p></p>",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'></span> m ahead. The whirlwind rages every <span class='info_blue'></span> sec (<span class='info_blue'></span> times total), dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within a <span class='info_blue'></span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'></span> sec, dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within a <span class='info_blue'></span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion reduced by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>23%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>68%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion reduced by <span class='info_blue'>1</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>25%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>72%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>1</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>27%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>76%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>1</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>29%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>80%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>2</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>31%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>84%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>2</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>33%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>88%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>3</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>35%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>92%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>3</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>37%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>96%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>4</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>39%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>100%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>4</span>.",
-				"Adjust the flow of the atmosphere, causing a whirlwind <span class='info_blue'>6</span> m ahead. The whirlwind rages every <span class='info_blue'>0.2</span> sec (<span class='info_blue'>4</span> times total), dealing <span class='info_blue'>41%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius and gathering them at its center. The condensed energy in the eye of the whirlwind explodes after <span class='info_blue'>1</span> sec, dealing <span class='info_blue'>104%</span> damage to <span class='info_blue'>8</span> enemies within a <span class='info_blue'>3</span>160 m radius. Enemies caught in the explosion lose their coordination and have their accuracy and evasion decreased by <span class='info_blue'>4</span>.",
+				"6,0.2,4,23%,8,3,1,68%,8,3,1",
+				"6,0.2,4,25%,8,3,1,72%,8,3,1",
+				"6,0.2,4,27%,8,3,1,76%,8,3,1",
+				"6,0.2,4,29%,8,3,1,80%,8,3,2",
+				"6,0.2,4,31%,8,3,1,84%,8,3,2",
+				"6,0.2,4,33%,8,3,1,88%,8,3,3",
+				"6,0.2,4,35%,8,3,1,92%,8,3,3",
+				"6,0.2,4,37%,8,3,1,96%,8,3,4",
+				"6,0.2,4,39%,8,3,1,100%,8,3,4",
+				"6,0.2,4,41%,8,3,1,104%,8,3,4",
 			]
 		}
 	],[
@@ -202,18 +209,19 @@ var soul_binder_skills = [
 			"lockReq": "4-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 28+</span></p><p><span class='info_red'>Raging Tempest [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Use the power of animus to cast magic within a <span class='info_blue'></span> m radius, exhausting the vitality of <span class='info_blue'></span> enemies within range, dealing <span class='info_blue'></span> damage, and reducing both defense and movement speed by <span class='info_blue'></span> for <span class='info_blue'></span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>44%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>1%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>47%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>2%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>50%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>3%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>53%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>4%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>56%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>5%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>59%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>6%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>62%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>7%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>65%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>8%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>68%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>9%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>71%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit."
+				"7.5,8,44%,1%,10,15",
+				"7.5,8,47%,2%,10,15",
+				"7.5,8,50%,3%,10,15",
+				"7.5,8,53%,4%,10,15",
+				"7.5,8,56%,5%,10,15",
+				"7.5,8,59%,6%,10,15",
+				"7.5,8,62%,7%,10,15",
+				"7.5,8,65%,8%,10,15",
+				"7.5,8,68%,9%,10,15",
+				"7.5,8,71%,10%,10,15",
 			]
 		}
 	],[
@@ -228,18 +236,19 @@ var soul_binder_skills = [
 			"lockReq": "4-0-0-0-0-0-0-0-6-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 34+</span></p><p><span class='info_red'>Raging Tempest [Level 6+]</span></p><p><span class='info_red'>Energy Surge [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic",
-			"texts": [
+			"skillinfo": "Use the power of animus to cast magic within a <span class='info_blue'></span> m radius, exhausting the vitality of <span class='info_blue'></span> enemies within range, dealing <span class='info_blue'></span> damage, and reducing both defense and movement speed by <span class='info_blue'></span> for <span class='info_blue'></span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>44%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>1%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>47%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>2%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>50%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>3%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>53%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>4%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>56%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>5%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>59%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>6%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>62%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>7%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>65%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>8%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>68%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>9%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
-				"Use the power of animus to cast magic within a <span class='info_blue'>7.5</span> m radius, exhausting the vitality of <span class='info_blue'>8</span> enemies within range, dealing <span class='info_blue'>71%</span> damage, and reducing both defense and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>10</span> sec. The enhancement level changes and activates depending on the number of Mantra Cores. Consumes <span class='info_blue'>15</span> spirit.",
+				"7.5,8,44%,1%,10,15",
+				"7.5,8,47%,2%,10,15",
+				"7.5,8,50%,3%,10,15",
+				"7.5,8,53%,4%,10,15",
+				"7.5,8,56%,5%,10,15",
+				"7.5,8,59%,6%,10,15",
+				"7.5,8,62%,7%,10,15",
+				"7.5,8,65%,8%,10,15",
+				"7.5,8,68%,9%,10,15",
+				"7.5,8,71%,10%,10,15",
 			]
 		}
 	],[
@@ -259,9 +268,10 @@ var soul_binder_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Focus on the mysterious energy within to create Mantra Cores (orb energy) and restore <span class='info_blue'></span> spirit. You can create up to <span class='info_blue'></span> Mantra Cores, which can be activated consecutively as long as the key is held. While the Mantra Cores are being created, a greater amount of energy can be controlled and a some skills can be enhanced prior to activation.",
+			"skilltext": [
 				"",
-				"Focus on the mysterious energy within to create Mantra Cores (orb energy) and restore 12 spirit. You can create up to 4 Mantra Cores, which can be activated consecutively as long as the key is held. While the Mantra Cores are being created, a greater amount of energy can be controlled and a some skills can be enhanced prior to activation."
+				"12,4"
 			]
 		}
 	],[
@@ -281,18 +291,19 @@ var soul_binder_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 10+",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Harness your animus energy to forge a shield that lasts for <span class='info_blue'></span> sec and absorbs damage equivalent to <span class='info_blue'></span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>10%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>13%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>16%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>19%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>22%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>25%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>28%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>31%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>34%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Harness your animus energy to forge a shield that lasts for <span class='info_blue'>4</span> sec and absorbs damage equivalent to <span class='info_blue'>37%</span> of your max health. This shield does not stack with other protective shield effects. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
+				"4,10%,12",
+				"4,13%,12",
+				"4,16%,12",
+				"4,19%,12",
+				"4,22%,12",
+				"4,25%,12",
+				"4,28%,12",
+				"4,31%,12",
+				"4,34%,12",
+				"4,37%,12",
 			]
 		}
 	],[
@@ -308,18 +319,19 @@ var soul_binder_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 22+</span></p><p><span class='info_red'>Light Barrier [Level 4+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic",
-			"texts": [
+			"skillinfo": "Restore your health and the health of <span class='info_blue'></span> allies within a <span class='info_blue'></span> m radius by <span class='info_blue'></span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>85%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>90%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>95%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>100%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>105%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>110%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>115%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>120%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>125%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
-				"Restore your health and the health of <span class='info_blue'>4</span> allies within a <span class='info_blue'>3</span> m radius by <span class='info_blue'>130%</span> of your magic attack by harnessing the energy of nature. Consumes all Mantra Cores. Skill effects are enhanced in proportion to number of Mantra Cores consumed. Consumes <span class='info_blue'>12</span> spirit.",
+				"4,3,85%,12",
+				"4,3,90%,12",
+				"4,3,95%,12",
+				"4,3,100%,12",
+				"4,3,105%,12",
+				"4,3,110%,12",
+				"4,3,115%,12",
+				"4,3,120%,12",
+				"4,3,125%,12",
+				"4,3,130%,12",
 			]
 		}
 	],[
@@ -339,18 +351,19 @@ var soul_binder_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-4-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 46+</span></p><p><span class='info_red'>Healing Bond [Level 4+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Gather a field of concentrated lifeforce <span class='info_blue'></span> m ahead of you with a radius of <span class='info_blue'></span> m, and which lasts for <span class='info_blue'></span> sec. This field restores the health of <span class='info_blue'></span> allies within range by <span class='info_blue'></span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'></span>. Increases the potency of Life String by <span class='info_blue'></span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
+			"skilltext": [
 				"",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>300%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>200</span>. Increases the potency of Life String by <span class='info_blue'>4%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>321%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>213</span>. Increases the potency of Life String by <span class='info_blue'>8%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>342%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>226</span>. Increases the potency of Life String by <span class='info_blue'>12%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>363%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>239</span>. Increases the potency of Life String by <span class='info_blue'>16%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>384%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>252</span>. Increases the potency of Life String by <span class='info_blue'>20%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>405%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>265</span>. Increases the potency of Life String by <span class='info_blue'>24%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>426%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>278</span>. Increases the potency of Life String by <span class='info_blue'>28%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>447%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>291</span>. Increases the potency of Life String by <span class='info_blue'>32%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>468%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>304</span>. Increases the potency of Life String by <span class='info_blue'>36%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
-				"Gather a field of concentrated lifeforce <span class='info_blue'>6</span> m ahead of you with a radius of <span class='info_blue'>2.25</span> m, and which lasts for <span class='info_blue'>3</span> sec. This field restores the health of <span class='info_blue'>8</span> allies within range by <span class='info_blue'>489%</span> of your magic attack, and increases physical and magic resistance by <span class='info_blue'>317</span>. Increases the potency of Life String by <span class='info_blue'>40%</span>. While within the Zone of Renewal, you are immune to knockback from standard attacks.",
+				"6,2.25,3,8,300%,200,4%",
+				"6,2.25,3,8,321%,213,8%",
+				"6,2.25,3,8,342%,226,12%",
+				"6,2.25,3,8,363%,239,16%",
+				"6,2.25,3,8,384%,252,20%",
+				"6,2.25,3,8,405%,265,24%",
+				"6,2.25,3,8,426%,278,28%",
+				"6,2.25,3,8,447%,291,32%",
+				"6,2.25,3,8,468%,304,36%",
+				"6,2.25,3,8,489%,317,40%",
 			]
 		}
 	],
@@ -365,9 +378,10 @@ var soul_binder_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Release a mysterious aura from the body, flying forward <span class='info_blue'></span> m and leaving an afterimage in your wake. Increases evasion by <span class='info_blue'></span> while moving. The skill can be both canceled and triggered immediately while using other skills. You are immune to knockback while this skill is active. Consumes <span class='info_blue'></span> stamina.",
+			"skilltext": [
 				"",
-				"Release a mysterious aura from the body, flying forward <span class='info_blue'>4.5</span> m and leaving an afterimage in your wake. Increases evasion by <span class='info_blue'>50</span> while moving. The skill can be both canceled and triggered immediately while using other skills. You are immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> stamina."
+				"4.5,50,40",
 			]
 		}
 	],[
@@ -386,18 +400,19 @@ var soul_binder_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 19+",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'></span> with an orb equipped.",
+			"skilltext": [
 				"",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>1%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>1.6%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>2.2%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>2.8%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>3.4%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>4%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>4.6%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>5.2%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>5.8%</span> with an orb equipped.",
-				"Through the teachings of Guidance, your energy harmonizes better with the orb. Weapon attack increases by <span class='info_blue'>6.4%</span> with an orb equipped.",
+				"1%",
+				"1.6%",
+				"2.2%",
+				"2.8%",
+				"3.4%",
+				"4%",
+				"4.6%",
+				"5.2%",
+				"5.8%",
+				"6.4%",
 			]
 		}
 	],[
@@ -417,18 +432,19 @@ var soul_binder_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 31+</span></p><p><span class='info_red'>Orb Mastery [Level 4+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'></span> sec for <span class='info_blue'></span> sec. No more than <span class='info_blue'></span> Mantra Cores will be created.",
+			"skilltext": [
 				"",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>4</span> sec for <span class='info_blue'>20</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>3.5</span> sec for <span class='info_blue'>20</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>3</span> sec for <span class='info_blue'>20</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>2.5</span> sec for <span class='info_blue'>20</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>2</span> sec for <span class='info_blue'>20</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>1.5</span> sec for <span class='info_blue'>20</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>1</span> sec for <span class='info_blue'>20</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>20</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>21</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
-				"The potential power of Narubashan is freed, causing the body to explode with energy. The explosive energy automatically creates Mantra Cores every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>22</span> sec. No more than <span class='info_blue'>4</span> Mantra Cores will be created.",
+				"4,20,4",
+				"3.5,20,4",
+				"3,20,4",
+				"2.5,20,4",
+				"2,20,4",
+				"1.5,20,4",
+				"1,20,4",
+				"0.5,20,4",
+				"0.5,21,4",
+				"0.5,22,4",
 			]
 		}
 	],[
@@ -443,18 +459,19 @@ var soul_binder_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-0-3-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 40+</span></p><p><span class='info_red'>Orb Mastery [Level 6+]</span></p><p><span class='info_red'>Narubashan Liberation [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'></span>, and increases the recovery of Life String by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>3%</span>, and increases the recovery of Life String by <span class='info_blue'>3%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>4%</span>, and increases the recovery of Life String by <span class='info_blue'>4%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>5%</span>, and increases the recovery of Life String by <span class='info_blue'>5%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>6%</span>, and increases the recovery of Life String by <span class='info_blue'>6%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>7%</span>, and increases the recovery of Life String by <span class='info_blue'>7%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>8%</span>, and increases the recovery of Life String by <span class='info_blue'>8%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>9%</span>, and increases the recovery of Life String by <span class='info_blue'>9%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>10%</span>, and increases the recovery of Life String by <span class='info_blue'>10%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>11%</span>, and increases the recovery of Life String by <span class='info_blue'>11%</span>.",
-				"Concentrate your inner animus and amplify the maximum energy of the Mantra Core. Increases the damage of Extension Ball, Energy Stream, and Shooting Star (which activate when Mantra Cores are at max quantity) by <span class='info_blue'>12%</span>, and increases the recovery of Life String by <span class='info_blue'>12%</span>.",
+				"3%,3%",
+				"4%,4%",
+				"5%,5%",
+				"6%,6%",
+				"7%,7%",
+				"8%,8%",
+				"9%,9%",
+				"10%,10%",
+				"11%,11%",
+				"12%,12%",
 			]
 		}
 	]
@@ -472,12 +489,13 @@ var soul_binder_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'></span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'></span> enemy in range.",
+			"skilltext": [
 				"",
-				"Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>163%</span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'>356%</span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'>3</span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'>1</span> enemy in range.",
-				"Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>176%</span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'>385%</span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'>3</span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'>1</span> enemy in range.",
-				"Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>189%</span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'>414%</span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'>3</span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'>1</span> enemy in range.",
-				"Launch a spirit orb at enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>202%</span> damage.</span></p><p><span class='info_gray'>Deals <span class='info_blue'>443%</span> damage on every third cast.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The orb bounces from enemy to enemy up to <span class='info_blue'>3</span> times.</span></p><p><span class='info_gray'>Skill changes if there is only <span class='info_blue'>1</span> enemy in range.",
+				"163%,356%,3,1",
+				"176%,385%,3,1",
+				"189%,414%,3,1",
+				"202%,443%,3,1",
 			]
 		}
 	],[
@@ -492,12 +510,13 @@ var soul_binder_skills_awakening = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 62+</span></p><p><span class='info_orange'>Spirit Bound [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'></span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.",
+			"skilltext": [
 				"",
-				"Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>918%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.",
-				"Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1025%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.",
-				"Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1132%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.",
-				"Project spectral blades through enemies in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1239%</span> damage.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra to become Spirit Gouge.</span></p><p><span class='info_gray'>Use Vision Torrent to turn this skill into Vision Crush.",
+				"918%,1",
+				"1025%,1",
+				"1132%,1",
+				"1239%,1",
 			]
 		}
 	],[
@@ -512,12 +531,13 @@ var soul_binder_skills_awakening = [
 			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 64+</span></p><p><span class='info_orange'>Spirit Crush [Level 2+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'></span> for <span class='info_blue'></span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.",
+			"skilltext": [
 				"",
-				"Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'>4%</span> for <span class='info_blue'>20</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.",
-				"Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'>6%</span> for <span class='info_blue'>20</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.",
-				"Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'>8%</span> for <span class='info_blue'>20</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.",
-				"Manifest your bond with Vision in the physical world.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases magic attack by <span class='info_blue'>10%</span> for <span class='info_blue'>20</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Spirit Crush becomes Vision Crush.</span></p><p><span class='info_gray'>Flash Strike becomes Vision Strike.",
+				"4%,20",
+				"6%,20",
+				"8%,20",
+				"10%,20",
 			]
 		}
 	],[
@@ -537,12 +557,13 @@ var soul_binder_skills_awakening = [
 			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 68+</span></p><p><span class='info_orange'>Spirit Crush [Level 3+]</span></p><p><span class='info_orange'>Vision Torrent [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'></span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'></span> after using Vision Strike.",
+			"skilltext": [
 				"",
-				"Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'>3%</span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>5%</span> after using Vision Strike.",
-				"Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'>6%</span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>10%</span> after using Vision Strike.",
-				"Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'>9%</span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>15%</span> after using Vision Strike.",
-				"Vision strengthens your mental fortitude, enhancing certain skills.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Spirit Bound, Spirit Crush, and Vision Strike by <span class='info_blue'>12%</span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases movement speed by <span class='info_blue'>20%</span> after using Vision Strike.",
+				"3%,5%",
+				"6%,10%",
+				"9%,15%",
+				"12%,20%",
 			]
 		}
 	],[
@@ -593,12 +614,13 @@ var soul_binder_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage <span class='info_blue'></span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'></span> and movement speed by <span class='info_blue'></span> for <span class='info_blue'></span> sec, stacks up to <span class='info_blue'></span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.",
+			"skilltext": [
 				"",
-				"Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>205%</span> damage <span class='info_blue'>3</span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'>1.2%</span> and movement speed by <span class='info_blue'>1.2%</span> for <span class='info_blue'>20</span> sec, stacks up to <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.",
-				"Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>222%</span> damage <span class='info_blue'>3</span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'>1.8%</span> and movement speed by <span class='info_blue'>1.8%</span> for <span class='info_blue'>20</span> sec, stacks up to <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.",
-				"Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>239%</span> damage <span class='info_blue'>3</span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'>2.4%</span> and movement speed by <span class='info_blue'>2.4%</span> for <span class='info_blue'>20</span> sec, stacks up to <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.",
-				"Summon a flock of soul birds to attack.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>256%</span> damage <span class='info_blue'>3</span> times and inflicts Lethargy.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Lethargy decreases defense by <span class='info_blue'>3%</span> and movement speed by <span class='info_blue'>3%</span> for <span class='info_blue'>20</span> sec, stacks up to <span class='info_blue'>5</span> times.</span></p><p><span class='info_gray'>Lethargy does not stack with Static Flash.",
+				"205%,3,1.2%,1.2%,20,5",
+				"222%,3,1.8%,1.8%,20,5",
+				"239%,3,2.4%,2.4%,20,5",
+				"256%,3,3%,3%,20,5",
 			]
 		}
 	],[
@@ -613,12 +635,13 @@ var soul_binder_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 62+</span></p><p><span class='info_orange'>Soul Flock [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Two-handed Orb",
-			"texts": [
+			"skillinfo": "Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'></span> of their max health and lasts for <span class='info_blue'></span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'></span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.",
+			"skilltext": [
 				"",
-				"Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>80%</span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'>20%</span> of their max health and lasts for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.",
-				"Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>87%</span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'>40%</span> of their max health and lasts for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.",
-				"Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>94%</span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'>60%</span> of their max health and lasts for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.",
-				"Summon an animus cube that damages enemies and shield allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>101%</span> damage to enemies.</span></p><br><p><span class='info_gray'>Allies receive a shield that absorbs damage equal to <span class='info_blue'>80%</span> of their max health and lasts for <span class='info_blue'>30</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Shield.</span></p><p><span class='info_gray'>Shields do not trigger in arenas.",
+				"80%,20%,30,1",
+				"87%,40%,30,1",
+				"94%,60%,30,1",
+				"101%,80%,30,1",
 			]
 		}
 	],[
@@ -638,12 +661,13 @@ var soul_binder_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 66+</span></p><p><span class='info_orange'>Soul Shield [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic",
-			"texts": [
+			"skillinfo": "Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'></span> nearby allies by <span class='info_blue'></span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'></span> Awakened Mantra Core to become Awakened Soul Dissonance.",
+			"skilltext": [
 				"",
-				"Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'>4</span> nearby allies by <span class='info_blue'>145%</span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Dissonance.",
-				"Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'>4</span> nearby allies by <span class='info_blue'>157%</span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Dissonance.",
-				"Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'>4</span> nearby allies by <span class='info_blue'>169%</span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Dissonance.",
-				"Draw animus from your soul to heal nearby allies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heals <span class='info_blue'>4</span> nearby allies by <span class='info_blue'>181%</span> of magic attack per tick. Hold down the skill key to channel.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>1</span> Awakened Mantra Core to become Awakened Soul Dissonance.",
+				"4,145%,1",
+				"4,157%,1",
+				"4,169%,1",
+				"4,181%,1",
 			]
 		}
 	],[
@@ -658,12 +682,13 @@ var soul_binder_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>Level 68+</span></p><p><span class='info_orange'>Soul Harmony [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'></span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'></span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'></span> critical evasion and <span class='info_blue'></span> evasion.",
+			"skilltext": [
 				"",
-				"Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'>3%</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'>5%</span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'>10</span> critical evasion and <span class='info_blue'>1</span> evasion.",
-				"Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'>6%</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'>20</span> critical evasion and <span class='info_blue'>2</span> evasion.",
-				"Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'>9%</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'>15%</span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'>30</span> critical evasion and <span class='info_blue'>3</span> evasion.",
-				"Strengthens the bond between the Soul Binder, Vision, and Narubashan.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases the damage of Soul Flock, Soul Shield, and Soul Dissonance by <span class='info_blue'>12%</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases the healing of Soul Harmony by <span class='info_blue'>20%</span>.</span></p><p><span class='info_gray'>Soul Clash reduces an additional <span class='info_blue'>40</span> critical evasion and <span class='info_blue'>4</span> evasion.",
+				"3%,5%,10,1",
+				"6%,10%,20,2",
+				"9%,15%,30,3",
+				"12%,20%,40,4",
 			]
 		}
 	],[
@@ -683,9 +708,10 @@ var soul_binder_skills_awakening = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Harness your animus to create a purer form of Mantra Core.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases intelligence by <span class='info_blue'></span>.</span></p><p><span class='info_gray'>Create up to <span class='info_blue'></span>.</span></p><p><span class='info_gray'>Grants Awakened Mantra Core, and restores <span class='info_blue'></span> spirit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Awakened Mantra Cores empower Expansion Blast, Spirit Crush, Soul Shield, and Soul Harmony.",
+			"skilltext": [
 				"",
-				"Harness your animus to create a purer form of Mantra Core.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases intelligence by <span class='info_blue'>40</span>.</span></p><p><span class='info_gray'>Create up to <span class='info_blue'>2</span>.</span></p><p><span class='info_gray'>Grants Awakened Mantra Core, and restores <span class='info_blue'>50</span> spirit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Awakened Mantra Cores empower Expansion Blast, Spirit Crush, Soul Shield, and Soul Harmony.",
+				"40,2,50",
 			]
 		}
 	],[

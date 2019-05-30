@@ -11,18 +11,19 @@ var priest_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter",
-			"texts": [
+			"skillinfo": "Strike enemies with holy light, dealing <span class='info_blue'></span> holy damage to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you, plus an additional <span class='info_blue'></span> holy damage per sec for <span class='info_blue'></span> sec.",
+			"skilltext": [
 				"",
-				"Strike enemies with holy light, dealing <span class='info_blue'>53%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>4%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>57%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>5%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>61%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>6%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>65%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>7%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>69%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>8%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>73%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>9%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>77%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>10%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>81%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>11%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>85%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>12%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
-				"Strike enemies with holy light, dealing <span class='info_blue'>89%</span> holy damage to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>8</span> m in front of you, plus an additional <span class='info_blue'>13%</span> holy damage per sec for <span class='info_blue'>6</span> sec.",
+				"53%,3,8,4%,6",
+				"57%,3,8,5%,6",
+				"61%,3,8,6%,6",
+				"65%,3,8,7%,6",
+				"69%,3,8,8%,6",
+				"73%,3,8,9%,6",
+				"77%,3,8,10%,6",
+				"81%,3,8,11%,6",
+				"85%,3,8,12%,6",
+				"89%,3,8,13%,6",
 			]
 		}
 	],[
@@ -37,18 +38,19 @@ var priest_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter",
-			"texts": [
+			"skillinfo": "An eruption of holy power deals <span class='info_blue'></span> holy damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m and knocks them back <span class='info_blue'></span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'></span> holy damage to enemies within <span class='info_blue'></span> m. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"An eruption of holy power deals <span class='info_blue'>147%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>71%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>157%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>75%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>167%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>79%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>177%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.5</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>83%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>187%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.5</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>87%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>197%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.5</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>91%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>207%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.5</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>95%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>217%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.5</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>99%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>227%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3.5</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>103%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
-				"An eruption of holy power deals <span class='info_blue'>237%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>4</span> m and knocks them back <span class='info_blue'>0.5</span> m. If Celestial Light also activates, it causes an explosion that deals an additional <span class='info_blue'>107%</span> holy damage to enemies within <span class='info_blue'>2</span> m. Consumes <span class='info_blue'>16</span> spirit.",
+				"147%,8,3,0.5,71%,2,16",
+				"157%,8,3,0.5,75%,2,16",
+				"167%,8,3,0.5,79%,2,16",
+				"177%,8,3.5,0.5,83%,2,16",
+				"187%,8,3.5,0.5,87%,2,16",
+				"197%,8,3.5,0.5,91%,2,16",
+				"207%,8,3.5,0.5,95%,2,16",
+				"217%,8,3.5,0.5,99%,2,16",
+				"227%,8,3.5,0.5,103%,2,16",
+				"237%,8,4,0.5,107%,2,16",
 			]
 		}
 	],[
@@ -64,18 +66,19 @@ var priest_skills = [
 			"lockReq": "3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 19+</span></p><p><span class='info_red'>Celestial Light [Level 3+]</span></p><p><span class='info_red'>Holy Blast [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Magic",
-			"texts": [
+			"skillinfo": "Conjure a shield of judgment for <span class='info_blue'></span> sec, increasing physical resistance and magic resistance by <span class='info_blue'></span> and dealing <span class='info_blue'></span> holy damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m.",
+			"skilltext": [
 				"",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>165</span> and dealing <span class='info_blue'>80%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>220</span> and dealing <span class='info_blue'>85%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>275</span> and dealing <span class='info_blue'>90%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>330</span> and dealing <span class='info_blue'>95%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>385</span> and dealing <span class='info_blue'>100%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>440</span> and dealing <span class='info_blue'>105%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>495</span> and dealing <span class='info_blue'>110%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>550</span> and dealing <span class='info_blue'>115%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>605</span> and dealing <span class='info_blue'>120%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
-				"Conjure a shield of judgment for <span class='info_blue'>5</span> sec, increasing physical resistance and magic resistance by <span class='info_blue'>660</span> and dealing <span class='info_blue'>125%</span> holy damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m.",
+				"5,165,80%,5,3",
+				"5,220,85%,5,3",
+				"5,275,90%,5,3",
+				"5,330,95%,5,3",
+				"5,385,100%,5,3",
+				"5,440,105%,5,3",
+				"5,495,110%,5,3",
+				"5,550,115%,5,3",
+				"5,605,120%,5,3",
+				"5,660,125%,5,3",
 			]
 		}
 	],[
@@ -91,18 +94,19 @@ var priest_skills = [
 			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Shield of the Archon [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Magic",
-			"texts": [
+			"skillinfo": "A holy cross deals <span class='info_blue'></span> holy damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m for <span class='info_blue'></span> sec, knocks them back <span class='info_blue'></span> m, and reduces their stamina to <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"A holy cross deals <span class='info_blue'>174%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>186%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>198%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>210%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>222%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>234%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>246%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>258%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>270%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
-				"A holy cross deals <span class='info_blue'>282%</span> holy damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m for <span class='info_blue'>8</span> sec, knocks them back <span class='info_blue'>1</span> m, and reduces their stamina to <span class='info_blue'>0</span>.",
+				"174%,8,3,8,1,0",
+				"186%,8,3,8,1,0",
+				"198%,8,3,8,1,0",
+				"210%,8,3,8,1,0",
+				"222%,8,3,8,1,0",
+				"234%,8,3,8,1,0",
+				"246%,8,3,8,1,0",
+				"258%,8,3,8,1,0",
+				"270%,8,3,8,1,0",
+				"282%,8,3,8,1,0",
 			]
 		}
 	],[
@@ -138,18 +142,19 @@ var priest_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 10+",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex",
-			"texts": [
+			"skillinfo": "Through prayer, restore your health and the health of <span class='info_blue'></span> allies within <span class='info_blue'></span> m by <span class='info_blue'></span> of your magic attack. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>160%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>168%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>176%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>184%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>192%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>200%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>208%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>216%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>224%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
-				"Through prayer, restore your health and the health of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m by <span class='info_blue'>232%</span> of your magic attack. Consumes <span class='info_blue'>15</span> spirit.",
+				"6,3,160%,15",
+				"6,3,168%,15",
+				"6,3,176%,15",
+				"6,3,184%,15",
+				"6,3,192%,15",
+				"6,3,200%,15",
+				"6,3,208%,15",
+				"6,3,216%,15",
+				"6,3,224%,15",
+				"6,3,232%,15",
 			]
 		}
 	],[
@@ -165,18 +170,19 @@ var priest_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Healing Prayer [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter",
-			"texts": [
+			"skillinfo": "Blast holy power <span class='info_blue'></span> m ahead, dealing <span class='info_blue'></span> holy damage to <span class='info_blue'></span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>180%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>193%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>206%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>219%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>232%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>245%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>258%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>271%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>284%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
-				"Blast holy power <span class='info_blue'>7.5</span> m ahead, dealing <span class='info_blue'>297%</span> holy damage to <span class='info_blue'>5</span> enemies. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>18</span> spirit.",
+				"7.5,180%,5,18",
+				"7.5,193%,5,18",
+				"7.5,206%,5,18",
+				"7.5,219%,5,18",
+				"7.5,232%,5,18",
+				"7.5,245%,5,18",
+				"7.5,258%,5,18",
+				"7.5,271%,5,18",
+				"7.5,284%,5,18",
+				"7.5,297%,5,18",
 			]
 		}
 	],[
@@ -192,18 +198,19 @@ var priest_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Healing Prayer [Level 3+]</span></p><p><span class='info_red'>Scourging Wave [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Magic</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex",
-			"texts": [
+			"skillinfo": "Sanctify the ground, creating a <span class='info_blue'></span> block cross for <span class='info_blue'></span> sec that deals <span class='info_blue'></span> damage to enemies and increases the health of allies by <span class='info_blue'></span> of your magic attack.",
+			"skilltext": [
 				"",
-				"Sanctify the ground, creating a <span class='info_blue'>5</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>227%</span> damage to enemies and increases the health of allies by <span class='info_blue'>60%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>5</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>242%</span> damage to enemies and increases the health of allies by <span class='info_blue'>67%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>9</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>252%</span> damage to enemies and increases the health of allies by <span class='info_blue'>74%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>9</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>272%</span> damage to enemies and increases the health of allies by <span class='info_blue'>81%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>13</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>287%</span> damage to enemies and increases the health of allies by <span class='info_blue'>88%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>13</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>302%</span> damage to enemies and increases the health of allies by <span class='info_blue'>95%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>17</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>317%</span> damage to enemies and increases the health of allies by <span class='info_blue'>102%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>17</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>332%</span> damage to enemies and increases the health of allies by <span class='info_blue'>109%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>21</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>347%</span> damage to enemies and increases the health of allies by <span class='info_blue'>116%</span> of your magic attack.",
-				"Sanctify the ground, creating a <span class='info_blue'>21</span> block cross for <span class='info_blue'>10</span> sec that deals <span class='info_blue'>362%</span> damage to enemies and increases the health of allies by <span class='info_blue'>123%</span> of your magic attack.",
+				"5,10,227%,60%",
+				"5,10,242%,67%",
+				"9,10,252%,74%",
+				"9,10,272%,81%",
+				"13,10,287%,88%",
+				"13,10,302%,95%",
+				"17,10,317%,102%",
+				"17,10,332%,109%",
+				"21,10,347%,116%",
+				"21,10,362%,123%",
 			]
 		}
 	],[
@@ -219,18 +226,19 @@ var priest_skills = [
 			"lockReq": "4-0-0-0-0-0-0-0-3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Celestial Light [Level 4+]</span></p><p><span class='info_red'>Sanctuary[Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic",
-			"texts": [
+			"skillinfo": "Surround the nearest enemy within <span class='info_blue'></span> m in front of you with holy power, dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m of the target and increasing the damage taken by the target by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>124%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>1%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>132%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>1.6%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>140%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>2.2%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>148%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>2.8%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>156%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>3.4%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>164%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>4%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>172%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>4.6%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>180%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>5.2%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>188%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>5.8%</span>.",
-				"Surround the nearest enemy within <span class='info_blue'>8</span> m in front of you with holy power, dealing <span class='info_blue'>196%</span> damage to <span class='info_blue'>3</span> enemies within <span class='info_blue'>1.5</span> m of the target and increasing the damage taken by the target by <span class='info_blue'>6.4%</span>.",
+				"8,124%,3,1.5,1%",
+				"8,132%,3,1.5,1.6%",
+				"8,140%,3,1.5,2.2%",
+				"8,148%,3,1.5,2.8%",
+				"8,156%,3,1.5,3.4%",
+				"8,164%,3,1.5,4%",
+				"8,172%,3,1.5,4.6%",
+				"8,180%,3,1.5,5.2%",
+				"8,188%,3,1.5,5.8%",
+				"8,196%,3,1.5,6.4%",
 			]
 		}
 	],
@@ -246,9 +254,10 @@ var priest_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "You've been rewarded for your devotion, recovering <span class='info_blue'></span> spirit every <span class='info_blue'></span> sec, plus an addition <span class='info_blue'></span> spirit for every enemy suffering from Celestial Light.",
+			"skilltext": [
 				"",
-				"You've been rewarded for your devotion, recovering <span class='info_blue'>8</span> spirit every <span class='info_blue'>0.5</span> sec, plus an addition <span class='info_blue'>4</span> spirit for every enemy suffering from Celestial Light.",
+				"8,0.5,4",
 			]
 		}
 	],[
@@ -268,18 +277,19 @@ var priest_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 16+",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex",
-			"texts": [
+			"skillinfo": "Summons a little angel for <span class='info_blue'></span> sec, who increases your magic attack by <span class='info_blue'></span> when you have a codex equipped. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>2%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>3%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>4%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>5%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>6%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>7%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>8%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>9%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>10%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
-				"Summons a little angel for <span class='info_blue'>30</span> sec, who increases your magic attack by <span class='info_blue'>11%</span> when you have a codex equipped. Consumes <span class='info_blue'>45</span> spirit.",
+				"30,2%,45",
+				"30,3%,45",
+				"30,4%,45",
+				"30,5%,45",
+				"30,6%,45",
+				"30,7%,45",
+				"30,8%,45",
+				"30,9%,45",
+				"30,10%,45",
+				"30,11%,45",
 			]
 		}
 	],[
@@ -295,18 +305,19 @@ var priest_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Celestial Guardian [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex",
-			"texts": [
+			"skillinfo": "With the help of your angel, bless <span class='info_blue'></span> allies within <span class='info_blue'></span> m for <span class='info_blue'></span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'></span> and their physical attack and magic attack by <span class='info_blue'></span>. Restores their health by <span class='info_blue'></span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>10</span> and their physical attack and magic attack by <span class='info_blue'>1%</span>. Restores their health by <span class='info_blue'>320%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>30</span> and their physical attack and magic attack by <span class='info_blue'>1.6%</span>. Restores their health by <span class='info_blue'>352%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>50</span> and their physical attack and magic attack by <span class='info_blue'>2.2%</span>. Restores their health by <span class='info_blue'>384%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>70</span> and their physical attack and magic attack by <span class='info_blue'>2.8%</span>. Restores their health by <span class='info_blue'>416%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>90</span> and their physical attack and magic attack by <span class='info_blue'>3.4%</span>. Restores their health by <span class='info_blue'>448%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>110</span> and their physical attack and magic attack by <span class='info_blue'>4%</span>. Restores their health by <span class='info_blue'>480%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>130</span> and their physical attack and magic attack by <span class='info_blue'>4.6%</span>. Restores their health by <span class='info_blue'>512%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>150</span> and their physical attack and magic attack by <span class='info_blue'>5.2%</span>. Restores their health by <span class='info_blue'>544%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>170</span> and their physical attack and magic attack by <span class='info_blue'>5.8%</span>. Restores their health by <span class='info_blue'>576%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
-				"With the help of your angel, bless <span class='info_blue'>10</span> allies within <span class='info_blue'>6</span> m for <span class='info_blue'>10</span> sec, increasing their physical resistance and magic resistance by <span class='info_blue'>190</span> and their physical attack and magic attack by <span class='info_blue'>6.4%</span>. Restores their health by <span class='info_blue'>608%</span> of your magic attack. Can only be used when your angel is present. Consumes <span class='info_blue'>45</span> spirit.",
+				"10,6,10,10,1%,320%,45",
+				"10,6,10,30,1.6%,352%,45",
+				"10,6,10,50,2.2%,384%,45",
+				"10,6,10,70,2.8%,416%,45",
+				"10,6,10,90,3.4%,448%,45",
+				"10,6,10,110,4%,480%,45",
+				"10,6,10,130,4.6%,512%,45",
+				"10,6,10,150,5.2%,544%,45",
+				"10,6,10,170,5.8%,576%,45",
+				"10,6,10,190,6.4%,608%,45",
 			]
 		}
 	],[
@@ -322,18 +333,19 @@ var priest_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-3-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Celestial Guardian [Level 6+]</span></p><p><span class='info_red'>Celestial Blessings [Level 3+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Create a magic seal with a <span class='info_blue'></span> m radius that lasts <span class='info_blue'></span> sec and affects up to <span class='info_blue'></span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'></span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'></span> and accuracy by <span class='info_blue'></span> for <span class='info_blue'></span> sec. Once applied, Clarity of Mind has a <span class='info_blue'></span> min cooldown.",
+			"skilltext": [
 				"",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>1</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>1%</span> and accuracy by <span class='info_blue'>1</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>3</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>3%</span> and accuracy by <span class='info_blue'>3</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>5</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>5%</span> and accuracy by <span class='info_blue'>5</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>7</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>7%</span> and accuracy by <span class='info_blue'>7</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>9</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>9%</span> and accuracy by <span class='info_blue'>9</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>11</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>11%</span> and accuracy by <span class='info_blue'>11</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>13</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>13%</span> and accuracy by <span class='info_blue'>13</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>15</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>15%</span> and accuracy by <span class='info_blue'>15</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>17</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>17%</span> and accuracy by <span class='info_blue'>17</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
-				"Create a magic seal with a <span class='info_blue'>4.5</span> m radius that lasts <span class='info_blue'>10</span> sec and affects up to <span class='info_blue'>10</span> allies standing on it. Grants Clarity of Mind, which restores <span class='info_blue'>19</span> spirit per sec and increases physical damage, magic damage, and attack speed by <span class='info_blue'>19%</span> and accuracy by <span class='info_blue'>19</span> for <span class='info_blue'>10</span> sec. Once applied, Clarity of Mind has a <span class='info_blue'>3</span> min cooldown.",
+				"4.5,10,10,1,1%,1,10,3",
+				"4.5,10,10,3,3%,3,10,3",
+				"4.5,10,10,5,5%,5,10,3",
+				"4.5,10,10,7,7%,7,10,3",
+				"4.5,10,10,9,9%,9,10,3",
+				"4.5,10,10,11,11%,11,10,3",
+				"4.5,10,10,13,13%,13,10,3",
+				"4.5,10,10,15,15%,15,10,3",
+				"4.5,10,10,17,17%,17,10,3",
+				"4.5,10,10,19,19%,19,10,3",
 			]
 		}
 	],[
@@ -349,18 +361,19 @@ var priest_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-6-4-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Celestial Blessings [Level 6+]</span></p><p><span class='info_red'>Holy Symbols [Level 4+]",
 			"info": "Passive</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex",
-			"texts": [
+			"skillinfo": "Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'></span>",
+			"skilltext": [
 				"",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>30%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>40%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>50%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>60%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>70%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>80%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>90%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>100%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>110%</span>",
-				"Increases the duration of Celestial Guardian, Celestial Blessings, and Holy Symbol buffs by <span class='info_blue'>120%</span>",
+				"30%",
+				"40%",
+				"50%",
+				"60%",
+				"70%",
+				"80%",
+				"90%",
+				"100%",
+				"110%",
+				"120%",
 			]
 		}
 	],
@@ -376,9 +389,10 @@ var priest_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex",
-			"texts": [
+			"skillinfo": "Spread your wings of light and soar to the farthest ally up to <span class='info_blue'></span> m in front of you. The wings then transform into a divine aura, increasing you and your target's movement speed by <span class='info_blue'></span> for <span class='info_blue'></span> sec and restoring health up to <span class='info_blue'></span> of your magic attack. If no allies are in range, you'll fly <span class='info_blue'></span> m forward. This skill can cancel other skills. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'></span> stamina.",
+			"skilltext": [
 				"",
-				"Spread your wings of light and soar to the farthest ally up to <span class='info_blue'>6</span> m in front of you. The wings then transform into a divine aura, increasing you and your target's movement speed by <span class='info_blue'>20%</span> for <span class='info_blue'>5</span> sec and restoring health up to <span class='info_blue'>90%</span> of your magic attack. If no allies are in range, you'll fly <span class='info_blue'>4.5</span> m forward. This skill can cancel other skills. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>60</span> stamina.",
+				"6,20%,5,90%,4.5,60",
 			]
 		}
 	],[
@@ -397,18 +411,19 @@ var priest_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 13+",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Your proficiency with scepters increases weapon attack by <span class='info_blue'></span> when you have a scepter equipped.",
+			"skilltext": [
 				"",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>1%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>1.6%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>2.2%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>2.8%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>3.4%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>4%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>4.6%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>5.2%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>5.8%</span> when you have a scepter equipped.",
-				"Your proficiency with scepters increases weapon attack by <span class='info_blue'>6.4%</span> when you have a scepter equipped.",
+				"1%",
+				"1.6%",
+				"2.2%",
+				"2.8%",
+				"3.4%",
+				"4%",
+				"4.6%",
+				"5.2%",
+				"5.8%",
+				"6.4%",
 			]
 		}
 	],[
@@ -429,18 +444,19 @@ var priest_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Scepter Mastery [Level 4+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'></span>. This skill does not affect your natural health and spirit regeneration rates.",
+			"skilltext": [
 				"",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>4%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>5.5%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>7%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>8.5%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>10%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>11.5%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>13%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>14.5%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>16%</span>. This skill does not affect your natural health and spirit regeneration rates.",
-				"Your experience in combat increases the amount of health and spirit restored through recovery skills by <span class='info_blue'>17.5%</span>. This skill does not affect your natural health and spirit regeneration rates.",
+				"4%",
+				"5.5%",
+				"7%",
+				"8.5%",
+				"10%",
+				"11.5%",
+				"13%",
+				"14.5%",
+				"16%",
+				"17.5%",
 			]
 		}
 	],[
@@ -456,18 +472,19 @@ var priest_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 46+</span></p><p><span class='info_red'>Scepter Mastery [Level 4+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter, Off-hand Codex",
-			"texts": [
+			"skillinfo": "Fire a beam of holy light, dealing <span class='info_blue'></span> holy damage to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. Increases the health of <span class='info_blue'></span> allies hit by <span class='info_blue'></span> of your magic attack. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Fire a beam of holy light, dealing <span class='info_blue'>662%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>365%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>708%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>391%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>754%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>417%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>800%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>443%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>846%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>469%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>892%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>495%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>938%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>521%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>984%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>547%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>1030%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>573%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
-				"Fire a beam of holy light, dealing <span class='info_blue'>1076%</span> holy damage to <span class='info_blue'>8</span> enemies up to <span class='info_blue'>12</span> m in front of you. Increases the health of <span class='info_blue'>8</span> allies hit by <span class='info_blue'>599%</span> of your magic attack. Consumes <span class='info_blue'>30</span> spirit.",
+				"662%,8,12,8,365%,30",
+				"708%,8,12,8,391%,30",
+				"754%,8,12,8,417%,30",
+				"800%,8,12,8,443%,30",
+				"846%,8,12,8,469%,30",
+				"892%,8,12,8,495%,30",
+				"938%,8,12,8,521%,30",
+				"984%,8,12,8,547%,30",
+				"1030%,8,12,8,573%,30",
+				"1076%,8,12,8,599%,30",
 			]
 		}
 	]
@@ -486,12 +503,13 @@ var priest_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter",
-			"texts": [
+			"skillinfo": "Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage <span class='info_blue'></span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'></span> holy damage per second for <span class='info_blue'></span> sec.",
+			"skilltext": [
 				"",
-				"Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>291%</span> damage <span class='info_blue'>2</span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'>4%</span> holy damage per second for <span class='info_blue'>8</span> sec.",
-				"Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>324%</span> damage <span class='info_blue'>2</span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'>4%</span> holy damage per second for <span class='info_blue'>8</span> sec.",
-				"Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>357%</span> damage <span class='info_blue'>2</span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'>4%</span> holy damage per second for <span class='info_blue'>8</span> sec.",
-				"Smite enemies with holy light.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>390%</span> damage <span class='info_blue'>2</span> times and inflicts Celestial Light.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Celestial Light deals <span class='info_blue'>4%</span> holy damage per second for <span class='info_blue'>8</span> sec.",
+				"291%,2,4%,8",
+				"324%,2,4%,8",
+				"357%,2,4%,8",
+				"390%,2,4%,8",
 			]
 		}
 	],[
@@ -507,12 +525,13 @@ var priest_skills_awakening = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Scathing Light [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter",
-			"texts": [
+			"skillinfo": "Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage and summons a Light Spear to strike <span class='info_blue'></span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'></span> damage to surrounding enemies.",
+			"skilltext": [
 				"",
-				"Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>136%</span> damage and summons a Light Spear to strike <span class='info_blue'>3</span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'>683%</span> damage to surrounding enemies.",
-				"Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>151%</span> damage and summons a Light Spear to strike <span class='info_blue'>3</span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'>762%</span> damage to surrounding enemies.",
-				"Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>166%</span> damage and summons a Light Spear to strike <span class='info_blue'>3</span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'>841%</span> damage to surrounding enemies.",
-				"Damage enemies with a burst of holy magic, then summon a spear of light to deal additional damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>181%</span> damage and summons a Light Spear to strike <span class='info_blue'>3</span> targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Light Spear deals an additional <span class='info_blue'>920%</span> damage to surrounding enemies.",
+				"136%,3,683%",
+				"151%,3,762%",
+				"166%,3,841%",
+				"181%,3,920%",
 			]
 		}
 	],[
@@ -528,12 +547,13 @@ var priest_skills_awakening = [
 			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Scathing Light [Level 2+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'></span>, accuracy by <span class='info_blue'></span> and critical rate by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'>2%</span>, accuracy by <span class='info_blue'>1</span> and critical rate by <span class='info_blue'>7</span>.",
-				"Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'>3%</span>, accuracy by <span class='info_blue'>2</span> and critical rate by <span class='info_blue'>14</span>.",
-				"Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'>4%</span>, accuracy by <span class='info_blue'>3</span> and critical rate by <span class='info_blue'>21</span>.",
-				"Commune with the divine to strengthen your resolve.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increase magic attack by <span class='info_blue'>5%</span>, accuracy by <span class='info_blue'>4</span> and critical rate by <span class='info_blue'>28</span>.",
+				"2%,1,7",
+				"3%,2,14",
+				"4%,3,21",
+				"5%,4,28",
 			]
 		}
 	],[
@@ -554,12 +574,13 @@ var priest_skills_awakening = [
 			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Light Spear [Level 3+]</span></p><p><span class='info_orange'>Clarity [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter",
-			"texts": [
+			"skillinfo": "Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'></span> explosions, dealing <span class='info_blue'></span>, <span class='info_blue'></span>, and <span class='info_blue'></span> damage. The circle persists for <span class='info_blue'></span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'></span>, health by <span class='info_blue'></span>, and movement speed by <span class='info_blue'></span>. Light Spear becomes Light Sword while you are within the circle.",
+			"skilltext": [
 				"",
-				"Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'>3</span> explosions, dealing <span class='info_blue'>591%</span>, <span class='info_blue'>1105%</span>, and <span class='info_blue'>1777%</span> damage. The circle persists for <span class='info_blue'>20</span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'>10%</span>, health by <span class='info_blue'>5%</span>, and movement speed by <span class='info_blue'>8%</span>. Light Spear becomes Light Sword while you are within the circle.",
-				"Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'>3</span> explosions, dealing <span class='info_blue'>660%</span>, <span class='info_blue'>1233%</span>, and <span class='info_blue'>1984%</span> damage. The circle persists for <span class='info_blue'>20</span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'>20%</span>, health by <span class='info_blue'>10%</span>, and movement speed by <span class='info_blue'>16%</span>. Light Spear becomes Light Sword while you are within the circle.",
-				"Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'>3</span> explosions, dealing <span class='info_blue'>729%</span>, <span class='info_blue'>1361%</span>, and <span class='info_blue'>2191%</span> damage. The circle persists for <span class='info_blue'>20</span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'>30%</span>, health by <span class='info_blue'>15%</span>, and movement speed by <span class='info_blue'>24%</span>. Light Spear becomes Light Sword while you are within the circle.",
-				"Bless a circle of land before you to damage foes and empower yourself.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Generates <span class='info_blue'>3</span> explosions, dealing <span class='info_blue'>798%</span>, <span class='info_blue'>1489%</span>, and <span class='info_blue'>2398%</span> damage. The circle persists for <span class='info_blue'>20</span> sec, empowering you while you stand within it.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>While standing within the circle, increases stamina recovery speed by <span class='info_blue'>40%</span>, health by <span class='info_blue'>20%</span>, and movement speed by <span class='info_blue'>32%</span>. Light Spear becomes Light Sword while you are within the circle.",
+				"3,591%,1105%,1777%,20,10%,5%,8%",
+				"3,660%,1233%,1984%,20,20%,10%,16%",
+				"3,729%,1361%,2191%,20,30%,15%,24%",
+				"3,798%,1489%,2398%,20,40%,20%,32%",
 			]
 		}
 	],[
@@ -611,12 +632,13 @@ var priest_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter",
-			"texts": [
+			"skillinfo": "Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage and inflicts defense reduction on <span class='info_blue'></span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'></span> for <span class='info_blue'></span> sec. This activates the Steadfast Faith spirit effect.",
+			"skilltext": [
 				"",
-				"Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>131%</span> damage and inflicts defense reduction on <span class='info_blue'>3</span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'>1.5%</span> for <span class='info_blue'>8</span> sec. This activates the Steadfast Faith spirit effect.",
-				"Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>146%</span> damage and inflicts defense reduction on <span class='info_blue'>3</span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'>3%</span> for <span class='info_blue'>8</span> sec. This activates the Steadfast Faith spirit effect.",
-				"Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>161%</span> damage and inflicts defense reduction on <span class='info_blue'>3</span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'>4.5%</span> for <span class='info_blue'>8</span> sec. This activates the Steadfast Faith spirit effect.",
-				"Loose holy arrows to damage enemies and reduce their defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>176%</span> damage and inflicts defense reduction on <span class='info_blue'>3</span> targets. Defense reduction doesn't stack with Smithing Aura.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Decreases targets defense by <span class='info_blue'>6%</span> for <span class='info_blue'>8</span> sec. This activates the Steadfast Faith spirit effect.",
+				"131%,3,1.5%,8",
+				"146%,3,3%,8",
+				"161%,3,4.5%,8",
+				"176%,3,6%,8",
 			]
 		}
 	],[
@@ -632,12 +654,13 @@ var priest_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Purifying Light [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Magic</span></p><p><span class='info_gray'>Weapon Required: Main Hand Scepter",
-			"texts": [
+			"skillinfo": "Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'></span> chance to deal an additional <span class='info_blue'></span> damage and heal the ally with the lowest health by <span class='info_blue'></span> of your magic attack.",
+			"skilltext": [
 				"",
-				"Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>405%</span> damage to <span class='info_blue'>5</span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'>12%</span> chance to deal an additional <span class='info_blue'>161%</span> damage and heal the ally with the lowest health by <span class='info_blue'>120%</span> of your magic attack.",
-				"Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>452%</span> damage to <span class='info_blue'>5</span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'>12%</span> chance to deal an additional <span class='info_blue'>179%</span> damage and heal the ally with the lowest health by <span class='info_blue'>130%</span> of your magic attack.",
-				"Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>499%</span> damage to <span class='info_blue'>5</span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'>12%</span> chance to deal an additional <span class='info_blue'>197%</span> damage and heal the ally with the lowest health by <span class='info_blue'>140%</span> of your magic attack.",
-				"Channel holy energy dealing damage with a chance to heal a nearby ally.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>546%</span> damage to <span class='info_blue'>5</span> enemies.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'><span class='info_blue'>12%</span> chance to deal an additional <span class='info_blue'>215%</span> damage and heal the ally with the lowest health by <span class='info_blue'>150%</span> of your magic attack.",
+				"405%,5,12%,161%,120%",
+				"452%,5,12%,179%,130%",
+				"499%,5,12%,197%,140%",
+				"546%,5,12%,215%,150%",
 			]
 		}
 	],[
@@ -658,12 +681,13 @@ var priest_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Divine Wave [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Codex",
-			"texts": [
+			"skillinfo": "Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'></span> allies every <span class='info_blue'></span> sec for <span class='info_blue'></span> sec by <span class='info_blue'></span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'></span> allies with the lowest health by <span class='info_blue'></span> of your magic attack. Increases your damage by <span class='info_blue'></span> for <span class='info_blue'></span> sec.",
+			"skilltext": [
 				"",
-				"Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'>10</span> allies every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>6</span> sec by <span class='info_blue'>56%</span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'>2</span> allies with the lowest health by <span class='info_blue'>240%</span> of your magic attack. Increases your damage by <span class='info_blue'>9%</span> for <span class='info_blue'>5</span> sec.",
-				"Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'>10</span> allies every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>6</span> sec by <span class='info_blue'>60%</span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'>2</span> allies with the lowest health by <span class='info_blue'>260%</span> of your magic attack. Increases your damage by <span class='info_blue'>16%</span> for <span class='info_blue'>5</span> sec.",
-				"Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'>10</span> allies every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>6</span> sec by <span class='info_blue'>64%</span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'>2</span> allies with the lowest health by <span class='info_blue'>280%</span> of your magic attack. Increases your damage by <span class='info_blue'>23%</span> for <span class='info_blue'>5</span> sec.",
-				"Draw celestial power from the heavens to heal allies and increase your damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Heal <span class='info_blue'>10</span> allies every <span class='info_blue'>0.5</span> sec for <span class='info_blue'>6</span> sec by <span class='info_blue'>68%</span> of your magic attack.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Instantly heal the <span class='info_blue'>2</span> allies with the lowest health by <span class='info_blue'>300%</span> of your magic attack. Increases your damage by <span class='info_blue'>30%</span> for <span class='info_blue'>5</span> sec.",
+				"10,0.5,6,56%,2,240%,9%,5",
+				"10,0.5,6,60%,2,260%,16%,5",
+				"10,0.5,6,64%,2,280%,23%,5",
+				"10,0.5,6,68%,2,300%,30%,5",
 			]
 		}
 	],[
@@ -679,12 +703,13 @@ var priest_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Greater Healing [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'></span> for <span class='info_blue'></span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'></span>. This physical and magic attack increase doesn't stack with Celestial Blessings.",
+			"skilltext": [
 				"",
-				"Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'>7%</span> for <span class='info_blue'>30</span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'>1%</span>. This physical and magic attack increase doesn't stack with Celestial Blessings.",
-				"Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'>7%</span> for <span class='info_blue'>30</span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'>2%</span>. This physical and magic attack increase doesn't stack with Celestial Blessings.",
-				"Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'>7%</span> for <span class='info_blue'>30</span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'>3%</span>. This physical and magic attack increase doesn't stack with Celestial Blessings.",
-				"Increases the offense of allies healed by Divine Wave or Greater Healing. Purifying Light and Divine Wave deal increased damage.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Allies healed by Divine Wave or Greater Healing have their physical and magical attack increased by <span class='info_blue'>7%</span> for <span class='info_blue'>30</span> sec. Increases Purifying Light and Divine Wave damage by <span class='info_blue'>4%</span>. This physical and magic attack increase doesn't stack with Celestial Blessings.",
+				"7%,30,1%",
+				"7%,30,2%",
+				"7%,30,3%",
+				"7%,30,4%",
 			]
 		}
 	],[
@@ -705,9 +730,10 @@ var priest_skills_awakening = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Call upon the sacred power at the heart of the world, permanently increasing intelligence by <span class='info_blue'></span>.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases recovery by <span class='info_blue'></span> and movement speed by <span class='info_blue'></span> for <span class='info_blue'></span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Healing Prayer prioritizes the ally with the lowest health.",
+			"skilltext": [
 				"",
-				"Call upon the sacred power at the heart of the world, permanently increasing intelligence by <span class='info_blue'>40</span>.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases recovery by <span class='info_blue'>20%</span> and movement speed by <span class='info_blue'>20%</span> for <span class='info_blue'>12</span> sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Healing Prayer prioritizes the ally with the lowest health.",
+				"40,20%,20%,12",
 			]
 		}
 	],[

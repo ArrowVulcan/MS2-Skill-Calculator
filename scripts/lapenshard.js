@@ -8,25 +8,56 @@ var lapenshard = [
 				"",
 			]
 		},{
-			"title": "",
+			"title": "Pride Bolt Red Lapenshard",
 			"color": "red",
 			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
-			"texts": [
-				"Fire <span class='info_blue'>1</span> electric current <span class='info_blue'>9</span> m in front of you. Targets take <span class='info_blue'>204%</span> damage and are stunned for <span class='info_blue'>20</span> sec, taking an additional <span class='info_blue'>204%</span> damage per second.",
+			"skillinfo": "Fire <span class='info_blue'></span> electric bolt <span class='info_blue'></span> m in front of you. Targets take <span class='info_blue'></span> damage and are stunned for <span class='info_blue'></span> sec taking an additional <span class='info_blue'></span> damage per second.",
+			"skilltext": [
+				"1,9,141%,20,141%",
+				"1,9,162%,20,162%",
+				"1,9,184%,20,184%",
+				"1,9,205%,20,205%",
+				"1,9,227%,20,227%",
+				"1,9,248%,20,248%",
+				"1,9,270%,20,270%",
+				"1,9,291%,20,291%",
+				"1,9,313%,20,313%",
+				"1,9,335%,20,335%",
 			]
 		},{
-			"title": "",
+			"title": "Lumarigon's Pride Red Lapenshard",
 			"color": "red",
 			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
-			"texts": [
-				"Increases physical and magic attack by <span class='info_blue'>54</span> and decreases defense by <span class='info_blue'>50%</span> for <span class='info_blue'>10</span> sec.",
+			"skillinfo": "Increases physical and magic attack by <span class='info_blue'></span> and decreases defense by <span class='info_blue'></span> for <span class='info_blue'></span> sec.",
+			"skilltext": [
+				"54,50%,10",
+				"72,50%,10",
+				"90,50%,10",
+				"108,50%,10",
+				"126,50%,10",
+				"144,50%,10",
+				"162,50%,10",
+				"180,50%,10",
+				"198,50%,10",
+				"216,50%,10",
 			]
 		},{
-			"title": "",
+			"title": "Sword of Time Red Lapenshard",
 			"color": "red",
 			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
-			"texts": [
-				"",
+			"textbasic": "Basic Attributes<br> • Sword of Time",
+			"skillinfo": "Launch a sword at <span class='info_blue'></span> enemy within <span class='info_blue'></span> m and increase attack speed and movement speed by <span class='info_blue'></span> for <span class='info_blue'></span> sec. The sword attacks <span class='info_blue'></span> times dealing <span class='info_blue'></span>. <span class='info_blue'></span> and <span class='info_blue'></span> damage to enemies within <span class='info_blue'></span> m. When skill break is <span class='info_blue'></span> in Emerald Prison damage is doubled. Sword of Time has <span class='info_blue'></span> uses. Regain <span class='info_blue'></span> use after every cooldown.",
+			"skilltext": [
+				"1,9,2%,3,3,162%,243%,408%,1.5,12000,20,1",
+				"1,9,2%,3,3,171%,256%,430%,1.5,14666,20,1",
+				"1,9,2%,3,3,180%,270%,453%,1.5,17333,20,1",
+				"1,9,2%,3,3,189%,283%,475%,1.5,19999,20,1",
+				"1,9,2%,3,3,198%,297%,498%,1.5,22666,20,1",
+				"1,9,2%,3,3,207%,311%,521%,1.5,25333,20,1",
+				"1,9,2%,3,3,216%,324%,543%,1.5,27999,20,1",
+				"1,9,2%,3,3,225%,338%,566%,1.5,30666,20,1",
+				"1,9,2%,3,3,234%,351%,588%,1.5,33332,20,1",
+				"1,9,2%,3,3,243%,366%,612%,1.5,36000,20,1",
 			]
 		},{
 			"title": "",
@@ -59,17 +90,18 @@ var lapenshard = [
 				"SOUL BINDER | Spirit Crush",
 				"STRIKER | Shockwave Punch",
 			],
-			"texts": [
-				"has a chance to deal an additional <span class='info_blue'>169%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>262%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>355%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>448%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>541%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>634%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>727%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>820%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>913%</span> damage to the enemy.",
-				"has a chance to deal an additional <span class='info_blue'>1012%</span> damage to the enemy.",
+			"skillinfo": "has a chance to deal an additional <span class='info_blue'></span> damage to the enemy.",
+			"skilltext": [
+				"169%",
+				"262%",
+				"355%",
+				"448%",
+				"541%",
+				"634%",
+				"727%",
+				"820%",
+				"913%",
+				"1012%",
 			]
 		},{
 			"title": "Master's Malice Blue Lapenshard",
@@ -88,17 +120,18 @@ var lapenshard = [
 				"SOUL BINDER | Spirit Bound",
 				"STRIKER | Double-Fist Smash",
 			],
-			"texts": [
-				"has a chance to deal an additional <span class='info_blue'>843%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>1311%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>1779%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>2247%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>2715%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>3183%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>3651%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>4119%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>4587%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to deal an additional <span class='info_blue'>5058%</span> damage and to decrease phyiscal and magic attack by <span class='info_blue'>2%</span> for <span class='info_blue'>8</span> sec.",
+			"skillinfo": "has a chance to deal an additional <span class='info_blue'></span> damage and to decrease phyiscal and magic attack by <span class='info_blue'></span> for <span class='info_blue'></span> sec.",
+			"skilltext": [
+				"843%,2%,8",
+				"1311%,2%,8",
+				"1779%,2%,8",
+				"2247%,2%,8",
+				"2715%,2%,8",
+				"3183%,2%,8",
+				"3651%,2%,8",
+				"4119%,2%,8",
+				"4587%,2%,8",
+				"5058%,2%,8",
 			]
 		},{
 			"title": "Bjorn's Artistry Blue Lapenshard",
@@ -117,17 +150,18 @@ var lapenshard = [
 				"SOUL BINDER | Soul Harmony",
 				"STRIKER | Spin Kick",
 			],
-			"texts": [
-				"has a chance to increase attack speed by <span class='info_blue'>3%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>4.6%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>6.2%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>7.8%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>9.4%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>11%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>12.6%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>14.2%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>15.8%</span> for <span class='info_blue'>20</span> sec.",
-				"has a chance to increase attack speed by <span class='info_blue'>18%</span> for <span class='info_blue'>20</span> sec.",
+			"skillinfo": "has a chance to increase attack speed by <span class='info_blue'></span> for <span class='info_blue'></span> sec.",
+			"skilltext": [
+				"3%,20",
+				"4.6%,20",
+				"6.2%,20",
+				"7.8%,20",
+				"9.4%,20",
+				"11%,20",
+				"12.6%,20",
+				"14.2%,20",
+				"15.8%,20",
+				"18%,20",
 			]
 		},{
 			"title": "Pink Bean's Prank Blue Lapenshard",
@@ -146,17 +180,18 @@ var lapenshard = [
 				"SOUL BINDER | Soul Flock",
 				"STRIKER | Setup Kick",
 			],
-			"texts": [
-				"has a chance to increase physical and magic attack by <span class='info_blue'>5%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>8%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>11%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>14%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>17%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>20%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>23%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>26%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>29%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
-				"has a chance to increase physical and magic attack by <span class='info_blue'>33%</span> and increase body size by <span class='info_blue'>30%</span> for <span class='info_blue'>8</span> sec.",
+			"skillinfo": "has a chance to increase physical and magic attack by <span class='info_blue'></span> and increase body size by <span class='info_blue'></span> for <span class='info_blue'></span> sec.",
+			"skilltext": [
+				"5%,30%,8",
+				"8%,30%,8",
+				"11%,30%,8",
+				"14%,30%,8",
+				"17%,30%,8",
+				"20%,30%,8",
+				"23%,30%,8",
+				"26%,30%,8",
+				"29%,30%,8",
+				"33%,30%,8",
 			]
 		},{
 			"title": "Space Rift Blue Lapenshard",
@@ -176,17 +211,18 @@ var lapenshard = [
 				"STRIKER | Meridian Flow and Spiral Cannon",
 			],
 			"textbasic": "Basic Attributes<br> • Space Rift",
-			"texts": [
-				"have a chance to deal <span class='info_blue'>281%</span> damage. Inflicts <span class='info_blue'>5133</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>437%</span> damage. Inflicts <span class='info_blue'>6273</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>593%</span> damage. Inflicts <span class='info_blue'>7413</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>749%</span> damage. Inflicts <span class='info_blue'>8553</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>905%</span> damage. Inflicts <span class='info_blue'>9693</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>1061%</span> damage. Inflicts <span class='info_blue'>10833</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>1217%</span> damage. Inflicts <span class='info_blue'>11973</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>1373%</span> damage. Inflicts <span class='info_blue'>13113</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>1529%</span> damage. Inflicts <span class='info_blue'>14253</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
-				"have a chance to deal <span class='info_blue'>1686%</span> damage. Inflicts <span class='info_blue'>15400</span> skill break (subject to cooldown) and double damage in Terminus of Time.",
+			"skillinfo": "have a chance to deal <span class='info_blue'></span> damage. Inflicts <span class='info_blue'></span> skill break (subject to cooldown) and double damage in Terminus of Time.",
+			"skilltext": [
+				"281%,5133",
+				"437%,6273",
+				"593%,7413",
+				"749%,8553",
+				"905%,9693",
+				"1061%,10833",
+				"1217%,11973",
+				"1373%,13113",
+				"1529%,14253",
+				"1686%,15400",
 			]
 		},{
 			"title": "",
@@ -224,11 +260,21 @@ var lapenshard = [
 				"",
 			]
 		},{
-			"title": "",
+			"title": "Guardian's Rage Green Lapenshard",
 			"color": "green",
 			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
-			"texts": [
-				"",
+			"skillinfo": "Increases physical/magic damage by <span class='info_blue'></span> and decreases defense by <span class='info_blue'></span>.",
+			"skilltext": [
+				"1.5%,1.5%",
+				"2%,2%",
+				"2.5%,2.5%",
+				"3%,3%",
+				"3.5%,3.5%",
+				"4,4%",
+				"4.5%,4.5%",
+				"5%,5%",
+				"5.5%,5.5%",
+				"6%,6%",
 			]
 		},{
 			"title": "",
@@ -238,11 +284,22 @@ var lapenshard = [
 				"Increases health by <span class='info_blue'>750</span> and movement speed by <span class='info_blue'>2%</span>.",
 			]
 		},{
-			"title": "",
+			"title": "Eupheria's Protection Green Lapenshard",
 			"color": "green",
 			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
-			"texts": [
-				"",
+			"textbasic": "Basic Attributes<br> • Eupheria's Protection",
+			"skillinfo": "Eupheria watches over you increasing all damage by <span class='info_blue'></span> and health by <span class='info_blue'></span>. If health drops below <span class='info_blue'></span> your carelessness incurs Eupheria's wrath and take <span class='info_blue'></span> damage per second for <span class='info_blue'></span> sec. Effects are doubled in Azur Grave and each hit inflicts <span class='info_blue'></span> skill break at regular intervals.",
+			"skilltext": [
+				"1%,220,20%,1.5%,20,5133",
+				"1.55%,343,20%,1.5%,20,6273",
+				"2.1%,466,20%,1.5%,20,7413",
+				"2.65%,589,20%,1.5%,20,8553",
+				"3.2%,712,20%,1.5%,20,9693",
+				"3.75%,835,20%,1.5%,20,10833",
+				"4.3%,958,20%,1.5%,20,11973",
+				"4.85%,1081,20%,1.5%,20,13113",
+				"5.4%,1204,20%,1.5%,20,14253",
+				"6%,1332,20%,1.5%,20,15400",
 			]
 		},{
 			"title": "",

@@ -9,7 +9,6 @@ var lockeds = [];
 var lockReqs = [];
 var requirements = [];
 var infos = [];
-var texts = [];
 var Class_skills;
 var pointsMax = 69 + 9 + 4; // 59 points from leveling + 9 points from trophies + 4 base skills
 var pointsMax2 = 16 + 1; // 14 points from leveling + 1 base skill
@@ -26,14 +25,16 @@ function lapenDrag(event){
 	
 	event.dataTransfer.setData("text", event.target.id);
 	
-	let box = document.getElementById('info_box');
-	box.style.display = "none";
+	$(".lapen_level_box").hide();
 	
 }
 
 function lapenAllowDrop(event){
 	
 	event.preventDefault();
+	
+	let box = document.getElementById('info_box');
+	box.style.display = "none";
 	
 	if( event.target.dataset.dropzone == "true" ){
 		
@@ -188,6 +189,10 @@ function moveLapenshard(event){
 	
 	if( $(event.target).hasClass("lapen_item_box") || $(event.target.parentElement).hasClass("lapen_item_box") ){
 
+		let box = document.getElementById('info_box');
+		box.style.display = "none";
+		$(".lapen_level_box").hide();
+
 		let shard;
 
 		if( $(event.target).hasClass("lapen_item_box") ){ shard = event.target; }
@@ -266,7 +271,7 @@ function createLapenshards(){
 			if( shards[k] == undefined ){ continue; }
 			
 			if( shards[k].title != "" ){
-				list.innerHTML += '<div oncontextmenu="moveLapenshard(event)" data-color="' + shards[k].color + '" data-inslot="false" id="lapen_item_draggable_' + k + '" data-id="' + k + '" draggable="true" ondragstart="lapenDrag(event)" class="lapen_item_box">' + '<div id="lapen_level"><p>+1</p></div>' + '<div class="lapen_level_box"> <div class="lapen_level_dec"><p>-</p></div>' + '<div class="lapen_level_inc"><p>+</p></div> </div>' + '<div data-textbasic="' + shards[k].textbasic + '" data-jobskills="' + shards[k].jobskills + '" data-title="' + shards[k].title + '" data-requirement="' + shards[k].requirement + ' "data-texts="' + shards[k].texts + '" class="lapen_item" style="background-position: ' + (48 * -j) + 'px ' + (56 * -i) + 'px;"></div>' + '</div>';
+				list.innerHTML += '<div oncontextmenu="moveLapenshard(event)" data-color="' + shards[k].color + '" data-inslot="false" id="lapen_item_draggable_' + k + '" data-id="' + k + '" draggable="true" ondragstart="lapenDrag(event)" class="lapen_item_box">' + '<div id="lapen_level"><p>+1</p></div>' + '<div class="lapen_level_box"> <div class="lapen_level_dec"><p>-</p></div>' + '<div class="lapen_level_inc"><p>+</p></div> </div>' + '<div data-textbasic="' + shards[k].textbasic + '" data-jobskills="' + shards[k].jobskills + '" data-title="' + shards[k].title + '" data-requirement="' + shards[k].requirement + '" data-skillinfo="' + shards[k].skillinfo + '" class="lapen_item" style="background-position: ' + (48 * -j) + 'px ' + (56 * -i) + 'px;"></div>' + '</div>';
 			}
 			
 			k++;
@@ -610,7 +615,6 @@ function storeData(){
 	lockReqs = [];
 	requirements = [];
 	infos = [];
-	texts = [];
 	levels = [];
 	lockeds = [];
 	
@@ -635,7 +639,6 @@ function storeData(){
 				maxLevels.push(skills[j][i].maxLevel);
 				requirements.push(skills[j][i].requirement);
 				infos.push(skills[j][i].info);
-				texts.push(skills[j][i].texts);
 			}
 		}
 	}
@@ -792,39 +795,63 @@ function setSkillInfo(event, type){
 					}
 
 				}
-			
+				
+					
+				function getOptiInfo(lvl){
+					
+					if( lvl == 0 ){ return ""; }
+					
+					let o_text = Class_skills;
+					let n_txt = o_text[i][0].skillinfo.split("<span class='info_blue'></span>");
+					
+					let _txt = "";
+					for(let j=0; j < n_txt.length; j++){
+						
+						if( j != n_txt.length-1 ){
+							_txt = _txt + n_txt[j] + "<span class='info_blue'>" + o_text[i][0].skilltext[lvl].split(",")[j] + "</span>";
+						}else{
+							_txt = _txt + n_txt[j];
+						}
+					
+					}
+					
+				
+					return _txt;
+				}
+				
 				if( type == "skill" ){
 					if( levels[i] == 0 ){
 						let newLevel = parseInt(levels[i]) + 1;
 						$(".info_level").text("Level " + newLevel );
-						infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
+						infoDescription.innerHTML = "<p><span class='info_gray'>" + getOptiInfo(newLevel) + "</span></p>";
 						getResources(1);
 					}else{
 						$(".info_level").text("Level " + parseInt( levels[i]) );
-						infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][levels[i]]) + "</span></p>";
+						infoDescription.innerHTML = "<p><span class='info_gray'>" + getOptiInfo(levels[i]) + "</span></p>";
 						getResources(0);
 					}
 				}else if( type == "plus" ){
 					let newLevel = parseInt(levels[i]) + 1;
 					$(".info_level").text("Level " + newLevel);
-					infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
+					infoDescription.innerHTML = "<p><span class='info_gray'>" + getOptiInfo(newLevel) + "</span></p>";
 					getResources(1);
 				}else if( type == "minus" ){
 					let newLevel = parseInt(levels[i]) - 1;
 					$(".info_level").text("Level " + newLevel );
-					infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
+					infoDescription.innerHTML = "<p><span class='info_gray'>" + getOptiInfo(newLevel) + "</span></p>";
 					getResources(-1);
 				}else if( type == "min" ){
 					let newLevel = 1;
 					$(".info_level").text("Level " + newLevel);
-					infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
+					infoDescription.innerHTML = "<p><span class='info_gray'>" + getOptiInfo(newLevel) + "</span></p>";
 					getResources(1 - parseInt(levels[i]));
 				}else if( type == "max" ){
 					let newLevel = parseInt(maxLevels[i]);
 					$(".info_level").text("Level " + newLevel);
-					infoDescription.innerHTML = "<p><span class='info_gray'>" + isUndefined(texts[i][newLevel]) + "</span></p>";
+					infoDescription.innerHTML = "<p><span class='info_gray'>" + getOptiInfo(newLevel) + "</span></p>";
 					getResources(parseInt(maxLevels[i]) - parseInt(levels[i]));
 				}
+
 			
 				// Set tooltip image
 				let infoImage = document.getElementById("info_image");
@@ -873,14 +900,38 @@ function setSkillInfo(event, type){
 				infoRequirement.innerHTML = "<p><span class='info_gray'>" + event.target.dataset.requirement + "</span></p>";
 			}
 			
-			let infoDescription = document.getElementById("info_description_3");
-			let texts = event.target.dataset.texts.split('>,');
+			function getLapenInfo(event, lvl){
+				
+				let o_text = lapenshard;
+				let l_id = 0;
+				
+				for(let g=0; g < o_text[0].length; g++){
+					
+					if( o_text[0][g].title == event.target.dataset.title ){
+						l_id = g;
+						break;
+					}
+				}
+				
+				let n_txt = event.target.dataset.skillinfo.split("<span class='info_blue'></span>");
+				
+				let _txt = "";
+				for(let j=0; j < n_txt.length; j++){
+					
+					if( j != n_txt.length-1 ){
+						_txt = _txt + n_txt[j] + "<span class='info_blue'>" + o_text[0][l_id].skilltext[lvl].split(",")[j] + "</span>";
+					}else{
+						_txt = _txt + n_txt[j];
+					}
+				
+				}
+				
 			
-			if( texts.length > 1 ){
-				infoDescription.innerHTML = isUndefined( texts[0] + ">" );
-			}else{
-				infoDescription.innerHTML = isUndefined( texts[0] );
+				return _txt;
 			}
+			
+			let infoDescription = document.getElementById("info_description_3");
+			let skillLevel = parseInt( event.target.parentElement.firstChild.innerText.replace("+","") );
 			
 			let skill = event.target.dataset.jobskills;
 			let skillBasic = event.target.dataset.textbasic;
@@ -891,9 +942,7 @@ function setSkillInfo(event, type){
 				skill = "";
 			}
 			
-			let skillLevel = parseInt( event.target.parentElement.firstChild.innerText.replace("+","") );
-			
-			infoDescription.innerHTML = skillBasic + "<p><span class='info_gray'>" + skill + " " + infoDescription.innerHTML.split(",")[skillLevel - 1] + " The lapenshard's power is reduced when paired with gear exceeding the lapenshard's level.</span></p>";
+			infoDescription.innerHTML = skillBasic + "<p><span class='info_gray'>" + skill + " " + getLapenInfo(event, skillLevel - 1) + " The lapenshard's power is reduced when paired with gear exceeding the lapenshard's level.</span></p>";
 			
 			let infoImage = document.getElementById("info_image");
 			infoImage.style.backgroundPosition = event.target.style.backgroundPosition;

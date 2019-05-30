@@ -10,18 +10,19 @@ var knight_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword",
-			"texts": [
+			"skillinfo": "A swing of your sword deals <span class='info_blue'></span> damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you.",
+			"skilltext": [
 				"",
-				"A swing of your sword deals <span class='info_blue'>79%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>85%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>91%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>97%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>103%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>109%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>115%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>121%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>127%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
-				"A swing of your sword deals <span class='info_blue'>133%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you.",
+				"79%,2,5,3",
+				"85%,2,5,3",
+				"91%,2,5,3",
+				"97%,2,5,3",
+				"103%,2,5,3",
+				"109%,2,5,3",
+				"115%,2,5,3",
+				"121%,2,5,3",
+				"127%,2,5,3",
+				"133%,2,5,3",
 			]
 		}
 	],[
@@ -35,18 +36,19 @@ var knight_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword",
-			"texts": [
+			"skillinfo": "Perform a spin slash, dealing <span class='info_blue'></span> damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m and pulling them in <span class='info_blue'></span> m. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Perform a spin slash, dealing <span class='info_blue'>81%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>86%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>91%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>96%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>101%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>106%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>111%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>116%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>121%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
-				"Perform a spin slash, dealing <span class='info_blue'>126%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and pulling them in <span class='info_blue'>1</span> m. Consumes <span class='info_blue'>12</span> spirit.",
+				"81%,3,8,3,1,12",
+				"86%,3,8,3,1,12",
+				"91%,3,8,3,1,12",
+				"96%,3,8,3,1,12",
+				"101%,3,8,3,1,12",
+				"106%,3,8,3,1,12",
+				"111%,3,8,3,1,12",
+				"116%,3,8,3,1,12",
+				"121%,3,8,3,1,12",
+				"126%,3,8,3,1,12",
 			]
 		}
 	],[
@@ -62,18 +64,19 @@ var knight_skills = [
 			"lockReq": "2-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 13+</span></p><p><span class='info_red'>Tornado Slash [Level 2+]</span></p><p><span class='info_red'>Cross Cut [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword",
-			"texts": [
+			"skillinfo": "Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'></span> holy damage to <span class='info_blue'></span> enemies and knocks them back <span class='info_blue'></span> m. Enemy attacks will not push you back while this skill is active.",
+			"skilltext": [
 				"",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>501%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>536%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>571%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>606%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>641%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>676%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>711%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>746%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>781%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
-				"Gathers light and smashes it down, creating a shockwave that deals <span class='info_blue'>816%</span> holy damage to <span class='info_blue'>8</span> enemies and knocks them back <span class='info_blue'>2</span> m. Enemy attacks will not push you back while this skill is active.",
+				"501%,8,2",
+				"536%,8,2",
+				"571%,8,2",
+				"606%,8,2",
+				"641%,8,2",
+				"676%,8,2",
+				"711%,8,2",
+				"746%,8,2",
+				"781%,8,2",
+				"816%,8,2",
 			]
 		}
 	],[
@@ -88,18 +91,19 @@ var knight_skills = [
 			"lockReq": "5-2-5-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Cross Cut [Level 5+]</span></p><p><span class='info_red'>Divine Strike [Level 5+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword",
-			"texts": [
+			"skillinfo": "Captain Allon's special skill stabs quickly, dealing <span class='info_blue'></span> damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>83%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>89%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>95%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>101%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>107%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>113%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>119%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>125%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>131%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
-				"Captain Allon's special skill stabs quickly, dealing <span class='info_blue'>137%</span> damage <span class='info_blue'>3</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. The skill lasts while the skill key is held down. Consumes <span class='info_blue'>13</span> spirit.",
+				"83%,3,3,3,13",
+				"89%,3,3,3,13",
+				"95%,3,3,3,13",
+				"101%,3,3,3,13",
+				"107%,3,3,3,13",
+				"113%,3,3,3,13",
+				"119%,3,3,3,13",
+				"125%,3,3,3,13",
+				"131%,3,3,3,13",
+				"137%,3,3,3,13",
 			]
 		}
 	],[
@@ -114,18 +118,19 @@ var knight_skills = [
 			"lockReq": "2-2-6-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Divine Strike [Level 6+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword",
-			"texts": [
+			"skillinfo": "Strike forth with your weapon, moving you <span class='info_blue'></span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'></span> damage on up to <span class='info_blue'></span> enemies.",
+			"skilltext": [
 				"",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>412%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>441%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>470%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>499%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>528%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>557%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>586%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>615%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>644%</span> damage on up to <span class='info_blue'>8</span> enemies.",
-				"Strike forth with your weapon, moving you <span class='info_blue'>4.5</span> m and creating a whirlwind. You pierce enemies in your path, dealing <span class='info_blue'>673%</span> damage on up to <span class='info_blue'>8</span> enemies.",
+				"4.5,412%,8",
+				"4.5,441%,8",
+				"4.5,470%,8",
+				"4.5,499%,8",
+				"4.5,528%,8",
+				"4.5,557%,8",
+				"4.5,586%,8",
+				"4.5,615%,8",
+				"4.5,644%,8",
+				"4.5,673%,8",
 			]
 		}
 	],[
@@ -140,18 +145,19 @@ var knight_skills = [
 			"lockReq": "6-2-6-0-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Cross Cut [Level 6+]</span></p><p><span class='info_red'>Drill Thrust [Level 2+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'></span> when you have a longsword equipped.",
+			"skilltext": [
 				"",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>1%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>1.6%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>2.2%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>2.8%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>3.4%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>4%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>4.6%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>5.2%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>5.8%</span> when you have a longsword equipped.",
-				"Captain Allon's secret training improves your swordsmanship, increasing weapon attack by <span class='info_blue'>6.4%</span> when you have a longsword equipped.",
+				"1%",
+				"1.6%",
+				"2.2%",
+				"2.8%",
+				"3.4%",
+				"4%",
+				"4.6%",
+				"5.2%",
+				"5.8%",
+				"6.4%",
 			]
 		}
 	],
@@ -177,18 +183,19 @@ var knight_skills = [
 			"lockReq": "0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 19+</span></p><p><span class='info_red'>Tornado Slash [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword",
-			"texts": [
+			"skillinfo": "Spin with your weapon out, dealing <span class='info_blue'></span> damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m. Each hit pulls them in <span class='info_blue'></span> m. During the attack, press a direction key to move <span class='info_blue'></span> m. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Spin with your weapon out, dealing <span class='info_blue'>147%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>158%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>169%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>180%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>191%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>202%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>213%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>224%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>235%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
-				"Spin with your weapon out, dealing <span class='info_blue'>246%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. Each hit pulls them in <span class='info_blue'>1</span> m. During the attack, press a direction key to move <span class='info_blue'>4.5</span> m. Consumes <span class='info_blue'>50</span> spirit.",
+				"147%,5,8,3,1,4.5,50",
+				"158%,5,8,3,1,4.5,50",
+				"169%,5,8,3,1,4.5,50",
+				"180%,5,8,3,1,4.5,50",
+				"191%,5,8,3,1,4.5,50",
+				"202%,5,8,3,1,4.5,50",
+				"213%,5,8,3,1,4.5,50",
+				"224%,5,8,3,1,4.5,50",
+				"235%,5,8,3,1,4.5,50",
+				"246%,5,8,3,1,4.5,50",
 			]
 		}
 	],[
@@ -203,18 +210,19 @@ var knight_skills = [
 			"lockReq": "0-3-0-0-0-0-0-0-4-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Iron Shield [Level 4+]</span></p><p><span class='info_red'>Typhoon Slash [Level 4+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Toss your shield <span class='info_blue'></span> m forward like a boomerang, dealing <span class='info_blue'></span> damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies and reducing their defense by <span class='info_blue'></span> for <span class='info_blue'></span> sec. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>60%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>1%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>64%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>1.2%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>68%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>2.2%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>72%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>2.2%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>76%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>3.2%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>80%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>4%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>84%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>4.2%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>88%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>5.2%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>92%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>5.8%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
-				"Toss your shield <span class='info_blue'>7.5</span> m forward like a boomerang, dealing <span class='info_blue'>96%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>8</span> enemies and reducing their defense by <span class='info_blue'>6.4%</span> for <span class='info_blue'>12</span> sec. Consumes <span class='info_blue'>12</span> spirit.",
+				"7.5,60%,2,8,1%,12,12",
+				"7.5,64%,2,8,1.2%,12,12",
+				"7.5,68%,2,8,2.2%,12,12",
+				"7.5,72%,2,8,2.2%,12,12",
+				"7.5,76%,2,8,3.2%,12,12",
+				"7.5,80%,2,8,4%,12,12",
+				"7.5,84%,2,8,4.2%,12,12",
+				"7.5,88%,2,8,5.2%,12,12",
+				"7.5,92%,2,8,5.8%,12,12",
+				"7.5,96%,2,8,6.4%,12,12",
 			]
 		}
 	],[
@@ -239,9 +247,10 @@ var knight_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Adopt a knightly defensive stance, restoring <span class='info_blue'></span> spirit every <span class='info_blue'></span> sec and decreasing damage taken by <span class='info_blue'></span>, but also reducing physical and magic attack by <span class='info_blue'></span>. Press the skill key again to toggle the stance.",
+			"skilltext": [
 				"",
-				"Adopt a knightly defensive stance, restoring <span class='info_blue'>4</span> spirit every <span class='info_blue'>0.3</span> sec and decreasing damage taken by <span class='info_blue'>10%</span>, but also reducing physical and magic attack by <span class='info_blue'>25%</span>. Press the skill key again to toggle the stance.",
+				"4,0.3,10%,25%",
 			]
 		}
 	],[
@@ -260,18 +269,19 @@ var knight_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 10+",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'></span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
+			"skilltext": [
 				"",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>25%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>30%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>35%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>40%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>45%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>50%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>55%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>60%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>65%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
-				"Adopt a defensive stance with your shield, reducing incoming damage by <span class='info_blue'>70%</span>. The skill lasts while the skill key is held down, although powerful attacks may break the skill early. This skill can cancel other skills. In PvP zones, the damage reduction is halved.",
+				"25%",
+				"30%",
+				"35%",
+				"40%",
+				"45%",
+				"50%",
+				"55%",
+				"60%",
+				"65%",
+				"70%",
 			]
 		}
 	],[
@@ -291,18 +301,19 @@ var knight_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Iron Shield [Level 4+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'></span> and perfect guard chance by <span class='info_blue'></span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'></span> chance to increase your damage by <span class='info_blue'></span> for <span class='info_blue'></span> sec.",
+			"skilltext": [
 				"",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>9</span> and perfect guard chance by <span class='info_blue'>5%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>40%</span> chance to increase your damage by <span class='info_blue'>3%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>12</span> and perfect guard chance by <span class='info_blue'>6%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>44%</span> chance to increase your damage by <span class='info_blue'>4%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>15</span> and perfect guard chance by <span class='info_blue'>7%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>48%</span> chance to increase your damage by <span class='info_blue'>5%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>18</span> and perfect guard chance by <span class='info_blue'>8%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>52%</span> chance to increase your damage by <span class='info_blue'>6%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>21</span> and perfect guard chance by <span class='info_blue'>9%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>56%</span> chance to increase your damage by <span class='info_blue'>7%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>24</span> and perfect guard chance by <span class='info_blue'>10%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>60%</span> chance to increase your damage by <span class='info_blue'>8%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>27</span> and perfect guard chance by <span class='info_blue'>11%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>64%</span> chance to increase your damage by <span class='info_blue'>9%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>30</span> and perfect guard chance by <span class='info_blue'>12%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>68%</span> chance to increase your damage by <span class='info_blue'>10%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>33</span> and perfect guard chance by <span class='info_blue'>13%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>72%</span> chance to increase your damage by <span class='info_blue'>11%</span> for <span class='info_blue'>10</span> sec.",
-				"Your fervent desire to protect other increases your shield mastery, increasing critical evasion by <span class='info_blue'>36</span> and perfect guard chance by <span class='info_blue'>14%</span> when you have a shield equipped when using Iron Shield. Blocking an attack grants a <span class='info_blue'>76%</span> chance to increase your damage by <span class='info_blue'>12%</span> for <span class='info_blue'>10</span> sec.",
+				"9,5%,40%,3%,10",
+				"12,6%,44%,4%,10",
+				"15,7%,48%,5%,10",
+				"18,8%,52%,6%,10",
+				"21,9%,56%,7%,10",
+				"24,10%,60%,8%,10",
+				"27,11%,64%,9%,10",
+				"30,12%,68%,10%,10",
+				"33,13%,72%,11%,10",
+				"36,14%,76%,12%,10",
 			]
 		}
 	],[
@@ -317,18 +328,19 @@ var knight_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-2-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 46+</span></p><p><span class='info_red'>Shield Mastery [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Lift <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you with your shield, dealing <span class='info_blue'></span>. Increases physical and magical resistance by <span class='info_blue'></span>. For <span class='info_blue'></span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>190%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>3%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>204%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>4%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>218%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>5%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>232%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>6%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>246%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>7%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>260%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>8%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>274%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>9%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>288%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>10%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>302%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>11%</span>.",
-				"Lift <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you with your shield, dealing <span class='info_blue'>316%</span>. Increases physical and magical resistance by <span class='info_blue'>450</span>. For <span class='info_blue'>10</span> sec, has a chance to trigger counter when hit. Also increases your counterattack damage by an additional <span class='info_blue'>12%</span>.",
+				"5,2,190%,450,10,3%",
+				"5,2,204%,450,10,4%",
+				"5,2,218%,450,10,5%",
+				"5,2,232%,450,10,6%",
+				"5,2,246%,450,10,7%",
+				"5,2,260%,450,10,8%",
+				"5,2,274%,450,10,9%",
+				"5,2,288%,450,10,10%",
+				"5,2,302%,450,10,11%",
+				"5,2,316%,450,10,12%",
 			]
 		}
 	],
@@ -343,9 +355,10 @@ var knight_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Charge forward <span class='info_blue'></span> m, dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies and knocking them back <span class='info_blue'></span> m. While charging, you cannot be knocked back. This skill can cancel other skills. Consume <span class='info_blue'></span> stamina.",
+			"skilltext": [
 				"",
-				"Charge forward <span class='info_blue'>4.5</span> m, dealing <span class='info_blue'>70%</span> damage to <span class='info_blue'>5</span> enemies and knocking them back <span class='info_blue'>3</span> m. While charging, you cannot be knocked back. This skill can cancel other skills. Consume <span class='info_blue'>40</span> stamina.",
+				"4.5,70%,5,3,40",
 			]
 		}
 	],[
@@ -365,18 +378,19 @@ var knight_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 16+",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Create a <span class='info_blue'></span> m holy field around you for <span class='info_blue'></span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'></span> allies, including yourself, by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>90</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>120</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>150</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>180</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>210</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>240</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>270</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>300</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>330</span>.",
-				"Create a <span class='info_blue'>3</span> m holy field around you for <span class='info_blue'>10</span> sec, increasing the physical resistance and magic resistance of <span class='info_blue'>10</span> allies, including yourself, by <span class='info_blue'>360</span>.",
+				"3,10,10,90",
+				"3,10,10,120",
+				"3,10,10,150",
+				"3,10,10,180",
+				"3,10,10,210",
+				"3,10,10,240",
+				"3,10,10,270",
+				"3,10,10,300",
+				"3,10,10,330",
+				"3,10,10,360",
 			]
 		}
 	],[
@@ -391,18 +405,19 @@ var knight_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Shield Wall [Level 3+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'></span> allies within <span class='info_blue'></span> m, plus yourself, by <span class='info_blue'></span> for <span class='info_blue'></span> sec. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>4</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>3%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>5</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>4%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>6</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>5%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>7</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>6%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>8</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>7%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>9</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>8%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>10</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>9%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>11</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>10%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>12</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>11%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
-				"Shout to raise morale, increasing the physical attack and magic attack of <span class='info_blue'>13</span> allies within <span class='info_blue'>3</span> m, plus yourself, by <span class='info_blue'>12%</span> for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>40</span> spirit.",
+				"4,3,3%,10,40",
+				"5,3,4%,10,40",
+				"6,3,5%,10,40",
+				"7,3,6%,10,40",
+				"8,3,7%,10,40",
+				"9,3,8%,10,40",
+				"10,3,9%,10,40",
+				"11,3,10%,10,40",
+				"12,3,11%,10,40",
+				"13,3,12%,10,40",
 			]
 		}
 	],[
@@ -418,18 +433,19 @@ var knight_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-3-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Shield Wall [Level 4+]</span></p><p><span class='info_red'>Warhorn [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Create a protective barrier for <span class='info_blue'></span> sec to make <span class='info_blue'></span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
+			"skilltext": [
 				"",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>4</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>5</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>6</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>7</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>8</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>9</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>10</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>11</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>12</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Create a protective barrier for <span class='info_blue'>3</span> sec to make <span class='info_blue'>13</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
+				"3,4",
+				"3,5",
+				"3,6",
+				"3,7",
+				"3,8",
+				"3,9",
+				"3,10",
+				"3,11",
+				"3,12",
+				"3,13",
 			]
 		}
 	],[
@@ -445,18 +461,19 @@ var knight_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-3-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Shield Wall [Level 4+]</span></p><p><span class='info_red'>Warhorn [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Dash to the nearest ally within <span class='info_blue'></span> m to create a protective barrier that lasts <span class='info_blue'></span> sec and makes <span class='info_blue'></span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
+			"skilltext": [
 				"",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>4</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>5</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>6</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>7</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>8</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>9</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>10</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>11</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>12</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
-				"Dash to the nearest ally within <span class='info_blue'>8</span> m to create a protective barrier that lasts <span class='info_blue'>3</span> sec and makes <span class='info_blue'>13</span> allies, including yourself, invulnerable to enemy attacks. Some attacks cannot be blocked.",
+				"8,3,4",
+				"8,3,5",
+				"8,3,6",
+				"8,3,7",
+				"8,3,8",
+				"8,3,9",
+				"8,3,10",
+				"8,3,11",
+				"8,3,12",
+				"8,3,13",
 			]
 		}
 	]
@@ -474,12 +491,13 @@ var knight_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword",
-			"texts": [
+			"skillinfo": "Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage. Grants knockback immunity.",
+			"skilltext": [
 				"",
-				"Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>734%</span> damage. Grants knockback immunity.",
-				"Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>819%</span> damage. Grants knockback immunity.",
-				"Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>904%</span> damage. Grants knockback immunity.",
-				"Focus your strength into a precise sword thrust.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>989%</span> damage. Grants knockback immunity.",
+				"734%",
+				"819%",
+				"904%",
+				"989%",
 			]
 		}
 	],[
@@ -495,12 +513,13 @@ var knight_skills_awakening = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Conviction Strike [Level 3+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'></span>, but decreases defense by <span class='info_blue'>.</span> Disables all shield skills except for Shield Charge.",
+			"skilltext": [
 				"",
-				"Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'>5%</span>, but decreases defense by <span class='info_blue'>30%.</span> Disables all shield skills except for Shield Charge.",
-				"Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'>10%</span>, but decreases defense by <span class='info_blue'>30%.</span> Disables all shield skills except for Shield Charge.",
-				"Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'>15%</span>, but decreases defense by <span class='info_blue'>30%.</span> Disables all shield skills except for Shield Charge.",
-				"Channel divine fury through your sword, gaining offensive power at the expense of defense.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases physical and magical attack by <span class='info_blue'>20%</span>, but decreases defense by <span class='info_blue'>30%.</span> Disables all shield skills except for Shield Charge.",
+				"5%,30%",
+				"10%,30%",
+				"15%,30%",
+				"20%,30%",
 			]
 		}
 	],[
@@ -515,12 +534,13 @@ var knight_skills_awakening = [
 			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Divine Retribution [Level 2+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'>3%.</span>",
-				"You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'>6%.</span>",
-				"You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'>9%.</span>",
-				"You have devoted yourself to the mastery of the sword.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Conviction Strike and Light Bringer damage by <span class='info_blue'>12%.</span>",
+				"3%",
+				"6%",
+				"9%",
+				"12%",
 			]
 		}
 	],[
@@ -541,12 +561,13 @@ var knight_skills_awakening = [
 			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Divine Retribution [Level 3+]</span></p><p><span class='info_orange'>Sword Discipline [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Physical</span></p><p><span class='info_gray'>Weapon Required: Main Hand Longsword",
-			"texts": [
+			"skillinfo": "Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span>. damage per hit. Grants knockback immunity.",
+			"skilltext": [
 				"",
-				"Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1417%.</span> damage per hit. Grants knockback immunity.",
-				"Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1582%.</span> damage per hit. Grants knockback immunity.",
-				"Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1747%.</span> damage per hit. Grants knockback immunity.",
-				"Summon holy swords to damage enemies in a large area before you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1912%.</span> damage per hit. Grants knockback immunity.",
+				"1417%",
+				"1582%",
+				"1747%",
+				"1912%",
 			]
 		}
 	],[
@@ -598,12 +619,13 @@ var knight_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage. Reduces incoming damage by <span class='info_blue'></span>. Increases perfect guard by <span class='info_blue'></span>. Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'></span> damage and pierces targets <span class='info_blue'></span> times.",
+			"skilltext": [
 				"",
-				"Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>185%.</span> damage. Reduces incoming damage by <span class='info_blue'>10%.</span> Increases perfect guard by <span class='info_blue'>3%.</span> Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'>411%</span> damage and pierces targets <span class='info_blue'>8</span> times.",
-				"Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>206%.</span> damage. Reduces incoming damage by <span class='info_blue'>20%.</span> Increases perfect guard by <span class='info_blue'>6%.</span> Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'>458%</span> damage and pierces targets <span class='info_blue'>8</span> times.",
-				"Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>227%.</span> damage. Reduces incoming damage by <span class='info_blue'>30%.</span> Increases perfect guard by <span class='info_blue'>9%.</span> Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'>505%</span> damage and pierces targets <span class='info_blue'>8</span> times.",
-				"Spread wings of light to create a curtain of divine energy. Hold down the skill key to project a Guardian Shield in front of you.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>248%.</span> damage. Reduces incoming damage by <span class='info_blue'>40%.</span> Increases perfect guard by <span class='info_blue'>12%.</span> Able to move while this is active. Grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Guardian Shield deals <span class='info_blue'>552%</span> damage and pierces targets <span class='info_blue'>8</span> times.",
+				"185%,10%,3%,411%,8",
+				"206%,20%,6%,458%,8",
+				"227%,30%,9%,505%,8",
+				"248%,40%,12%,552%,8",
 			]
 		}
 	],[
@@ -618,12 +640,13 @@ var knight_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Guardian's Wings [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage every <span class='info_blue'></span> sec. Decreases enemy defense by <span class='info_blue'></span>. This does not stack with Shield Toss.",
+			"skilltext": [
 				"",
-				"Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>222%.</span> damage every <span class='info_blue'>0.2</span> sec. Decreases enemy defense by <span class='info_blue'>2%.</span> This does not stack with Shield Toss.",
-				"Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>248%.</span> damage every <span class='info_blue'>0.2</span> sec. Decreases enemy defense by <span class='info_blue'>4%.</span> This does not stack with Shield Toss.",
-				"Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>274%.</span> damage every <span class='info_blue'>0.2</span> sec. Decreases enemy defense by <span class='info_blue'>6%.</span> This does not stack with Shield Toss.",
-				"Toss your shield like a boomerang to create a whirlwind.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>300%.</span> damage every <span class='info_blue'>0.2</span> sec. Decreases enemy defense by <span class='info_blue'>8%.</span> This does not stack with Shield Toss.",
+				"222%,0.2,2%",
+				"248%,0.2,4%",
+				"274%,0.2,6%",
+				"300%,0.2,8%",
 			]
 		}
 	],[
@@ -643,12 +666,13 @@ var knight_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Cyclone Shield [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'>3%.</span>",
-				"You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'>6%.</span>",
-				"You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'>9%.</span>",
-				"You have dedicated yourself to the mastery of the shield.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Cyclone Shield and Heaven's Judgment damage by <span class='info_blue'>12%.</span>",
+				"3%",
+				"6%",
+				"9%",
+				"12%",
 			]
 		}
 	],[
@@ -664,12 +688,13 @@ var knight_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Shield Training [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Off-hand Shield",
-			"texts": [
+			"skillinfo": "Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage. Grants knockback immunity.",
+			"skilltext": [
 				"",
-				"Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1125%</span> damage. Grants knockback immunity.",
-				"Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1125%</span> damage. Grants knockback immunity.",
-				"Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1125%</span> damage. Grants knockback immunity.",
-				"Gather divine energy in your shield, then release it to smite your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1125%</span> damage. Grants knockback immunity.",
+				"1125%",
+				"1125%",
+				"1125%",
+				"1125%",
 			]
 		}
 	],[
@@ -689,9 +714,10 @@ var knight_skills_awakening = [
 			"locked": 1,
 			"requirement": "",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Change up your tactics based on your current health.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>When max health is at least <span class='info_blue'></span>, activates Offensive Tactics.</span></p><br><p><span class='info_gray'>When max health is <span class='info_blue'></span> or less, activates Defensive Tactics.</span></p><br><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'></span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Offensive Tactics increases all damage by <span class='info_blue'></span>.</span></p><p><span class='info_gray'>Defensive Tactics increases physical and magic defense by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Change up your tactics based on your current health.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>When max health is at least <span class='info_blue'>70%</span>, activates Offensive Tactics.</span></p><br><p><span class='info_gray'>When max health is <span class='info_blue'>30%</span> or less, activates Defensive Tactics.</span></p><br><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'>40.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Offensive Tactics increases all damage by <span class='info_blue'>10%.</span></span></p><p><span class='info_gray'>Defensive Tactics increases physical and magic defense by <span class='info_blue'>150.</span>",
+				"70%,30%,40,10%,150",
 			]
 		}
 	],[

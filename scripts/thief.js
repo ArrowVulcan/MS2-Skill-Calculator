@@ -10,18 +10,19 @@ var thief_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger",
-			"texts": [
+			"skillinfo": "Quickly stab with your daggers, dealing <span class='info_blue'></span> damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. Has a <span class='info_blue'></span> chance to activate Cunning for <span class='info_blue'></span> sec when your attack hits. Movement speed increases by <span class='info_blue'></span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
+			"skilltext": [
 				"",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>31%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>7%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>33%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>8%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>35%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>9%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>37%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>10%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>39%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>11%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>41%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>12%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>43%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>13%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>45%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>14%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>47%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>15%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>49%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. Has a <span class='info_blue'>16%</span> chance to activate Cunning for <span class='info_blue'>5</span> sec when your attack hits. Movement speed increases by <span class='info_blue'>30%</span> while Cunning is active, and some skills are enhanced. The damage of each attack is affected by the weapon in each hand.",
+				"31%,2,3,3,7%,5,30%",
+				"33%,2,3,3,8%,5,30%",
+				"35%,2,3,3,9%,5,30%",
+				"37%,2,3,3,10%,5,30%",
+				"39%,2,3,3,11%,5,30%",
+				"41%,2,3,3,12%,5,30%",
+				"43%,2,3,3,13%,5,30%",
+				"45%,2,3,3,14%,5,30%",
+				"47%,2,3,3,15%,5,30%",
+				"49%,2,3,3,16%,5,30%",
 			]
 		}
 	],[
@@ -36,18 +37,19 @@ var thief_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger",
-			"texts": [
+			"skillinfo": "Swing your poison-coated daggers, dealing <span class='info_blue'></span> poison damage to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'></span> combo. The fifth hit deals <span class='info_blue'></span> poison damage and moves you <span class='info_blue'></span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'></span> poison damage every sec for <span class='info_blue'></span> sec for each hit. This effect stacks up to <span class='info_blue'></span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>68%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>72%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>11%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>72%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>78%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>12%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>76%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>84%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>13%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>80%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>90%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>14%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>84%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>96%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>15%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>88%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>102%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>16%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>92%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>108%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>17%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>96%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>114%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>18%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>100%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>120%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>19%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
-				"Swing your poison-coated daggers, dealing <span class='info_blue'>104%</span> poison damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>5-hit</span> combo. The fifth hit deals <span class='info_blue'>126%</span> poison damage and moves you <span class='info_blue'>3</span> m in the direction you select. When Cunning is active, <span class='info_emphasis'your daggers poison the target for an additional <span class='info_blue'>20%</span> poison damage every sec for <span class='info_blue'>13</span> sec for each hit. This effect stacks up to <span class='info_blue'>5</span> times. Cunning is removed when this skill ends.</span> Consumes <span class='info_blue'>10</span> spirit.",
+				"68%,5,3,5-hit,72%,3,11%,13,5,10",
+				"72%,5,3,5-hit,78%,3,12%,13,5,10",
+				"76%,5,3,5-hit,84%,3,13%,13,5,10",
+				"80%,5,3,5-hit,90%,3,14%,13,5,10",
+				"84%,5,3,5-hit,96%,3,15%,13,5,10",
+				"88%,5,3,5-hit,102%,3,16%,13,5,10",
+				"92%,5,3,5-hit,108%,3,17%,13,5,10",
+				"96%,5,3,5-hit,114%,3,18%,13,5,10",
+				"100%,5,3,5-hit,120%,3,19%,13,5,10",
+				"104%,5,3,5-hit,126%,3,20%,13,5,10",
 			]
 		}
 	],[
@@ -63,18 +65,19 @@ var thief_skills = [
 			"lockReq": "3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 16+</span></p><p><span class='info_red'>Double Slash [Level 3+]</span></p><p><span class='info_red'>Poison Edge [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Physical",
-			"texts": [
+			"skillinfo": "Throw a vial of poison at the closest enemy up to <span class='info_blue'></span> m in front of you, dealing <span class='info_blue'></span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'></span> enemies within <span class='info_blue'></span> m and deals <span class='info_blue'></span> poison damage every second for <span class='info_blue'></span> sec. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>45%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>35%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>48%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>38%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>51%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>41%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>54%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>44%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>57%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>47%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>60%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>50%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>63%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>53%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>66%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>56%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>69%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>59%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
-				"Throw a vial of poison at the closest enemy up to <span class='info_blue'>7.5</span> m in front of you, dealing <span class='info_blue'>72%</span> poison damage. The vial breaks on impact, splashing a toxic liquid that poisons <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m and deals <span class='info_blue'>62%</span> poison damage every second for <span class='info_blue'>10</span> sec. Consumes <span class='info_blue'>15</span> spirit.",
+				"7.5,45%,5,3,35%,10,15",
+				"7.5,48%,5,3,38%,10,15",
+				"7.5,51%,5,3,41%,10,15",
+				"7.5,54%,5,3,44%,10,15",
+				"7.5,57%,5,3,47%,10,15",
+				"7.5,60%,5,3,50%,10,15",
+				"7.5,63%,5,3,53%,10,15",
+				"7.5,66%,5,3,56%,10,15",
+				"7.5,69%,5,3,59%,10,15",
+				"7.5,72%,5,3,62%,10,15",
 			]
 		}
 	],[
@@ -94,18 +97,19 @@ var thief_skills = [
 			"lockReq": "3-6-4-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Poison Edge [Level 6+]</span></p><p><span class='info_red'>Poison Vial [Level 4+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger",
-			"texts": [
+			"skillinfo": "Stab <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you, dealing <span class='info_blue'></span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'></span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
+			"skilltext": [
 				"",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>101%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>313%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>108%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>336%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>115%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>359%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>122%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>382%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>129%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>405%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>136%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>428%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>143%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>451%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>150%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>474%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>157%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>497%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
-				"Stab <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you, dealing <span class='info_blue'>164%</span> damage. If a target is afflicted with Poison Blow or Poison Vial, they'll take an additional <span class='info_blue'>520%</span> poison damage for each, and the poison will be removed. When Cunning is active, <span class='info_emphasis'>this skill attacks enemies in all directions and removes Cunning.</span>",
+				"3,3,101%,313%",
+				"3,3,108%,336%",
+				"3,3,115%,359%",
+				"3,3,122%,382%",
+				"3,3,129%,405%",
+				"3,3,136%,428%",
+				"3,3,143%,451%",
+				"3,3,150%,474%",
+				"3,3,157%,497%",
+				"3,3,164%,520%",
 			]
 		}
 	],[
@@ -121,18 +125,19 @@ var thief_skills = [
 			"lockReq": "3-6-6-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Poison Vial [Level 6+]</span></p><p><span class='info_red'>Poison Edge [Level 6+]",
 			"info": "Passive</span></p><p><span class='info_gray'>Physical",
-			"texts": [
+			"skillinfo": "Prey on the weaknesses of your enemy to deal <span class='info_blue'></span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
+			"skilltext": [
 				"",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>2%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>3%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>4%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>5%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>6%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>7%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>8%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>9%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>10%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
-				"Prey on the weaknesses of your enemy to deal <span class='info_blue'>11%</span> additional poison damage to targets afflicted with Poison Blow or Poison Vial.",
+				"2%",
+				"3%",
+				"4%",
+				"5%",
+				"6%",
+				"7%",
+				"8%",
+				"9%",
+				"10%",
+				"11%",
 			]
 		}
 	],
@@ -169,18 +174,19 @@ var thief_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 19+",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Using the tricks of the trade, recover <span class='info_blue'></span> spirit and activate Cunning for <span class='info_blue'></span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'></span> and some skills can be empowered.",
+			"skilltext": [
 				"",
-				"Using the tricks of the trade, recover <span class='info_blue'>20</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>20</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>20</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>25</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>25</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>25</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>30</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>30</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>30</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
-				"Using the tricks of the trade, recover <span class='info_blue'>35</span> spirit and activate Cunning for <span class='info_blue'>5</span> sec. While Cunning is active, your movement speed increases by <span class='info_blue'>30%</span> and some skills can be empowered.",
+				"20,5,30%",
+				"20,5,30%",
+				"20,5,30%",
+				"25,5,30%",
+				"25,5,30%",
+				"25,5,30%",
+				"30,5,30%",
+				"30,5,30%",
+				"30,5,30%",
+				"35,5,30%",
 			]
 		}
 	],[
@@ -195,18 +201,19 @@ var thief_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Cunning Tactics [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger",
-			"texts": [
+			"skillinfo": "Spin with your daggers out, dealing <span class='info_blue'></span>, then <span class='info_blue'></span>, and then <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'></span> chance to evade attacks for <span class='info_blue'></span> sec and removes Cunning.</span> Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Spin with your daggers out, dealing <span class='info_blue'>42%</span>, then <span class='info_blue'>42%</span>, and then <span class='info_blue'>56%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>81%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>45%</span>, then <span class='info_blue'>45%</span>, and then <span class='info_blue'>59%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>83%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>48%</span>, then <span class='info_blue'>48%</span>, and then <span class='info_blue'>62%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>85%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>51%</span>, then <span class='info_blue'>51%</span>, and then <span class='info_blue'>65%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>87%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>54%</span>, then <span class='info_blue'>54%</span>, and then <span class='info_blue'>68%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>89%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>57%</span>, then <span class='info_blue'>57%</span>, and then <span class='info_blue'>71%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>91%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>60%</span>, then <span class='info_blue'>60%</span>, and then <span class='info_blue'>74%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>93%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>63%</span>, then <span class='info_blue'>63%</span>, and then <span class='info_blue'>77%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>95%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>66%</span>, then <span class='info_blue'>66%</span>, and then <span class='info_blue'>80%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>97%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
-				"Spin with your daggers out, dealing <span class='info_blue'>69%</span>, then <span class='info_blue'>69%</span>, and then <span class='info_blue'>83%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. While Cunning is active, <span class='info_emphasis'>this skill grants an <span class='info_blue'>99%</span> chance to evade attacks for <span class='info_blue'>1</span> sec and removes Cunning.</span> Consumes <span class='info_blue'>26</span> spirit.",
+				"42%,42%,56%,8,3,81%,1,26",
+				"45%,45%,59%,8,3,83%,1,26",
+				"48%,48%,62%,8,3,85%,1,26",
+				"51%,51%,65%,8,3,87%,1,26",
+				"54%,54%,68%,8,3,89%,1,26",
+				"57%,57%,71%,8,3,91%,1,26",
+				"60%,60%,74%,8,3,93%,1,26",
+				"63%,63%,77%,8,3,95%,1,26",
+				"66%,66%,80%,8,3,97%,1,26",
+				"69%,69%,83%,8,3,99%,1,26",
 			]
 		}
 	],[
@@ -221,18 +228,19 @@ var thief_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-2-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Blade Dance [Level 2+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'></span> spirit, increases physical attack and magic attack by <span class='info_blue'></span>, and increases evasion by <span class='info_blue'></span> for <span class='info_blue'></span> sec. This effect will not activate again for <span class='info_blue'></span> sec.",
+			"skilltext": [
 				"",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>12</span> spirit, increases physical attack and magic attack by <span class='info_blue'>4.5%</span>, and increases evasion by <span class='info_blue'>6</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>14</span> spirit, increases physical attack and magic attack by <span class='info_blue'>6%</span>, and increases evasion by <span class='info_blue'>7</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>16</span> spirit, increases physical attack and magic attack by <span class='info_blue'>7.5%</span>, and increases evasion by <span class='info_blue'>8</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>18</span> spirit, increases physical attack and magic attack by <span class='info_blue'>9%</span>, and increases evasion by <span class='info_blue'>9</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>20</span> spirit, increases physical attack and magic attack by <span class='info_blue'>10.5%</span>, and increases evasion by <span class='info_blue'>10</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>22</span> spirit, increases physical attack and magic attack by <span class='info_blue'>12%</span>, and increases evasion by <span class='info_blue'>11</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>24</span> spirit, increases physical attack and magic attack by <span class='info_blue'>13.5%</span>, and increases evasion by <span class='info_blue'>12</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>26</span> spirit, increases physical attack and magic attack by <span class='info_blue'>15%</span>, and increases evasion by <span class='info_blue'>13</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>28</span> spirit, increases physical attack and magic attack by <span class='info_blue'>16.5%</span>, and increases evasion by <span class='info_blue'>14</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
-				"Deftly dodge an attack and position yourself for a counterattack, which restores <span class='info_blue'>30</span> spirit, increases physical attack and magic attack by <span class='info_blue'>18%</span>, and increases evasion by <span class='info_blue'>15</span> for <span class='info_blue'>12</span> sec. This effect will not activate again for <span class='info_blue'>1</span> sec.",
+				"12,4.5%,6,12,1",
+				"14,6%,7,12,1",
+				"16,7.5%,8,12,1",
+				"18,9%,9,12,1",
+				"20,10.5%,10,12,1",
+				"22,12%,11,12,1",
+				"24,13.5%,12,12,1",
+				"26,15%,13,12,1",
+				"28,16.5%,14,12,1",
+				"30,18%,15,12,1",
 			]
 		}
 	],[
@@ -252,9 +260,10 @@ var thief_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Steal from an enemy. When successful, attacks restore <span class='info_blue'></span> spirit on hit.",
+			"skilltext": [
 				"",
-				"Steal from an enemy. When successful, attacks restore <span class='info_blue'>4</span> spirit on hit.",
+				"4",
 			]
 		}
 	],[
@@ -273,18 +282,19 @@ var thief_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 10+",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical",
-			"texts": [
+			"skillinfo": "Perform a somersault kick to deal <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'></span> and jump power by <span class='info_blue'></span> for <span class='info_blue'></span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'></span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
+			"skilltext": [
 				"",
-				"Perform a somersault kick to deal <span class='info_blue'>238%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>30%</span> and jump power by <span class='info_blue'>30%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>254%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>30%</span> and jump power by <span class='info_blue'>30%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>270%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>30%</span> and jump power by <span class='info_blue'>30%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>286%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>35%</span> and jump power by <span class='info_blue'>35%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>302%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>35%</span> and jump power by <span class='info_blue'>35%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>318%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>35%</span> and jump power by <span class='info_blue'>35%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>334%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>40%</span> and jump power by <span class='info_blue'>40%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>350%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>40%</span> and jump power by <span class='info_blue'>40%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>366%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>40%</span> and jump power by <span class='info_blue'>40%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
-				"Perform a somersault kick to deal <span class='info_blue'>382%</span> damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you, breaking their stance and decreasing their movement speed by <span class='info_blue'>45%</span> and jump power by <span class='info_blue'>45%</span> for <span class='info_blue'>5</span> sec. When Cunning is active, <span class='info_emphasis'>this skill stuns enemies for <span class='info_blue'>1</span> sec, the cooldown becomes <span class='info_emphasis'>4</span> sec, and removes Cunning.</span>",
+				"238%,5,3,30%,30%,5,1",
+				"254%,5,3,30%,30%,5,1",
+				"270%,5,3,30%,30%,5,1",
+				"286%,5,3,35%,35%,5,1",
+				"302%,5,3,35%,35%,5,1",
+				"318%,5,3,35%,35%,5,1",
+				"334%,5,3,40%,40%,5,1",
+				"350%,5,3,40%,40%,5,1",
+				"366%,5,3,40%,40%,5,1",
+				"382%,5,3,45%,45%,5,1",
 			]
 		}
 	],[
@@ -298,18 +308,19 @@ var thief_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 25+",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Swiftly move back <span class='info_blue'></span> m and recover <span class='info_blue'></span> spirit. Consumes <span class='info_blue'></span> stamina.",
+			"skilltext": [
 				"",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>1</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>3</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>5</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>7</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>9</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>11</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>13</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>15</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>17</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
-				"Swiftly move back <span class='info_blue'>3</span> m and recover <span class='info_blue'>19</span> spirit. Consumes <span class='info_blue'>40</span> stamina.",
+				"3,1,40",
+				"3,3,40",
+				"3,5,40",
+				"3,7,40",
+				"3,9,40",
+				"3,11,40",
+				"3,13,40",
+				"3,15,40",
+				"3,17,40",
+				"3,19,40",
 			]
 		}
 	],[
@@ -329,18 +340,19 @@ var thief_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 46+</span></p><p><span class='info_red'>Quick Step [Level 2+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Spend <span class='info_blue'></span> mesos to create a meso shield that lasts <span class='info_blue'></span> sec, reducing damage taken by <span class='info_blue'></span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'></span> sec, increases physical attack by <span class='info_blue'></span>, reduces damage taken by <span class='info_blue'></span></span>, and removes Cunning.",
+			"skilltext": [
 				"",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>26%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>11%</span>, reduces damage taken by <span class='info_blue'>2.6%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>32%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>14%</span>, reduces damage taken by <span class='info_blue'>3.2%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>38%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>17%</span>, reduces damage taken by <span class='info_blue'>3.8%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>44%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>20%</span>, reduces damage taken by <span class='info_blue'>4.4%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>50%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>23%</span>, reduces damage taken by <span class='info_blue'>5%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>56%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>26%</span>, reduces damage taken by <span class='info_blue'>5.6%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>62%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>29%</span>, reduces damage taken by <span class='info_blue'>6.2%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>68%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>32%</span>, reduces damage taken by <span class='info_blue'>6.8%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>74%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>35%</span>, reduces damage taken by <span class='info_blue'>7.4%</span></span>, and removes Cunning.",
-				"Spend <span class='info_blue'>777</span> mesos to create a meso shield that lasts <span class='info_blue'>4</span> sec, reducing damage taken by <span class='info_blue'>80%</span>. If Cunning is active, the skill costs no mesos, <span class='info_emphasis'>creates a meso shield around your weapon that lasts <span class='info_blue'>12</span> sec, increases physical attack by <span class='info_blue'>38%</span>, reduces damage taken by <span class='info_blue'>8%</span></span>, and removes Cunning.",
+				"777,4,26%,12,11%,2.6%",
+				"777,4,32%,12,14%,3.2%",
+				"777,4,38%,12,17%,3.8%",
+				"777,4,44%,12,20%,4.4%",
+				"777,4,50%,12,23%,5%",
+				"777,4,56%,12,26%,5.6%",
+				"777,4,62%,12,29%,6.2%",
+				"777,4,68%,12,32%,6.8%",
+				"777,4,74%,12,35%,7.4%",
+				"777,4,80%,12,38%,8%",
 			]
 		}
 	],
@@ -355,9 +367,10 @@ var thief_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical",
-			"texts": [
+			"skillinfo": "Nimbly move forward <span class='info_blue'></span> m, dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies in your path and absorbing their energy to restore <span class='info_blue'></span> spirit per target.",
+			"skilltext": [
 				"",
-				"Nimbly move forward <span class='info_blue'>4.5</span> m, dealing <span class='info_blue'>40%</span> damage to <span class='info_blue'>3</span> enemies in your path and absorbing their energy to restore <span class='info_blue'>10</span> spirit per target.",
+				"4.5,40%,3,10",
 			]
 		}
 	],[
@@ -376,18 +389,19 @@ var thief_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 13+",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'></span> and the skill's damage by <span class='info_blue'></span>",
+			"skilltext": [
 				"",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>50%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>100%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>150%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>200%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>250%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>300%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>350%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>400%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>450%</span>",
-				"Unlocks Empowered Mind Stealer, which increases the number of targets that can be hit by the skill to <span class='info_blue'>5</span> and the skill's damage by <span class='info_blue'>500%</span>",
+				"5,50%",
+				"5,100%",
+				"5,150%",
+				"5,200%",
+				"5,250%",
+				"5,300%",
+				"5,350%",
+				"5,400%",
+				"5,450%",
+				"5,500%",
 			]
 		}
 	],[
@@ -402,18 +416,19 @@ var thief_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-2-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Somersault Kick [Level 2+]</span></p><p><span class='info_red'>Mind Breaker [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger",
-			"texts": [
+			"skillinfo": "Quickly stab with your daggers, dealing <span class='info_blue'></span> damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>35%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>38%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>41%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>44%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>47%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>50%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>53%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>56%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>59%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
-				"Quickly stab with your daggers, dealing <span class='info_blue'>62%</span> damage <span class='info_blue'>5</span> times to <span class='info_blue'>3</span> enemies up to <span class='info_blue'>3</span> m in front of you. While Cunning is active, <span class='info_emphasis'>this skill deals double damage.</span> The damage of each attack is affected by the weapon in each hand. Consumes <span class='info_blue'>28</span> spirit.",
+				"35%,5,3,3,28",
+				"38%,5,3,3,28",
+				"41%,5,3,3,28",
+				"44%,5,3,3,28",
+				"47%,5,3,3,28",
+				"50%,5,3,3,28",
+				"53%,5,3,3,28",
+				"56%,5,3,3,28",
+				"59%,5,3,3,28",
+				"62%,5,3,3,28",
 			]
 		}
 	],[
@@ -428,18 +443,19 @@ var thief_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-5-3-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Mind Breaker [Level 5+]</span></p><p><span class='info_red'>Vicious Cuts [Level 3+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Your movements mimic the wind. For <span class='info_blue'></span> sec, <span class='info_blue'></span> spirit is consumed in <span class='info_blue'></span> sec intervals to increase attack speed and movement speed by <span class='info_blue'></span> and physical attack by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>13%</span> and physical attack by <span class='info_blue'>8%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>14%</span> and physical attack by <span class='info_blue'>9%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>15%</span> and physical attack by <span class='info_blue'>10%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>16%</span> and physical attack by <span class='info_blue'>11%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>17%</span> and physical attack by <span class='info_blue'>12%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>18%</span> and physical attack by <span class='info_blue'>13%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>19%</span> and physical attack by <span class='info_blue'>14%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>20%</span> and physical attack by <span class='info_blue'>15%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>21%</span> and physical attack by <span class='info_blue'>16%</span>.",
-				"Your movements mimic the wind. For <span class='info_blue'>60</span> sec, <span class='info_blue'>4</span> spirit is consumed in <span class='info_blue'>0.5</span> sec intervals to increase attack speed and movement speed by <span class='info_blue'>22%</span> and physical attack by <span class='info_blue'>17%</span>.",
+				"60,4,0.5,13%,8%",
+				"60,4,0.5,14%,9%",
+				"60,4,0.5,15%,10%",
+				"60,4,0.5,16%,11%",
+				"60,4,0.5,17%,12%",
+				"60,4,0.5,18%,13%",
+				"60,4,0.5,19%,14%",
+				"60,4,0.5,20%,15%",
+				"60,4,0.5,21%,16%",
+				"60,4,0.5,22%,17%",
 			]
 		}
 	],[
@@ -454,18 +470,19 @@ var thief_skills = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-5-5-3-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Vicious Cuts [Level 5+]</span></p><p><span class='info_red'>Haste [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>1%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>3%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>5%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>7%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>9%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>11%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>13%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>15%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>17%</span>.",
-				"Intense training has honed your body, increasing the damage output of Vicious Cuts and Somersault Kick by <span class='info_blue'>19%</span>.",
+				"1%",
+				"3%",
+				"5%",
+				"7%",
+				"9%",
+				"11%",
+				"13%",
+				"15%",
+				"17%",
+				"19%",
 			]
 		}
 	]
@@ -483,12 +500,13 @@ var thief_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger",
-			"texts": [
+			"skillinfo": "Brandish your daggers, slashing enemies <span class='info_blue'></span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'></span> damage per hit.",
+			"skilltext": [
 				"",
-				"Brandish your daggers, slashing enemies <span class='info_blue'>6</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>146%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'>248%</span> damage per hit.",
-				"Brandish your daggers, slashing enemies <span class='info_blue'>6</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>163%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'>277%</span> damage per hit.",
-				"Brandish your daggers, slashing enemies <span class='info_blue'>6</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>180%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'>306%</span> damage per hit.",
-				"Brandish your daggers, slashing enemies <span class='info_blue'>6</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>197%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Consumes Cunning to deal <span class='info_blue'>335%</span> damage per hit.",
+				"6,146%,248%",
+				"6,163%,277%",
+				"6,180%,306%",
+				"6,197%,335%",
 			]
 		}
 	],[
@@ -503,12 +521,13 @@ var thief_skills_awakening = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Savage Strikes [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'></span>.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'></span> for <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>4.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'>3%</span> for <span class='info_blue'>6.</span>",
-				"You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>8.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'>6%</span> for <span class='info_blue'>6.</span>",
-				"You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>12.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'>9%</span> for <span class='info_blue'>6.</span>",
-				"You have a plan for every battle.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>16.</span></span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Cunning Tactics increases physical damage by <span class='info_blue'>12%</span> for <span class='info_blue'>6.</span>",
+				"4,3%,6",
+				"8,6%,6",
+				"12,9%,6",
+				"16,12%,6",
 			]
 		}
 	],[
@@ -523,12 +542,13 @@ var thief_skills_awakening = [
 			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Battle Plan [Level 2+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'></span>. Increases Surprise Attack damage by <span class='info_blue'></span> and cooldown by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'>3%</span>. Increases Surprise Attack damage by <span class='info_blue'>60%</span> and cooldown by <span class='info_blue'>50%</span>.",
-				"You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'>6%</span>. Increases Surprise Attack damage by <span class='info_blue'>115%</span> and cooldown by <span class='info_blue'>50%</span>.",
-				"You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'>9%</span>. Increases Surprise Attack damage by <span class='info_blue'>170%</span> and cooldown by <span class='info_blue'>50%</span>.",
-				"You've become a master poisoner.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases poison damage by <span class='info_blue'>12%</span>. Increases Surprise Attack damage by <span class='info_blue'>225%</span> and cooldown by <span class='info_blue'>50%</span>.",
+				"3%,60%,50%",
+				"6%,115%,50%",
+				"9%,170%,50%",
+				"12%,225%,50%",
 			]
 		}
 	],[
@@ -549,12 +569,13 @@ var thief_skills_awakening = [
 			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Battle Plan [Level 3+]</span></p><p><span class='info_orange'>Poison Master [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Long Range / Phyiscal",
-			"texts": [
+			"skillinfo": "Throw <span class='info_blue'></span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'></span> poison damage for <span class='info_blue'></span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.",
+			"skilltext": [
 				"",
-				"Throw <span class='info_blue'>2</span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>148%</span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'>40%</span> poison damage for <span class='info_blue'>12</span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.",
-				"Throw <span class='info_blue'>2</span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>165%</span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'>45%</span> poison damage for <span class='info_blue'>12</span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.",
-				"Throw <span class='info_blue'>2</span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>182%</span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'>50%</span> poison damage for <span class='info_blue'>12</span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.",
-				"Throw <span class='info_blue'>2</span> vials of flammable gas and deadly poison.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>199%</span> area damage and poisons struck targets.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Poison deal <span class='info_blue'>55%</span> poison damage for <span class='info_blue'>12</span> sec each and explode when struck by Surprise Attack.</span></p><p><span class='info_gray'>Poison Edge and Poison Vial poison damage does not stack.",
+				"2,148%,40%,12",
+				"2,165%,45%,12",
+				"2,182%,50%,12",
+				"2,199%,55%,12",
 			]
 		}
 	],[
@@ -605,12 +626,13 @@ var thief_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Phyiscal</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger",
-			"texts": [
+			"skillinfo": "Slash twice to attack the enemy <span class='info_blue'></span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.",
+			"skilltext": [
 				"",
-				"Slash twice to attack the enemy <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>135%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.",
-				"Slash twice to attack the enemy <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>150%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.",
-				"Slash twice to attack the enemy <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>165%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.",
-				"Slash twice to attack the enemy <span class='info_blue'>2</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>180%</span> damage per hit.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Converts to Dagger Toss while Watchful.",
+				"2,135%",
+				"2,150%",
+				"2,165%",
+				"2,180%",
 			]
 		}
 	],[
@@ -625,12 +647,13 @@ var thief_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Critical Slice [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'></span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'></span> and movement speed by <span class='info_blue'></span> for <span class='info_blue'></span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.",
+			"skilltext": [
 				"",
-				"Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'>29%</span> and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>8</span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.",
-				"Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'>31%</span> and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>8</span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.",
-				"Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'>33%</span> and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>8</span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.",
-				"Tailor your strategy to any situation.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Passively grants Watchful.</span></p><br><p><span class='info_gray'>When enemies are close, lose Watchful and gain Rush.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Watchful increases defense by <span class='info_blue'>10%</span>.</span></p><p><span class='info_gray'>Rush increases physical attack by <span class='info_blue'>35%</span> and movement speed by <span class='info_blue'>10%</span> for <span class='info_blue'>8</span> sec.</span></p><p><span class='info_gray'>Rush and Haste do not stack.",
+				"10%,29%,10%,8",
+				"10%,31%,10%,8",
+				"10%,33%,10%,8",
+				"10%,35%,10%,8",
 			]
 		}
 	],[
@@ -650,12 +673,13 @@ var thief_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Battle Step [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: One-handed Dagger, One-handed Dagger",
-			"texts": [
+			"skillinfo": "Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'></span> m in front of you. Move <span class='info_blue'></span> m if there are no enemies within <span class='info_blue'></span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'></span> damage and grants Rush. While Rush is active converts this still to Finishing Step.",
+			"skilltext": [
 				"",
-				"Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'>12</span> m in front of you. Move <span class='info_blue'>4.5</span> m if there are no enemies within <span class='info_blue'>12</span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'>1602%</span> damage and grants Rush. While Rush is active converts this still to Finishing Step.",
-				"Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'>12</span> m in front of you. Move <span class='info_blue'>4.5</span> m if there are no enemies within <span class='info_blue'>12</span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'>1788%</span> damage and grants Rush. While Rush is active converts this still to Finishing Step.",
-				"Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'>12</span> m in front of you. Move <span class='info_blue'>4.5</span> m if there are no enemies within <span class='info_blue'>12</span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'>1974%</span> damage and grants Rush. While Rush is active converts this still to Finishing Step.",
-				"Dash through the shadows.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Move to an enemy within <span class='info_blue'>12</span> m in front of you. Move <span class='info_blue'>4.5</span> m if there are no enemies within <span class='info_blue'>12</span> m.</span></p><br><p><span class='info_gray'>Hold down the key to use Shadow Slash.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shadow Slash deals <span class='info_blue'>2160%</span> damage and grants Rush. While Rush is active converts this still to Finishing Step.",
+				"12,4.5,12,1602%",
+				"12,4.5,12,1788%",
+				"12,4.5,12,1974%",
+				"12,4.5,12,2160%",
 			]
 		}
 	],[
@@ -670,12 +694,13 @@ var thief_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Shadow Step [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical",
-			"texts": [
+			"skillinfo": "Fiercely slash the target <span class='info_blue'></span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'></span> while Deadly Strikes is in use.",
+			"skilltext": [
 				"",
-				"Fiercely slash the target <span class='info_blue'>7</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>252%</span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>300</span> while Deadly Strikes is in use.",
-				"Fiercely slash the target <span class='info_blue'>7</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>281%</span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>300</span> while Deadly Strikes is in use.",
-				"Fiercely slash the target <span class='info_blue'>7</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>310%</span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>300</span> while Deadly Strikes is in use.",
-				"Fiercely slash the target <span class='info_blue'>7</span> times.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>339%</span> damage per hit and grants knockback immunity.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Increases physical and magic resistance by <span class='info_blue'>300</span> while Deadly Strikes is in use.",
+				"7,252%,300",
+				"7,281%,300",
+				"7,310%,300",
+				"7,339%,300",
 			]
 		}
 	],[
@@ -695,9 +720,10 @@ var thief_skills_awakening = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Your fighting style is fueled by your thirst for vengeance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'></span>. Can attack while climbing.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage when attacking while climbing.",
+			"skilltext": [
 				"",
-				"Your fighting style is fueled by your thirst for vengeance.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases luck by <span class='info_blue'>40.</span> Can attack while climbing.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>340%</span> damage when attacking while climbing.",
+				"40,340%",
 			]
 		}
 	],[

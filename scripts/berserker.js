@@ -11,18 +11,19 @@ var berserker_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Swing your weapon to deal <span class='info_blue'></span> dark damage to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'></span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'></span> m.",
+			"skilltext": [
 				"",
-				"Swing your weapon to deal <span class='info_blue'>56%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>59%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>62%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>65%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>68%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>71%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>74%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>77%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>80%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
-				"Swing your weapon to deal <span class='info_blue'>83%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Keep pressing the key to trigger a <span class='info_blue'>3-hit</span> combo. The attack speed increases with each hit. The third hit is a double strike, and when finished you start over from the beginning. During the attack, press a direction key to move <span class='info_blue'>0.6</span> m.",
+				"56%,5,3,3-hit,0.6",
+				"59%,5,3,3-hit,0.6",
+				"62%,5,3,3-hit,0.6",
+				"65%,5,3,3-hit,0.6",
+				"68%,5,3,3-hit,0.6",
+				"71%,5,3,3-hit,0.6",
+				"74%,5,3,3-hit,0.6",
+				"77%,5,3,3-hit,0.6",
+				"80%,5,3,3-hit,0.6",
+				"83%,5,3,3-hit,0.6",
 			]
 		}
 	],[
@@ -37,18 +38,19 @@ var berserker_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Spin your greatsword, dealing <span class='info_blue'></span> dark damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m. During the attack, press a direction key to move <span class='info_blue'></span> m. The distance decreases to <span class='info_blue'></span> m on your second spin and to <span class='info_blue'></span> m on your third and subsequent spins. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Spin your greatsword, dealing <span class='info_blue'>69%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>74%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>79%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>84%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>89%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>94%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>99%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>104%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>109%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
-				"Spin your greatsword, dealing <span class='info_blue'>114%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. During the attack, press a direction key to move <span class='info_blue'>1.6</span> m. The distance decreases to <span class='info_blue'>1.2</span> m on your second spin and to <span class='info_blue'>0.8</span> m on your third and subsequent spins. Consumes <span class='info_blue'>4</span> spirit.",
+				"69%,8,3,1.6,1.2,0.8,4",
+				"74%,8,3,1.6,1.2,0.8,4",
+				"79%,8,3,1.6,1.2,0.8,4",
+				"84%,8,3,1.6,1.2,0.8,4",
+				"89%,8,3,1.6,1.2,0.8,4",
+				"94%,8,3,1.6,1.2,0.8,4",
+				"99%,8,3,1.6,1.2,0.8,4",
+				"104%,8,3,1.6,1.2,0.8,4",
+				"109%,8,3,1.6,1.2,0.8,4",
+				"114%,8,3,1.6,1.2,0.8,4",
 			]
 		}
 	],[
@@ -63,18 +65,19 @@ var berserker_skills = [
 			"lockReq": "4-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 19+</span></p><p><span class='info_red'>Raging Slash [Level 4+]</span></p><p><span class='info_red'>Death Spin [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m and knock them back <span class='info_blue'></span> m. If Dark Aura activates, damage increases by <span class='info_blue'></span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>218%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>233%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>248%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>263%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>278%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>293%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>308%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>323%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>338%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
-				"Old Ten's specialty move. Strike down your greatsword to deal <span class='info_blue'>353%</span> damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m and knock them back <span class='info_blue'>1.5</span> m. If Dark Aura activates, damage increases by <span class='info_blue'>16%</span> per stack. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> spirit.",
+				"218%,8,3,1.5,16%,40",
+				"233%,8,3,1.5,16%,40",
+				"248%,8,3,1.5,16%,40",
+				"263%,8,3,1.5,16%,40",
+				"278%,8,3,1.5,16%,40",
+				"293%,8,3,1.5,16%,40",
+				"308%,8,3,1.5,16%,40",
+				"323%,8,3,1.5,16%,40",
+				"338%,8,3,1.5,16%,40",
+				"353%,8,3,1.5,16%,40",
 			]
 		}
 	],[
@@ -100,18 +103,19 @@ var berserker_skills = [
 			"lockReq": "6-3-6-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 40+</span></p><p><span class='info_red'>Raging Slash [Level 6+]</span></p><p><span class='info_red'>Ground Breaker [Level 6+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'></span> for <span class='info_blue'></span> sec and restore <span class='info_blue'></span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
+			"skilltext": [
 				"",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>16%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>18%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>20%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>22%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>24%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>26%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>28%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>30%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>32%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
-				"Temporarily amplify Dark Aura to increase attack speed, physical attack, and magic attack by <span class='info_blue'>34%</span> for <span class='info_blue'>10</span> sec and restore <span class='info_blue'>1</span> additional spirit on hit. This skill can only be used by consuming Dark Aura at max stacks.",
+				"16%,10,1",
+				"18%,10,1",
+				"20%,10,1",
+				"22%,10,1",
+				"24%,10,1",
+				"26%,10,1",
+				"28%,10,1",
+				"30%,10,1",
+				"32%,10,1",
+				"34%,10,1",
 			]
 		}
 	],
@@ -137,18 +141,19 @@ var berserker_skills = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 10+",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Swing your greatsword upward to deal <span class='info_blue'></span> dark damage to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. Press the skill key again to trigger a <span class='info_blue'></span> combo. The second part is <span class='info_blue'></span> quick swings, dealing <span class='info_blue'></span> dark damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'></span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'></span> spirit and the second hit consumes <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Swing your greatsword upward to deal <span class='info_blue'>257%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>97%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>274%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>103%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>291%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>109%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>308%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>115%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>325%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>121%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>342%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>127%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>259%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>133%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>376%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>139%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>393%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>145%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
-				"Swing your greatsword upward to deal <span class='info_blue'>410%</span> dark damage to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>3</span> m in front of you. Press the skill key again to trigger a <span class='info_blue'>2-hit</span> combo. The second part is <span class='info_blue'>2</span> quick swings, dealing <span class='info_blue'>151%</span> dark damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies up to <span class='info_blue'>2</span> m in front of you. On the first hit, press a direction key to move <span class='info_blue'>4</span> m and attack. On the second hit, the skill lasts while the skill key is held down. You will be immune to knockback while this skill is active. The first hit consumes <span class='info_blue'>24</span> spirit and the second hit consumes <span class='info_blue'>11</span> spirit.",
+				"257%,5,3,2-hit,2,97%,2,5,2,4,24,11",
+				"274%,5,3,2-hit,2,103%,2,5,2,4,24,11",
+				"291%,5,3,2-hit,2,109%,2,5,2,4,24,11",
+				"308%,5,3,2-hit,2,115%,2,5,2,4,24,11",
+				"325%,5,3,2-hit,2,121%,2,5,2,4,24,11",
+				"342%,5,3,2-hit,2,127%,2,5,2,4,24,11",
+				"259%,5,3,2-hit,2,133%,2,5,2,4,24,11",
+				"376%,5,3,2-hit,2,139%,2,5,2,4,24,11",
+				"393%,5,3,2-hit,2,145%,2,5,2,4,24,11",
+				"410%,5,3,2-hit,2,151%,2,5,2,4,24,11",
 			]
 		}
 	],[
@@ -164,18 +169,19 @@ var berserker_skills = [
 			"lockReq": "4-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 22+</span></p><p><span class='info_red'>Raging Slash [Level 4+]</span></p><p><span class='info_red'>Void Slash [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'></span> dark damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m. The impact area resonates with darkness for <span class='info_blue'></span> sec, dealing <span class='info_blue'></span> dark damage to <span class='info_blue'></span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
+			"skilltext": [
 				"",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>357%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>148%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>382%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>158%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>407%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>168%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>432%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>178%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>457%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>188%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>482%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>198%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>507%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>208%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>532%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>218%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>557%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>228%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
-				"Gather dark power into your greatsword and strike down with great force to deal <span class='info_blue'>582%</span> dark damage to <span class='info_blue'>8</span> enemies within <span class='info_blue'>3</span> m. The impact area resonates with darkness for <span class='info_blue'>5</span> sec, dealing <span class='info_blue'>238%</span> dark damage to <span class='info_blue'>8</span> enemies in range every second. This skill can only be used by consuming Dark Aura at max stacks. You will be immune to knockback while this skill is active.",
+				"357%,8,3,5,148%,8",
+				"382%,8,3,5,158%,8",
+				"407%,8,3,5,168%,8",
+				"432%,8,3,5,178%,8",
+				"457%,8,3,5,188%,8",
+				"482%,8,3,5,198%,8",
+				"507%,8,3,5,208%,8",
+				"532%,8,3,5,218%,8",
+				"557%,8,3,5,228%,8",
+				"582%,8,3,5,238%,8",
 			]
 		}
 	],[
@@ -190,18 +196,19 @@ var berserker_skills = [
 			"lockReq": "4-0-0-0-0-0-0-0-6-5-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 34+</span></p><p><span class='info_red'>Void Slash [Level 6+]</span></p><p><span class='info_red'>Dark Breaker [Level 5+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'></span> and piercing by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>15</span> and piercing by <span class='info_blue'>1%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>20</span> and piercing by <span class='info_blue'>1.6%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>25</span> and piercing by <span class='info_blue'>2.2%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>30</span> and piercing by <span class='info_blue'>2.8%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>35</span> and piercing by <span class='info_blue'>3.4%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>40</span> and piercing by <span class='info_blue'>4%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>45</span> and piercing by <span class='info_blue'>4.6%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>50</span> and piercing by <span class='info_blue'>5.2%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>55</span> and piercing by <span class='info_blue'>5.8%</span>.",
-				"Surrender yourself to your natural combat instinct. Increases physical resistance by <span class='info_blue'>60</span> and piercing by <span class='info_blue'>6.4%</span>.",
+				"15,1%",
+				"20,1.6%",
+				"25,2.2%",
+				"30,2.8%",
+				"35,3.4%",
+				"40,4%",
+				"45,4.6%",
+				"50,5.2%",
+				"55,5.8%",
+				"60,6.4%",
 			]
 		}
 	],[
@@ -222,9 +229,10 @@ var berserker_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Your latent dark power restores <span class='info_blue'></span> spirit every second. Dark Aura stacks on hit, up to once per second, up to <span class='info_blue'></span> times total. Each stack increases the amount restored by an additional <span class='info_blue'></span> spirit.",
+			"skilltext": [
 				"",
-				"Your latent dark power restores <span class='info_blue'>10</span> spirit every second. Dark Aura stacks on hit, up to once per second, up to <span class='info_blue'>10</span> times total. Each stack increases the amount restored by an additional <span class='info_blue'>1</span> spirit.",
+				"10,10,1",
 			]
 		}
 	],[
@@ -245,18 +253,19 @@ var berserker_skills = [
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 13+</span></p><p><span class='info_red'>Raging Slash [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Two Handed Greatsword",
-			"texts": [
+			"skillinfo": "Thrust your darkened greatsword into <span class='info_blue'></span> enemies up to <span class='info_blue'></span> m in front of you, then pull it out to deal <span class='info_blue'></span> damage <span class='info_blue'></span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'></span> of your max health. In PvP zones, the amount restored is halved.",
+			"skilltext": [
 				"",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>129%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>7%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>138%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>11%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>147%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>15%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>156%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>19%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>165%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>23%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>174%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>27%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>183%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>31%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>192%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>35%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>201%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>39%</span> of your max health. In PvP zones, the amount restored is halved.",
-				"Thrust your darkened greatsword into <span class='info_blue'>2</span> enemies up to <span class='info_blue'>3</span> m in front of you, then pull it out to deal <span class='info_blue'>210%</span> damage <span class='info_blue'>2</span> times. The stab attack is always a critical, and pulling the sword out steals health from the enemy, restoring <span class='info_blue'>43%</span> of your max health. In PvP zones, the amount restored is halved.",
+				"2,3,129%,2,7%",
+				"2,3,138%,2,11%",
+				"2,3,147%,2,15%",
+				"2,3,156%,2,19%",
+				"2,3,165%,2,23%",
+				"2,3,174%,2,27%",
+				"2,3,183%,2,31%",
+				"2,3,192%,2,35%",
+				"2,3,201%,2,39%",
+				"2,3,210%,2,43%",
 			]
 		}
 	],[
@@ -272,18 +281,19 @@ var berserker_skills = [
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 25+</span></p><p><span class='info_red'>Bloodlust [Level 4+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'></span> when your health is at <span class='info_blue'></span> or less, by <span class='info_blue'></span> at <span class='info_blue'></span> or less, and by <span class='info_blue'></span> at <span class='info_blue'></span> or less.",
+			"skilltext": [
 				"",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>1</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>2</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>3</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>2</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>2</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>3</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>2</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>3</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>3</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>2</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>3</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>4</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>3</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>3</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>4</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>3</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>4</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>4</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>3</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>4</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>5</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>4</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>4</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>5</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>4</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>5</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>5</span> at <span class='info_blue'>30%</span> or less.",
-				"Your Dark Aura goes crazy as you're pushed into a corner, increasing the amount of spirit restored by <span class='info_blue'>4</span> when your health is at <span class='info_blue'>60%</span> or less, by <span class='info_blue'>5</span> at <span class='info_blue'>45%</span> or less, and by <span class='info_blue'>6</span> at <span class='info_blue'>30%</span> or less.",
+				"1,60%,2,45%,3,30%",
+				"2,60%,2,45%,3,30%",
+				"2,60%,3,45%,3,30%",
+				"2,60%,3,45%,4,30%",
+				"3,60%,3,45%,4,30%",
+				"3,60%,4,45%,4,30%",
+				"3,60%,4,45%,5,30%",
+				"4,60%,4,45%,5,30%",
+				"4,60%,5,45%,5,30%",
+				"4,60%,5,45%,6,30%",
 			]
 		}
 	],[
@@ -299,18 +309,19 @@ var berserker_skills = [
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-6-2-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 31+</span></p><p><span class='info_red'>Bloodlust [Level 6+]</span></p><p><span class='info_red'>Adrenaline Rush [Level 2+]",
 			"info": "Active",
-			"texts": [
+			"skillinfo": "Darkness fuels you, increasing your damage by <span class='info_blue'></span> but depleting your health by <span class='info_blue'></span> on hit for <span class='info_blue'></span> sec. This effect will stop consuming health when you get to <span class='info_blue'></span> health.",
+			"skilltext": [
 				"",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>5%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>6%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>7%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>8%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>9%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>10%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>11%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>12%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>13%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
-				"Darkness fuels you, increasing your damage by <span class='info_blue'>14%</span> but depleting your health by <span class='info_blue'>1%</span> on hit for <span class='info_blue'>30</span> sec. This effect will stop consuming health when you get to <span class='info_blue'>25%</span> health.",
+				"5%,1%,30,25%",
+				"6%,1%,30,25%",
+				"7%,1%,30,25%",
+				"8%,1%,30,25%",
+				"9%,1%,30,25%",
+				"10%,1%,30,25%",
+				"11%,1%,30,25%",
+				"12%,1%,30,25%",
+				"13%,1%,30,25%",
+				"14%,1%,30,25%",
 			]
 		}
 	],[
@@ -325,18 +336,19 @@ var berserker_skills = [
 			"lockReq": "2-0-0-0-0-0-0-0-0-0-0-0-0-0-6-3-1-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 43+</span></p><p><span class='info_red'>Adrenaline Rush [Level 3+]</span></p><p><span class='info_red'>Blood Price [Level 1+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'></span> when your health is less than <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>100</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>150</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>200</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>250</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>300</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>350</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>400</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>450</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>500</span> when your health is less than <span class='info_blue'>30%</span>.",
-				"Dire conditions strengthen your resolve. Your physical resistance and magic resistance increase by <span class='info_blue'>550</span> when your health is less than <span class='info_blue'>30%</span>.",
+				"100,30%",
+				"150,30%",
+				"200,30%",
+				"250,30%",
+				"300,30%",
+				"350,30%",
+				"400,30%",
+				"450,30%",
+				"500,30%",
+				"550,30%",
 			]
 		}
 	],
@@ -351,9 +363,10 @@ var berserker_skills = [
 			"locked": 0,
 			"requirement": "",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Swing your greatsword in an X as you charge forward <span class='info_blue'></span> m, dealing <span class='info_blue'></span> damage <span class='info_blue'></span> times to <span class='info_blue'></span> enemies in your path. This skill can cancel other skills. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'></span> stamina.",
+			"skilltext": [
 				"",
-				"Swing your greatsword in an X as you charge forward <span class='info_blue'>4.5</span> m, dealing <span class='info_blue'>75%</span> damage <span class='info_blue'>2</span> times to <span class='info_blue'>5</span> enemies in your path. This skill can cancel other skills. You will be immune to knockback while this skill is active. Consumes <span class='info_blue'>40</span> stamina.",
+				"4.5,75%,2,5,40",
 			]
 		}
 	],[
@@ -373,18 +386,19 @@ var berserker_skills = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 16+</span></p><p><span class='info_red'>Raging Slash [Level 3+]",
 			"info": "Passive",
-			"texts": [
+			"skillinfo": "Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'></span> when you have a greatsword equipped.",
+			"skilltext": [
 				"",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>1%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>1.6%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>2.2%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>2.8%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>3.4%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>4%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>4.6%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>5.2%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>5.8%</span> when you have a greatsword equipped.",
-				"Ten's lessons on asceticism increase your skill with a greatsword. Your weapon attack increases by <span class='info_blue'>6.4%</span> when you have a greatsword equipped.",
+				"1%",
+				"1.6%",
+				"2.2%",
+				"2.8%",
+				"3.4%",
+				"4%",
+				"4.6%",
+				"5.2%",
+				"5.8%",
+				"6.4%",
 			]
 		}
 	],[
@@ -399,18 +413,19 @@ var berserker_skills = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 28+</span></p><p><span class='info_red'>Greatsword Mastery [Level 4+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical",
-			"texts": [
+			"skillinfo": "Overwhelm enemies with a show of force, dealing <span class='info_blue'></span> damage to <span class='info_blue'></span> enemies within <span class='info_blue'></span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'></span> and their movement speed and jump power by <span class='info_blue'></span> for <span class='info_blue'></span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
+			"skilltext": [
 				"",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>121%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>9%</span> and their movement speed and jump power by <span class='info_blue'>9%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>129%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>12%</span> and their movement speed and jump power by <span class='info_blue'>12%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>137%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>15%</span> and their movement speed and jump power by <span class='info_blue'>15%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>145%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>18%</span> and their movement speed and jump power by <span class='info_blue'>18%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>153%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>21%</span> and their movement speed and jump power by <span class='info_blue'>21%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>161%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>24%</span> and their movement speed and jump power by <span class='info_blue'>24%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>169%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>27%</span> and their movement speed and jump power by <span class='info_blue'>27%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>177%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>30%</span> and their movement speed and jump power by <span class='info_blue'>30%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>185%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>33%</span> and their movement speed and jump power by <span class='info_blue'>33%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
-				"Overwhelm enemies with a show of force, dealing <span class='info_blue'>193%</span> damage to <span class='info_blue'>5</span> enemies within <span class='info_blue'>3</span> m. Enemies lose the will to fight, reducing their physical attack and magic attack by <span class='info_blue'>36%</span> and their movement speed and jump power by <span class='info_blue'>36%</span> for <span class='info_blue'>4</span> sec. When at max stacks, Dark Aura is consumed to trigger a more powerful version of this skill. Some powerful enemies are immune.",
+				"121%,5,3,9%,9%,4",
+				"129%,5,3,12%,12%,4",
+				"137%,5,3,15%,15%,4",
+				"145%,5,3,18%,18%,4",
+				"153%,5,3,21%,21%,4",
+				"161%,5,3,24%,24%,4",
+				"169%,5,3,27%,27%,4",
+				"177%,5,3,30%,30%,4",
+				"185%,5,3,33%,33%,4",
+				"193%,5,3,36%,36%,4",
 			]
 		}
 	],[
@@ -425,18 +440,19 @@ var berserker_skills = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-4-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 37+</span></p><p><span class='info_red'>Greatsword Mastery [Level 6+]</span></p><p><span class='info_red'>Intimidation [Level 4+]",
 			"info": "Passive</span></p><p><span class='info_gray'>Physical",
-			"texts": [
+			"skillinfo": "Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'></span> damage every second for <span class='info_blue'></span> sec.",
+			"skilltext": [
 				"",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>4%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>7%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>10%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>13%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>16%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>19%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>22%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>25%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>28%</span> damage every second for <span class='info_blue'>10</span> sec.",
-				"Critical attacks inflicted with a greatsword make the enemy bleed, dealing <span class='info_blue'>31%</span> damage every second for <span class='info_blue'>10</span> sec.",
+				"4%,10",
+				"7%,10",
+				"10%,10",
+				"13%,10",
+				"16%,10",
+				"19%,10",
+				"22%,10",
+				"25%,10",
+				"28%,10",
+				"31%,10",
 			]
 		}
 	],[
@@ -451,18 +467,19 @@ var berserker_skills = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-6-4-2-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 46+</span></p><p><span class='info_red'>Deep Wounds [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Drive your greatsword into the ground, creating an earthquake <span class='info_blue'></span> tiles around you for <span class='info_blue'></span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'></span> damage every sec.",
+			"skilltext": [
 				"",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>298%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>319%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>340%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>361%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>382%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>403%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>424%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>445%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>466%</span> damage every sec.",
-				"Drive your greatsword into the ground, creating an earthquake <span class='info_blue'>9</span> tiles around you for <span class='info_blue'>5</span> sec. Enemies caught in the quake are stunned and take <span class='info_blue'>487%</span> damage every sec.",
+				"9,5,298%",
+				"9,5,319%",
+				"9,5,340%",
+				"9,5,361%",
+				"9,5,382%",
+				"9,5,403%",
+				"9,5,424%",
+				"9,5,445%",
+				"9,5,466%",
+				"9,5,487%",
 			]
 		}
 	]
@@ -480,12 +497,13 @@ var berserker_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Passive</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'></span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'></span> and <span class='info_blue'></span> damage. Grants knockback immunity.",
+			"skilltext": [
 				"",
-				"Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>369%</span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'>525%</span> and <span class='info_blue'>844%</span> damage. Grants knockback immunity.",
-				"Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>411%</span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'>586%</span> and <span class='info_blue'>942%</span> damage. Grants knockback immunity.",
-				"Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>453%</span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'>647%</span> and <span class='info_blue'>1040%</span> damage. Grants knockback immunity.",
-				"Unleash a wild 3-hit combo.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>495%</span> damage the first two times you use this skill. On the third use in a row, perform a jump attack to deal <span class='info_blue'>708%</span> and <span class='info_blue'>1138%</span> damage. Grants knockback immunity.",
+				"369%,525%,844%",
+				"411%,586%,942%",
+				"453%,647%,1040%",
+				"495%,708%,1138%",
 			]
 		}
 	],[
@@ -500,12 +518,13 @@ var berserker_skills_awakening = [
 			"lockReq": "3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Skull Splitter [Level 3+]",
 			"info": "Passive</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'></span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'></span> and Bloodlust damage by <span class='info_blue'></span>. While this effect is active, Bloodlust has a <span class='info_blue'></span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.",
+			"skilltext": [
 				"",
-				"Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'>30%</span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'>4%</span> and Bloodlust damage by <span class='info_blue'>149%</span>. While this effect is active, Bloodlust has a <span class='info_blue'>30%</span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.",
-				"Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'>30%</span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'>6%</span> and Bloodlust damage by <span class='info_blue'>166%</span>. While this effect is active, Bloodlust has a <span class='info_blue'>30%</span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.",
-				"Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'>30%</span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'>8%</span> and Bloodlust damage by <span class='info_blue'>183%</span>. While this effect is active, Bloodlust has a <span class='info_blue'>30%</span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.",
-				"Your blows gain strength as your enemies draw close to death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Attack an enemy with less than <span class='info_blue'>30%</span> health to gain the Blood Fury effect.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>The Blood Fury effect increases physical attack by <span class='info_blue'>10%</span> and Bloodlust damage by <span class='info_blue'>200%</span>. While this effect is active, Bloodlust has a <span class='info_blue'>30%</span> chance to grant Ruthless. Ruthless resets Bloodlust's cooldown and lets you use Skull Splitter's third attack immediately.",
+				"30%,4%,149%,30%",
+				"30%,6%,166%,30%",
+				"30%,8%,183%,30%",
+				"30%,10%,200%,30%",
 			]
 		}
 	],[
@@ -520,12 +539,13 @@ var berserker_skills_awakening = [
 			"lockReq": "3-2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 64+</span></p><p><span class='info_orange'>Blood Fury [Level 2+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'></span> damage and generates a shockwave that deals <span class='info_blue'></span> damage on hit and <span class='info_blue'></span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'></span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1111%</span> damage and generates a shockwave that deals <span class='info_blue'>217%</span> damage on hit and <span class='info_blue'>163%</span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'>10</span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'>1.5%</span>.",
-				"Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1240%</span> damage and generates a shockwave that deals <span class='info_blue'>242%</span> damage on hit and <span class='info_blue'>182%</span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'>10</span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'>3%</span>.",
-				"Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1369%</span> damage and generates a shockwave that deals <span class='info_blue'>267%</span> damage on hit and <span class='info_blue'>201%</span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'>10</span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'>4.5%</span>.",
-				"Parry enemy attacks with a great swing, creating a shockwave.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deals <span class='info_blue'>1498%</span> damage and generates a shockwave that deals <span class='info_blue'>292%</span> damage on hit and <span class='info_blue'>220%</span> damage per sec.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>If used while under attack, grants perfect guard and <span class='info_blue'>10</span> Dark Aura stacks.</span></p><p><span class='info_gray'>Permanently increases physical attack by <span class='info_blue'>6%</span>.",
+				"1111%,217%,163%,10,1.5%",
+				"1240%,242%,182%,10,3%",
+				"1369%,267%,201%,10,4.5%",
+				"1498%,292%,220%,10,6%",
 			]
 		}
 	],[
@@ -545,12 +565,13 @@ var berserker_skills_awakening = [
 			"lockReq": "3-3-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Blood Fury [Level 3+]</span></p><p><span class='info_orange'>Parry the Moon [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'></span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'></span> and <span class='info_blue'></span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'></span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'>10</span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'>298%</span> and <span class='info_blue'>812%</span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'>1630%</span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'>20%</span>.",
-				"Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'>10</span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'>332%</span> and <span class='info_blue'>908%</span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'>1820%</span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'>20%</span>.",
-				"Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'>10</span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'>366%</span> and <span class='info_blue'>1004%</span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'>2010%</span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'>20%</span>.",
-				"Jump into the air and launch a series of attacks.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Requires <span class='info_blue'>10</span> stacks of Dark Aura. The first two attacks deal <span class='info_blue'>400%</span> and <span class='info_blue'>1100%</span> damage. Hold down the skill key to trigger a follow-up that deals <span class='info_blue'>2200%</span> damage. Inflicts Shaken.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Shaken decreases movement speed by <span class='info_blue'>20%</span>.",
+				"10,298%,812%,1630%,20%",
+				"10,332%,908%,1820%,20%",
+				"10,366%,1004%,2010%,20%",
+				"10,400%,1100%,2200%,20%",
 			]
 		}
 	],[
@@ -601,12 +622,13 @@ var berserker_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'></span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'></span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'></span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'></span>, decrease damage to <span class='info_blue'></span>, gain knockback immunity, and deal an additional <span class='info_blue'></span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.",
+			"skilltext": [
 				"",
-				"Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>96%</span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'>3</span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'>4%</span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'>30</span>, decrease damage to <span class='info_blue'>56%</span>, gain knockback immunity, and deal an additional <span class='info_blue'>38%</span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.",
-				"Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>107%</span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'>3</span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'>4%</span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'>30</span>, decrease damage to <span class='info_blue'>62%</span>, gain knockback immunity, and deal an additional <span class='info_blue'>42%</span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.",
-				"Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>119%</span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'>3</span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'>4%</span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'>30</span>, decrease damage to <span class='info_blue'>69%</span>, gain knockback immunity, and deal an additional <span class='info_blue'>46%</span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.",
-				"Become a spinning vortex of death.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Deal <span class='info_blue'>130%</span> damage per hit. Stand still to gain stacks of Gale, at <span class='info_blue'>3</span> stacks, gain Whirlwind.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gale increases attack speed by <span class='info_blue'>4%</span> per stacks.</span></p><p><span class='info_gray'>While Whirlwind is active, hold down the skill key to increase spin speed and hit count, decrease movement speed to <span class='info_blue'>30</span>, decrease damage to <span class='info_blue'>75%</span>, gain knockback immunity, and deal an additional <span class='info_blue'>50%</span> damage to enemies with Heavy Bleeding.</span></p><p><span class='info_gray'>When Dark Might is active, Whirlwind does not decrease movement speed.",
+				"96%,3,4%,30,56%,38%",
+				"107%,3,4%,30,62%,42%",
+				"119%,3,4%,30,69%,46%",
+				"130%,3,4%,30,75%,50%",
 			]
 		}
 	],[
@@ -621,12 +643,13 @@ var berserker_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-0-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 62+</span></p><p><span class='info_orange'>Squall [Level 3+]",
 			"info": "Passive</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'></span>. Landing <span class='info_blue'></span> critical hits within <span class='info_blue'></span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'></span> damage every sec for each stack, and stacks up to <span class='info_blue'></span> times.",
+			"skilltext": [
 				"",
-				"Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'>76%</span>. Landing <span class='info_blue'>2</span> critical hits within <span class='info_blue'>4</span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'>52%</span> damage every sec for each stack, and stacks up to <span class='info_blue'>5</span> times.",
-				"Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'>84%</span>. Landing <span class='info_blue'>2</span> critical hits within <span class='info_blue'>4</span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'>58%</span> damage every sec for each stack, and stacks up to <span class='info_blue'>5</span> times.",
-				"Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'>92%</span>. Landing <span class='info_blue'>2</span> critical hits within <span class='info_blue'>4</span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'>64%</span> damage every sec for each stack, and stacks up to <span class='info_blue'>5</span> times.",
-				"Your attacks inflict grievous injury.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Increases Deep Wounds damage by <span class='info_blue'>100%</span>. Landing <span class='info_blue'>2</span> critical hits within <span class='info_blue'>4</span> sec inflict Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Heavy Bleeding deals <span class='info_blue'>70%</span> damage every sec for each stack, and stacks up to <span class='info_blue'>5</span> times.",
+				"76%,2,4,52%,5",
+				"84%,2,4,58%,5",
+				"92%,2,4,64%,5",
+				"100%,2,4,70%,5",
 			]
 		}
 	],[
@@ -646,12 +669,13 @@ var berserker_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-0-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 66+</span></p><p><span class='info_orange'>Rend Wound [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'></span>, increases physical attack by <span class='info_blue'></span>, increases dark attack by <span class='info_blue'></span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'></span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'></span>.",
+			"skilltext": [
 				"",
-				"Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'>30%</span>, increases physical attack by <span class='info_blue'>5%</span>, increases dark attack by <span class='info_blue'>5%</span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'>42%</span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'>100</span>.",
-				"Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'>30%</span>, increases physical attack by <span class='info_blue'>10%</span>, increases dark attack by <span class='info_blue'>10%</span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'>44%</span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'>100</span>.",
-				"Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'>30%</span>, increases physical attack by <span class='info_blue'>15%</span>, increases dark attack by <span class='info_blue'>15%</span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'>46%</span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'>100</span>.",
-				"Embrace the darkness within you and draw on its power.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Temporarily increases attack speed by <span class='info_blue'>30%</span>, increases physical attack by <span class='info_blue'>20%</span>, increases dark attack by <span class='info_blue'>20%</span>, triples Improved Intimidation's attack, and prevents death. Restore <span class='info_blue'>48%</span> health upon ending.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Resets Earthquake's cooldown.</span></p><p><span class='info_gray'>Grants Encroaching Darkness while within Earthquake's area of effect, providing additional Dark Aura stacks and increasing movement speed by <span class='info_blue'>100</span>.",
+				"30%,5%,5%,42%,100",
+				"30%,10%,10%,44%,100",
+				"30%,15%,15%,46%,100",
+				"30%,20%,20%,48%,100",
 			]
 		}
 	],[
@@ -667,12 +691,13 @@ var berserker_skills_awakening = [
 			"lockReq": "0-0-0-0-0-0-0-0-0-0-0-0-3-3-0-3-0-0-0-0-0-0-0-0",
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 68+</span></p><p><span class='info_orange'>Raging Soul [Level 3+]",
 			"info": "Active</span></p><p><span class='info_gray'>Close Range / Physical</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'></span> stacks of Dark Aura. Each strike deals <span class='info_blue'></span> damage and restores <span class='info_blue'></span> health. Final hit deals an additional <span class='info_blue'></span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'></span> and <span class='info_blue'></span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'></span> damage, and does not consume Dark Aura.",
+			"skilltext": [
 				"",
-				"Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>10</span> stacks of Dark Aura. Each strike deals <span class='info_blue'>259%</span> damage and restores <span class='info_blue'>1.5%</span> health. Final hit deals an additional <span class='info_blue'>50%</span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'>100%</span> and <span class='info_blue'>636%</span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'>207%</span> damage, and does not consume Dark Aura.",
-				"Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>10</span> stacks of Dark Aura. Each strike deals <span class='info_blue'>289%</span> damage and restores <span class='info_blue'>3%</span> health. Final hit deals an additional <span class='info_blue'>50%</span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'>111%</span> and <span class='info_blue'>636%</span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'>231%</span> damage, and does not consume Dark Aura.",
-				"Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>10</span> stacks of Dark Aura. Each strike deals <span class='info_blue'>319%</span> damage and restores <span class='info_blue'>4.5%</span> health. Final hit deals an additional <span class='info_blue'>50%</span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'>122%</span> and <span class='info_blue'>636%</span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'>255%</span> damage, and does not consume Dark Aura.",
-				"Use dark power to shread your enemies.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Consumes <span class='info_blue'>10</span> stacks of Dark Aura. Each strike deals <span class='info_blue'>350%</span> damage and restores <span class='info_blue'>6%</span> health. Final hit deals an additional <span class='info_blue'>50%</span> damage. Grants knockback immunity. Inflicts Gouge on enemies afflicted with Heavy Bleeding.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Gouge deals between <span class='info_blue'>133%</span> and <span class='info_blue'>855%</span> damage depending on the number of Heavy Bleeding stacks. Becomes Dark Blood Slash while Raging Soul is active. Dark Blood Slash deals repeated hits while the skill key is held down, each inflicting <span class='info_blue'>280%</span> damage, and does not consume Dark Aura.",
+				"10,259%,1.5%,50%,100%,636%,207%",
+				"10,289%,3%,50%,111%,636%,231%",
+				"10,319%,4.5%,50%,122%,636%,255%",
+				"10,350%,6%,50%,133%,855%,280%",
 			]
 		}
 	],[
@@ -693,9 +718,10 @@ var berserker_skills_awakening = [
 			"locked": 0,
 			"requirement": "[requirements]</span></p><p><span class='info_orange'>level 60+",
 			"info": "Passive</span></p><p><span class='info_gray'>Weapon Required: Two-handed Greatsword",
-			"texts": [
+			"skillinfo": "A thick darkness engulfs your body.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'></span>. Increases Dark Aura's duration to <span class='info_blue'></span> sec. Consuming <span class='info_blue'></span> stacks of Dark Aura at once has a <span class='info_blue'></span> chance to trigger Surging Darkness.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Surging Darkness grants <span class='info_blue'></span> stacks of Dark Aura.",
+			"skilltext": [
 				"",
-				"A thick darkness engulfs your body.</span></p><br><p><span class='info_orange'>[Primary Effects]</span></p><p><span class='info_gray'>Permanently increases strength by <span class='info_blue'>40</span>. Increases Dark Aura's duration to <span class='info_blue'>10</span> sec. Consuming <span class='info_blue'>10</span> stacks of Dark Aura at once has a <span class='info_blue'>20%</span> chance to trigger Surging Darkness.</span></p><br><p><span class='info_orange'>[Bonus Effects]</span></p><p><span class='info_gray'>Surging Darkness grants <span class='info_blue'>10</span> stacks of Dark Aura.",
+				"40,10,10,20%,10",
 			]
 		}
 	],[
