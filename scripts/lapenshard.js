@@ -57,7 +57,7 @@ var lapenshard = [
 		},{
 			"title": "Moonlight Slash Red Lapenshard",
 			"color": "red",
-			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
+			"requirement": "Requires Level 70</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
 			"skillinfo": "Veliche appears and attacks enemies in front of you dealing <span class='info_blue'></span> and causing them to bleed for <span class='info_blue'></span> sec. Bleeding enemies periodically take <span class='info_blue'></span> damage.",
 			"skilltext": [
 				"457%,10,69%",
@@ -74,7 +74,7 @@ var lapenshard = [
 		},{
 			"title": "Gigantica Beam Red Lapenshard",
 			"color": "red",
-			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
+			"requirement": "Requires Level 70</span></p><p><span class='info_gray'>Exceptional Red lapenshard",
 			"skillinfo": "Gigantica fires a powerful laser at enemies in front of you dealing <span class='info_blue'></span> damage and electrifying them for <span class='info_blue'></span> sec. Electrified targets have a chance to take an additional <span class='info_blue'></span> damage when hit.",
 			"skilltext": [
 				"1027%,10,154%",
@@ -242,28 +242,28 @@ var lapenshard = [
 		},{
 			"title": "",
 			"color": "blue",
-			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
+			"requirement": "Requires Level 70</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "blue",
-			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
+			"requirement": "Requires Level 70</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "blue",
-			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
+			"requirement": "Requires Level 70</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"texts": [
 				"",
 			]
 		},{
 			"title": "",
 			"color": "blue",
-			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
+			"requirement": "Requires Level 70</span></p><p><span class='info_gray'>Exceptional Blue lapenshard",
 			"texts": [
 				"",
 			]
@@ -329,7 +329,7 @@ var lapenshard = [
 		},{
 			"title": "Nairin's Air Support Green Lapenshard",
 			"color": "green",
-			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
+			"requirement": "Requires Level 70</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
 			"skillinfo": "Attacks have a chance to summon a supply drop. Nairin's rations restore <span class='info_blue'></span> health and increase physical and magic damage by <span class='info_blue'></span> for <span class='info_blue'></span> min.",
 			"skilltext": [
 				"1650,1.3%,3",
@@ -346,7 +346,7 @@ var lapenshard = [
 		},{
 			"title": "Wandering Blade Green Lapenshard",
 			"color": "green",
-			"requirement": "Requires Level 60</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
+			"requirement": "Requires Level 70</span></p><p><span class='info_gray'>Exceptional Green lapenshard",
 			"skillinfo": "Paika's power fills this lapenshard increasing critical damage by <span class='info_blue'></span> and decreasng accuracy by <span class='info_blue'></span>.",
 			"skilltext": [
 				"70,3",
